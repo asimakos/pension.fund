@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Login Form</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-01-11 22:10:20</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>AX_SM_LF_DESC</description>
+	<files>
+		<filename module="mod_login">mod_login.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="pretext" type="textarea" dir="rtl" cols="20" rows="5" default="" label="AX_SM_LF_PTL" description="AX_SM_LF_PTD" />
+		<param name="posttext" type="textarea" dir="rtl" cols="20" rows="5" label="AX_SM_LF_PSTL" description="AX_SM_LF_PSTD" />
+		<param name="login" type="text" default="" dir="ltr" label="AX_SM_LF_LRUL" description="AX_SM_LF_LRUD" />
+		<param name="logout" type="text" default="" dir="ltr" label="AX_SM_LF_LORUL" description="AX_SM_LF_LORUD" />
+		<param name="login_message" type="radio" default="0" label="AX_SM_LF_LML" description="AX_SM_LF_LMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="logout_message" type="radio" default="0" label="AX_SM_LF_LOML" description="AX_SM_LF_LOMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="greeting" type="radio" default="0" label="AX_SM_LF_GML" description="AX_SM_LF_GMD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="name" type="list" dir="rtl" default="0" label="AX_SM_LF_NUNL">
+			<option value="0">AX_SM_LF_OP01</option>
+			<option value="1">AX_SM_LF_OP02</option>
+		</param>
+	</params>
+</mosinstall>

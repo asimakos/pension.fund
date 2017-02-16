@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Lithuanian</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-04 10:02:15</creationDate>
+	<author>Kestas</author>
+	<authorEmail>LitElxis@gmail.com</authorEmail>
+	<authorUrl>www.elxis.lt</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Lietuviskas Elxis 2009 naudotoju (front end) puslapis</description>
+	<files>
+		<filename>lithuanian.gemini.php</filename>
+		<filename>lithuanian.gif</filename>
+		<filename>lithuanian.pref.php</filename>
+		<filename>lithuanian.php</filename>
+		<filename>lithuanian.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

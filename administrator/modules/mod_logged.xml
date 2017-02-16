@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Logged in Users</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-09-09 14:07:20</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>AX_AM_LG_DESC</description>
+	<files>
+		<filename module="mod_logged">mod_logged.php</filename>
+		<filename>mod_logged/index.html</filename>
+		<filename>mod_logged/english.php</filename>
+		<filename>mod_logged/greek.php</filename>
+		<filename>mod_logged/loggedajax.php</filename>
+	</files>
+</mosinstall>

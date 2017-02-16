@@ -1,0 +1,74 @@
+/**
+* @version $Id: updiag.css 1878 2008-01-25 21:26:29Z datahell $
+* @package Elxis /Tools / Updiag
+* @copyright (C) 2006 GoUp Inc. all rights reserved
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Elxis is Free Software
+*/
+
+#upcontents {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background: #f8f8f8;
+    font-size: 11px;
+}
+
+#upcontents img { 
+    float:left;
+    margin:3px;
+    padding:1px;
+    border:1px solid #9cafbd;
+    /* position: relative; */
+}
+
+#upcontents .mini {
+    float:left;
+    margin:3px;
+    padding:1px;
+    background: #FFFFFF;
+    border:1px solid #9cafbd;
+    position: relative;
+    display: inline;
+    width: 80px;
+    text-align: center;
+}
+
+.upinfo {
+    color: #444444;
+    padding: 3px;
+}
+
+a.upinfol, a.upinfol:active, a.upinfol:visited {
+    border: 1px solid #cccccc;
+    padding: 2px 5px 2px 5px;
+    background: #B40016;
+    font-size: 11px;
+    font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.upinfol:hover {
+    background: #FFFFFF;
+	color: #B40016;
+	text-decoration: none;
+}
+
+#hd {
+    position:relative;
+    font-size: 13px;
+    font-weight: bold;
+    color: #16387C;
+    padding: 4px;
+}
+
+table.adminlist td.hasherror, .hasherror { 
+  color: red;
+  font-weight: bold;
+}
+
+table.adminlist td.hashwarning {
+  color: orange;
+  font-weight: bold;
+}
+

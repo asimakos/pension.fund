@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="editors-xtd" version="2008">
+	<name>mospage.btn</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-07 14:04:22</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>Provides button to insert {mospagebreak} into content edit box</description>
+	<files>
+		<filename mambot="mospage.btn">mospage.btn.php</filename>
+	</files>
+</mosinstall>

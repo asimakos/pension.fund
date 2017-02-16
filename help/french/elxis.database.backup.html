@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestionnaire de Sauvegarde</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestionnaire de Sauvegarde</h1>
+<p>Sur cette page vous pouvez afficher les sauvegardes de la base de données que vous avez enregistré ou créé sur le serveur.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Fichiers de Sauvegarde</h3>
+<p>Les fichiers sont sauvegardés dans le répertoire administrator/backups/. Leur nom de fichier est formé d'une manière structurée. Le format est expliqué ci-dessous:</p>
+<p>yyyymmddhhmmss_elxis[_full].aaaaaaaa.sql/xml</p>
+<p>Chaques début du nom du fichier commence par la date de la sauvegarde (yyyymmdd), suivi de l'heure (hhmmss). Suit ensuite la chaîne "_elxis". Si c'est une sauvegarde complète (structure et données) il y a le mot "_full". Au Final il y a 8 positions de chaîne alphanumérique aléatoire, suivie par l'extension du type de sauvegarde (xml ou sql).</p>
+<p><strong>Vous pouvez télécharger le fichier</strong> sur votre ordinateur, pour cela faite un clic de bouton droit sur le fichier sélectionné puis faire "Enregistrer-Sous".</p>
+<p><strong>Tous les fichiers sont codés en UTF-8.</strong></p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Icone de la Barre d'Outils</h3>
+<p><strong>Supprimer les Sauvegardes Sélectionnées</strong>: Supprimera la sauvegarde sélectionnée en cliquant sur l'icône.</p>
+<p><strong>Nouvelle Sauvegarde complète en XML</strong>: En cliquant sur cet icone vous lancerez une sauvegarde complète (structure et données) au format XML.</p>
+<p><strong>Nouveau Suavegarde complète en SQL</strong>: En cliquant sur cet icone vous lancerez une sauvegarde complète (structure et données) au format SQL.</p>
+<p><strong>Aide</strong>: Cet écran d'aide.</p>
+<p>&nbsp;</p>
+<h3 class="table">Colonnes</h3>
+<p><strong>Fichier</strong>: Le nom du Fichier de la sauvegarde. Le format est expliqué ci-dessous.</p>
+<p><strong>Type</strong>: Description du type de sauvegarde.</p>
+<p><strong>Taille</strong>: Taille du fichier en KB.</p>
+<p><strong>Date</strong>: Date a laquelle la sauvegarde a été faite</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

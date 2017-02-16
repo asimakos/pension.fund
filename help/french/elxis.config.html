@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Configuration générale</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Configuration générale</h1>
+<p><strong>La Configuration générale</strong> contrôle les paramètres de fonctionnement de Elxis. Les réglages effectués sur cet écran seront enregistrés dans le fichier
+<strong>configuration.php</strong>. <strong>Pour pouvoir modifier ces paramètres, il faut donc que ce fichier soit accessible en écriture.</strong>. 
+Vous pouvez changer son état en Modifiable pour l'éditer et/ou le modifier. Ensuite ne pas oublier de le remettre à l'état de 
+non-modifiable (644).</p>
+<p>Remarquez que Elxis montre l'état actuel du fichier configuration.php. Il peut être 
+soit &quot;Modifiable&quot; ou &quot;Non Modifiable&quot;. 
+<p>Cochez la case &quot;Mettre à Non-Modifiable après sauvegarde&quot; cocher la case pour le rendre Non-Modifiable après avoir enregistré le fichier. 
+Mais la méthode la plus courante consiste à utiliser un logiciel FTP.</p>
+<p>&nbsp;</p>
+<p>Les paramètres de configuration sont organisés en 11 groupes.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Site</h3>
+<p><strong>Site hors-ligne</strong> - Ce réglage permet de rendre visible, ou bien de cacher, votre site ("public"). Utilisez cette fonction si vous mettez à jour des modules ou bien des articles, 
+et que vous ne souhaitez pas que vos visiteurs voient le site tant qu'il n'est pas fini. Pensez à remettre le site "En ligne" lorsque vous avez terminé !</p>
+
+<p><strong>Message du site hors-ligne</strong> - Lorsque le réglage "Site hors-ligne" est en position Accès Indisponible, le message que vous saisissez dans cette zone sera affiché. 
+Par défaut, il s'agit de "Ce site est en cours de modification. Merci de revenir nous voir un peu plus tard !". Vous pouvez le modifier comme vous le souhaitez.</p>
+
+<p><strong>Message d'erreur système</strong> - Ce message sera affiché si la connection initiale avec la base de données échoue. 
+Vous pouvez saisir ce qu'il vous plait dans cette zone.</p>
+
+<p><strong>Nom du Site</strong> - Cette option vous permet de spécifier le nom du site. Il sera affiché 
+dans le titre de la fenêtre de votre navigateur et sera utilisée lors des messages qui seront envoyés à partir de votre site.</p>
+
+<p><strong>Composants liés aux système d'Accès</strong> - TC'est un réglage très important qui est lié directement aux restrictionx d'accès. Elxis implémente un système de restriction d'accès avancé 
+(Site - & gt; Accès au gestionnaire). Utiliser cette option, pour pouvoir définir où cette restriction d'accès sera appliquée.</p>
+<ul>
+    <li><strong>Aucun</strong>: - Aucun contrôle d'Accès ne sera appliqué.</li>
+    <li><strong>Aux composants du noyau</strong>: - La restriction d'accès sera appliquée seulement aux composants du noyau. Les composants du noyau sont ceux qui font tourner Elxis.</li>
+    <li><strong>Aux composants tiers</strong>: - La restriction d'accès sera appliquée seulement aux composants que vous avez ajouté après l'installation de Elxis.</li>
+    <li><strong>A tous les Composants</strong>: - La restriction d'accès sera appliquée à tous les composants (Noyau et Tiers).</li>
+</ul>
+<p>Si vous mettez l'option à Aucun, vous désactivez les permissions de restriction d'accès. Si vous avez déjà installé des règles celles-ci resteront mais ne seront pas utilisés. 
+Nous vous conseillons d'être très prudent avec option. C'est une des choses qui donnent à Elxis ses solutions unique et avancé.</p>
+
+<p><strong>Utilisation des Images de Sécurités</strong> - Mettre à Oui (recommandé) si vous souhaitez utiliser les images Captcha à faire apparaître dans 
+les formulaires de Elxis. Les images Captcha peuvent vous aider à limiter les spams.</p>
+
+<p><strong>Voir Liens Non-Autorisés</strong> - Avec cette option activée, tous les visiteurs pourront voir le contenu auquel ils n'auraient pas droits autrement Accès (c'est, satisfaisant pour donner un Niveau d'accès 'Enregistré' ou 'Spécial'). 
+Avec cette option désactivée, ils verront seulement le contenu avec un Niveau d'accès 'Public.' 
+Le niveau d'accès pour le contenu est sélectionné sous la Publication et l'Édition de l'écran contenu.</p>
+
+<p><strong>Autoriser l'enregistrement des utilisateurs</strong> - Cette option vous permet de choisir pour tout le site si les visiteurs de votre site peuvent s'inscrire en tant qu'utilisateur enregistré. Si le bouton 'Oui' est choisi, le Module d'identification affichera le lien Aucun compte créé? 
+Voulez vous en créer un. Si c'est le bouton 'Non', les visiteurs n'auront pas la possibilité de s'enregistrer.</p>
+
+<p><strong>Utiliser l'activation des comptes</strong> - Si le bouton 'Oui' est choisi, un lien d'activation sera envoyé à l'adresse e-mail donnée par l'utilisateur. Celui-ci ne pourra s'identifier qu'une fois qu'il aura cliqué sur le lien qu'il aura reçu. 
+Si c'est le bouton 'Non' qui est choisi, un utilisateur pourra s'identifier immédiatement, sans passer par cette phase d'activation initiale de son compte.</p>
+
+<p><strong>Exiger un e-mail unique</strong> - Permet de choisir si vous voulez empécher l'enregistrement d'utilisateurs ayant la même adresse e-mail. Combinée avec l'option d'activation des comptes, 
+cette fonction permet d'empécher un utilisateur de s'inscrire plusieurs fois, avec la même adresse e-mail.</p>
+
+<p><strong>Deboguer le site</strong> - Cette option vous permet de voir les messages d'erreur créés par votre installation de PHP. Cela peut être utile pour résoudre d'éventuels problèmes, ou pour décrire des erreurs à votre administrateur système ou à votre hébergeur. 
+Le niveau de détail du rapport d'erreur peut être choisi dans le menu Configuration générale, sous l'onglet Serveur et peut être: Système par défaut, Aucun, Simple, Maximum</p>
+
+<p><strong>Editeur WYSIWYG</strong> -  Choisissez ici lequel des éditeurs de texte installés vous voulez utiliser pour créer ou modifier vos articles.</p>
+
+<p><strong>Longueur des listes</strong> - Indiquez une longueur par défaut pour les listes affichées dans la partie Administration du site ('Administration'). Veuillez noter que si vous avez déjà vu une page comportant une liste, modifier ce réglage dans la Configuration générale n'aura pas d'effet visible immédiatement. 
+Cette valeur ne sera effectivement prise en compte comme paramètre par défaut qu'à partide votre prochaine connexion.</p>
+
+<p><strong>Icône Sites favoris</strong> - Cette zone permet de choisir (pour certains navigateurs) l'icône qui apparait dans la barre de titre à côté du nom et/ou de l'adresse du site. Par défaut, il s'agit du logo Elxis. Si vous voulez utiliser une autre icône, vous devez la télécharger sur votre serveur pour remplacer celle de Elxis. 
+Tapez ensuite l'adresse de cette nouvelle icône dans la zone de saisie.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Lieu</h3>
+<p><strong>Langue partie public</strong> - Choisissez la langue utilisée par défaut sur votre site. Si ce n'est pas l'Anglais, vous devez installer les fichiers de langue correspondant en utilisant le menu Installation, avant de pouvoir utiliser cette langue. 
+Vous pouvez installer ou sélectionner d'autres langues en la sélectionnant.</p>
+
+<p><strong>Langue partie administration</strong> - Choisissez la langue utilisée par défaut sur votre site. Si ce n'est pas l'Anglais, vous devez installer les fichiers de langue correspondant en utilisant le menu Installation, avant de pouvoir utiliser cette langue. 
+Durant la session, vous pouvez changer la langue de bse en cliquant sur le bouton en haut à droite.</p>
+
+<p><strong>Décalage horaire</strong> - Cette option fixe le décalage horaire (en heures) entre l'heure du lieu où se trouve votre serveur et l'heure GMT (Greenwich Mean Time - Royaume-Uni). 
+Choisissez ce décalage dans la liste déroulante proposée.</p>
+
+<p><strong>Paramètre du pays</strong> - Vous pouvez utiliser cette option pour sélectionner un système locale. 
+Nous vous recommandons de mettre à -Auto Sélection-, comme cela Elxis utilisera ce qu'il y a de mieux pour vous. Veuillez noter que Windows 
+ne supporte pas le code UTF-8.</p>
+
+<p><strong>Vérification Locale</strong> - Apercevez comment les dates seront affichés et basées sur la localisation. 
+Veuillez noter que Windows ne supporte pas le code UTF-8.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Contenu</h3>
+<p><strong>Titres liés</strong> - Choisissez 'Oui' si vous voulez que le titre des articles deviennent des liens hypertextes ("cliquables"). Si vous choisissez 'Non', un lien 'Lire la suite...' 
+sera affiché après le texte d'introduction de vos articles.</p>
+
+<p><strong>Lien Lire la suite</strong> - Choisissez 'Voir' pour afficher le texte 'Lire la suite...' à la fin de votre texte d'introduction.</p>
+
+<p><strong>Evaluation par vote</strong> - Cette fonction permet d'activer le vote par les utilisateurs sur les articles. Choisissez 'Oui', et une rangée d'étoiles sera affichée sur chaque articles, ainsi qu'une zone de saisie permettant de proposer votre propre vote. Note: la zone de saisie des votes n'est pas affichée pour les articles situés dans listes de type 'Blog'. 
+De plus, la rangée d'étoiles n'est affichée que pour les articles ayant un texte d'introduction.</p>
+
+<p><strong>Nom de l'auteur</strong> - Choisissez 'Voir' pour que le nom de l'auteur d'un article soit affiché en même temps que l'article lui-même.</p>
+
+<p><strong>Date et heure de création</strong> - Choisissez 'Voir' pour que la date et l'heure de création d'un article soit affichées en même temps que l'article lui-même.</p>
+
+<p><strong>Date et heure de modification</strong> - Choisissez 'Voir' que la date et l'heure de la dernière modification d'un article soit affichées en même temps que l'article lui-même.</p>
+
+<p><strong>Clics</strong> - Choisissez le bouton 'Voir' pour afficher pour chaque article le nombre de clics dont il a fait l'objet.</p>
+
+<p><strong>Icône RTF</strong> - Choisissez le bouton 'Voir' pour afficher l'icône RTF. L' icône RTF est utilisé pour convertir et télécharger un 
+article au format RTF (Rich Text Format).</p>
+
+<p><strong>Icône PDF</strong> - Choisissez le bouton 'Voir' pour afficher l'icône PDF lors de l'affichage des articles dans l'interface utilisateur. 
+NOTE: Cela ne s'affichera pas si votre répertoire 'Média' n'est pas accessible en écriture.</p>
+
+<p><strong>Icône Imprimer</strong> - Choisissez le bouton 'Voir' pour afficher l'icône permettant d'obtenir une version imprimable d'un article, lors de sa visualisation dans l'interface utilisateur.</p>
+
+<p><strong>Icône E-mail</strong> - Choisissez le bouton 'Voir' pour afficher l'icône Envoyer l'article à un ami, lors de la visualisation d'un article dans l'interface utilsateur.</p>
+
+<p><strong>Icônes</strong> - Choisissez si vous voulez afficher les icônes ou un texte simple pour les options RTF, PDF, Print et Email.</p>
+
+<p><strong>Publications multi-pages</strong> - Choisissez le bouton 'Voir' pour afficher les zones de navigation dans la table des matières des articles multi-pages. Pour créer des sauts de pages dans vos articles, vous devez insérer un joombot 'Page break', {mospagebreak} au moyen d'un éditeur, à l'endroit où vous souhaitez que le saut de page se produise.</p>
+
+<p><strong>Bouton Retour</strong> - Choisissez le bouton 'Voir' pour que le bouton de navigation 'Retour' soit affiché sur chaque page, afin de faciliter la navigation dans votre site à vos visiteurs.</p>
+
+<p><strong>Eléments de navigation</strong> - Choissisez le bouton 'Voir' pour publier des liens 'Précédent' et 'Suivant' lors de la visualisation d'articles dans une catégorie, ou pour changer de page à l'intérieur d'un même article.</p>
+<p>&nbsp;</p>
+
+<h3 class="borders">Onlget Base de données</h3>
+<p><span style="color:#C00;font-weight:bold">Attention:</span> Les réglages suivants sont trés importants. Si quelqu'un d'autre a installé votre site Elxis pour vous, il serait plus prudent de ne pas les modifier.<br />
+<strong>NE PAS CHANGER CES ELEMENTS SI VOUS NE MAITRISEZ PAS LE SUJET !!</strong></p>
+
+<p><strong>Type de Base de Données</strong> - Changez le type de base qu'utilise Elxis.</p>
+
+<p><strong>Nom de l'hôte</strong> - La plupart du temps, vous pouvez saisir 'localhost', un nom d'hôte typique.</p>
+
+<p><strong>Nom d'utilisateur</strong> - Modifiez, si nécessaire, votre nome d'utilisateur pour l'accès à votre base de données de Elxis.</p>
+
+<p><strong>Mot de passe</strong> - Modifiez, si nécessaire, le mot de passe pour l'accès à votre base de données de Elxis.</p>
+
+<p><strong>Base de Données</strong> - C'est le nom de la base de données utilisée par Elxis.</p>
+
+<p><strong>Préfixe de base de données MySQL</strong> - Modifiez, si nécessaire, le préfixe utilisé pour les tables Elxis dans votre base de données. Typiquement exl_" par défaut. 
+Attention: NE MODIFIER QUE SI VOUS AVEZ UNE BASE DE DONNEES DONT LES TABLES COMPORTE LE PREFIXE QUE VOUS SAISISSEZ!!</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Serveur</h3>
+<p>Les trois premiers éléments de cette page sont prédéfinis durant l'installation et ne sont pas modifiables ici.</p>
+
+<p><strong>Chemin absolu</strong> - C'est le nom du répertoire sur le serveur que Elxis utilise pour s'orienter dans le système environnant.</p>
+
+<p><strong>Site en ligne</strong> - C'est l'URL absolue (adresse internet) pour votre installation de Elxis. Valeur Typique est http://www.monsite.com.</p>
+
+<p><strong>Mot secret</strong> - Ceci est un mot unique et spécifique à chaque installation de Elxis. Il est utilisé pour certaines fonctions de sécurité.</p>
+
+<p><strong>Méthode GZIP</strong> - Choisissez le bouton 'Oui' pour autoriser votre serveur internet à envoyer des données compressées, 
+s'il est configuré pour les navigateurs de vos visiteurs, cette fonction peut leur procurer un temps de chargement des pages nettement réduit.</p>
+
+<p><strong>Durée de la session</strong> - Indiquez le nombre de secondes durant lequel une session d'administration peut rester active avant qu'une déconnexion automatique se produise. Après une telle déconnexion, l'utilisateur devra à nouveau donner son identifiant et son mot de passe pour se reconnecter. 
+Attention: Si vous êtes en train de modifier un article, mais n'avez pas sauvé votre travail, vous serez déconnecté automatiquement.</p>
+
+<p><strong>Rapport d'erreur</strong> - Si cette option est activée dans l'onglet Site, alors la liste déroulante située ici permet de choisir le niveau de précision du rapport d'erreur. 
+Les options possibles sont: par défaut du système, Aucun, Simple et Maximum.</p>
+<ul>
+<li><strong>par défaut du système</strong> - Le rapport d'erreur est celui choisi par défaut pour le système, dans le fichier php.ini sur le serveur.</li>
+<li><strong>Aucun</strong> - Le rapport d'erreur est désactivé.</li>
+<li><strong>Simple</strong> - Le rapport d"erreur est activé en version simple, correspondant à l'option: error_reporting (E_ERROR|E_WARNING|E_PARSE)</li>
+<li><strong>Maximum</strong> - Le rapport d'erreur est activé en version maximum, correspondant à l'option: error_reporting (E_ALL)</li>
+</ul>
+
+<p><strong>Emulation Register Globals</strong> - Cette option vous permet de mettre register_globals emulation à On 
+ou Off. Il est vivement recommandé de le mettre à <strong>Off</strong> mais cela peut provoquer des arrêts des composants tiers. 
+Si vous avez des problèmes avec certaines variables et certains éléments ou modules, essayez de mettre cette option à <strong>On</strong>.</p>
+
+<p><strong>Serveur d'Aide</strong> - Vous pouvez utiliser les sources de Elxis pour les fichiers d'aide. Vous pouvez les afficher et les utiliser 
+en cliquant sur l'icône &quot;Aide&quot;. Les options sont:</p>
+<ul>
+    <li><strong>Fichiers en Local</strong>: Par défaut. Vous utilisez les fichiers sur votre serveur local, livré avec Elxis.</li>
+    <li><strong>Serveur distant de Elxis</strong>: Sélectionnez ici si vous voulez utiliser les fichiers sur un autre serveur.</li>
+    <li><strong>Serveur d'aide Officiel de Elxis</strong>: Sélectionnez ici si vous souhaitez utiliser les fichiers Officiels de Elxis.</li>
+</ul>
+
+<p><strong>Creation de Fichiers</strong> - Les fichiers créés lors de l'installation de composants, modules et joombots héritent des droits d'accès par défaut du serveur sur lequel est hébergé le site. 
+En choisissant "Changer les droits (CHMOD) des nouveaux fichiers", vous pouvez supplanter ces droits par défaut.Utilisez avec précaution.</p>
+
+<p><strong>Création de Répertoires</strong> - Tout comme les fichiers, les répertoires héritent des droits par défaut du serveur d'hébergement. Choisissez "Changez les droits (CHMOD) des nouveaux répertoires" pour supplanter ces droits par défaut. 
+Utilisez avec précaution.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Métadonnées</h3>
+<p>Ces paramètres, affecte la direction les moteurs de recherche pour l'affichage votre site.</p>
+
+<p><strong>Méta description du site</strong> - Tapez une description de votre site, utilisée pour faciliter le travail des moteurs de recherche. Vous devriez limiter votre description à une vingtaine de mots environ, en fonction du moteur de recherche que vous visez. 
+Faites court et en relation avec le contenu du site. Vous pouvez inclure certains de vos mots ou phrases-clés également. 
+Comme certains moteurs prennent en compte plus de 20 mots vous pouvez rajouter une ou deux phrases. 
+Faites en sorte malgré tout, que la partie la plus importante de la description soit bien située dans les 20 premiers mots.</p>
+
+<p><strong>Mots-clefs du site</strong> - Le nombre optimal de caractères pour l'ensemble des mots clés couramment admis est de 300 à 500. 
+Ne répetez pas de mots trop souvent, et séparez les par une virgule ou une espace. Vous pouvez grouper 2 ou 3 mots ensemble, entre virgule, comme par exemple dans 'Elxis'.</p>
+
+<p><strong>Insérer les méta tags de titre</strong> -  Insère le Meta tag 'Titre' dans le code source de chaque page.</p>
+
+<p><strong>nsérer les méta tags de l'auteur</strong> - Insère le Meta tag 'Author' dans le code source de chaque page.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet E-mail</h3>
+<p>Paramètres Elxis lié à la façon dont les messages sont envoyés.</p>
+<p><strong>Serveur de mail</strong> - Choisissez quel système d'E-mai vous sohaitez utiliser : La fonction mail de PHP, Sendmail ou un serveur SMTP.</p>
+
+<p><strong>E-mail de</strong> - Indiquez quelle sera l'adresse d'expéditeur qui figurera sur les mails envoyés depuis votre site.</p>
+
+<p><strong>Nom</strong> - Choisissez quel nom d'expéditeur figurera sur les mails envoyés depuis votre site.</p>
+
+<p><strong>Chemin Sendmail</strong> - Indiquez le répertoire d'accès au serveur Sendmail. Sous Linux 
+c'est normalement /usr/sbin/sendmail. Non applicable sur des installations Windows.</p>
+
+<p>Si vous avez choisi un serveur SMTP pour le serveur de mail, soyez sur de vos réglages. Sinon veuillez ignorer cette étape. </p>
+
+<p><strong>SMTP Authentification</strong> - Choisissez 'Oui' si une authentification SMTP est nécessaire à votre serveur SMTP.</p>
+
+<p><strong>SMTP Utilisateur</strong> - Si une authentification est requise, indiquez ici le nom d'utilisateur.</p>
+
+<p><strong>SMTP Mot de passe</strong> - Si une authentification est requise, indiquez ici le mot de passe.</p>
+
+<p><strong>SMTP Hôte</strong> - En général il s'agit de localhost, mais vous devriez vérifier auprès de votre hébergeur.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Cache</h3>
+<p>Paramètres liés à la mémoire cache. Le Cache est utilisée pour améliorer les performances du site.</p>
+
+<p><strong>Cache</strong> - Choisissez 'Oui' pour activer la possibilité de mise en cache par Elxis de certains éléments. cela améliorera généralement les performances de votre site.</p>
+
+<p><strong>Répertoire de cache</strong> - Indiquez ici le répertoire dans lequel Elxis doit stocker les fichiers du cache. 
+Il doit être accessible en écriture pour que le cache fonctionne. Contactez votre adminstrateur système our webmaster en cas de difficulté.</p>
+
+<p><strong>Durée du cache</strong> - Indiquez ici la durée, en secondes, avant qu'un élement stocké dans le cache n'arrive à expiration et soit rafraîchi.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Statistiques</h3>
+<p>Paramètres liés à la collecte de statistiques.</p>
+
+<p><strong>Statistiques</strong> - Choisissez 'Oui' pour autoriser la collecte de statistiques sur les navigateurs et les domaines de vos visiteurs, en fonction des réglages effectués dans l'onglet 'Contenu'. 
+Si vous choisissez 'Non', ces données ne seront pas enregistrées. Si votre site montre un léger 'délai de réponse' lors de la première visite d'un utillisateur, vous devriez choisir 'Non'.</p>
+
+<p><strong>Journalisation du nombre de visites par date</strong> - Si fixé à 'Oui', le nombre d'accès aux articles sera enregistré, à la journée. Il n'y a actuellement aucune fonction d'analyse venant en complément de cette simple fonction d'enregistrement. 
+<span style="font-weight: bold">Attention:</span> Cette fonction a pour effet d'accumuler des volumes d'information très élevés au fil du temps. Assurez-vous d'avoir suffisamment d'espace libre sur votre serveur pour les stocker!</p>
+
+<p><strong>Journalisation des recherches</strong> - Choisissez 'Oui' pour provoquer l'enregistrement du texte tapés par vos visiteurs dans la zone 'Rechercher' de votre site. Cela peut vous permettre d'affiner la mise au point du site, 
+en vous donnant des indications sur la façon dont les utilisateurs recherchent l'information dont ils ont besoin. L'analyse des données enregistrées est disponible dans l'onglet Site -> Statistiques - > Recherche.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet SEO</h3>
+<p>SEO = Search Engine optimisation: Optimisation pour les moteurs de recherche</p> 
+
+<p><strong>URL compatibles avec les moteurs de recherche (SEF)</strong> - Cette fonction modifie la façon dont les liens hypertextes sont présentés, et les optimisent de manière à ce que les moteurs de recherche visitent une plus grande part de votre site. Elle n'est accessible QUE pour les sites hébergés par un serveur Apache. Choisissez 'Oui' pour que Elxis crée des URL optimisées plutôt que les URLs normales issues de la base de données. 
+Si vous faites cela, vous devez de plus renommer le fichier 'htaccess.txt' situé à la racine de votre installation Exlis en '.htaccess' (avec un point comme premier caractère).<br />
+Options possibles:</p>
+<ul>
+<li><strong>Non</strong>: Les URLS SEF sont désactivées. Elxis donnera des URLS classiques<br />
+Par exemple:<br />index.php?option=com_content&task=category&sectionid=3&id=18&Itemid=32</li>
+<li><strong>SEO de Base</strong>: Les URLS SEF sont activées mais utilise un format plus traditionnel. 
+Select this if you want to use a 3rd party component.<br />
+Par exemple:<br />content/category/3/18/33/</li>
+<li><strong>SEO Pro</strong>: Les URLS SEF sont activés et utilise un format de type <strong>professionnel, plus facile à lire</strong> 
+. <strong>Ceci est le meilleur choix</strong>.<br />
+Par exemple:<br />faqs/managing_content/editing-content.html</li>
+</ul>
+
+<p><strong>Titres des Pages Dynamiques</strong> - Choisissez &quot;Oui&quot; pour inclure un titre de page et titre courant
+aux éléments de contenus. Encore une fois, cela aidera les moteurs de recherches.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Onglet FTP</h3>
+<p><strong>Activer FTP</strong> - Choisissez ici l'activation ou pas du transfert des fichiers par le FTP. L'étape suivant vous demandera les paramètres de connexion uniquement si cette option est mis à "Oui".</p>
+
+<p><strong>FTP Hôte</strong> - Nom du serveur FTP de votre site.</p>
+
+<p><strong>FTP Utilisateur</strong> - Nom d'utilisateur du compte FTP.</p>
+
+<p><strong>FTP Mot de Passe</strong> - Mot de Passe du compte FTP.</p>
+
+<p><strong>FTP Port</strong> - Port du serveur FTP. Par défaut la valeur est 21.</p>
+
+<p><strong>FTP Chemin du serveur</strong> - Chemin d'accès au serveur FTP pour votre installation de Elxis, i.e. /public_html/elxis</p>
+<strong>NOTE:  Vous devez sauvez vos modifications pour qu'elle soient prises en compte, au moyen de l'icône 'Enregistrer' située dans la barre d'outil.</strong>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

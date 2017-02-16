@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>mosimage</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-06-15 19:17:30</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>Replaces {mosimage} tag in content with specified images</description>
+	<files>
+		<filename mambot="mosimage">mosimage.php</filename>
+	</files>
+	<params>
+		<param name="margin" type="text" default="5" size="5" label="Margin" description="Margin in px, of Div surrounding Image and Caption - only applies if using a Caption" />
+		<param name="padding" type="text" default="5" size="5" label="Padding" description="Padding in px, of Div surrounding Image and Caption - only applies if using a Caption" />
+	</params>
+</mosinstall>

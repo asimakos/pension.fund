@@ -1,0 +1,351 @@
+/*
+ekebic template CSS for Elxis 2009
+Author: Dejan Viduka (kebic)
+E-mail: dejan@viduka.info
+URL: http://www.viduka.info
+Date: 26.03.2009
+License: GNU/GPL
+Elxis CMS is a free software
+*/
+
+body {text-align:left;background-color:#77b9dc; padding:0;margin:0}
+ /* ------------------------------------------------------------------------ */
+
+/* okvir */
+#okvir {
+clear:both;
+background-color:#114c78;
+}
+ /* ------------------------------------------------------------------------ */
+
+
+ /* zaglavlje */
+#header {
+clear:both;
+height: 133px;
+width: 952px;
+background: url('../images/e-glava.jpg') no-repeat;
+padding:0;
+margin-top:0px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+ /* zaglavlje */
+#header2 {
+clear:both;
+width: 952px;
+padding:0;
+margin:0;
+}
+
+/* top kolona */
+.top1 {
+clear:both;
+margin-left:0px;
+height: 14px;
+width: 952px;
+background: url('../images/e-top1.jpg') no-repeat;
+}
+
+.top2 {
+min-height: 100px;
+margin: 0;
+padding: 0 0 20px 0;
+clear:both;
+width: 952px;
+background: url('../images/e-top2.jpg') repeat-y;
+}
+
+.top3 {
+clear:both;
+margin-left:0px;
+margin-top: 0px;
+height: 13px;
+width: 952px;
+background: url('../images/e-top3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+ /* zaglavlje */
+#dno {
+clear:both;
+width: 952px;
+padding:0;
+margin-top:0px;
+}
+
+/* top kolona */
+.dno1 {
+clear:both;
+margin-left:0px;
+height: 14px;
+width: 952px;
+background: url('../images/e-top1.jpg') no-repeat;
+}
+
+.dno2 {
+min-height: 100px;
+margin: 0;
+padding: 0;
+clear:both;
+width: 952px;
+background: url('../images/e-top2.jpg') repeat-y;
+}
+
+.dno3 {
+clear:both;
+margin: 0;
+padding: 0;
+height: 13px;
+width: 952px;
+background: url('../images/e-top3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+a.logo {
+	float:left;
+	height: 92px;
+	width: 215px;
+    background: url('../images/logo.png') no-repeat;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+  /* ------------------------------------------------------------------------ */
+
+/* top menu pozicija */
+.navigacija {
+float: left;
+clear:both;
+color:#ccc;
+padding-top:0px;
+margin-top:-95px;
+margin-left: 227px;
+height: 90px;
+width: 720px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+.pretraga {
+    color:#FFFFFF;
+    float: left;
+    font: 11px verdana, arial;
+    text-align: left;
+    padding-top: 3px;
+    height: 19px;
+    width: 200px;
+    margin-top:0px;
+    margin-left: 20px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+/* putanja */
+.put {
+    float: left;
+    color:#FFFFFF;
+    font: 10px verdana, arial;
+    text-align: left;
+    height: 18px;
+    width: 480px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+ /* ------------------------------------------------------------------------ */
+  /* zastavice */
+.zastava {
+    float: right;
+    color:#FFFFFF;
+    font: 10px verdana, arial;
+    text-align: left;
+    height: 18px;
+    width: 220px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+  /* ------------------------------------------------------------------------ */
+
+/* telo */
+#main {
+clear: both;
+width: 952px;
+margin:0;
+text-align:left;
+padding-bottom:0px;
+}
+
+/* telo kolona */
+.telo1 {
+clear:both;
+margin-left:0px;
+height: 14px;
+width: 952px;
+background: url('../images/e-body1.jpg') no-repeat;
+}
+
+.telo2 {
+min-height: 500px;
+margin-top: 0px;
+padding-left:10px;
+padding-right:0px;
+padding-bottom:20px;
+clear:both;
+width: 952px;
+background: url('../images/e-body2.jpg') repeat-y;
+}
+
+.telo3 {
+clear:both;
+margin-left:0px;
+margin-top: 0px;
+height: 12px;
+width: 952px;
+background: url('../images/e-body3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+/* footer */
+#footer {
+clear: both;
+margin: 0 ;
+border: 1px solid transparent;
+text-align:center;
+background: url('../images/e-footer.jpg') no-repeat;
+height: 94px;
+width: 952px;
+margin-top:-2px;}
+
+  /* ------------------------------------------------------------------------ */
+
+.copyright {
+margin-top: 23px;
+margin-left: auto;
+color: #999999;
+font-size:10px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+.signature {
+padding-top:5px;
+color: #999999;
+margin-top:20px;
+font-size:9px;}
+ /* ------------------------------------------------------------------------ */
+
+/* body kolona */
+
+.tkol {
+	width:510px;
+	float:left;
+	margin-left:0px;
+    padding-left: 5px;
+}
+
+/* banner kolona */
+
+.baner {
+	width:500px;
+	float:left;
+    margin-left:0px;
+    padding-left: 5px;
+    text-align:center;
+}
+
+/* leva kolona */
+.lkol {
+	width:195px;
+	float:left;
+	margin-left: 3px;
+	padding-left: 10px;
+	background: url('../images/e-lcol.jpg') repeat-y;
+}
+/* desna kolona */
+.dkol {
+		width:195px;
+		float:left;
+        margin-left: 3px;
+        padding-left: 8px;
+        background: url('../images/e-rcol.jpg') repeat-y;
+}
+
+/* user 1,2,3,4 kolone */
+
+.user1 {
+	width:210px;
+	float:left;
+    padding-left: 5px;
+    margin-left:20px;
+    border: 1px solid #FFFFFF;
+    text-align:left;
+}
+
+.user2 {
+	width:210px;
+	float:left;
+    margin-left: 10px;
+    border: 1px solid #FFFFFF;
+    padding-left: 5px;
+	text-align:left;
+}
+
+.user3 {
+	width:210px;
+	float:left;
+    margin-left: 10px;
+    padding-left: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:left;
+}
+
+.user4 {
+	width:210px;
+	float:left;
+    margin-left: 10px;
+    padding-left: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:left;
+}
+
+/* user 5,6,7,8 kolone */
+.user5 {
+	width:210px;
+	float:left;
+    padding-left: 5px;
+    margin-left:20px;
+    border: 1px solid #FFFFFF;
+    text-align:left;
+}
+
+.user6 {
+	width:210px;
+	float:left;
+	margin-left: 10px;
+	border: 1px solid #FFFFFF;
+	padding-left: 5px;
+	text-align:left;
+}
+
+.user7 {
+	width:210px;
+	float:left;
+	margin-left: 10px;
+	padding-left: 0px;
+	border: 1px solid #FFFFFF;
+	text-align:left;
+}
+
+.user8 {
+	width:210px;
+	float:left;
+	margin-left: 10px;
+	padding-left: 0px;
+	border: 1px solid #FFFFFF;
+	text-align:left;
+}

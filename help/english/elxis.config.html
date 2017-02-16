@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Global Configurations</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 Elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Global Configuration</h1>
+<p><strong>Global Configuration</strong> controls Elxis operational settings. Changes made on this screen will 
+update <strong>configuration.php</strong> file. <strong>This file must be normally unwritable for security 
+reasons</strong>. Change it to writable in order to be able to edit it. Then remember to change it back to 
+unwritable (644).</p>
+<p>Notice that Elxis next to the page title, shows the current status of configuration.php file. It can be 
+eitheir &quot;Writable&quot; or &quot;Not Writable&quot;. 
+<p>Check the &quot;Make unwritable after saving&quot; check box to make this file unwritable after saving. 
+But the most common way is to use an FTP application.</p>
+<p>&nbsp;</p>
+<p>Configuration settings are organized in 11 groups.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Site Tab</h3>
+<p><strong>Site Offline</strong> - Use it to effectively switch on and off this web site&#39;s &quot;Front-End&quot;. 
+Use this option when you maintain or update your site to temporarily make it not available to public. Visitors 
+will see the message defined in the following parameter.</p>
+
+<p><strong>Offline Message</strong> - This is the message displayed when the site is offline. 
+You can change this text to whatever message you want.</p>
+
+<p><strong>System Error Message</strong> - This is the message displayed when there is a technical problem 
+with this site (e.g. database connection fails).</p>
+
+<p><strong>Site Name</strong> - This option allows you to specify the name of the site. It will be displayed 
+in your browser&#39;s window title and will be used when messages are send from your site.</p>
+
+<p><strong>Components linked with Access System</strong> - This is a very important setting that is directly 
+related with access control. Elxis implements an advanced access control system (Site -&gt; Access Manager). 
+Using this option, you can define where this access control system will be applied.</p>
+<ul>
+    <li><strong>None</strong>: Access control will not be applied.</li>
+    <li><strong>Core Components</strong>: Access control will be applied only to core components 
+	(components distributed with Elxis).</li>
+    <li><strong>Third Party Components</strong>: Access control will be applied only to new components that you 
+	have installed.</li>
+    <li><strong>All Components</strong>: Access control will be applied to all components (Core and Third Party).</li>
+</ul>
+<p>If you set the option to None, you are actually disabling the access control checks. If you have already set up 
+some rules these will remain but they will not be not used. We advise you to be very careful with option. 
+It is one of the things that make Elxis so unique and advanced.</p>
+
+<p><strong>Use Security Images</strong> - Set it to Yes (recommended) if you want Captcha images to appear in 
+Elxis forms. Captcha images help you reduce spam mails.</p>
+
+<p><strong>Show Unauthorised Links</strong> - With this option set to &#39;Yes&#39;, all visitors will be able to see 
+content to which they would not otherwise have access, (that is, content given an Access Level of 
+&#39;Registered&#39;. With this option set to &#39;No&#39;, they will only see content with an Access Level of 
+&#39;Public&#39;. Access Level setting is defined in various Items parameters.</p>
+
+<p><strong>Allow User Registration</strong> - This option allows you to globally set whether visitors can 
+register and create a user account (become registered members). 
+If it is set to &#39;Yes&#39;, every visitor will be able to create an account and become a registered member. 
+If it is set to No, only administrators will be able to create new user accounts.</p>
+
+<p><strong>Use New Account Activation</strong> - If it is set to Yes, an activation link will be sent by email 
+to users that are creating a &#39;registered user&#39; account. When users receive the email, they have to click 
+the activation link in order to verify that they are real humans. If it is set to &#39;No&#39;, users will be 
+able to login right away without activation.</p>
+
+<p><strong>Require Unique Email</strong> - Select whether you want to prevent registration with 
+duplicate email addresses. In combination with &quot;New Account Activation&quot;, this option prevents users 
+to open several accounts using the same email address.</p>
+
+<p><strong>Debug Site</strong> - By enabling this option, you can view the queries executed by Elxis. 
+It can be a handy tool for debugging.</p>
+
+<p><strong>WYSIWYG Editor</strong> - Choose the Text Editor that you want to be active and used for editing 
+content. Remember that editors are installed as Bots.</p>
+
+<p><strong>List Length</strong> - Select the default length for lists used in administration (number of items shown per page). 
+You have to logoff and then logon for the new value to take effect.</p>
+
+<p><strong>Favorites Site Icon</strong> - Lets you define the favorites icon for this site. 
+By default this is the Maiandros, the Elxis logo.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Locale Tab</h3>
+<p><strong>Default Frontend Language</strong> - Choose the default language used on the Front-End of this site.</p>
+
+<p><strong>Default Backend Language</strong> - Choose the default language used on the Back-End of this site.</p>
+
+<p><strong>Time Offset</strong> - This option sets the time offset in hours, between your server location 
+and your location.</p>
+
+<p><strong>Country Locale</strong> - You can use this option to select the locale for your Operation System. 
+We recommend to set to -Auto Select-, as Elxis will use the best locale for you. Please note that Windows O.S. 
+does not support UTF-8 locales.</p>
+
+<p><strong>Locale Check</strong> - Previews how dates are displayed based on the selected locale. 
+Please note that Windows O.S. does not support UTF-8 locales.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Content Tab</h3>
+<p><strong>Linked Titles</strong> - Select &#39;Yes&#39;, if you want content item titles to act also as links 
+to full articles.</p>
+
+<p><strong>Read More Link</strong> - Select &#39;Show&#39; if you want a &quot;Read more&quot; link to be 
+displayed at the bottom of articles displayed in blog view and have their Main Text filled.</p>
+
+<p><strong>Item Rating/Voting</strong> - This option allows the rating of content items. 
+Choose &#39;Yes&#39;, and a &#39;Rating Bar&#39; will be shown on each content item, as well as a form 
+for submitting your rating.</p>
+
+<p><strong>Author Names</strong> - Choose if you want author names to be displayed or not.</p>
+
+<p><strong>Created Date and Time</strong> - Choose if you want items creation date and time to be displayed or not.</p>
+
+<p><strong>Modified Date and Time</strong> - Choose if you want items modification date and time to be displayed 
+or not.</p>
+
+<p><strong>Hits</strong> - Choose if you want hits count for items to be displayed or not.</p>
+
+<p><strong>RTF Icon</strong> - Choose if you want to show the RTF icon. RTF icon is used to convert and download an 
+article as RTF (Rich Text Format) document.</p>
+
+<p><strong>PDF Icon</strong> - Choose if you want to show the PDF icon. PDF icon is used to convert and download 
+an article as PDF document.</p>
+
+<p><strong>Print Icon</strong> - Choose if you want to show the Print icon. Print icon is used to display a 
+printer-friendly version of an article, letting users to print it.</p>
+
+<p><strong>Email Icon</strong> - Choose if you want to show the Email icon. Email icon is used to let you mail 
+an article to a friend.</p>
+
+<p><strong>Icons</strong> - Choose if you want the RTF, PDF, Print and Email options to be displayed as icons or 
+text strings.</p>
+
+<p><strong>Table of Contents on multi-page items</strong> - Decide if you want a TOC table to appear on articles 
+that are divided in pages using the mospagebreak bot. We suggest to set this option to &#39;Show&#39;.</p>
+
+<p><strong>Back Button</strong> - Select if the &#39;Back Button&#39; will be visible or not at the bottom of 
+each page.</p>
+
+<p><strong>Content Item Navigation</strong> - Select if &#39;Next&#39; and &#39;Previous&#39; navigation links 
+will be visible at the bottom of pages.</p>
+<p>&nbsp;</p>
+
+<h3 class="borders">Database Tab</h3>
+<p><span style="color:#C00;font-weight:bold">Warning:</span> These are very important settings. You have set 
+them during Elxis installation.<br />
+<strong>DO NOT CHANGE THEM UNLESS YOU ARE AN EXPERIENCED USER THAT KNOWS WHAT HE IS DOING!!</strong></p>
+
+<p><strong>Database Type</strong> - Change the database type Elxis is using.</p>
+
+<p><strong>Hostname</strong> - Most common value is &#39;localhost&#39;. If you are unsure, ask your system 
+administrator.</p>
+
+<p><strong>Database Username</strong> - The username that is used to connect to the database.</p>
+
+<p><strong>Password</strong> - The password that is used to connect to the database.</p>
+
+<p><strong>Database</strong> - This is the name of the database Elxis is using.</p>
+
+<p><strong>MySQL Database Prefix</strong> - This is the database tables prefix. Default value is 
+&quot;elx_&quot;.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Server Tab</h3>
+<p>The following three items were predefined during the installation and are not configurable through this 
+tab. The only way to change them is by manually editing the configuration.php file.</p>
+
+<p><strong>Absolute Path</strong> - This is the location Elxis is installed on your web server.</p>
+
+<p><strong>Live Site</strong> - This is the URL (web address) to this site.</p>
+
+<p><strong>Secret Word</strong> - A unique code for future use.</p>
+
+<p><strong>GZIP Page Compression</strong> - If your system supports it, you can enable the GZip compression 
+and send compressed outpout instead of normal. If supported, this could significantly increase site performance and 
+decrease the load time of your site.</p>
+
+<p><strong>Login Session Lifetime</strong> - Type the duration of inactivity (in seconds) the Administration 
+session should be allowed to stay live before automatic logout occurs. 
+After automatic logout, the Administrator will be required to login again in order to continue working.</p>
+
+<p><strong>Error Reporting</strong> - Select the level or error reporting for this site. Available options are 
+System Default, None, Simple and Maximum.</p>
+<ul>
+<li><strong>System Default</strong> - This sets error reporting to the system default according to php.ini settings 
+on your server.</li>
+<li><strong>None</strong> - This turns off error reporting.</li>
+<li><strong>Simple</strong> - This turns error reporting to simple, using the following options: 
+error_reporting (E_ERROR|E_WARNING|E_PARSE)</li>
+<li><strong>Maximum</strong> - This turns error reporting to the Maximum level using the following options: 
+error_reporting (E_ALL)</li>
+</ul>
+
+<p><strong>Register Globals Emulation</strong> - This option allows you to turn register_globals emulation On 
+or Off. Please be advised that the recommended setting is <strong>Off</strong> but this may cause some 
+3rd party components to stop working correctly. If you are experiencing problems with undefined variables 
+with some components or modules, try setting this option to <strong>On</strong>.</p>
+
+<p><strong>Help Server</strong> - You can set the source of Elxis help files. These are the files used when 
+you press the &quot;Help&quot; icon to get help. Available options are:</p>
+<ul>
+    <li><strong>Local Help Files</strong>: Default option. You will use the local help files, that come with Elxis.</li>
+    <li><strong>Elxis Remote Help Server</strong>: Select it to use the help files available from a remote help server.</li>
+    <li><strong>Official Elxis Help Server</strong>: Select it to use the Official Elxis Help files.</li>
+</ul>
+
+<p><strong>File Creation</strong> - By default, files created by the installation of components, modules and bots 
+inherit the server default permissions. By choosing &quot;CHMOD new files&quot;, you can override the server 
+permissions. Use with caution.</p>
+
+<p><strong>Directory Creation</strong> - As with files, new directories will by default inherit the server 
+default permissions. Choose &quot;CHMOD new directories&quot; to override the server permissions. Use with caution.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Metadata Tab</h3>
+<p>These settings let you define the global Metadata used by this Elxis site. Metadata are one of the parameters 
+that affect your ranking in search engines.</p>
+
+<p><strong>Global Site Meta Description</strong> - Type a Metadata description for this web site. You may want 
+to limit your description to twenty words or so, depending on the Search Engine you are targeting. Make it 
+concise and relevant to this site&#39;s contents. You can include some of your keywords and key phrases here 
+too. As some search engines read more than 20 words you can add one or two sentences. Make sure that the most 
+important part of your description is in the first 20 words. Note: You can override this description on an 
+article level.</p>
+
+<p><strong>Global Site Meta Keywords</strong> - Type here the Metadata keywords for this site, separated with 
+commas. The optimal number of characters for keywords is said to be between 300 and 500.</p>
+
+<p><strong>Show Title Meta Tag</strong> - Include in page meta tags the Title of the current content item. 
+Visible only in source code and by search engines.</p>
+
+<p><strong>Show Author Meta Tag</strong> - Include in page meta tags the name of the Author of the current 
+content item. Visible only in source code and by search engines.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Mail Tab</h3>
+<p>Settings related to how Elxis is sending messages.</p>
+<p><strong>Mailer</strong> - Select the mailer you wish to use. Available options are: &quot;PHP mail 
+function&quot;, &quot;Sendmail&quot; or &quot;SMTP Server&quot;.</p>
+
+<p><strong>Mail From</strong> - Choose which email address will be shown as sender.</p>
+
+<p><strong>From Name</strong> - Choose what name will show as the sender.</p>
+
+<p><strong>Sendmail Path</strong> - This is the path to the sendmail application. Under Linux installations 
+is normally /usr/sbin/sendmail. This not applicable on Windows installations.</p>
+
+<p>If you have chosen the SMTP Server as the Mailer, then you have to set the following settings. 
+Otherwise ignore them.</p>
+
+<p><strong>SMTP Auth</strong> - Choose &quot;Yes&quot; if SMTP Authentication is required by your host.</p>
+
+<p><strong>SMTP User</strong> - If authentication is required, type your username.</p>
+
+<p><strong>SMTP Pass</strong> - If authentication is required, type your password.</p>
+
+<p><strong>SMTP Host</strong> - This is usually &quot;localhost&quot;, but you may need to check it your host.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Cache Tab</h3>
+<p>Settings related to cache. Cache is used to improve site performance.</p>
+
+<p><strong>Caching</strong> - Choose &quot;Yes&quot; to enable caching. Caching generally improves the 
+performance of your site.</p>
+
+<p><strong>Cache Folder</strong> - This is the directory used to store cache files. It must be writable.</p>
+
+<p><strong>Cache Time</strong> - Define the maximum time a cached file is kept in memory. After this time, 
+the cache file is deleted and recreated as a result of a new query to the database.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">Statistics Tab</h3>
+<p>Settings related to collection of statistical data.</p>
+
+<p><strong>Statistics</strong> - Choose &quot;Yes&quot; to enable collection of statistical data. 
+If it is set to &quot;No&quot;, then the &quot;Statistics&quot; menu item is not available under the 
+&quot;Site&quot; menu. If your site experiences a slight &#39;delay&#39; the first time a user visits it, 
+you should set this to &#39;No&#39;.</p>
+
+<p><strong>Log Content Hits by Date</strong> - Choose &quot;Yes&quot; to enable logging in a way that provides 
+data by day and not collectively. 
+<span style="font-weight: bold">Warning:</span> This will tend to collect large number of data over time. 
+Be sure that your server has the space to store this information.</p>
+
+<p><strong>Log Search Strings</strong> - Choose &quot;Yes&quot; to enable logging of the search strings entered 
+by users. Such logging facilitates the &#39;tuning&#39; of your web site, giving you an insight on how your 
+visitors are trying to find the information they seek. Analysis reporting is provided under menu 
+Site -&gt; Statistics -&gt; Search Text.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">SEO Tab</h3>
+<p>Settings related to Search Engines Optimization.</p> 
+
+<p><strong>Search Engine Friendly URLs</strong> - Controls the way Elxis generates URLs. When used properly can 
+increase site&#39;s position in search engines. This option is optimized for sites hosted on Apache servers, 
+but can be used also in IIS servers using the Ionic Isapi Rewriter filter. For Apache servers you have to rename 
+the &#39;htaccess.txt&#39; file to &#39;.htaccess&#39;.<br />
+Available options are:</p>
+<ul>
+<li><strong>No</strong>: SEF URLs are disabled. Elxis produces normal URLs<br />
+For example:<br />index.php?option=com_content&task=category&sectionid=3&id=18&Itemid=32</li>
+<li><strong>SEO Basic</strong>: SEF URLs are enabled but use a traditional format. 
+Select this if you want to use a 3rd party component.<br />
+For example:<br />content/category/3/18/33/</li>
+<li><strong>SEO Pro</strong>: SEF URLs are enabled and use the <strong>professional, human-readable</strong> 
+format. <strong>This is the best option</strong>.<br />
+For example:<br />faqs/managing_content/editing-content.html</li>
+</ul>
+
+<p><strong>Dynamic Page Titles</strong> - Choose &quot;Yes&quot; to include in page title the title of the current 
+content item. Again, this helps search engines.</p>
+
+<p>&nbsp;</p>
+<h3 class="borders">FTP tab</h3>
+<p><strong>Enable FTP</strong> - Choose to enable FTP transfer of files or not. The following settings are 
+meaningful only if this option is set to &quot;Yes&quot;.</p>
+
+<p><strong>FTP Host</strong> - Fill the name of the FTP server for this site.</p>
+
+<p><strong>FTP Username</strong> - The FTP account username.</p>
+
+<p><strong>FTP Password</strong> - The FTP account password.</p>
+
+<p><strong>FTP Port</strong> - The FTP port used. Default value is 21.</p>
+
+<p><strong>FTP Root Path</strong> - Path from FTP root to this Elxis installation. 
+For example &#39;/public_html&#39;</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

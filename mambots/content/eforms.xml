@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>Elxis Forms</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2010-09-04 12:50:10</creationDate>
+	<copyright>(C) 2008-2011 Is Open Source. All rights reserved</copyright>
+	<license>Creative Commons 3.0 SA</license>
+	<authorEmail>info@isopensource.com</authorEmail>
+	<authorUrl>www.isopensource.com</authorUrl>
+	<cxlangdir>/mambots/content/eforms</cxlangdir>
+	<version>1.1</version>
+	<description>
+	<![CDATA[
+	Bot <strong>Elxis forms</strong> generates and process HTML forms based on data stored in an XML file.<br />
+	General usage: <em>{eforms}samplecontact{/eforms}</em><br />
+	For help and usage examples please visit <a href="http://wiki.elxis.org/wiki/Eforms" target="_blank" title="eForms">eForms page at Elxis wiki</a>.<br />
+	Created by Ioannis Sannos (<a href="http://www.isopensource.com" target="_blank">Is Open Source</a>).
+	]]>
+	</description>
+	<files>
+		<filename mambot="eforms">eforms.php</filename>
+		<filename>eforms/eforms.css</filename>
+		<filename>eforms/eforms-rtl.css</filename>
+		<filename>eforms/eforms.js</filename>
+		<filename>eforms/countries.english.php</filename>
+		<filename>eforms/countries.greek.php</filename>
+		<filename>eforms/countries.italian.php</filename>
+		<filename>eforms/english.php</filename>
+		<filename>eforms/french.php</filename>
+		<filename>eforms/greek.php</filename>
+		<filename>eforms/italian.php</filename>
+		<filename>eforms/korean.php</filename>
+		<filename>eforms/calendar16.png</filename>
+		<filename>eforms/data.xml</filename>
+	</files>
+	<params>
+		<param name="labelwidth" type="text" default="140" dir="ltr" size="5" label="CX_EFORMS_LABW" description="Label width in pixels. Default value is 140." />
+		<param name="descpos" type="list" default="0" label="CX_EFORMS_DESCPOS" description="Select where the description text to be displayed for each form element.">
+			<option value="0">CX_EFORMS_BELEL</option>
+			<option value="1">CX_EFORMS_NEXTEL</option>
+		</param>
+	</params>
+</mosinstall>

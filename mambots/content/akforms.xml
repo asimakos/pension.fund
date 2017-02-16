@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>Preparation of entry forms</name>
+	<author>Andrey Kambalov</author>
+	<creationDate>2010-04-08</creationDate>
+	<copyright>(C) 2010 Andrey Kambalov. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ACampball@yandex.ru</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.7</version>
+	<description>Example of use: {akforms}Form CID{/akforms}</description>
+	<files>
+		<filename mambot="akforms">akforms.php</filename>
+		<filename>akforms/index.html</filename>
+		<filename>akforms/russian.php</filename>
+		<filename>akforms/english.php</filename>
+		<filename>akforms/greek.php</filename>
+		<filename>akforms/italian.php</filename>
+		<filename>akforms/german.php</filename>
+		<filename>akforms/akforms.css</filename>
+	</files>
+	<params>
+	</params>
+</mosinstall>

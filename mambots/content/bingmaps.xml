@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<mosinstall version="2009" type="mambot" group="content">
+	<name>Bing Maps Bot</name>
+	<author>Nikos Vlachtsis</author>
+	<creationDate>2012-03-12 15:10:10</creationDate>
+	<copyright>(C) 2012 osw.gr</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@osw.gr</authorEmail>
+	<authorUrl>www.osw.gr</authorUrl>
+	<version>1.0</version>
+	<description>
+  <![CDATA[<p align="justify"><strong>By this free bot for Elxis CMS you can display embedded <font color="#2E6CBC">Bing Maps</font> into content using the Bing Maps Service</strong><br /><br />
+  Documentation source: http://msdn.microsoft.com/en-us/library/ee692180.aspx<br /><br />
+  <strong>General Usage:</strong> {bingmaps}latitude_longitude,zoom,width,height,info{/bingmaps}<br /><br />
+  <strong>Example:</strong> {bingmaps}40.6259665_22.9484459,16,450,450,Lefkos Pyrgos - Thessaloniki{/bingmaps}<br /><br />
+  Notes:<br /><br />1. Width has a min value limitation to 400 and Height to 200<br /><br />2. Zoom accepts values among 1 and 19<br /><br />
+  3. Location info text is displayed under the map and you can let it even empty  
+  </p>]]>
+  </description>
+	<files>
+		<filename mambot="bingmaps">bingmaps.php</filename>
+		<filename>bingmaps/bingmaps.css</filename>
+		<filename>bingmaps/index.html</filename>
+		<filename>bingmaps/info24.png</filename>
+	</files>
+</mosinstall>

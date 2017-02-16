@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+  <table name="akform_items">
+    <field name="id" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+    </field>
+    <field name="form_id" type="I" size="11">
+      <NOTNULL/>
+    </field>
+    <field name="field_type" type="C" size="30"/>
+    <field name="field_value" type="X"/>
+    <field name="field_list" type="X"/>
+    <field name="isnotnull" type="I" size="1">
+      <DEFAULT value="0"/>
+    </field>
+    <field name="field_class" type="C" size="80"/>
+    <field name="field_style" type="C" size="250"/>
+    <field name="line_height" type="I" size="11"/>
+    <field name="field_label" type="C" size="80"/>
+    <field name="ordering" type="I" size="11"/>
+    <field name="ishide" type="I" size="1">
+      <DEFAULT value="0"/>
+    </field>
+    <field name="published" type="I" size="1">
+      <DEFAULT value="1"/>
+    </field>
+    <field name="maxlength" type="I" size="11"/>
+    <field name="readonly" type="I" size="1">
+      <DEFAULT value="0"/>
+    </field>
+    <field name="hidelabel" type="I" size="1"/>
+    <field name="description" type="X"/>
+    <field name="where_include" type="I" size="11"/>
+    <field name="access" type="I" size="11"/>
+    <field name="language" type="C" size="255"/>
+    <field name="field_group" type="I" size="11"/>
+  </table>
+  <table name="akform_values">
+    <field name="id" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+    </field>
+    <field name="field_id" type="I" size="11">
+      <NOTNULL/>
+    </field>
+    <field name="value" type="X"/>
+    <field name="post_date" type="T"/>
+    <field name="user_id" type="I" size="11"/>
+    <field name="unic" type="C" size="250"/>
+    <field name="isread" type="I" size="1"/>
+    <field name="istemp" type="I" size="1"/>
+    <field name="expire" type="T"/>
+    <index name="elx_akform_values_idx2">
+      <col>field_id</col>
+    </index>
+    <index name="elx_akform_values_idx3">
+      <col>unic</col>
+    </index>
+    <index name="elx_akform_values_idx1">
+      <col>value</col>
+      <FULLTEXT/>
+    </index>
+  </table>
+  <table name="akforms">
+    <field name="id" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+    </field>
+    <field name="name" type="C" size="80"/>
+    <field name="emails" type="C" size="250"/>
+    <field name="description" type="C" size="250"/>
+    <field name="params" type="X"/>
+    <field name="css_text" type="X"/>
+    <field name="published" type="I" size="1">
+      <DEFAULT value="1"/>
+    </field>
+    <field name="captcha" type="I" size="1">
+      <DEFAULT value="1"/>
+    </field>
+    <field name="mail_subject" type="C" size="250"/>
+    <field name="send_copy" type="I" size="1"/>
+    <field name="onsuccess" type="X"/>
+    <field name="text_button" type="C" size="250"/>
+    <field name="pre_copy_text" type="C" size="250"/>
+    <field name="save_post_data" type="I" size="1"/>
+    <field name="allow_save_form" type="I" size="1"/>
+    <field name="allow_see_savedata" type="I" size="1"/>
+    <field name="allow_see_senddata" type="I" size="1"/>
+    <field name="allow_submit_repeatly" type="I" size="1"/>
+  </table>
+  <table name="akforms_groups">
+    <field name="id" type="I" size="11">
+      <KEY/>
+      <AUTOINCREMENT/>
+    </field>
+    <field name="form_id" type="I" size="11"/>
+    <field name="title" type="C" size="80"/>
+    <field name="title_in_value" type="I" size="1"/>
+    <field name="filter_in_value" type="I" size="1"/>
+  </table>
+  <table name="akforms_langs">
+    <field name="ref_id" type="I" size="11"/>
+    <field name="language" type="C" size="80">
+      <NOTNULL/>
+    </field>
+    <field name="label" type="C" size="250"/>
+    <field name="description" type="X"/>
+    <field name="ref_type" type="C" size="10"/>
+    <index name="akf_lang_uidx">
+      <UNIQUE/>
+      <col>ref_id</col>
+      <col>ref_type</col>
+      <col>language</col>
+    </index>
+  </table>
+</schema>

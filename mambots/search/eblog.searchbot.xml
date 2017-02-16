@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="mambot" group="search" version="2009">
+	<name>Search eBlog</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-09-12 10:26:12</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>Extends search to eblog posts</description>
+	<files>
+		<filename mambot="eblog.searchbot">eblog.searchbot.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="list" default="30" dir="ltr" label="AX_SEARCH_LIMIT" description="AX_MAXNUM_SRES">
+			<option value="10">10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="35">35</option>
+			<option value="40">40</option>
+			<option value="50">50</option>
+			<option value="60">60</option>
+			<option value="80">80</option>
+			<option value="100">100</option>
+		</param>
+	</params>
+</mosinstall>

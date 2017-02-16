@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<title>データベース管理: バックアップ</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>データベース管理: バックアップ</h1>
+<p>このページからは新しいバックアップを作成してサーバ上に保存したデータベースのバックアップを見ることができます。</p>
+<p>&nbsp;</p>
+<h3 class="borders">バックアップファイル</h3>
+<p>バックアップファイルは/administrator/backups/databaseディレクトリに保存されます。ファイル名は以下で説明された書式を使用します:</p>
+<p>yyyymmddhhmmss_elxis[_full].aaaaaaaa.sql/xml</p>
+<p>全てのファイル名は取得した日付(yyyymmdd)から始まり、時間(hhmmss)が後に続きます。その後に「_elxis」という文字列が続きます。それがフルバックアップ(構造とデータ)であれば「_full」という単語になります。最終的に8つのランダムな数字とバックアップタイプ(xmlかsql)の拡張子になります。</p>
+<p>ファイルの名前を右クリックして「対象をファイルに保存」をメニューから選択することであなたのパソコンへ<strong>ファイルをダウンロードすることができます。</strong></p>
+<p><strong>全てのファイルはURF-8でエンコードされています。</strong></p>
+<p>&nbsp;</p>
+<h3 class="toolbar">ツールバーアイコン</h3>
+<p><strong>選択したバックアップの削除</strong>: ファイルを削除するにはバックアップファイルを選択してこのアイコンをクリックします。</p>
+<p><strong>新しいフルXMLバックアップ</strong>: 全ての(構造とデータ)XMLのバックアップを新しく作成するにはこのアイコンを押します。</p>
+<p><strong>新しいフルSQLバックアップ</strong>: 全ての(構造とデータ)SQLのバックアップを新しく作成するにはこのアイコンを押します。</p>
+<p><strong>ヘルプ</strong>: このヘルプ画面です。</p>
+<p>&nbsp;</p>
+<h3 class="table">欄</h3>
+<p><strong>ファイル</strong>: バックアップのファイル名です。</p>
+<p><strong>タイプ</strong>: バックアップタイプの説明です。</p>
+<p><strong>サイズ</strong>: ファイルのサイズ(KB)です。</p>
+<p><strong>日付</strong>: バックアップをした日付です。</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

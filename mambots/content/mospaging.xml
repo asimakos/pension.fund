@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>mospaging</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-06-15 19:17:25</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description><![CDATA[<p>Add a Table of Contents functionality to a paginated item. Syntax: {mospagebreak} or {mospagebreak title=The page title} or {mospagebreak heading=The first page} or 
+  {mospagebreak title=The page title&amp;heading=The first page} or {mospagebreak heading=The first page&amp;title=The page title}</p>]]></description>
+	<files>
+		<filename mambot="mospaging">mospaging.php</filename>
+	</files>
+  <params>
+		<param name="title" type="radio" default="1" label="Site Title" description="title and heading attibutes from mambot added to Site Title tag">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

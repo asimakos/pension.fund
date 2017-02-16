@@ -1,0 +1,138 @@
+/*
+CSS for component Newsletter (RTL version)
+Author: Ioannis Sannos (Is Open Source)
+URL: http://www.isopensource.com
+*/
+
+h2.iosnl_h2 {
+	margin: 10px 0 5px 0;
+	padding: 0;
+	font-size: 1.8em;
+	color: #33617A;
+	font-weight: normal;
+	border: 0;
+	background: none;
+	text-decoration: none;
+}
+
+fieldset.iosnl_fset {
+	float: right;  
+	clear: both;  
+	width: 100%;  
+	margin: 10px 0;
+	padding: 0;
+	border: 1px solid #668A9E;
+	background-color: #E4ECFC;
+}
+
+legend.iosnl_leg {
+	margin-right: 2em;  
+	padding: 2px 4px;  
+	color: #FFF;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: #86A9D1;
+	border: 1px solid #668A9E;
+}
+
+fieldset.iosnl_fset ul {
+	padding: 10px 20px 0 10px;  
+	list-style: none;
+	background: transparent;
+}
+
+fieldset.iosnl_fset ul li, fieldset.iosnl_fset li {
+	float: right;  
+	clear: right;  
+	width: 100%;  
+	padding: 0 0 10px 0;
+	margin: 0;
+	text-indent: 0;
+}
+
+div.iosnl_subinfo {
+	margin: 10px 20px;
+	padding: 0;
+	text-align: justify;
+	color: #33617A;
+}
+
+label.iosnl_lbl {
+	float: right;  
+	width: 150px;  
+	margin-left: 1em;
+	color: #3F6E88;
+	font-weight: bold;
+}
+
+input.iosnl_textbox {
+	background-color: #FFF;
+	color: #555;
+	border: 1px solid #82AFC8;
+	padding: 2px 0;
+}
+
+select.iosnl_selbox {
+	background-color: #FFF;
+	color: #555;
+	border: 1px solid #82AFC8;
+	padding: 2px;
+}
+
+div.iosnl_subcon {
+	margin: 20px 0;
+	padding-right: 190px;
+}
+
+input.iosnl_button {
+	background-color: #C6DEEF;
+	border: 1px solid #668A9E;
+	padding: 2px;
+	color: #38586A;
+	font-weight: bold;
+	float: none;
+	width: auto;
+}
+
+span.iosnl_security {
+	color: #3F6E88;
+}
+
+.iosnl_noscript {
+	padding: 4px;
+	border: 1px dashed #CC0000;
+	font-weight: bold;
+	color: #CC0000;
+	margin: 4px 0;
+	background-color: #FDE9E9;
+	display: block;
+	text-align: center;
+}
+
+p.iosnl_status {
+	margin: 20px 0;
+	padding: 10px;
+	border: 1px solid #668A9E;
+	background-color: #E4ECFC;
+	color: #3F6E88;
+}
+
+a.iosnl_link, a.iosnl_link:visited, a.iosnl_link:link, a.iosnl_link:active {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #245068;
+}
+a.iosnl_link:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000;
+}
+
+a.iosnl_link_copy, a.iosnl_link_copy:visited, a.iosnl_link_copy:link, a.iosnl_link_copy:active {
+	color: #444;
+	text-decoration: none;
+}
+a.iosnl_link_copy:hover {
+	color: #444;
+	text-decoration: underline;
+}

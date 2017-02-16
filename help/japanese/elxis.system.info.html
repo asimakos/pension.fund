@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<title>システム情報</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>システム情報</h1>
+<p>情報は3つの主なコンテンツのセクションをタブ形式で表示をします。</p>
+<p><strong>システム情報タブ</strong>: 
+これはElxisの現在のインストールコンポーネントのバージョンとサーバのスナップショットを提供します。
+ここではPHPのビルドとバージョン、Elxisのバージョンに加えてMySQLのバージョンそして現在のサイトのインストールの妨げになるような設定を持っているか関連する設定を見つけます。
+また、ここではElxisの設定ファイル(configuration.php)の内容を見つけることもできます。
+このファイルはElxisのインストール中に作成され、全体設定へ変更をしたときに変更されます。
+このファイルはElxisが実行するために使用する全体の変数の多くを定義します。
+ここからファイルを編集することはできませんが、その情報を見ることで現在の設定の問題を見つけたり、情報をコピーしてサポートフォーラムへ投稿することができます。</p>
+<p><strong>PHP情報タブ</strong>: PHPはElxisが動くサーバサイドスクリプト言語です。
+この言語はサーバ上でインストールされたり実行されるので設定は全てサーバ上で行われます。
+今までにElxisサーバへのPHPインストールについての知りたかった全てがここに記載されています。
+この情報を変更する上で、どれくらいの権限を持っているかはあなたがサーバを所有している、サーバの所有者が必要な変更を許可してもかまわないと思っているかどうかによります。
+PHPタブでPHPのインストールを定義する全ての設定を変更を見ることができます。
+それはElxisと共に使用することを計画するあらゆる「サードパーティ」コンポーネントにどの必要条件が必要とされるか知っていると保証するのに良い習慣です。
+その後にそれらの必要条件をここで確認することができます。</p>
+<p><strong>パーミッションタブ</strong>: どのような場合においても正しくElxisが動作するための書込み可能なElxisの全てのディレクトリ一覧を表示します。<br />
+<strong style="color:#D00">重要なセキュリティ通知</strong>: 通常の運用下では/tmpr及び/cacheディレクトリのみ書込み可能であるべきです。<strong style="color:#D00">全ての他の</strong>ディレクトリは<strong style="color:#D00">書き込み不可</strong>でなければなりません。
+データをアップロードしたいときだけ他のディレクトリを書き込み可能にすべきで、終わった後にすぐ書き込み不可にすべきです。<br />
+<strong style="color:#D00">FTPが有効な</strong>場合、ディレクトリへの書込みができなくても、データのアップロードができます。</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

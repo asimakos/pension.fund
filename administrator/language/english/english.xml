@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>English</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-13 18:04:20</creationDate>
+  <author>Elxis Team</author>
+  <authorEmail>info@elxis.org</authorEmail>
+  <authorUrl>www.elxis.org</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>English language for Elxis 2009 backend</description>
+  <metadata>
+    <name>English</name>
+    <tag>english</tag>
+    <rtl>0</rtl>
+    <locale>en_US.utf8, en_US.UTF-8, en_US, english, en, eng</locale>
+  </metadata>
+  <files>
+		<filename>english.com_access.php</filename>
+		<filename>english.com_admin.php</filename>
+		<filename>english.com_banners.php</filename>
+		<filename>english.com_bridge.php</filename>
+		<filename>english.com_categories.php</filename>
+		<filename>english.com_checkin.php</filename>
+		<filename>english.com_config.php</filename>
+		<filename>english.com_contact.php</filename>
+		<filename>english.com_content.php</filename>
+		<filename>english.com_database.php</filename>
+		<filename>english.com_frontpage.php</filename>
+		<filename>english.com_installer.php</filename>
+		<filename>english.com_languages.php</filename>
+		<filename>english.com_mambots.php</filename>
+		<filename>english.com_massmail.php</filename>
+		<filename>english.com_media.php</filename>
+		<filename>english.com_menumanager.php</filename>
+		<filename>english.com_menus.php</filename>
+		<filename>english.com_messages.php</filename>
+		<filename>english.com_modules.php</filename>
+		<filename>english.com_newsfeeds.php</filename>
+		<filename>english.com_poll.php</filename>
+		<filename>english.com_sections.php</filename>
+		<filename>english.com_softdisk.php</filename>
+		<filename>english.com_statistics.php</filename>
+		<filename>english.com_syndicate.php</filename>
+		<filename>english.com_templates.php</filename>
+		<filename>english.com_trash.php</filename>
+		<filename>english.com_typedcontent.php</filename>
+		<filename>english.com_users.php</filename>
+		<filename>english.com_weblinks.php</filename>
+		<filename>english.gemini.php</filename>
+		<filename>english.pref.php</filename>
+		<filename>english.gif</filename>
+		<filename>english.php</filename>
+		<filename>english.xml</filename>
+		<filename>english.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2008">
+	<name>legacybots</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-08 20:26:11</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>Support for outdated mambots</description>
+	<files>
+		<filename mambot="legacybots">legacybots.php</filename>
+	</files>
+	<params/>
+</mosinstall>

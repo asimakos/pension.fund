@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2008">
+	<name>Syndicate</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-11-11 09:00:33</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_SYN_CDESC</description>
+	<params>
+		<param name="cache" type="radio" default="1" label="AX_SYN_CACHL" description="AX_SYN_CACHD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="cache_time" type="text" dir="ltr" size="8" default="3600" label="AX_SYN_CACHTL" description="AX_SYN_CACHTD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="count" type="text" size="4" dir="ltr" default="5" label="AX_SYN_ITMSL" description="AX_SYN_ITMSD" />
+		<param name="title" type="text" size="40" dir="rtl" default="AX_SYN_ITMSDFLT" label="AX_SYN_TITLE" description="AX_SYN_TITLE" />
+		<param name="description" type="textarea" dir="rtl" rows="5" cols="30" default="AX_SYN_DESCDFLT" label="AX_DESCRL" description="AX_SYN_DESCD" />
+		<param name="multilingual" type="radio" default="0" label="AX_SYN_MULTIL" description="AX_SYN_MULTILD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="onlyfrontpage" type="radio" default="0" label="AX_SM_LN_FPIL" description="If is set to YES, only frontpage items will be used to site feeds">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="image_file" type="imagelist" directory="/images/M_images" default="" label="AX_IMAGEL" description="AX_SYN_IMGD" />
+		<param name="image_alt" type="text" dir="rtl" size="30" default="AX_SYN_IMGADFLT" label="AX_SYN_IMGAL" description="AX_SYN_IMGAD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="limit_text" type="radio" default="1" label="AX_SYN_LMTL" description="AX_SYN_LMTD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="text_length" type="text" dir="ltr" size="4" default="20" label="AX_SYN_TLENL" description="AX_SYN_TLEND" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="orderby" type="list" dir="rtl" default="front" label="AX_SYN_ORDL" description="AX_SYN_ORDD">
+			<option value="front">AX_OPRM01</option>
+			<option value="front">AX_OPRM02</option>
+			<option value="date">AX_OPRM03</option>
+			<option value="rdate">AX_OPRM04</option>
+			<option value="alpha">AX_OCAT02</option>
+			<option value="ralpha">AX_OCAT03</option>
+			<option value="author">AX_OPRM07</option>
+			<option value="rauthor">AX_OPRM08</option>
+			<option value="hits">AX_OPRM09</option>
+			<option value="rhits">AX_OPRM10</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="live_bookmark" type="list" default="0" label="AX_SYN_LBL" description="AX_SYN_LBD">
+			<option value="0">AX_ED_OFF</option>
+			<option value="rss091.xml">RSS 0.91</option>
+			<option value="rss10.xml">RSS 1.0</option>
+			<option value="rss20.xml">RSS 2.0</option>
+			<option value="atom03.xml">ATOM 0.3</option>
+		</param>
+		<param name="bookmark_file" type="text" dir="ltr" size="40" default="" label="AX_SYN_BFL" description="AX_SYN_BFD" />
+		<param name="eblog" type="list" dir="ltr" default="5" label="eBlog" description="Generate RSS feeds also from eBlog posts?">
+			<option value="0">AX_NO</option>
+			<option value="5">Yes, show latest 5 eBlog posts</option>
+			<option value="10">Yes, show latest 10 eBlog posts</option>
+			<option value="15">Yes, show latest 15 eBlog posts</option>
+			<option value="20">Yes, show latest 20 eBlog posts</option>
+			<option value="25">Yes, show latest 25 eBlog posts</option>
+			<option value="30">Yes, show latest 30 eBlog posts</option>
+		</param>
+	</params>
+</mosinstall>

@@ -1,0 +1,135 @@
+/* Root = Vertical, Secondary = Vertical */
+ul.dsm,
+ul.dsm li,
+ul.dsm ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: 160px; /*For KHTML*/
+  list-style: none;
+}
+
+ul.dsm:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul.dsm li {
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important; /*For GOOD browsers*/
+  display: inline; /*For IE*/
+  position: relative;
+}
+
+/* Root Menu */
+ul.dsm a {
+  border: 1px solid #FFF;
+  border-right-color: #CCC;
+  border-bottom-color: #CCC;
+  padding: 0 6px;
+  display: block;
+  background: #EEE;
+  color: #666;
+  font: bold 10px/22px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul.dsm a:hover,
+ul.dsm li:hover a,
+ul.dsm li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* Root Menu Hover Persistence */
+ul.dsm a:hover.top,
+ul.dsm li:hover a.top,
+ul.dsm li.iehover a.top {
+  background: #CCC url('arrow_v.gif') center right no-repeat;
+  color: #FFF;
+}
+
+ul.dsm a.top {
+background: #eee url('arrow_v.gif') center right no-repeat;
+color: #666;}
+
+/* 2nd Menu */
+ul.dsm li:hover li a,
+ul.dsm li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul.dsm li:hover li a:hover,
+ul.dsm li:hover li:hover a,
+ul.dsm li.iehover li a:hover,
+ul.dsm li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 3rd Menu */
+ul.dsm li:hover li:hover li a,
+ul.dsm li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul.dsm li:hover li:hover li a:hover,
+ul.dsm li:hover li:hover li:hover a,
+ul.dsm li.iehover li.iehover li a:hover,
+ul.dsm li.iehover li.iehover li.iehover a {
+  background: #CCC;
+  color: #FFF;
+}
+
+/* 4th Menu */
+ul.dsm li:hover li:hover li:hover li a,
+ul.dsm li.iehover li.iehover li.iehover li a {
+  background: #EEE;
+  color: #666;
+}
+
+/* 4th Menu Hover */
+ul.dsm li:hover li:hover li:hover li a:hover,
+ul.dsm li.iehover li.iehover li.iehover li a:hover {
+  background: #CCC;
+  color: #FFF;
+}
+
+ul.dsm ul,
+ul.dsm ul ul,
+ul.dsm ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul.dsm li:hover ul ul,
+ul.dsm li:hover ul ul ul,
+ul.dsm li.iehover ul ul,
+ul.dsm li.iehover ul ul ul {
+  display: none;
+}
+
+ul.dsm li:hover ul,
+ul.dsm ul li:hover ul,
+ul.dsm ul ul li:hover ul,
+ul.dsm li.iehover ul,
+ul.dsm ul li.iehover ul,
+ul.dsm ul ul li.iehover ul {
+  display: block;
+}
+/*uncomment if using okto template or it's modifications
+/*#leftcolumn, #rightcolumn {overflow:visible}

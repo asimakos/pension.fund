@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2008">
+	<name>AX_MUCOMP_CNAME</name>
+	<group>Component</group>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-13 21:01:56</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_MUCOMP_CDESC</description>
+	<params/>
+</mosinstall>

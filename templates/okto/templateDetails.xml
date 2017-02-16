@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<mosinstall type="template" version="2009">
+	<name>okto</name>
+	<creationDate>2009-09-28 22:06:16</creationDate>
+	<author>Ioannis Sannos</author>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>datahell@elxis.org</authorEmail>
+	<authorUrl>http://www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>Okto is a template for Elxis 2008.x/2009.x frontend. Features: 3-column layout, table-less design, SEO optimized, RTL compatible, XHTML and CSS valid, compatible with all modern browsers.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+	</files>
+	<images>
+		<filename>images/apply.png</filename>
+		<filename>images/back.png</filename>
+		<filename>images/back-rtl.png</filename>
+		<filename>images/bars.png</filename>
+		<filename>images/bg.png</filename>
+		<filename>images/build.png</filename>
+		<filename>images/calendar.png</filename>
+		<filename>images/category.png</filename>
+		<filename>images/comments.gif</filename>
+		<filename>images/external.png</filename>
+		<filename>images/file.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/indent5.png</filename>
+		<filename>images/indent6.png</filename>
+		<filename>images/indent.png</filename>
+		<filename>images/indent1-rtl.png</filename>
+		<filename>images/indent2-rtl.png</filename>
+		<filename>images/indent3-rtl.png</filename>
+		<filename>images/indent4-rtl.png</filename>
+		<filename>images/indent5-rtl.png</filename>
+		<filename>images/indent6-rtl.png</filename>
+		<filename>images/info32.png</filename>
+		<filename>images/info.png</filename>
+		<filename>images/lbg.png</filename>
+		<filename>images/lbg-rtl.png</filename>
+		<filename>images/modh3.gif</filename>
+		<filename>images/modh3-rtl.gif</filename>
+		<filename>images/next.png</filename>
+		<filename>images/pencil.gif</filename>
+		<filename>images/rbg.png</filename>
+		<filename>images/rbg-rtl.png</filename>
+		<filename>images/square.png</filename>
+		<filename>images/star.png</filename>
+		<filename>images/topmenu.png</filename>
+		<filename>images/topmenu_active.png</filename>
+		<filename>images/topmenu_over.png</filename>
+		<filename>images/url.png</filename>
+		<filename>images/path-arrows.gif</filename>
+		<filename>images/path-arrows-rtl.gif</filename>
+		<filename>images/elxislogo.jpg</filename>
+		<filename>images/searchbox.jpg</filename>
+		<filename>images/searchbox-rtl.jpg</filename>
+	</images>
+	<css>
+		<filename>css/customize.css</filename>
+		<filename>css/customize-rtl.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/layout-rtl.css</filename>
+		<filename>css/template_css.css</filename>
+		<filename>css/template_css-rtl.css</filename>
+	</css>
+	<params />
+</mosinstall>

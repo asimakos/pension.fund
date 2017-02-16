@@ -1,0 +1,121 @@
+@media all {
+body {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+}
+div.container {
+	width: 95%;
+	padding: 0px 20px;
+	background: #FFF;
+}
+div.helpdiv {
+	font: inherit;
+	width: 90%;
+	padding: 0px 20px;
+	float:left;
+	background: #FFF url(help-back01.jpg) no-repeat top right;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+}
+h1 { 
+	color: #000;
+	font-size: 16pt;
+	border-left: 25px solid #D00;
+	border-bottom: 2px solid #D00;
+	padding: 0px 0px 2px 5px;
+	margin-top: 40px;
+}
+h2 { 
+	color: #555;
+	font-size: 15pt;
+	border-left: 15px solid #D00;
+	border-bottom: 2px solid #D00;
+	margin: 0;
+	padding: 0px 0px 2px 20px;
+	margin-top: 30px;
+}
+h3 { 
+	color: #000;    
+	font-size: 11pt;
+	margin: 0;
+	border-left: 10px solid #B00;
+	padding: 0px 0px 2px 5px;
+}
+h3.toolbar { 
+	color: #D00;    
+	font-size: 12pt;
+	margin: 0;
+	padding: 0px 0px 2px 160px;
+	background: url(help-toolbar.jpg) no-repeat top left;
+	border-left: none;
+	border-bottom: 2px solid #D00;
+	border-top: 2px solid #D00;
+}
+h3.table { 
+	color: #D00;    
+	font-size: 12pt;
+	margin: 0;
+	padding: 0px 0px 2px 160px;
+	background: url(help-table.jpg) no-repeat top left;
+	border-left: none;
+	border-bottom: 2px solid #D00;
+	border-top: 2px solid #D00;
+}
+h3.borders { 
+	color: #D00;    
+	font-size: 12pt;
+	margin: 0;
+	padding: 0px 0px 2px 5px;
+	border-left: none;
+	border-bottom: 2px solid #D00;
+	border-top: 2px solid #D00;
+}
+h4 { 
+	color: #000;    
+	font-size: 10pt;
+	margin-top: 10px;
+	border-left: 10px solid #B00;
+	padding: 0px 0px 2px 5px;
+}
+pre {
+	text-align: left;
+	border-left: 1px solid #B00;
+	padding: 5px;
+}
+td {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+}
+strong.h {
+	color:#A00;
+}
+a:link, a:visited {
+	font-family: verdana, arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration:none;
+	color: #F00;
+}
+a:hover {
+	text-decoration:none;
+	color: #00B;
+}
+ul, ol { }
+li {	padding: 5px 0px;
+}
+ol.whatsnew li {
+	padding-left: 80px;
+}
+ol.whatsnew ul li {
+	padding: 5px 0px;
+	margin: 0 60px;
+}
+li.e2008 { 
+	padding-left: 80px;
+	background: url(v2008-el.png) no-repeat top left;
+}
+li.improved { 
+	padding-left: 80px;
+	background: url(v2008-better-el.png) no-repeat top left;
+}
+}

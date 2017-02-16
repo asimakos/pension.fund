@@ -1,0 +1,31 @@
+body{text-align:center;}
+
+div#iosdownloads fieldset {display:inline}
+div#iosdownloads table {display:block}
+
+div#side1 h3 {
+display:inline-block!important;
+position:relative;
+border: 3px double #202020;
+}
+
+div#side1 .moduletable, div#side2 .moduletable {
+display:block;
+position:relative;
+width:100%
+}
+
+.button {
+	border: 3px double #900
+}
+
+#content{margin-top:10px}
+
+#footer{margin-top:10px}
+
+form{display:inline}
+
+
+div#side2 {
+display:block
+}

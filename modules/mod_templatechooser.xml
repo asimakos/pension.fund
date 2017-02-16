@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Template Chooser</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-07-17 14:32:45</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_TMC_DESC</description>
+	<files>
+	<filename module="mod_templatechooser">mod_templatechooser.php</filename>
+	</files>
+	<params>
+		<param name="title_length" type="text" dir="ltr" default="20" label="AX_SM_TMC_MNLL" description="AX_SM_TMC_MNLD" />
+		<param name="show_preview" type="radio" dir="rtl" default="0" label="AX_SM_TMC_SPL" description="AX_SM_TMC_SPD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="preview_width" type="text" dir="ltr" default="140" label="AX_SM_TMC_WL" description="AX_SM_TMC_WD" />
+		<param name="preview_height" type="text" dir="ltr" default="90" label="AX_SM_TMC_HL" description="AX_SM_TMC_HD" />
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	</params>
+</mosinstall>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="2009">
+	<name>mod superfish menu</name>
+	<author>Duilio Lupini(speck)</author>
+	<creationDate>2011-04-12 12:00:00</creationDate>
+	<copyright>(C) 2010 elxisitalia.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxisitalia.com</authorEmail>
+	<authorUrl>www.elxisitalia.com</authorUrl>
+	<version>1.2</version>
+	<description>
+	<![CDATA[
+EI SuperFish Menu, a module for Elxis cms. 5 type of menus: Horizontal menu, Vertical menu for Left module position, Vertical menu for Right module position, Vertical sliding menu, Navigation Bar fully compatible LTR and RTL. For more Help visit <a href="http://www.elxisitalia.com" target="_blank">www.elxisitalia.com</a> section Elxis Guide->Elxis extension guides. The module is based on <a href="http://users.tpg.com.au/j_birch/plugins/superfish/#getting-started" target="_blank">Superfish 1.4.8</a> 
+
+		]]>
+</description>
+	<cxlangdir>/modules/mod_eisfish_menu/language</cxlangdir>
+  <files>
+		<filename module="mod_eisfish_menu">mod_eisfish_menu.php</filename>
+		<filename>mod_eisfish_menu/index.html</filename>
+		<filename>mod_eisfish_menu/standard_css/index.html</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-navbar-ext-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-navbar-ext.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-navbar-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-navbar.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-slider-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-slider.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-vertical-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-vertical.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-verticalright-rtl.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish-verticalright.css</filename>
+		<filename>mod_eisfish_menu/standard_css/superfish.css</filename>
+		<filename>mod_eisfish_menu/images/index.html</filename>
+		<filename>mod_eisfish_menu/images/arrows-ffffff-rtl.png</filename>
+		<filename>mod_eisfish_menu/images/arrows-ffffff.png</filename>
+		<filename>mod_eisfish_menu/images/shadow.png</filename>
+		<filename>mod_eisfish_menu/js/index.html</filename>
+		<filename>mod_eisfish_menu/js/hoverIntent.js</filename>
+		<filename>mod_eisfish_menu/js/jquery.js</filename>
+		<filename>mod_eisfish_menu/js/superfish.js</filename>
+		<filename>mod_eisfish_menu/language/index.html</filename>
+		<filename>mod_eisfish_menu/language/italian.php</filename>
+		<filename>mod_eisfish_menu/language/english.php</filename>
+		<filename>mod_eisfish_menu/example1/index.html</filename>
+		<filename>mod_eisfish_menu/example1/example1.css</filename>
+		<filename>mod_eisfish_menu/example1/example1-rtl.css</filename>
+		<filename>mod_eisfish_menu/example2/index.html</filename>
+		<filename>mod_eisfish_menu/example2/example2.css</filename>
+		<filename>mod_eisfish_menu/example2/example2-rtl.css</filename>
+		<filename>mod_eisfish_menu/example2/example2-vertical.css</filename>
+		<filename>mod_eisfish_menu/example2/example2-vertical-rtl.css</filename>
+		<filename>mod_eisfish_menu/example3/index.html</filename>
+		<filename>mod_eisfish_menu/example3/example3-navbar.css</filename>
+		<filename>mod_eisfish_menu/example3/example3-navbar-rtl.css</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	  	<param name="menutype" type="mos_menu" default="mainmenu" label="AX_SM_MNM_MNL" description="AX_SM_MNM_MND" />
+	  	<param name="menulayout" type="list" default="0" label="CX_EISFM_LAY" description="CX_EISFM_LAYD">
+			<option value="0">CX_EISFM_LAYH</option>
+			<option value="1">CX_EISFM_LAYV</option>
+			<option value="4">CX_EISFM_LAYVR</option>
+			<option value="2">CX_EISFM_LAYSL</option>
+			<option value="3">CX_EISFM_LAYNAVB</option>
+		</param>
+	  	<param name="cssclass" type="text" default="" label="CX_EISFM_CLASSCSS" description="CX_EISFM_CLASSCSSD" />
+	  	<param name="aligncenter" type="radio" default="0" label="CX_EISFM_ALIGN" description="CX_EISFM_ALIGND">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="delay" type="text" default="1200" label="CX_EISFM_DELAY" description="CX_EISFM_DELAY" />
+		<param name="speed" type="text" default="150" label="CX_EISFM_SPEED" description="CX_EISFM_SPEEDD" />
+	  	<param name="arrow" type="radio" default="1" label="CX_EISFM_ARROW" description="CX_EISFM_ARROWD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+	  	<param name="dropshadow" type="radio" default="1" label="CX_EISFM_SHADOW" description="CX_EISFM_SHADOWD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+	</params>
+</mosinstall>

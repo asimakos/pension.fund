@@ -1,0 +1,258 @@
+/*
+Ks-Eros  template RTL-CSS for Elxis 2008.x  created  by Kostas stathopoulos (ks-net) http://www.ks-net.gr
+Date: Noveber 7, 2008
+License: GNU/GPL
+Elxis CMS is a free software
+*/
+
+
+html,body{margin:0;padding:0;}
+body{font: 82% Tahoma,sans-serif; color:#3F3C32; min-width:800px; background:#FFFEF5;}
+#lbg {width:100%; background: url(../images/colbg.png) repeat-y 0 0;}
+#rbg {width:100%; background: url(../images/colbg-rtl.png) repeat-y right 0;}
+div#wrapper{float:right;width:100%; overflow:hidden;}
+div#content{margin: 0 250px;}
+div#rcol{float:right;width:250px;margin-right:-250px; background:none;}
+div#lcol{float:right;width:250px;margin-right:-100%; background:none;}
+div#footer{
+clear:left; /*important*/
+background:#333 url(../images/footer-bg-rtl.gif) no-repeat bottom left;
+width:100%;
+margin:0;
+padding:0;
+border-top: 2px  solid #CCCCCC ;
+text-align:center;
+overflow:hidden;
+}
+
+
+#header {
+	float:right;
+	position:relative;
+	background:#c30000 url(../images/logo-rtl.jpg) no-repeat 45% 100% ;
+        width:100%;
+	height:160px;
+	margin:0px;
+        padding:0px;
+        overflow:hidden;
+        border-top: 4px solid #800303;
+}
+
+
+
+#nav {
+	position:relative;
+	float:right;
+        width:100%;
+	display:block;
+	height:35px;
+	margin:0px;
+	padding:0px;
+        background:#c30000 url(../images/nav-bg.gif) repeat-x;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        overflow:hidden;
+}
+
+#logo-text {  
+float:right;
+margin-top:-12px;
+padding:0; 
+}
+
+#logo-text h1{
+font-family:Arial,Sans; 
+font-weight:bold; 
+font-size:3em; 
+color:#F4DAE9; 
+margin-top:40px;
+padding-right:20px;
+}
+#logo-text h1 a, #logo-text h1 a:link, #logo-text h1 a:visited, #logo-text h1 a:hover {
+	color:#F4DAE9;
+	text-decoration: none;
+}
+#logo-text h2{
+font-family:Arial,Sans; 
+font-weight:bold; 
+font-size:1em; 
+color:#ccc; 
+margin-top:-30px;
+padding-right:20px;
+}
+
+
+#head-right-container {
+float:left;
+position: relative;
+width:300px;
+margin-top:20px;
+padding:0;
+height:110px;
+overflow:hidden;
+text-align:center;
+}
+
+
+#langwrap {
+position: relative;
+overflow:hidden;
+margin-top:10px;
+}
+
+
+#search {
+float:left;
+position: relative;
+margin-top:0px;
+margin-left:0px;
+text-align:left;
+}
+
+
+
+#path {
+	float:right;
+	position:relative;
+        background: url(../images/pathway-rtl.png) no-repeat right -5px;
+	width:99%;
+	height:22px;
+	margin-top:8px;
+	margin-right:10px;
+	padding-right:30px;
+	overflow:hidden;
+}
+
+
+
+#incol {
+padding:0px 2px 50px 2px; 
+margin: 10px 2px 0px 2px ; 
+background:#FFFEF5; 
+border-top:1px solid #EAE6DF; 
+width:auto;
+overflow:hidden;
+}
+
+.in {
+padding: 0px; 
+margin: 10px 5px 5px 5px ; 
+overflow:hidden;
+}
+
+
+#moduser-footer {
+position:relative;
+display:block;
+background:#c30000;
+width:100%;
+margin:0 auto;
+padding:0;
+overflow:hidden;
+border-top:3px solid #333;
+}
+
+.footeruser {
+float:right;
+position:relative;
+width:49.5%; /*important ie6*/
+margin:0;
+padding:0;
+overflow:hidden;
+}
+
+
+.modfooter {
+position:relative;
+background:#000 url(../images/foo-bg.gif);
+width:100%;
+margin-bottom:10px;;
+padding:0;
+overflow:hidden;
+border-bottom:1px solid #6D6D6D;
+}
+
+
+#bottomwrap {
+clear:both;
+position:relative; 
+width:100%;
+padding:0; 
+margin:0;
+background-color:#fff;
+border-top: 1px dotted #ccc;
+}
+
+
+#elxiscopyright {
+color:#ADADAD;
+font-size: 11px;
+font-family:Arial, Verdana, serif;
+padding:2px;
+}
+
+#elxiscopyright a {
+color:#fff;
+text-decoration: none;
+}
+
+#elxiscopyright a:hover {
+color:#fff;
+text-decoration: underline;
+}
+
+#bottomcontainer-wrap {
+float:right;
+position:relative;
+background:#ECEBE8;
+width:100%;
+overflow:hidden;
+
+}
+
+#bottomcontainer {
+position:relative;
+float:left;
+display:block;
+color:#333;
+font-size:11px;
+font-style:italic;
+width:400px;
+margin-right:20px;
+padding:20px;
+text-align:left;
+}
+
+
+.bottomlinks {
+float:right;
+color:#333;
+font-size:10px;
+font-style:italic;
+margin:0px;
+width:50%;
+padding:0px;
+}
+
+.bottomimg {float:left; width: 50%; margin:0px; padding:0px; border:0px;}
+
+.bottomlinks a:link, .bottomlinks a:visited {
+color:#333;
+font-size:10px;
+font-style:italic;
+text-decoration: none;
+margin:0px;
+padding:0px;
+}
+
+.bottomlinks a:hover {
+color:#000;
+font-size:10px;
+font-style:italic;
+text-decoration: underline;
+margin:0px;
+padding:0px;
+}
+
+
+

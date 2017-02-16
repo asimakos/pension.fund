@@ -1,0 +1,58 @@
+/* Internet explorer specific CSS */
+
+/* LAYOUT CSS HACKS */
+
+/* IE5,5-6 Only */
+* html #header { margin-left: 3px; }
+/* IE5,5-6 Only */
+* html #header2 { margin-left: 0px; margin-top: -1px; }
+/* IE5,5-6 Only */
+* html .top2 { margin-top:-6px; padding-right:30px; width: 952px; }
+*+html .top3{ margin-top:-5px; }
+/* IE5,5-6 Only */
+* html .top3 { margin-top:-6px; }
+/* IE5,5-6 Only */
+* html #dno { margin-left: 0px; margin-top:-2px; }
+/* IE5,5-6 Only */
+* html .dno2 { margin-top:-6px; padding-right:30px; width: 952px; }
+/* IE5,5-6 Only */
+* html .dno3 { margin-top:-6px; }
+/* IE7-8 Only */
+*+html .dno3 { margin-top:-6px; }
+/* IE5,5-6 Only */
+* html .navigacija { font-size:11px; margin-left: 113px; }
+/* IE5,5-6 Only */
+* html .pretraga { margin-left: -207px; margin-top:98px; }
+/* IE7-8 Only */
+*+html .pretraga{margin-top:100px;margin-left:-210px;}
+/* IE5,5-6 Only */
+* html .put { margin-left: 10px; margin-top:106px; padding-top: 0px; }
+/* IE7-8 Only */
+*+html .put{ margin-top:100px;margin-left: 10px; }
+/* IE5,5-6 Only */
+* html .zastava { margin-left: 15px; padding-top: 3px; margin-top: 105px; }
+/* IE7-8 Only */
+*+html .zastava{ margin-top:105px; }
+/* IE5,5-6 Only */
+* html #main { margin-top: -1px; margin-left: 13px;  }
+/* IE5,5-6 Only */
+* html .telo2 { margin-top:-6px; padding-right:30px; width: 952px; }
+/* IE7-8 Only */
+*+html  .telo3 { margin-top:-6px; }
+/* IE5,5-6 Only */
+* html #footer { border: 0px solid transparent; }
+/* IE5,5-6 Only */
+* html .copyright { margin-top: 30px; }
+/* IE5,5-6 Only */
+* html .user1 { margin-left:5px; }
+/* IE5,5-6 Only */
+* html .user5 { margin-left:5px; }
+
+/* CUSTOMIZE CSS HACKS */
+
+/* IE5-6-7-8 Only */
+* html #top_menu a:hover { border: 0px solid red; height : 97px; }
+/*
+ul.table li.sectiontableentry1 { margin-top: -15px; }
+ul.table li.sectiontableentry2 { margin-top: -15px; }
+*/

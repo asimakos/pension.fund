@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>System Information</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>System Information</h1>
+<p>The information is displayed in a tabbed format with three main sections of content.</p>
+<p><strong>System Info Tab</strong>: This a broad snapshot of the server and versions of the current 
+installation components of your Elxis site. Here you will find your PHP build and version, your MySQL 
+database version along with the Elxis version and relevant settings that your server has set that might 
+interfere with your current site installation. 
+Here, you will also find the contents of your Elxis Configuration file (configuration.php). 
+This file was created during installation of Elxis, and is changed when you make changes to Global Configuration 
+Settings. This file defines many of the global variables that Elxis uses to execute. You can not edit 
+the file from here, but it does allow you to look at your current settings to find problems or to 
+copy the information for a support post on the support forum.</p>
+<p><strong>PHP Info Tab</strong>: PHP is the server side scripting language that Elxis runs on. This language 
+is installed and executes on the server and therefore all the settings are made on that server. 
+Everything you ever wanted to know about the PHP installation on your Elxis server is listed here. 
+How much control you have over changing this information depends on whether you own the server or if your 
+server host is willing to work with you on required changes. The PHP tab will allow you to look at all 
+the settings and variables that define your PHP installation. It is a good practice to insure that you know 
+what requirements are needed for any &quot;Third Party&quot; components that you plan to use with Elxis. 
+You can then check for those requirements here.</p>
+<p><strong>Permissions Tab</strong>: Displays a list of all Elxis directories that should be writable 
+in order for Elxis to function correctly in any case.<br />
+<strong style="color:#D00">IMPORTANT SECURITY NOTICE</strong>: Under normal operation, only directories /tmpr 
+and /cache should be writable. <strong style="color:#D00">ALL OTHER</strong> directories must be 
+<strong style="color:#D00">UNWRITABLE</strong>. You have to make any other directory writable only 
+when and for the moment, you want to upload data to it. Immediately after you have to make it unwritable again.<br/>
+If you have <strong style="color:#D00">ENABLED FTP</strong>, then you can upload data even when the 
+directories are not writable.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

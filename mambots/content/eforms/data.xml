@@ -1,0 +1,55 @@
+<eforms>
+	<form name="samplecontact" method="POST" action="email">
+		<title>Contact us</title>
+		<description><![CDATA[
+		<strong>eForms</strong> is a free bot that allows you to display and process HTML forms within Elxis CMS content items.<br />
+		This sample form contains all types of elements eForms supports in order to use it as a sample for your own forms.<br />
+		Created by Ioannis Sannos &copy; 2008-2011 <a href="http://www.isopensource.com" title="IOS - Web services and software">Is Open Source</a>.
+		All rights reserved.
+		]]></description>
+		<onsuccess><![CDATA[
+		 This is a sample text that is being displayed after successfully submitting the form.<br />
+		 Bot <strong>eForms</strong> by isopensource.com allows you to easily change this message by editing
+		 the form info on data.xml file.
+		 ]]></onsuccess>
+		<email>name1@domain.com;name2@otherdomain.gr</email>
+		<submit>Submit eForms!</submit>
+		<items>
+			<item type="text" label="Your name" required="1" size="20" default="Ioannis Sannos" description="Please enter your name"></item>
+			<item type="date" label="Departure date" required="1" description=""></item>
+			<item type="email" label="Your email" size="30" required="1" sendcopy="1" default="" accesskey="E" description=""></item>
+			<item type="number" label="P.O. Box" size="5" required="0" default="" accesskey="N" description=""></item>
+			<item type="url" label="Web site url" size="40" required="0" default="http://www.isopensource.com" description="Enter your website URL (if any)"></item>
+			<item type="textarea" label="Message" cols="60" rows="3" required="1" default="" description="Write a message"></item>
+			<item type="select" label="Favorite team" required="1" default="Olympiacos" description="">
+				<option>Olympiacos</option>
+				<option>PAOK</option>
+				<option>Panathinaikos</option>
+				<option>AEK</option>
+				<option>Liverpool</option>
+				<option>Milan</option>
+			</item>
+			<item type="separator" label="" default="" description=""></item>
+			<item type="h3" label="Other details" default="" description="" class=""></item>
+			<item type="p" label="" default="" description="" class=""><![CDATA[
+				You can write HTML text to be displayed as a paragraph. You can also write your text inside the
+				<strong>description></strong> attribute but without HTML.
+				]]>
+			</item>
+			<item type="country" label="Country" required="1" default="GR" accesskey="C" description="Please select your country"></item>
+			<item type="range" label="Age" required="1" options="1;40" step="1" default="20" description="Select your age"></item>
+			<item type="price" label="Price" required="0" default="0.00" size="10" currency="EUR" description=""></item>
+			<item type="radio" label="Gender" required="0" default="Male" description="">
+				<option>Male</option>
+				<option>Female</option>
+			</item>
+			<item type="checkbox" label="Hobbies" required="0" default="" description="You can pick multiple choices">
+				<option>Tennis</option>
+				<option>Football</option>
+				<option>Basketball</option>
+			</item>
+			<item type="captcha" label="Security code" default="" description=""></item>
+			<item type="hidden" label="Quantity" required="0" default="5" description=""></item>
+		</items>
+	</form>
+ </eforms>

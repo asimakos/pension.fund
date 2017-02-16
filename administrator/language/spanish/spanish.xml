@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Spanish</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:19:30</creationDate>
+  <author>Ricard Lozano</author>
+  <authorEmail>info@elxis.org</authorEmail>
+  <authorUrl>www.rlozano.com</authorUrl>
+  <copyright>(C) 2006-2010 elxis.org. Reservados todos los derechos.</copyright>
+  <license>GNU/GPL</license>
+  <description>Paquete de idioma en espanol para la administracion de Elxis 2008</description>
+  <metadata>
+    <name>Spanish</name>
+    <tag>spanish</tag>
+    <rtl>0</rtl>
+		<locale>es_ES.UTF-8, es_ES, spanish, spanish.UTF-8, spa_ES.UTF-8, spa_ES, sp_ES, es</locale>
+  </metadata>
+  <files>
+		<filename>spanish.com_access.php</filename>
+		<filename>spanish.com_admin.php</filename>
+		<filename>spanish.com_banners.php</filename>
+		<filename>spanish.com_bridge.php</filename>
+		<filename>spanish.com_categories.php</filename>
+		<filename>spanish.com_checkin.php</filename>
+		<filename>spanish.com_config.php</filename>
+		<filename>spanish.com_contact.php</filename>
+		<filename>spanish.com_content.php</filename>
+		<filename>spanish.com_database.php</filename>
+		<filename>spanish.com_frontpage.php</filename>
+		<filename>spanish.com_installer.php</filename>
+		<filename>spanish.com_languages.php</filename>
+		<filename>spanish.com_mambots.php</filename>
+		<filename>spanish.com_massmail.php</filename>
+		<filename>spanish.com_media.php</filename>
+		<filename>spanish.com_menumanager.php</filename>
+		<filename>spanish.com_menus.php</filename>
+		<filename>spanish.com_messages.php</filename>
+		<filename>spanish.com_modules.php</filename>
+		<filename>spanish.com_newsfeeds.php</filename>
+		<filename>spanish.com_poll.php</filename>
+		<filename>spanish.com_sections.php</filename>
+		<filename>spanish.com_softdisk.php</filename>
+		<filename>spanish.com_statistics.php</filename>
+		<filename>spanish.com_syndicate.php</filename>
+		<filename>spanish.com_templates.php</filename>
+		<filename>spanish.com_trash.php</filename>
+		<filename>spanish.com_typedcontent.php</filename>
+		<filename>spanish.com_users.php</filename>
+		<filename>spanish.com_weblinks.php</filename>
+		<filename>spanish.gemini.php</filename>
+		<filename>spanish.pref.php</filename>
+		<filename>spanish.gif</filename>
+		<filename>spanish.php</filename>
+		<filename>spanish.xml</filename>
+		<filename>spanish.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

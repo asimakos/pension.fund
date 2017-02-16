@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Srpski</name>
+	<version>2009.1</version>
+	<creationDate>2009-04-19 19:18:36</creationDate>
+	<author>Ivan Trebjesanin</author>
+	<authorEmail>admin@elxis-srbija.org</authorEmail>
+	<authorUrl>http://www.elxis-srbija.org</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Sprski language for Elxis 2009</description>
+	<files>
+		<filename>srpski.gemini.php</filename>
+		<filename>srpski.gif</filename>
+		<filename>srpski.pref.php</filename>
+		<filename>srpski.php</filename>
+		<filename>srpski.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

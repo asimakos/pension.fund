@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Bosnian</name>
+	<version>2009.1</version>
+	<creationDate>2009-04-18 10:18:12</creationDate>
+	<author>Miroslav Tesic</author>
+	<authorEmail>balkanhost@gmail.com</authorEmail>
+	<authorUrl>http://www.eliteart.net</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Bosanski jezik za Elxis 2009 - ijekavica</description>
+	<files>
+		<filename>bosnian.gemini.php</filename>
+		<filename>bosnian.gif</filename>
+		<filename>bosnian.pref.php</filename>
+		<filename>bosnian.php</filename>
+		<filename>bosnian.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

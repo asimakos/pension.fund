@@ -1,0 +1,36 @@
+<HTML>
+<HEAD>
+<TITLE>ELXIS CALCULATOR :: X at Y power</TITLE>
+<meta name="Generator" content="Elxis.org (C) 2006.  All rights reserved." />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function PegaNumeros(form) {
+        var sNumero = form.txtNumero.value
+        var sPorcentagem = form.txtPorcentagem.value
+        form.txtResultado.value= Porcentagem(sNumero, sPorcentagem) 
+}
+function Porcentagem(sNum, sPerc) {
+        var nResultado = Math.pow(sNum,sPerc);
+        return nResultado
+}
+//-->
+</SCRIPT>
+<center>
+<font face="tahoma" size="3">
+<b>Enter Base (X) and Exponent (Y):</b><font><br><br>
+<FORM>
+<font face="tahoma" size="2"><B>Base:</B></font><INPUT TYPE="text" NAME="txtNumero" SIZE="6"> &nbsp;&nbsp;
+<font face="tahoma" size="2"><B>Expoent:</B></font> <INPUT TYPE="text" NAME="txtPorcentagem" SIZE="6">
+<P>
+<INPUT TYPE="button" VALUE="X^Y" onclick="PegaNumeros(this.form)"> &nbsp;<B>=</B> &nbsp;
+<INPUT TYPE="text" NAME="txtResultado" SIZE=18><br><br>
+<p>
+<input type="button" Value="CLOSE THIS WINDOW" onclick="self.close()" style=background:#444444;color:white;>
+</p>
+</FORM>
+</center>
+</BODY>
+</HTML>

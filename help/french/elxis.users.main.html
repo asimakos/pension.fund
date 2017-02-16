@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestion des Utilisateurs</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestion des Utilisateurs</h1>
+<p>Cette page affiche la liste des utilisateurs enregistrés pour votre site. Vous pouvez <strong>ajouter</strong>, <strong>éditer</strong> les paramètres des utilisateurs, <strong>supprimer</strong> les utilisateurs, ou <strong>forcer la déconnexion</strong>.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Icones de la barre d'outils</h3>
+<p><strong>Nouveau</strong>: Cliquez sur l'icône "Nouveau" pour créer un nouvel utilisateur.</p>
+<p><strong>Editer</strong>: Editer un profil d'utilisateur.</p>
+<p><strong>Supprimer</strong>: Supprimer un utilisateur.</p>
+<p><strong>Forcer la déconnexion</strong>: Cliquez sur l'icône "Forcer la déconnexion" pour déconnecter un utilisateur.</p>
+<p><strong>Aide</strong>: Cet écran d'aide.</p>
+<p>&nbsp;</p>
+<h3 class="table">Colonnes</h3>
+<p>Veuillez noter que certaines colonnes ont un filtre associé entre elles.</p>
+<p><strong>Nom</strong>: C'est le nom de l'utilisateur.</p>
+<p><strong>État de Connexion</strong>: Montre si l'utilisateur est connecté ou pas.</p>
+<p><strong>Activé</strong>: Montre si l'utilisateur est autorisé à se connecter sur le site. Cliquez sur l'icône pour changer ce paramètre.</p>
+<p><strong>ID Utilisateur</strong>: C'est l'identifiant de l'utilisateur, de l'administrateur dans Elxis.</p>
+<p><strong>Groupe</strong>: C'est le groupe dont l'utilisateur est membre. En utilisant le Gestionnaire d'Accès, les administrateurs peuvent créer de nouveaux groupes. Vous pouvez utiliser le filtre relatif pour montrer seulement les utilisateurs qui appartiennent à un groupe spécifique. Utile pour les sites web avec un grand nombre d'utilisateurs enregistrés.</p>
+<p><strong>E-mail</strong>: C'est l'adresse e-mail de l'utilisateur.</p>
+<p><strong>Dernière Visite</strong>: C'est la date et l'heure à laquelle l'utilisateur a visité une page du site en étant connecté.</p>
+<h1>Contrôle des niveaux d'Accès</h1> 
+<p>Les utilisateurs enregistrés du site appartiennent à plusieurs groupes. Ces groupes sont divisés en deux gategories principaux: Public et Serveur. Les utilisateurs qui appartiennent aux groupes Public ont seulement accès à la partie Public. Les utilisateurs qui appartiennent aux groupes Serveur ont accès aux deux parties: Public et administration.</p>
+<p>Elxis est livré avec plusieurs groupes prédéfinis. Il donne aussi la liberté aux administrateurs pour définir leurs propres groupes d'utilisateurs.</p>
+<p>Les groupes utilisateurs sont sous la direction de Elxis qui utilise pour mettre des priviliges et des droits d'accès aux utilisateurs. Basé sur eux, les utilisateurs peuvent afficher, avoir accès à l'info pour les utilisateurs enregistrés ou qui soumettent un contenu qui sera utilisé sur la partie-public ou l'administration.</p>
+<p>&nbsp;</p>
+<h3>Groupes Public</h3>
+<p><strong>Enregistré</strong> - Ce groupe permet à l'utilisateur de se  <strong>connecter</strong> à l'interface d'utilisateur.</p>
+<p><strong>Auteur</strong> - Ce groupe permet à l'utilisateur de <strong>poster un contenu</strong>, généralement par le lien dans le Menu Utilisateur.</p>
+<p><strong>Editeur</strong> - Ce groupe permet à l'utilisateur de <strong>poster et d'éditer les éléments</strong> depuis l'interface d'utilisateur.</p>
+<p><strong>Rédacteur</strong> - Ce groupe permet à l'utilisateur de <strong>poster, éditer et publier les éléments</strong> depuis l'interface d'utilisateur.</p>
+<p>&nbsp;</p>
+<h3>Groupes de section d'administration</h3>
+<h4>Manager</h4>
+<p>Ce groupe permet d'accéder au contenu Création et Information Système</p>
+<p>Menus d'administration accessibles:</p>
+<ul>
+<li><strong>Aide</strong> (général), incluant Information Système.</li>
+<li><strong>Site</strong>: Gestion Media , Aperçu.</li>
+<li><strong>Menu</strong>: Edition de menu existant, incluant création d'éléments de Menu. Toutes les fonctions en relation.	</li>
+<li><strong>Contenu</strong>: Contenu, Contenu Statique, Section , Catégorie gestion, Page Accueil et Archives de gestion. Toutes les fonctions en relation.</li>
+</ul>
+<h4>Administrateur</h4>
+<p>Ce groupe permet l' accès aux principales fonctions d'administration.</p>
+<p>outes les fonctions accessibles au groupe <strong>Manager</strong>, plus:</p>
+<ul>
+<li><strong>Site</strong>: Statistiques,gestion des rejets, gestion des utilisateurs (peut créer/éditer/supprimer tout type d'utilisateur excepté super administrateur)</li>
+<li><strong>Menu</strong>: Gestion des Menus</li>
+<li><strong>Modules, Components, Bots</strong>: Installer/Désinstaller, Créer, Editer. Exception pour le Composant de courrier de masse(mass mail).</li>
+</ul>
+<h4>Super Administrateur</h4>
+<p>Ce groupe permet l' accès à toutes les fonctions d'administration.</p>
+<p>Toutes les fonctions accessibles au groupe gestion et à <strong>l'administrateur</strong> , plus:</p>
+<ul>
+<li><strong>Site</strong>: Configuration Globale, gestion des langues, gestion des templates, gestion des utilisateurs (peut créer/éditer/supprimer tout type d'utilisateur excepté les Super-Administrateur; Note 1:les Super-Administrateur peuvent être supprimés depuis la base de données; Note 2: les détails des Super-Administrateur peuvent êtres modifiés par un autre Super-Administrateur</li>
+<li><strong>Composants</strong>: Courrier de masse(mass mail).</li>
+<li><strong>Messages</strong>: Boite de réception, Configuration.</li>
+<li><strong>Système</strong>: Nettoyage du Cache (si le Cache à été permis dans la Configuration Globale), Enregistrement Global.</li>
+</ul>
+</div>
+</div>
+ </body>
+</html>

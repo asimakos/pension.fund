@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="mambot" group="editors-xtd" version="2008">
+	<name>mosflv.btn</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-07 14:04:51</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>Provides button to insert {mosflv}path{/mosflv} into content edit box</description>
+	<files>
+		<filename mambot="mosflv.btn">mosflv.btn.php</filename>
+	</files>
+</mosinstall>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+    <name>Greek Calendar</name>
+    <author>Nikos Vlachtsis</author>
+    <creationDate>2009-03-15 13:24:00</creationDate>
+		<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>info@osw.gr</authorEmail>
+    <authorUrl>www.osw.gr</authorUrl>
+    <version>1.3</version>
+    <description>
+    <![CDATA[<p>A Calendar Module for Elxis CMS that displays Date, Location, Sunrise, Sunset, Moonphase, current and next Greek Namedays as also Worlddays.<br />
+    In order to calculate the exact time of sunrise and sunset of a specific location, you must set into the module parameters the timezone, geographic latitude (decimal value), geographic longitude (decimal value) and zenith.<br />
+    If you want to find decimal values for Latitude and Longitude of any Location in Google Maps <a href="http://www.gorissen.info/Pierre/maps/googleMapLocation.php" target="_blank">click here</a><br />
+    You can select among 22 combinations of background colors and images for calendar appearance. For faster perfomance cause of some calculations is recommended to select enable cache.<br />
+    A lot of thanks to Ioannis Sannos for his contribution.<br />
+    <b>Note:</b> At version 1.2 have been corrected some minor code mistakes and is supported SSL connection. Also have been added at module parameters options to display or hide all parts of Calendar apart the current Greek Namedays.<br />
+    Version 1.3 corrects the calculation of nameday "Kyriaki ton Propatoron".</p>]]>
+    </description>
+     <files>
+         <filename module="mod_greek_calendar">mod_greek_calendar.php</filename>
+         <filename>mod_greek_calendar/index.html</filename>
+         <filename>mod_greek_calendar/namedays.php</filename>
+         <filename>mod_greek_calendar/worlddays.php</filename> 
+         <filename>mod_greek_calendar/css/index.html</filename>        
+         <filename>mod_greek_calendar/css/greek_calendar.css</filename>
+         <filename>mod_greek_calendar/includes/index.html</filename>
+         <filename>mod_greek_calendar/includes/math.php</filename>
+         <filename>mod_greek_calendar/includes/moon-phase.cls.php</filename>
+         <filename>mod_greek_calendar/includes/sun.php</filename>
+         <filename>mod_greek_calendar/language/index.html</filename>
+         <filename>mod_greek_calendar/language/greek.php</filename>
+         <filename>mod_greek_calendar/images/index.html</filename>
+         <filename>mod_greek_calendar/images/grcal_corner.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_0.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_1.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_2.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_3.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_4.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_5.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_6.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_7.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_8.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_9.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_10.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_11.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_12.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_13.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_14.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_15.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_16.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_17.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_18.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_19.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_20.gif</filename>
+         <filename>mod_greek_calendar/images/grcal_21.gif</filename>
+     </files>
+	<params>
+	<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="grcal_date" type="radio" default="1" label="Display Date" description="Select if you want to be displayed the full date">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="grcal_display_location" type="radio" default="1" label="Display Location" description="Select if you want to be displayed the Location">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="grcal_location" type="text" default="" label="Location" description="Type your Location (Optional)" />
+		<param name="grcal_sun_moon" type="radio" default="1" label="Display Sun and Moon data" description="Select if you want to be displayed Sun and Moon data">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	  <param name="grcal_timezone" type="list" default="2" label="Time Zone" description="Select Time Zone">
+			<option value="-12">(GMT - 12:00) International Date Line West</option>
+			<option value="-11">(GMT - 11:00) Midway Island, Samoa</option>
+			<option value="-10">(GMT - 10:00) Hawaii</option>
+			<option value="-9">(GMT - 09:00) Alaska</option>
+			<option value="-8">(GMT - 08:00) Pacific Time (US and Canada), Tijuana, Baja California</option>
+			<option value="-7">(GMT - 07:00) Mountain Time (US and Canada), Arizona, Chihuahua</option>
+			<option value="-6">(GMT - 06:00) Central America, Central Time (US and Canada), Guadalajara, Mexico City, Monterey, Saskatchewan</option>
+			<option value="-5">(GMT - 05:00) Bogota, Lima, New York</option>
+			<option value="-4">(GMT - 04:00) Santiago, Manauz, Las Paz</option>
+			<option value="-3">(GMT - 03:00) Brazil, Buenos Aires, Georgetown, Greenland, Montevideo, Newfoundland</option>
+			<option value="-2">(GMT - 02:00) Mid-Atlantic</option>
+			<option value="-1">(GMT - 01:00) Azores, Cape Verde Islands</option>
+			<option value="0">(GMT) London, Dublin, Edinburgh, Lisbon, Reykjavik, Casablanca</option>
+			<option value="1">(GMT + 01:00) Paris, Berlin, Amsterdam, Brussels, Vienna, Madrid, Rome, Bern, Stockholm, Oslo</option>
+			<option value="2">(GMT + 02:00) Athens, Bucharest, Helsinki, Istanbul, Jerusalem, Harare</option>
+			<option value="3">(GMT + 03:00) Kuwait, Nairobi, Riyadh, Moscow</option>
+			<option value="3.5">(GMT + 03:30) Tehran</option>
+			<option value="4">(GMT + 04:00) Abu Dhabi, Muscat, Tblisi, Volgograd, Yerevan</option>
+			<option value="4.5">(GMT + 04:30) Kabul</option>
+			<option value="5">(GMT + 05:00) Islamabad, Tashkent</option>
+			<option value="5.5">(GMT + 05:30) New Delhi</option>
+			<option value="6">(GMT + 06:00) Almaty</option>
+			<option value="7">(GMT + 07:00) Bangkok, Hanoi, Jakarta</option>
+			<option value="8">(GMT + 08:00) Beijing, Hong Kong, Kuala Lumpur, Singapore, Perth, Taipei</option>
+			<option value="9">(GMT + 09:00) Osaka, Tokyo, Seoul, </option>
+			<option value="9.5">(GMT + 09:30) Adelaide, Darwin</option>
+			<option value="10">(GMT + 10:00) Brisbane, Canberra, Melbourne, Sydney, Guam, Hobart, Vladivostok</option>
+			<option value="11">(GMT + 11:00) Solomon Islands, New Caledonia</option>
+			<option value="12">(GMT + 12:00) Auckland, Wellingnton, Fiji, Marshall Islands</option>
+		</param>
+		<param name="grcal_latitude" type="text" default="37.984188" label="Geographic Latitude" description="Set the decimal value for geographic latitude of your location" />
+		<param name="grcal_longitude" type="text" default="23.7279" label="Geographic Longitude" description="Set the decimal value for geographic longitude of your location" />
+		<param name="grcal_zenith" type="text" default="90" label="Zenith" description="Set the zenith value of your location" />
+		<param name="grcal_worlddays" type="radio" default="1" label="Display World Days" description="Select if you want to be displayed World Days">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="grcal_display_nextnamedays" type="radio" default="1" label="Display next Name Days" description="Select if you want to be displayed the next Name Days">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="grcal_bg" type="radio" default="1" label="Display spiral background image" description="Select if you want to be displayed calendar spiral background image">
+		  <option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="grcal_styleimage" type="list" default="0" label="If Yes Select Style Image" description="Select the calendar background image">
+			<option value="0">BlueBell</option>
+			<option value="1">Acqua 1</option>
+			<option value="2">Acqua 2</option>
+			<option value="3">Black</option>
+			<option value="4">Blue 1</option>
+			<option value="5">Blue 2</option>
+			<option value="6">Blue 3</option>
+			<option value="7">Brown</option>
+			<option value="8">Gray</option>
+			<option value="9">Green 1</option>
+			<option value="10">Green 2</option>
+			<option value="11">Green 3</option>
+			<option value="12">Green 4</option>
+			<option value="13">Green 5</option>
+			<option value="14">Orange</option>
+			<option value="15">Pink</option>
+			<option value="16">Purple</option>
+			<option value="17">Red 1</option>
+			<option value="18">Red 2</option>
+      <option value="19">Red 3</option>
+      <option value="20">Yellow 1</option>
+      <option value="21">Yellow 2</option>		
+		</param>
+		<param name="grcal_stylecolor" type="list" default="BlueBell" label="Style Color" description="Set a calendar's background color or select one from the list">
+      <option value="2194C6">BlueBell</option>
+			<option value="1BE5E5">Acqua 1</option>
+			<option value="9CCFCE">Acqua 2</option>
+			<option value="000000">Black</option>
+			<option value="3E749D">Blue 1</option>
+			<option value="3942F7">Blue 2</option>
+			<option value="314AA5">Blue 3</option>
+			<option value="840000">Brown</option>
+			<option value="BFBFBF">Gray</option>
+			<option value="52BD31">Green 1</option>
+			<option value="316B39">Green 2</option>
+			<option value="CED600">Green 3</option>
+			<option value="A5EF08">Green 4</option>
+			<option value="ADCE4A">Green 5</option>
+			<option value="EF7B31">Orange</option>
+			<option value="FFC6FF">Pink</option>
+			<option value="8C42FF">Purple</option>
+			<option value="C60000">Red 1</option>
+			<option value="AD2118">Red 2</option>
+      <option value="E71010">Red 3</option>
+      <option value="E6E903">Yellow 1</option>
+      <option value="E7C629">Yellow 2</option>	
+		</param>
+	</params>
+</mosinstall>

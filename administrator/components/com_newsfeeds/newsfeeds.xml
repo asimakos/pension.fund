@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2008">
+	<name>Newsfeeds</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-09 21:29:34</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. all rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_NFE_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" size="30" dir="rtl" default="" label="AX_PAGTITLSL" description="AX_PAGTITLD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="AX_CCT_CATLISTSL" description="AX_CCT_CATLISTSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="AX_CCT_CATLISTCL" description="AX_CCT_CATLISTCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="AX_CATDSCL" description="AX_CCT_CATDSCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="AX_CCT_NOCATITL" description="AX_CCT_NOCATITD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="1" label="AX_DESCRL" description="AX_DESCRD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_text" type="textarea" dir="rtl" default="" label="AX_DESCRTXL" rows="5" cols="30" description="Description for page"/>
+		<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="-1" label="AX_IMAGEL" description="AX_IMGFRPD" />
+		<param name="image_align" type="radio" default="right" label="AX_IMGALL" description="AX_IMGALD">
+			<option value="left">AX_LEFT</option>
+			<option value="right">AX_RIGHT</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="AX_TBHEADL" description="AX_TBHEADD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="name" type="radio" default="1" label="AX_NAMCOLL" description="AX_NFE_SHFNCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="articles" type="radio" default="1" label="AX_NFE_NOACL" description="AX_NFE_NOACD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="link" type="radio" default="1" label="AX_NFE_LCL" description="AX_NFE_LCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="feed_image" type="radio" default="1" label="AX_MNSFL_FDIML" description="AX_MNSFL_FDIMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="feed_descr" type="radio" default="1" label="AX_MNSFL_FDDSL" description="AX_MNSFL_FDDSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="item_descr" type="radio" default="1" label="AX_NFE_IDL" description="AX_NFE_IDD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="word_count" type="text" size="6" dir="ltr" default="0" label="AX_MNSFL_WDCL" description="AX_MNSFL_WDCD" />
+	</params>
+</mosinstall>

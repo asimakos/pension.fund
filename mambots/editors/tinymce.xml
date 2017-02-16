@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="mambot" group="editors" version="2009">
+    <name>TinyMCE</name>
+    <version>3.0.5</version>
+    <creationDate>2009-08-28 21:38:24</creationDate>
+    <author>Moxiecode Systems AB</author>
+    <authorEmail>N/A</authorEmail>
+    <authorUrl>tinymce.moxiecode.com/</authorUrl>
+    <copyright>Moxiecode Systems AB</copyright>
+    <license>LGPL</license>
+    <project>Elxis.org</project>
+    <description>TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor control.</description>
+	<params>
+		<param name="editor_width" type="text" default="500" label="AX_ED_EDITORWIDTHL" description="AX_ED_EDITORWIDTHD"/>
+    	<param name="editor_height" type="text" default="400" label="AX_ED_EDITORHEIGHTL" description="AX_ED_EDITORHEIGHTD"/>
+		<param name="theme" type="list" default="advanced" label="AX_ED_FUNCTL" description="AX_ED_FUNCTD">
+			<option value="simple">AX_ED_FUNSIMPLE</option>
+			<option value="advanced">AX_ED_FUNADV</option>
+		</param>
+		<param name="skin" type="list" default="o2k7" label="Skin" description="TinyMCE Skin to use">
+			<option value="default">default</option>
+			<option value="o2k7">o2k7</option>
+		</param>
+		<param name="skin_variant" type="list" default="silver" label="Skin variant" description="Skin variant, only applies to o2k7 skin">
+			<option value="blue">blue</option>
+			<option value="silver">silver</option>
+			<option value="black">black</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="compression" type="radio" default="0" label="AX_ED_COMPRESSL" description="AX_ED_COMPRESSD">
+        	<option value="0">AX_NO</option>
+        	<option value="1">AX_YES</option>
+		</param>
+ 		<param name="convert_urls" type="radio" default="0" label="AX_ED_CONVERTURLL" description="AX_ED_CONVERTURLD">
+            <option value="0">AX_NO</option>
+            <option value="1">AX_YES</option>
+ 		</param>
+ 		 <param name="entity_encoding" type="list" default="raw" label="AX_ED_ENTENCODL" description="AX_ED_ENTENCODD">
+ 			<option value="named">AX_ED_NAMED</option>
+ 			<option value="numeric">AX_ED_NUMERIC</option>
+ 			<option value="raw">AX_ED_RAW</option>
+ 		</param>
+ 		<param name="convert_fonts" type="radio" default="1" label="AX_ED_CNVFONTSPANL" description="AX_ED_CNVFONTSPAND">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="font_size_type" type="list" default="length" label="AX_ED_FONTSIZETYPEL" description="AX_ED_FONTSIZETYPED">
+ 			<option value="length">AX_ED_LENGTH</option>
+ 			<option value="absolute">AX_ED_ABSSIZE</option>
+ 		</param>
+ 		<param name="table_inline" type="radio" default="1" label="AX_ED_INLTABLEDITL" description="AX_ED_INLTABLEDITD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+    	<param name="event_elements" type="text" default="a,img" label="AX_ED_EVELEMENTSL" description="AX_ED_EVELEMENTSD"/>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="invalid_elements" type="text" default="script,object,applet,iframe" label="AX_ED_PROHELEMENTSL" description="AX_ED_PROHELEMENTSD"/>
+		 <param name="remove_linebreaks" type="list" default="1" label="Remove linebreaks" description="This option controls if linebreak characters should be removed from output HTML or not">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="content_css" type="list" default="1" label="AX_ED_TCSSCLASSESL" description="AX_ED_TCSSCLASSESD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="content_css_custom" type="text" default="" label="AX_ED_CCSSCLASSESL" description="AX_ED_CCSSCLASSESD"/>
+  		<param name="newlines" type="list" default="1" label="AX_ED_NEWLINESL" description="AX_ED_NEWLINESD">
+ 			<option value="0">AX_ED_BRELEMENTS</option>
+ 			<option value="1">AX_ED_PELEMENTS</option>
+ 		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="toolbar" type="list" default="top" label="AX_ED_TOOLBARL" description="AX_ED_TOOLBARD">
+ 			<option value="top">AX_SM_SEM_TOP</option>
+ 			<option value="bottom">AX_SM_SEM_BTM</option>
+ 			<option value="external">External</option>
+ 		</param>
+ 		<param name="html_height" type="text" default="500" label="AX_ED_PREVIEWHEIGHTL" description="AX_ED_PREVIEWHEIGHTD"/>
+ 		<param name="html_width" type="text" default="750" label="AX_ED_PREVIEWWIDTHL" description="AX_ED_PREVIEWWIDTHD"/>
+		<param name="@spacer" type="spacer" default="Plug-ins" label="" description="" />
+ 		<param name="plugin_table" type="radio" default="1" label="AX_ED_PLTABLESL" description="AX_ED_PLTABLESD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_paste" type="radio" default="0" label="AX_ED_PLPASTEL" description="AX_ED_PLPASTED">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_preview" type="radio" default="1" label="AX_ED_PLPREVL" description="AX_ED_PLPREVD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_image" type="radio" default="1" label="AX_ED_PLIMGPLUGINL" description="AX_ED_PLIMGPLUGIND">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_links" type="radio" default="1" label="AX_ED_PLLINKSL" description="AX_ED_PLLINKSD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_searchreplace" type="radio" default="0" label="AX_ED_PLSEARCHL" description="AX_ED_PLSEARCHD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_emotions" type="radio" default="0" label="AX_ED_PLEMOTL" description="AX_ED_PLEMOTD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_fullscreen" type="radio" default="1" label="AX_ED_PLFSCRL" description="AX_ED_PLFSCRD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_insertdatetime" type="radio" default="0" label="AX_ED_PLDTL" description="AX_ED_PLDTD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param> 		
+		<param name="plugin_print" type="radio" default="0" label="AX_ED_PLPRINTL" description="AX_ED_PLPRINTD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_directionality" type="radio" default="0" label="AX_ED_PLDIRL" description="AX_ED_PLDIRD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_advhr" type="radio" default="0" label="Advanced hr" description="An advanced hr dialog that supports noshade, width and size">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_contextmenu" type="radio" default="1" label="Context menu" description="Add contecxt menu on right click">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_inlinepopups" type="radio" default="1" label="Inline popups" description="Makes all dialogs to open as floating DIV layers instead of popup windows">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_media" type="radio" default="1" label="Media" description="Handles embedded media such as QuickTime, Flash, ShockWave, RealPlayer and Windows Media Player">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_pagebreak" type="radio" default="1" label="PageBreak" description="Adds pagebreak support">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_fontselect" type="radio" default="1" label="AX_ED_PLFONTSL" description="AX_ED_PLFONTSD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_fontsizeselect" type="radio" default="1" label="AX_ED_PLFONTSZL" description="AX_ED_PLFONTSZD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_formatselect" type="radio" default="1" label="AX_ED_PLFORMLSL" description="AX_ED_PLFORMLSD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 		<param name="plugin_styleselect" type="radio" default="1" label="AX_ED_PLSSLL" description="AX_ED_PLSSLD">
+ 			<option value="0">AX_NO</option>
+ 			<option value="1">AX_YES</option>
+ 		</param>
+ 	</params>
+</mosinstall>

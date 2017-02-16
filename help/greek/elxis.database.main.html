@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
+<head>
+<title>Διαχειριστής Βάσης Δεδομένων</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Διαχειριστής Βάσης Δεδομένων</h1>
+<p>The database manager component, is a very useful component for administrators, as it helps them to view important information about Elxis database from Back-End without needing an extra application, like phpMyAdmin.</p>
+<p>Administrators can:</p>
+<ul>
+    <li>View database structure.</li>
+    <li>View tables structure.</li>
+    <li>Get information for the database.</li>
+    <li><a href="#dumpsql">Dump database structure and data in SQL format</a>.</li>
+    <li><a href="#dumpxml">Dump database structure and data in XML format</a>.</li>
+    <li>Download database dumps or save them on server.</li>
+    <li><a href="#monitorstats">Monitor Stats</a></li>
+    <li><a href="#monitortables">Monitor Tables</a></li>
+    <li><a href="#optimize">Optimize database</a></li>
+    <li><a href="#repair">Repair database</a></li>
+</ul>
+<p><strong>All files are UTF-8 Encoded.</strong></p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Toolbar Icons</h3>
+<p><strong>Manage Backups</strong>: Opens the &#39;Database Manager: Backups&#39; page, described in another help screen, from where you create new database backups or delete older.</p>
+<p><strong>Help</strong>: This Help Screen.</p>
+<p>&nbsp;</p>
+<p><strong>Page is divided in two areas. The left where you can see existing tables and the right from where you can perform operations on the database.</strong></p>
+<p>&nbsp;</p>
+<h3 class="borders">Left Area</h3>
+<p>The left area shows all the database tables. Each row has two icons. The &quot;Browse&quot; and &quot;Structure&quot;.</p>
+<p>Click the &quot;Browse&quot; icon to view table&#39;s data. Below the data table, there are two links. Click &quot;Table Structure&quot; to view a detailed view of &nbsp;table&#39;s structure. Click &quot;Back to Database&quot; to return to this screen.</p>
+<p>Clicking the table name or the &quot;Structure&quot; icon, you can view a detailed view of table&#39;s structure. Below table&#39;s structure table, there are two links. Click &quot;Browse table&quot; to browse table&#39;s data. Click &quot;Back to Database&quot; to return to this screen.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Right Area</h3>
+<p>The right area has three tabs: &quot;Information&quot;, &quot;Dump Database&quot; and &quot;Maintenance&quot;.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Information tab</h3>
+<p>The information tab shows information for the database.</p>
+<h3 class="borders">Dump Database tab</h3>
+<p>Using the controls on this tab, you can backup database data and structure in XML or SQL format.</p>
+<strong><a name="dumpxml" id="dumpxml"></a>How to backup in XML format</strong>
+<ul>
+<li>Set &#39;Backup Type&#39; to XML.</li>
+<li>Select type of backup.<br/>Check &quot;Structure &amp; Data&quot; to create a backup of structure and data. Check &quot;Structure Only&quot; to create a backup only for the structure of the database.</li>
+<li>Select destination<br />
+Check &quot;Save on Server&quot; to create a local backup file that you can download later. You can manage these backups from &#39;Database Manager: Backups&#39;.<br />
+Check &quot;Download&quot; to immediately download the backup to your computer.</li>
+<li>Press &quot;XML Backup&quot; button to start the backup.</li>
+</ul>
+<p>&nbsp;</p>
+<strong><a name="dumpsql" id="dumpsql"></a>How to backup in SQL format:</strong>
+<ul>
+<li>Set Backup Type to SQL.</li>
+<li>Select type of backup<br />
+Check &quot;Structure &amp; Data&quot; to create a backup of structure and data. Check &quot;Only Structure&quot; to create a backup only for the structure of the database. Check &quot;Only Data&quot; to create a backup only for the data.</li>
+<li>Set Options:<br />
+Lock Table: Select &quot;Yes&quot; to lock the table during backup. Useful if the database contains tables full of data.<br />
+Full Syntax: Select &quot;Yes&quot; to create full mode INSERT SQL statements. Recommended.<br />
+Drop Tables: Select &quot;Yes&quot; to add to backup file commands, to drop excisting tables during restore.<br />
+Tables: Select the tables you want to backup. Checking &quot;All Tables&quot; you backup all tables. Checking &quot;Selected tables&quot;, appears a dropdown list of the available tables. All tables are selected by default. You can select the tables you want, having the CTRL key pressed.</li>
+<li>Select destination<br />
+Check &quot;Save on Server&quot; to create a local backup file that you can download later. You can manage these backups from &#39;Database Manager: Backups&#39;.<br />
+Check &quot;Download&quot; to immediately download the backup to your computer.</li>
+</ul>
+<p>&nbsp;</p>
+<h3 class="borders">Maintenance tab</h3>
+<p>You can use these two functions to optimize and repair the database used by Elxis.</p> 
+<p><strong>Optimize</strong>: Optimizes database and increases performance.</p> 
+<p><strong>Repairs</strong>: Repairs any existing errors in database tables.</p> 
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

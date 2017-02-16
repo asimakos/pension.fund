@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Cu3er Slider</name>
+	<author>WebGift Web Services</author>
+	<creationDate>2011-03-12 11:23:42</creationDate>
+	<copyright>(C) 2007 - 2011 WebGift Web Services. All rights reserved</copyright>
+	<license>GNU / GPL</license>
+	<authorEmail>info@webgift.gr</authorEmail>
+	<authorUrl>www.webgift.gr</authorUrl>
+	<version>1.0</version>
+    <cxlangdir>/modules/mod_cu3er/language</cxlangdir>
+	<description>
+	<![CDATA[
+<h2>General</h2>
+<img src="../modules/mod_cu3er/docs/cu3er_logo.png" alt="Logo Module Development" width="100" height="100" hspace="6" vspace="6" align="left" /><p><strong>CU3ER™</strong> is the Flash® 3D image slider, EASY to set up, fully CUSTOMIZABLE, TAILORED to provide a UNIQUE look & feel, INSPIRING and FUN-to-USE. Play with CU3ER! Its 3D magic is awesome.<br /> <strong><a href="http://www.getcu3er.com/" target="_blank" name="Cu3er 3D Slideshow" title="Cu3er 3D Slideshow">Cu3er 3D Slideshow</a></strong> module created by <strong><a href="http://www.webgift.gr" target="_blank" title="WebGift Web Services">WebGift Web Services</a></strong> for <a href="http://www.elxis.org" target="_blank" name="Elxis CMS Community" title="Elxis CMS Community">Elxis CMS</a>.<br />More CU3ER Documentation : <a href="http://www.progressivered.com/cu3er/docs/" target="_blank" name="Cu3er Documentation" title="Cu3er Documentation">progressivered.com</a> <br />
+ <p><strong>Technical Specifications : </strong> <br/>
+Developed in object-oriented programming language PHP and technologies such as: XML, CSS, JavaScript.  <br />
+Supported Flash : Flash Player 9+ <br />
+Support browsers: Internet Explorer 7.0 - 9.0, Firefox, Safari, Google Chrome and Opera<br />
+Elxis CMS Platform: 2009.0, 2009.1, 2009.2 (or later)<br /> <br />
+<h2>Support US!</h2>
+<strong><span style="color:#dd0000;">In case that you like</span> </strong>, Support us by donating that module! : <br /><br />
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EW7M484XRECTS" target="_blank"><img alt="Support us!" border="0" src="../modules/mod_cu3er/docs/paypal-donate-button.png" ></a><br/>
+</p>
+<h2>Cu3er 3D Slideshow General Information</h2>
+<h3>User Interface</h3><p>User Interface enhances overall viewing experience enabling the user to get useful information (such as slide description or progress information while loading files) and to interact with the CU3ER (navigating trough slides or pausing the slideshow)</p><p><img src="../modules/mod_cu3er/docs/cu3er_overview.gif" style="border: solid 5px #fff;"  alt="General Settings"/></p><h3>General Settings</h3><p>"Slide panel" is your image/transition display area inside the CU3ER .swf file. Set your slide panel dimensions. Make sure they fit your image dimensions. Then align the 'panel' relative to the CU3ER stage. See the image below for possible align states:</p><p><img src="../modules/mod_cu3er/docs/general_aligment_settings.gif" style="border: solid 5px #fff;" alt="General Settings"/></p><h3>Transition Settings</h3><p>3D Transitions represent the core feature  of the CU3ER. They are powerful, visually appealing yet very easy to set up. You can define your transition template and then override it with custom settings for each transition, if needed - by doing it this way you don't have to define each property over and over again, the CU3ER allows you to alter all you want once including the other attributes automatically.</p><p><img src="../modules/mod_cu3er/docs/slicing_direction.jpg" style="border: solid 5px #fff;" alt="Transition Settings"/></p><h3>Button Settings</h3><p>Navigation buttons, represented as graphic shapes, are used for navigation through slides. Include the  node in order to display 'previous' or 'next' navigation button in the CU3ER. By clicking this button, you'll instruct the CU3ER to perform 3D transition and to show the previous defined slide in XML. Please take a look at following picture displaying possible scenarios for previous (navigation) button graphics with various round_corners settings:</p><p><img src="../modules/mod_cu3er/docs/navigation_buttons.gif" style="border: solid 5px #fff;" alt="Navigation Settings"/></p><h3>Symbol Settings</h3><p>Having navigation buttons (prev/next) only, which are represented as simple graphic shapes, may not always be enough to provide the best viewing experience. In order to improve the navigation and enrich the slide viewing, a range of navigation symbols is supporting the navigation buttons. Their visual information is represented by 10 different arrow symbols that are telling the user very clearly which action they are able to perform.</p><p>There are 10 navigation symbols available:</p><p><img src="../modules/mod_cu3er/docs/navigation_symbols.gif" style="border: solid 5px #fff;" alt="Symbol Settings"/></p>
+	]]>
+	</description>
+	<files>
+		<filename module="mod_cu3er">mod_cu3er.php</filename>
+        <filename>mod_cu3er/index.html</filename>
+        <filename>mod_cu3er/config/changed.txt</filename>
+        <filename>mod_cu3er/config/config.xml</filename>
+        <filename>mod_cu3er/config/demo1.xml</filename>
+        <filename>mod_cu3er/config/index.html</filename>
+        <filename>mod_cu3er/docs/cu3er_logo.png</filename>
+        <filename>mod_cu3er/docs/cu3er_overview.gif</filename>
+        <filename>mod_cu3er/docs/general_aligment_settings.gif</filename>
+        <filename>mod_cu3er/docs/index.html</filename>
+        <filename>mod_cu3er/docs/navigation_buttons.gif</filename>
+        <filename>mod_cu3er/docs/navigation_symbols.gif</filename>
+        <filename>mod_cu3er/docs/paypal-donate-button.png</filename>
+        <filename>mod_cu3er/docs/slicing_direction.jpg</filename>
+        <filename>mod_cu3er/flash/cu3er.swf</filename>
+        <filename>mod_cu3er/flash/expressInstall.swf</filename>
+        <filename>mod_cu3er/flash/index.html</filename>
+        <filename>mod_cu3er/flash/miso_font.swf</filename>
+        <filename>mod_cu3er/flash/new.swf</filename>
+        <filename>mod_cu3er/js/index.html</filename>
+        <filename>mod_cu3er/js/swfobject2.0.js</filename>
+        <filename>mod_cu3er/js/swfobject2.1.js</filename>
+        <filename>mod_cu3er/js/swfobject2.2.js</filename>
+        <filename>mod_cu3er/language/english.php</filename>
+        <filename>mod_cu3er/language/index.html</filename>
+        <filename>mod_cu3er/slides/index.html</filename>
+        <filename>mod_cu3er/slides/demo1/index.html</filename>
+        <filename>mod_cu3er/slides/demo1/slide_1.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_2.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_3.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_4.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_5.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_6.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_7.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_8.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_9.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_10.jpg</filename>
+        <filename>mod_cu3er/slides/demo1/slide_11.jpg</filename>
+	</files>
+	<params>
+        <param name="@spacer" type="spacer" default="" label="CX_PARAM_EITHER" description="" />
+		<param name="concustom" type="text" default="" label="CX_CONFIG_CUSTOM" description="CX_DESC_CONFIG_CUSTOM"  />
+        <param name="@spacer" type="spacer" default="" label="CX_PARAM_OR" description="" />
+		<param name="@spacer" type="spacer" default="CX_PARAM_GENERAL" label="" description="" />
+		<param name="pwidth" type="text" default="960" label="CX_SLIDE_PANEL_WIDTH" description="CX_DESC_SLIDE_PANEL_WIDTH" />
+		<param name="pheight" type="text" default="360" label="CX_SLIDE_PANEL_HEIGHT" description="CX_DESC_SLIDE_PANEL_HEIGHT" />
+		<param name="phoralign" type="list" default="left" label="CX_SLIDE_PANEL_HORIZONTAL_ALIGN" description="CX_DESC_SLIDE_PANEL_HORIZONTAL_ALIGN" >
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="pveralign" type="list" default="top" label="CX_SLIDE_PANEL_VERTICAL_ALIGN" description="CX_DESC_SLIDE_PANEL_VERTICAL_ALIGN" >
+			<option value="top">Top</option>
+			<option value="center">Center</option>
+			<option value="bottom">Bottom</option>
+		</param>
+		<param name="vistime" type="text" default="3" label="CX_SLIDE_UI_VISIBILITY_TIME" description="CX_DESC_SLIDE_UI_VISIBILITY_TIME" />
+        <param name="swffont" type="list" default="1" label="CX_SWFFONT" description="CX_DESC_SWFFONT" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+              
+	   <param name="copyright" type="radio" default="1" label="CX_COPYRIGHT" description="CX_DESC_COPYRIGHT" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+              
+		<param name="@spacer" type="spacer" default="CX_PARAM_DIRECTORY" label="" description="" />
+        <param name="slide_dir" type="folderlist" default="" label="CX_SLIDE_DIRECTORY" description="CX_DESC_SLIDE_DIRECTORY" directory="modules/mod_cu3er/slides/" />
+        <param name="@spacer" type="spacer" default="OR" label="" description="" />
+		<param name="slurl" type="textarea" default="" label="CX_SLIDE_URL" description="CX_DESC_SLIDE_URL" rows="5" cols="70" />
+        <param name="@spacer" type="spacer" default="CX_PARAM_NOTE_SLIDE" label="" description="" />    
+		<param name="sllink" type="textarea" default="" label="CX_SLIDE_LINK" description="CX_DESC_SLIDE_LINK" rows="5" cols="70" />
+		<param name="sllinktarget" type="textarea" default="" label="CX_SLIDE_LINK_TARGET" description="CX_DESC_SLIDE_LINK_TARGET" rows="5" cols="70" />
+		<param name="sldeshead" type="textarea" default="" label="CX_SLIDE_DESCRIPTION_HEADING" description="CX_DESC_SLIDE_DESCRIPTION_HEADING" rows="5" cols="70" />
+		<param name="sldespar" type="textarea" default="" label="CX_SLIDE_DESCRIPTION_PARAGRAPH" description="CX_DESC_SLIDE_DESCRIPTION_PARAGRAPH" rows="5" cols="70" />
+		<param name="sldeslink" type="textarea" default="" label="CX_SLIDE_DESCRIPTION_LINK" description="CX_DESC_SLIDE_DESCRIPTION_LINK" rows="5" cols="70" />
+		<param name="sldeslinktar" type="textarea" default="" label="CX_SLIDE_DESCRIPTION_LINK_TARGET" description="CX_DESC_SLIDE_DESCRIPTION_LINK_TARGET" rows="5" cols="70" />    
+		<param name="@spacer" type="spacer" default="CX_PARAM_GENERAL_TRANSITION" label="" description="" size="50" />
+		<param name="trantype" type="list" default="auto" label="CX_TRANSITION_TYPE" description="CX_DESC_TRANSITION_TYPE" >
+			<option value="none">CX_TRANSITION_TYPE_NONE</option>
+			<option value="auto">CX_TRANSITION_TYPE_AUTO</option>
+			<option value="custom">CX_TRANSITION_TYPE_CUSTOM</option>
+		</param>
+		<param name="trannum" type="text" default="" label="CX_TRANSITION_NUM" description="CX_DESC_TRANSITION_NUM" size="50" />
+		<param name="translicing" type="text" default="" label="CX_TRANSITION_SLICING" description="CX_DESC_TRANSITION_SLICING" size="50" />
+		<param name="trandirection" type="text" default="" label="CX_TRANSITION_DIRECTION" description="CX_DESC_TRANSITION_DIRECTION" size="50" />
+		<param name="tranduration" type="text" default="" label="CX_TRANSITION_DURATION" description="CX_DESC_TRANSITION_DURATION" size="50" />
+		<param name="trandelay" type="text" default="" label="CX_TRANSITION_DELAY" description="CX_DESC_TRANSITION_DELAY" size="50" />
+		<param name="transhader" type="text" default="" label="CX_TRANSITION_SHADER" description="CX_DESC_TRANSITION_SHADER" size="50" />
+		<param name="tranligposition" type="text" default="" label="CX_TRANSITION_LIGHT_POSITION" description="CX_DESC_TRANSITION_LIGHT_POSITION" size="50" />
+		<param name="transcubecolor" type="text" default="" label="CX_TRANSITION_CUBER_COLOR" description="CX_DESC_TRANSITION_CUBER_COLOR" size="50" />
+		<param name="tranzmulti" type="text" default="" label="CX_TRANSITION_Z_MULTIPLIER" description="CX_DESC_TRANSITION_Z_MULTIPLIER" size="50" />
+        <param name="@spacer" type="spacer" default="CX_PARAM_HEADER_SET" label="" description="" size="50" />
+		<param name="descheadfont" type="text" default="Georgia" label="CX_DESCRIPTION_HEADING_FONT" description="CX_DESC_DESCRIPTION_HEADING_FONT" size="50" />
+		<param name="descheadtxtsize" type="text" default="18" label="CX_DESCRIPTION_HEADING_TEXT_SIZE" description="CX_DESC_DESCRIPTION_HEADING_TEXT_SIZE" size="50" />
+		<param name="descheadtxtcolor" type="text" default="0xFFFFFF" label="CX_DESCRIPTION_HEADING_TEXT_COLOR" description="CX_DESC_DESCRIPTION_HEADING_TEXT_COLOR" size="50" />
+		<param name="descheadtxtalign" type="list" default="left" label="CX_DESCRIPTION_HEADING_TEXT_ALIGN" description="CX_DESC_DESCRIPTION_HEADING_TEXT_ALIGN" >
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="descheadtxtmargin" type="text" default="10,25,0,25" label="CX_DESCRIPTION_HEADING_TEXT_MARGIN" description="CX_DESC_DESCRIPTION_HEADING_TEXT_MARGIN" size="50" />
+		<param name="descheadtxtleading" type="text" default="0" label="CX_DESCRIPTION_HEADING_TEXT_LEADING" description="CX_DESC_DESCRIPTION_HEADING_TEXT_LEADING" size="50" />
+		<param name="descheadtxtlspace" type="text" default="0" label="CX_DESCRIPTION_HEADING_TEXT_LETTERSPACING" description="CX_DESC_DESCRIPTION_HEADING_TEXT_LETTERSPACING" size="50" />
+        
+		<param name="@spacer" type="spacer" default="CX_PARAM_DESCRIPTION_BOX" label="" description="" size="50" />
+		<param name="enable_description_box" type="radio" default="1" label="CX_ENABLE_DESCRIPTION_BOX" description="CX_DESC_ENABLE_DESCRIPTION_BOX" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="descroundcorners" type="text" default="0,0,0,0" label="CX_DESCRIPTION_ROUND_CORNERS" description="CX_DESC_DESCRIPTION_ROUND_CORNERS" size="50" />
+		<param name="descparfont" type="text" default="Arial" label="CX_DESCRIPTION_PARAGRAPH_FONT" description="CX_DESC_DESCRIPTION_PARAGRAPH_FONT" size="50" />
+		<param name="descpartxtsize" type="text" default="12" label="CX_DESCRIPTION_PARAGRAPH_TEXT_SIZE" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_SIZE" size="50" />
+		<param name="descpartxtcolor" type="text" default="0xFFFFFF" label="CX_DESCRIPTION_PARAGRAPH_TEXT_COLOR" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_COLOR" size="50" />
+		<param name="descpartxtalign" type="list" default="left" label="CX_DESCRIPTION_PARAGRAPH_TEXT_ALIGN" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_ALIGN" >
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="descpartxtmargin" type="text" default="5, 25, 0, 25" label="CX_DESCRIPTION_PARAGRAPH_TEXT_MARGIN" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_MARGIN" size="50" />
+		<param name="descpartxtleading" type="text" default="0" label="CX_DESCRIPTION_PARAGRAPH_TEXT_LEADING" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_LEADING" size="50" />
+		<param name="descpartxtlspace" type="text" default="0" label="CX_DESCRIPTION_PARAGRAPH_TEXT_LETTERSPACING" description="CX_DESC_DESCRIPTION_PARAGRAPH_TEXT_LETTERSPACING" size="50" />
+		<param name="@spacer" type="spacer" default="CX_PARAM_BUTTONS_N_SYMBOLS" label="" description="" />
+		<param name="enautoplay" type="radio" default="1" label="CX_ENABLE_AUTO_PLAY" description="CX_DESC_ENABLE_AUTO_PLAY" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="autoplaysymbol" type="list" default="circular" label="CX_AUTO_PLAY_SYMBOL" description="CX_DESC_AUTO_PLAY_SYMBOL" >
+			<option value="linear">CX_SYMBOL_LINEAR</option>
+			<option value="circular">CX_SYMBOL_CIRCULAR</option>
+		</param>
+		<param name="autoplaytimedefaults" type="text" default="5" label="CX_AUTO_PLAY_TIME_DEFAULTS" description="CX_DESC_AUTO_PLAY_TIME_DEFAULTS" />
+		<param name="enpreloader" type="radio" default="1" label="CX_ENABLE_PRELOADER" description="CX_DESC_PRELOADER" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="preloader_symbol" type="list" default="circular" label="CX_PRELOADER_SYMBOL" description="CX_DESC_PRELOADER_SYMBOL" >
+			<option value="linear">CX_SYMBOL_LINEAR</option>
+			<option value="circular">CX_SYMBOL_CIRCULAR</option>
+		</param>
+        <param name="@spacer" type="spacer" default="CX_PARAM_PREV_BUTTON" label="" description="" />
+		<param name="enprevbutton" type="radio" default="1" label="CX_ENABLE_PREV_BUTTON" description="CX_DESC_ENABLE_PREV_BUTTON" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+        <param name="prevbuttonroundcorners" type="text" default="0,0,0,0" label="CX_PREV_BUTTON_ROUND_CORNERS" description="CX_DESC_PREV_BUTTON_ROUND_CORNERS" />
+        <param name="prevposition" type="text" default="65,300" label="CX_PREV_BUTTON_POSITION" description="CX_DESC_PREV_BUTTON_POSITION" />		
+		<param name="enableprevsymbol" type="radio" default="1" label="CX_ENABLE_PREV_SYMBOL" description="CX_DESC_ENABLE_PREV_SYMBOL" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="prevsymboltype" type="list" default="3" label="CX_PREV_SYMBOL_TYPE" description="CX_DESC_PREV_SYMBOL_TYPE" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+        <param name="@spacer" type="spacer" default="CX_PARAM_NEXT_BUTTON" label="" description="" />
+		<param name="ennextbutton" type="radio" default="1" label="CX_ENABLE_NEXT_BUTTON" description="CX_DESC_ENABLE_NEXT_BUTTON" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="nextbuttonroundcorners" type="text" default="0,0,0,0" label="CX_NEXT_BUTTON_ROUND_CORNERS" description="CX_DESC_NEXT_BUTTON_ROUND_CORNERS" />
+        <param name="nextposition" type="text" default="95,300" label="CX_NEXT_BUTTON_POSITION" description="CX_DESC_NEXT_BUTTON_POSITION" />        
+		<param name="ennextsymbol" type="radio" default="1" label="CX_ENABLE_NEXT_SYMBOL" description="CX_DESC_ENABLE_NEXT_SYMBOL" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="nextsymboltype" type="list" default="3" label="CX_NEXT_SYMBOL_TYPE" description="CX_DESC_NEXT_SYMBOL_TYPE" >
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="@spacer" type="spacer" default="CX_PARAM_DEBUG" label="" description="" />
+		<param name="endebug" type="radio" default="0" label="CX_ENABLE_DEBUG" description="CX_DESC_ENABLE_DEBUG" >
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="debug_x" type="text" default="5" label="CX_DEBUG_X" description="CX_DESC_DEBUG_X" />
+		<param name="debug_y" type="text" default="5" label="CX_DEBUG_Y" description="CX_DESC_DEBUG_Y" />	
+		<param name="@spacer" type="spacer" default="CX_PARAM_PERFORMANCE_SETTINGS" label="" description="" />
+		<param name="swfobject" type="list" default="2.2" label="CX_SWFOBJECT" description="CX_DESC_SWFOBJECT" >
+			<option value="0">CX_SWFOBJECT_NONE_SELECTED</option>
+			<option value="2.0">CX_SWFOBJECT_INTERNAL20</option>
+			<option value="2.1">CX_SWFOBJECT_INTERNAL21</option>
+			<option value="2.2">CX_SWFOBJECT_INTERNAL22</option>
+			<option value="e2.1">CX_SWFOBJECT_EXTERNAL21</option>
+			<option value="e2.2">CX_SWFOBJECT_EXTERNAL22</option>
+		</param>
+        <param name="moduleclass_sfx" type="text" size="40" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	</params>
+</mosinstall>

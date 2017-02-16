@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Easy Slider</name>
+	<author>Nikos Vlachtsis</author>
+	<creationDate>2011-03-12 14:48:00</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@osw.gr</authorEmail>
+	<authorUrl>http://www.osw.gr</authorUrl>
+	<cxlangdir>/modules/mod_easyslider/language</cxlangdir>
+	<version>1.2</version>
+	<description>CX_MODEASY_DESC</description>
+	<files>
+	<filename module="mod_easyslider">mod_easyslider.php</filename>
+	<filename>mod_easyslider/easyslider.css</filename>
+	<filename>mod_easyslider/easyslider-rtl.css</filename>
+	<filename>mod_easyslider/easySlider1.7.js</filename>
+	<filename>mod_easyslider/jquery.js</filename>
+	<filename>mod_easyslider/index.html</filename>
+	<filename>mod_easyslider/next.png</filename>
+	<filename>mod_easyslider/next_hover.png</filename>
+	<filename>mod_easyslider/prev.png</filename>
+	<filename>mod_easyslider/prev_hover.png</filename>
+	<filename>mod_easyslider/language/english.php</filename>
+	<filename>mod_easyslider/language/greek.php</filename>
+	<filename>mod_easyslider/language/index.html</filename>
+  </files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="CX_MODEASY_CTRL" label="" description="" />
+		<param name="easy_width" type="text" size="4" default="190" label="CX_MODEASY_SLW" description="CX_MODEASY_SLW_DESC" />
+		<param name="easy_height" type="text" size="4" default="260" label="CX_MODEASY_SLH" description="CX_MODEASY_SLH_DESC" />
+		<param name="easy_bgcolor" type="text" size="10" default="transparent" label="CX_MODEASY_BGCLR" description="CX_MODEASY_BGCLR_DESC" />
+    <param name="easy_orientation" type="radio" default="0" label="CX_MODEASY_ORIENT" description="CX_MODEASY_ORIENT_DESC">
+		  <option value="1">CX_MODEASY_VER</option>
+			<option value="0">CX_MODEASY_HOR</option>
+		</param>
+    <param name="easy_speed" type="list" default="800" label="CX_MODEASY_SPEED" description="CX_MODEASY_SPEED_DESC">
+		  <option value="400">400</option>
+		  <option value="500">500</option>
+		  <option value="600">600</option>
+		  <option value="700">700</option>
+		  <option value="800">800</option>
+		  <option value="900">900</option>
+		  <option value="1000">1000</option>
+		  <option value="1100">1100</option>
+		  <option value="1200">1200</option>
+		  <option value="1300">1300</option>
+		  <option value="1400">1400</option>
+		  <option value="1500">1500</option>
+		  <option value="1600">1600</option>
+      <option value="1700">1700</option>
+		  <option value="1800">1800</option>
+		  <option value="1900">1900</option>
+		  <option value="2000">2000</option>
+      <option value="2100">2100</option>
+      <option value="2200">2200</option>
+		  <option value="2300">2300</option>
+		  <option value="2400">2400</option>
+		  <option value="2500">2500</option>
+      <option value="2600">2600</option>
+      <option value="2700">2700</option>
+		  <option value="2800">2800</option>
+		  <option value="2900">2900</option>
+		  <option value="3000">3000</option>
+      <option value="4000">4000</option>
+      <option value="5000">5000</option>
+      <option value="6000">6000</option>
+      <option value="7000">7000</option>
+      <option value="8000">8000</option>
+      <option value="9000">9000</option>
+      <option value="10000">10000</option>	
+		</param>
+		<param name="easy_auto" type="radio" default="0" label="CX_MODEASY_AUTO" description="CX_MODEASY_AUTO_DESC">
+		  <option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="easy_pause" type="list" default="2000" label="CX_MODEASY_PAUSE" description="CX_MODEASY_PAUSE_DESC">
+		  <option value="1000">1000</option>
+		  <option value="2000">2000</option>
+		  <option value="3000">3000</option>
+		  <option value="4000">4000</option>
+		  <option value="5000">5000</option>
+		  <option value="6000">6000</option>
+		  <option value="7000">7000</option>
+		  <option value="8000">8000</option>
+		  <option value="9000">9000</option>
+		  <option value="10000">10000</option>
+		  <option value="11000">11000</option>
+		  <option value="12000">12000</option>
+      <option value="13000">13000</option>
+		  <option value="14000">14000</option>
+		  <option value="15000">15000</option>	
+		</param>
+		<param name="easy_continuous" type="radio" default="0" label="CX_MODEASY_CONT" description="CX_MODEASY_CONT_DESC">
+		  <option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="easy_numeric" type="radio" default="1" label="CX_MODEASY_NUM" description="CX_MODEASY_NUM_DESC">
+		  <option value="1">CX_MODEASY_NUMBERS</option>
+			<option value="0">CX_MODEASY_ARROWS</option>
+		</param>
+		<param name="easy_ctrlshow" type="radio" default="1" label="CX_MODEASY_CTRLSHOW" description="CX_MODEASY_CTRLSHOW_DESC">
+		  <option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="easy_num_slides" type="list" default="3" label="CX_MODEASY_NUMSLIDES" description="CX_MODEASY_NUMSLIDES_DESC">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</param>
+    <param name="@spacer" type="spacer" default="CX_MODEASY_CONTITS" label="" description="" />
+
+    <param name="@spacer" type="spacer" default="1" label="" description="" />
+    <param name="easy_list1" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image1" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth1" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title1" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt1" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text1" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link1" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target1" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+    <param name="@spacer" type="spacer" default="2" label="" description="" />
+    <param name="easy_list2" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image2" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth2" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title2" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />
+    <param name="easy_alt2" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text2" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link2" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target2" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+    <param name="@spacer" type="spacer" default="3" label="" description="" />
+    <param name="easy_list3" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image3" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth3" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title3" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />
+    <param name="easy_alt3" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text3" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link3" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target3" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+    <param name="@spacer" type="spacer" default="4" label="" description="" />
+    <param name="easy_list4" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image4" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth4" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title4" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />
+    <param name="easy_alt4" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text4" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link4" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target4" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+    <param name="@spacer" type="spacer" default="5" label="" description="" />
+    <param name="easy_list5" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image5" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth5" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title5" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />
+    <param name="easy_alt5" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text5" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link5" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target5" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+    <param name="@spacer" type="spacer" default="6" label="" description="" />
+    <param name="easy_list6" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image6" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth6" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title6" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />
+    <param name="easy_alt6" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text6" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />    
+	  <param name="easy_link6" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target6" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="7" label="" description="" />
+    <param name="easy_list7" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image7" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth7" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title7" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt7" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text7" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link7" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target7" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="8" label="" description="" />
+    <param name="easy_list8" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image8" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth8" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title8" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt8" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text8" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link8" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target8" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="9" label="" description="" />
+    <param name="easy_list9" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image9" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth9" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title9" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt9" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text9" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link9" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target9" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="10" label="" description="" />
+    <param name="easy_list10" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image10" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth10" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title10" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt10" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text10" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link10" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target10" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="11" label="" description="" />
+    <param name="easy_list11" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image11" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth11" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title11" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt11" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text11" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link11" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target11" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+		<param name="@spacer" type="spacer" default="12" label="" description="" />
+    <param name="easy_list12" type="radio" default="0" label="CX_MODEASY_LIST" description="CX_MODEASY_LIST_DESC">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+    <param name="easy_image12" type="imagelist" dir="ltr" directory="/images/easyslider" default="-1" label="CX_MODEASY_IMG" description="CX_MODEASY_IMG_DESC" />
+    <param name="easy_conimgwidth12" type="text" size="4" default="130" label="CX_MODEASY_CIMGW" description="CX_MODEASY_CIMGW_DESC" />
+    <param name="easy_title12" type="text" size="73" default="" label="CX_MODEASY_TITLE" description="CX_MODEASY_TITLE_DESC" />	
+		<param name="easy_alt12" type="text" size="73" default="" label="CX_MODEASY_ALT" description="CX_MODEASY_ALT_DESC" />
+    <param name="easy_text12" type="textarea" rows="7" cols="70" default="" label="CX_MODEASY_TEXT" description="CX_MODEASY_TEXT_DESC" />
+		<param name="easy_link12" type="text" size="73" default="" label="CX_MODEASY_LINK" description="CX_MODEASY_LINK_DESC" />
+		<param name="easy_target12" type="radio" default="self" label="CX_MODEASY_TARGET" description="CX_MODEASY_TARGET_DESC">
+		  <option value="self">CX_MODEASY_SELF</option>
+			<option value="blank">CX_MODEASY_BLANK</option>
+		</param>
+  </params>
+</mosinstall>

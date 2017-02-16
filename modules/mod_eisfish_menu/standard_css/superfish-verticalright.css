@@ -1,0 +1,63 @@
+/**
+* mod_eisfish_menu vers. 1.0
+* CSS for Slider verticalright
+*
+/*** adding the class sf-verticalright in addition to sf-verticalright creates an all-horizontal nav-bar verticalright ***/
+
+.sf-verticalright, .sf-verticalright li {
+	width:	100%;
+}
+
+.sf-verticalright li {
+	position: relative;
+	line-height:35px;
+}
+
+
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */
+.sf-verticalright li:hover ul,
+.sf-verticalright li.sfHover ul {
+	left:	-170px; /*  match ul width + padding shadow */
+	top:	0;
+}
+
+ul.sf-verticalright li li:hover ul,
+ul.sf-verticalright li li.sfHover ul {
+	left: -170px; /*  match ul width + padding shadow */
+	top:	0;
+}
+
+ul.sf-verticalright li li li:hover ul,
+ul.sf-verticalright li li li.sfHover ul {
+	right:	-170px; /* match ul width + padding shadow*/
+	top:	0;
+}
+
+
+/*** alter arrow directions ***/
+.sf-verticalright .sf-sub-indicator { background-position: -10px 0; } /* IE6 gets solid image only */
+.sf-verticalright a > .sf-sub-indicator { background-position: 0 0; } /* use translucent arrow for modern browsers*/
+
+/* hover arrow direction for modern browsers*/
+.sf-verticalright a:focus > .sf-sub-indicator,
+.sf-verticalright a:hover > .sf-sub-indicator,
+.sf-verticalright a:active > .sf-sub-indicator,
+.sf-verticalright li:hover > a > .sf-sub-indicator,
+.sf-verticalright li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** arrows **/
+.sf-verticalright .sf-sub-indicator {
+	background:		url('../images/arrows-ffffff-rtl.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+
+/*** shadows for all but IE6 ***/
+.sf-verticalright .sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom left;
+	padding: 0 0 9px 8px;
+	-moz-border-radius-bottomright: 17px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 17px;
+	-webkit-border-bottom-right-radius: 17px;
+}

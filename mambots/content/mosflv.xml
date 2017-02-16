@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2008">
+	<name>MOS FLV Video</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-08 20:26:11</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>Replaces {mosflv}path{/mosflv} tags in content with specified flv videos</description>
+	<files>
+		<filename mambot="mosflv">mosflv.php</filename>
+		<filename>flv/elxisflv.jpg</filename>
+		<filename>flv/flvplayer.swf</filename>
+		<filename>flv/index.html</filename>
+	</files>
+	<params>
+		<param name="width" type="text" default="320" size="5" label="AX_MWRP_WDTL" description="Video width in pixel" />
+		<param name="height" type="text" default="260" size="5" label="AX_MWRP_HEIL" description="Video height in pixel, plus 20px for the controlbar" />
+	</params>
+</mosinstall>

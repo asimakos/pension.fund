@@ -1,0 +1,21 @@
+.button, pagenav_next a:link, pagenav_back a:link {
+border: 3px double #900
+}
+
+ul.mostread li.latestnews,ul.latestnews li.latestnews {
+background:transparent url(../images/star.png) 105% 50% no-repeat;
+}
+
+div#side1 h3 {
+
+}
+
+#side1 ul.mainlevel li a,#side1 ul.mainlevel li a {
+background:url(../images/play.png) no-repeat 105% 50%;
+}
+
+#side1 ul.mainlevel li a:hover, #side1 ul.mainlevel li a:hover, #side1 ul.mainlevel a#active_menu:hover {
+background: #202020 url(../images/play.gif) no-repeat 103% 50%;
+}
+
+div#shadow {float:none}

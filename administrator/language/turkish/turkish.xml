@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Turkish</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:19:30</creationDate>
+  <author>Elxis Team</author>
+  <authorEmail>ahdes@elxisturkiye.org</authorEmail>
+  <authorUrl>www.elxisturkiye.org</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Turkish language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Turkish</name>
+    <tag>turkish</tag>
+    <rtl>0</rtl>
+    <locale>tr_TR.utf8, tr_TR.UTF-8, tr_TR, turkish, tr, trk</locale>
+  </metadata>
+  <files>
+	<filename>turkish.com_access.php</filename>
+	<filename>turkish.com_admin.php</filename>
+	<filename>turkish.com_banners.php</filename>
+	<filename>turkish.com_bridge.php</filename>
+	<filename>turkish.com_categories.php</filename>
+	<filename>turkish.com_checkin.php</filename>
+	<filename>turkish.com_config.php</filename>
+	<filename>turkish.com_contact.php</filename>
+	<filename>turkish.com_content.php</filename>
+	<filename>turkish.com_database.php</filename>
+	<filename>turkish.com_frontpage.php</filename>
+	<filename>turkish.com_installer.php</filename>
+	<filename>turkish.com_languages.php</filename>
+	<filename>turkish.com_mambots.php</filename>
+	<filename>turkish.com_massmail.php</filename>
+	<filename>turkish.com_media.php</filename>
+	<filename>turkish.com_menumanager.php</filename>
+	<filename>turkish.com_menus.php</filename>
+	<filename>turkish.com_messages.php</filename>
+	<filename>turkish.com_modules.php</filename>
+	<filename>turkish.com_newsfeeds.php</filename>
+	<filename>turkish.com_poll.php</filename>
+	<filename>turkish.com_sections.php</filename>
+	<filename>turkish.com_softdisk.php</filename>
+	<filename>turkish.com_statistics.php</filename>
+	<filename>turkish.com_syndicate.php</filename>
+	<filename>turkish.com_templates.php</filename>
+	<filename>turkish.com_trash.php</filename>
+	<filename>turkish.com_typedcontent.php</filename>
+	<filename>turkish.com_users.php</filename>
+	<filename>turkish.com_weblinks.php</filename>
+	<filename>turkish.gemini.php</filename>
+	<filename>turkish.pref.php</filename>
+	<filename>turkish.gif</filename>
+	<filename>turkish.php</filename>
+	<filename>turkish.xml</filename>
+	<filename>turkish.xml.php</filename>
+	<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

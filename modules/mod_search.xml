@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Search Module</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-08-01 11:32:34</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_SEM_DESC</description>
+	<files>
+		<filename module="mod_search">mod_search.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="width" type="text" dir="ltr" default="20" label="AX_SM_SEM_BWL" description="AX_SM_SEM_BWD" />
+		<param name="text" type="text" dir="rtl" default="" label="AX_SM_SEM_TXL" description="AX_SM_SEM_TXD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="button" type="radio" default="" label="AX_SM_SEM_SBL" description="AX_SM_SEM_SBD">
+			<option value="">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="button_pos" type="list" dir="rtl" default="right" label="AX_SM_SEM_BPL" description="AX_SM_SEM_BPD">
+			<option value="right">AX_RIGHT</option>
+			<option value="left">AX_LEFT</option>
+			<option value="top">AX_SM_SEM_TOP</option>
+			<option value="bottom">AX_SM_SEM_BTM</option>
+		</param>
+		<param name="button_text" type="text" dir="rtl" default="" label="AX_SM_SEM_BTXL" description="AX_SM_SEM_BTXD" />
+	</params>
+</mosinstall>

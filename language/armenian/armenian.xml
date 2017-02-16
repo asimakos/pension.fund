@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Armenian</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-04 20:20:10</creationDate>
+	<author>Arsen Khachatryan</author>
+	<authorEmail>khachatryan.arsen@gmail.com</authorEmail>
+	<authorUrl>http://www.drakha.com</authorUrl>
+	<copyright>(C) Arsen Khachatryan. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Armenian language for Elxis 2009 front-end.</description>
+	<files>
+		<filename>armenian.gemini.php</filename>
+		<filename>armenian.gif</filename>
+		<filename>armenian.pref.php</filename>
+		<filename>armenian.php</filename>
+		<filename>armenian.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

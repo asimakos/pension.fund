@@ -1,0 +1,77 @@
+/***********************************************************************************************
+Copyright (c) 2005 - Alf Magne Kalleland post@dhtmlgoodies.com
+Get this and other scripts at www.dhtmlgoodies.com
+You can use this script freely as long as this copyright message is kept intact.
+***********************************************************************************************/
+
+	#mainMenu{
+		background-color: #666666;	/* Background color of main menu */
+		font-family: Tahoma, Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Fonts of main menu items */
+		font-size:1.1em;	/* Font size of main menu items */
+		border:1px solid #000000;	/* Bottom border of main menu */
+		height:24px;	/* Height of main menu */
+		position:relative;	/* Don't change this position attribute */
+	}
+	#mainMenu a{
+		padding-left:21px;	/* Spaces at the left of main menu items */
+		padding-right:5px;	/* Spaces at the right of main menu items */
+		font-weight:bold;
+		/* Don't change these two options */
+		position:absolute;
+		_position: relative;
+		bottom:-1px;	/* Change this value to -2px if you're not using a strict doctype */
+		_bottom: -4px;
+        _display: inline;
+        _width: 90px;
+		text-decoration:none;
+	}
+	#submenu{		
+		font-family: Tahoma, Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font  of sub menu items */
+		background-color:#DDDDDD;	/* Background color of sub menu items */
+		/*width:100%; */	/* Don't change this option */
+		border-bottom:1px solid #000000;
+		border-left:1px solid #000000;
+		border-right:1px solid #000000;
+		margin-bottom: 1px;
+	}	
+	#submenu div{
+		white-space:nowrap;	/* Don't change this option */
+		margin-right:10px;
+	}
+	/*
+	Style attributes of active menu item 
+	*/
+	#mainMenu .activeMenuItem{
+		/* Border options */
+		border-left:1px solid #000000;
+		border-top:1px solid #000000;
+		border-right:1px solid #000000;		
+		background-color: #DDDDDD;	/* Background color */
+		cursor:pointer;	/* Cursor like a hand when the user moves the mouse over the menu item */
+	}
+
+	#mainMenu .activeMenuItem img{
+		position:absolute;
+		bottom:0px;
+		left:2px;
+	}
+
+	/*
+	Style attributes of inactive menu items
+	*/
+	#mainMenu .inactiveMenuItem{		
+		color: #FFFFFF;	/* Text color */
+		cursor:pointer;	/* Cursor like a hand when the user moves the mouse over the menu item */
+	}
+	
+	#submenu a{	
+		text-decoration:none;	/* No underline on sub menu items - use text-decoration:underline; if you want the links to be underlined */
+		padding-left:5px;	/* Space at the left of each sub menu item */
+		padding-right:5px;	/* Space at the right of each sub menu item */
+		color: #000000;	/* Text color */
+		font-size:1.1em; 
+	}
+	
+	#submenu a:hover{
+		color: #FF0000;	/* Red color when the user moves the mouse over sub menu items */
+	}

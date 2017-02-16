@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<mosinstall type="component" version="2009">
+  <name>Newsletter</name>
+  <creationDate>2009-06-03 18:38:40</creationDate>
+  <author>Is Open Source</author>
+  <copyright>(C) 2008-2010 Ioannis Sannos. All rights reserved</copyright>
+  <license>Creative Commons 3.0</license>
+  <authorEmail>info@isopensource.com</authorEmail>
+  <authorUrl>www.isopensource.com</authorUrl>
+  <version>1.3</version>
+	<description><![CDATA[
+	<p align="justify"><strong>IOS Newsletter</strong> is a newsletter component and mailing list manager for Elxis CMS
+   created by <strong>Ioannis Sannos</strong> 
+   (<a href="http://www.isopensource.com" title="isopensource.com" target="_blank">Is Open Source</a>) and released for 
+   <strong>free</strong> 
+	under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Creative Commons 3.0" target="_blank">
+	Creative Commons Attribution-Noncommercial-Share Alike 3.0</a> license.<br /><br />
+  On <strong>version 1.1</strong> IOS Newsletter SEO PRO base prefix, used to generate the short URLs, changed from 
+  <em>com_newsletter</em> to <em>newsletter</em>. The shorter URLs work only on Elxis 2009.0 or newer. IOS Newsletter 
+  1.1 will work fine on Elxis 2008.x but using the old <em>com_newsletter</em> SEO PRO base prefix. IOS Newsletter 
+  detects automatically your Elxis version and sets the proper SEO PRO base prefix. Version 1.2 is also compatible 
+  with PHP 5.3.<br /><br />For support visit <a href="http://forum.elxis.org" title="Elxis forum" target="_blank">Elxis forum</a>.<br /><br />
+  <strong>version 1.3</strong> Some fixes for Elxis 2009.2.</p>
+	]]>
+  </description>
+  <install />
+  <uninstall />
+  <installfile>
+    <filename>install.newsletter.php</filename>
+  </installfile>
+  <uninstallfile>
+    <filename>uninstall.newsletter.php</filename>
+  </uninstallfile>
+  <files>
+    <filename>css/ie6.css</filename>
+    <filename>css/newsletter.css</filename>
+    <filename>css/newsletter-rtl.css</filename>
+    <filename>css/index.html</filename>
+    <filename>newsletter.html.php</filename>
+    <filename>newsletter.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <administration>
+		<menu>IOS Newsletter</menu>
+    <submenu>
+    	<menu>Control Panel</menu>
+    	<menu link="option=com_newsletter&amp;task=config&amp;hidemainmenu=1">Configure</menu>
+    	<menu task="subscribers">Subscribers</menu>
+    	<menu task="newsletters">Newsletters</menu>
+    	<menu task="import">Import subscribers</menu>
+    </submenu>
+		<files>
+			<filename>admin.newsletter.html.php</filename>
+			<filename>admin.newsletter.php</filename>
+			<filename>config.newsletter.php</filename>
+			<filename>index.html</filename>
+			<filename>toolbar.newsletter.php</filename>
+			<filename>htmlfiles/elxis-news.html</filename>
+			<filename>htmlfiles/elxis-news2.html</filename>
+			<filename>htmlfiles/index.html</filename>
+			<filename>images/index.html</filename>
+			<filename>includes/class.phpmailer.php</filename>
+			<filename>includes/class.pop3.php</filename>
+			<filename>includes/class.smtp.php</filename>			
+			<filename>includes/index.html</filename>
+			<filename>includes/iosnlajax.js</filename>
+			<filename>includes/newsletter.class.php</filename>
+			<filename>includes/phpmailer.lang-en.php</filename>
+			<filename>includes/preview.php</filename>
+			<filename>includes/sender.php</filename>
+			<filename>includes/seopro.com_newsletter.php</filename>
+			<filename>includes/jsprogressbar/index.html</filename>
+			<filename>includes/jsprogressbar/jsProgressBarHandler.js</filename>
+			<filename>includes/jsprogressbar/prototype.js</filename>
+			<filename>includes/jsprogressbar/images/index.html</filename>
+			<filename>includes/jsprogressbar/images/percentImage.png</filename>
+			<filename>includes/jsprogressbar/images/percentImage_back.png</filename>
+			<filename>language/english.php</filename>
+			<filename>language/french.php</filename>
+			<filename>language/german.php</filename>
+			<filename>language/greek.php</filename>
+			<filename>language/italian.php</filename>
+			<filename>language/russian.php</filename>
+			<filename>language/index.html</filename>
+			<filename>schema/index.html</filename>
+			<filename>schema/nlschema.xml</filename>
+			<filename>schema/nlschema03.xml</filename>
+		</files>
+		<images>
+		  <filename>images/config.png</filename>
+		  <filename>images/export.png</filename>
+		  <filename>images/import.png</filename>
+		  <filename>images/isopensource.jpg</filename>
+		  <filename>images/newsletter.jpg</filename>
+		  <filename>images/newsletters.png</filename>
+		  <filename>images/subscribers.png</filename>
+		  <filename>images/viewmag.png</filename>
+		</images>
+  </administration>
+  <params />
+</mosinstall>

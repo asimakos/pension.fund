@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
+<head>
+<title>Διαχειριστής Χρηστών</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Διαχειριστής Χρηστών</h1>
+<p>This screen shows all registered users in this site. It is also used to <strong>add</strong> new users, <strong>edit</strong> user profiles, <strong>delete</strong> users, or <strong>force logout</strong> users.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Toolbar Icons</h3>
+<p><strong>New</strong>: Add a new user.</p>
+<p><strong>Edit</strong>: Edit selected user&#39;s profile.</p>
+<p><strong>Delete</strong>: Delete selected users.</p>
+<p><strong>Force Logout</strong>: Force logout the selected users.</p>
+<p><strong>Help</strong>: This Help Screen.</p>
+<p>&nbsp;</p>
+<h3 class="table">Columns</h3>
+<p>Please notice that some columns have a filter associated with them.</p>
+<p><strong>Name</strong>: User&#39;s real name.</p>
+<p><strong>Logged In</strong>: Current user&#39;s login status. You can use the relative filter to quickly select all users that are logged in or not. Usefull for web sites with a large number of registered users.</p>
+<p><strong>Enabled</strong>: Shows if the user has enabled or not his account. Sometimes a user, especially when he is providing a false email address, never receives the confirmation email and there for, he never has the chance to enable his accounts. These are dummy accounts that from time to time you need to get rid off. You can use the relative filter to quickly select all the users that have enabled or not there accounts. Useful for web sites with a large number of registered users.</p>
+<p><strong>UserID</strong>: User&#39;s username. It is the username that is using to login to Elxis as a registered user or administrator.</p>
+<p><strong>Group</strong>: This is the group the user belongs to. Using the Access Manager, administrators can create new groups. You can use the relative filter to show only users that belong to a specific group. Useful for web sites with a large number of registered users.</p>
+<p><strong>E-mail</strong>: User&#39;s Email address.</p>
+<p><strong>Last Visit</strong>: The last date and time user logged in to this site.</p>
+<h1>Access Control Levels</h1> 
+<p>Registered users can belong to different user groups. These groups are divided into two main gategories: Front-End and Back-End. Users belonging to Front-End groups have only access to the Front-End. Users belonging to Back-End groups have access both to the Front-End and to the Back-End.</p>
+<p>Elxis comes with several predefined user groups. It also gives administrators the freedom to define their own user groups.</p>
+<p>User groups is the way Elxis uses to set priviliges and access rights to users. Based on them, users can view, have access to info for registered users, or submit content using the Front-End or Back-End interface.</p>
+<p>&nbsp;</p>
+<h3>Frontend groups</h3>
+<p><strong>Registered</strong> - This group allows the user to <strong>login</strong> to the Front-End.</p>
+<p><strong>Author</strong> - This group allows a user to <strong>submit content</strong>, usually via a link in the User Menu.</p>
+<p><strong>Editor</strong> - This group allows a user to <strong>post any content item</strong> from the Front-End.</p>
+<p><strong>Publisher</strong> - This group allows a user to <strong>post, edit and publish any content item</strong> from the Front-End.</p>
+<p>&nbsp;</p>
+<h3>Backend groups or Administration section groups</h3>
+<h4>Manager</h4>
+<p>This group allows access to content creation and system information.</p>
+<p>Administration Menus accessed:</p>
+<ul>
+<li><strong>Help</strong> (general), including System Info.</li>
+<li><strong>Site</strong>: Media Manager, Preview.</li>
+<li><strong>Menu</strong>: Edit existing Menus, including creating Menu Items. All related functions.</li>
+<li><strong>Content</strong>: Content Managers, Static Content Manager, Section Manager, Category Manager, FrontPage Manager and Archives Manager. All related functions.</li>
+</ul>
+<h4>Administrator</h4>
+<p>This group allows access to most administration functions.</p>
+<p>All functions accessed by <strong>Manager</strong>, plus:</p>
+<ul>
+<li><strong>Site</strong>: Statistics, Trash Manager, User Manager (may create/edit/delete any type of user except SuperAdministrator)</li>
+<li><strong>Menu</strong>: Menu Manager</li>
+<li><strong>Modules, Components, Bots</strong>: Install/Uninstall, Create, Edit. Except Mass mail Component.</li>
+</ul>
+<h4>Super Administrator</h4>
+<p>This group allows access to all administration functions.</p>
+<p>All functions accessed by Manager and Administrator, plus:</p>
+<ul>
+<li><strong>Site</strong>: Global Configuration, Language Manager, Template Manager, User Manager (may create/edit any type of user, may delete any user except SuperAdministrator; <strong>Note</strong>: SuperAdministrator may be deleted through the database).</li>
+<li><strong>Components</strong>: Mass Mail.</li>
+<li><strong>Messages</strong>: Inbox, Configuration.</li>
+<li><strong>System</strong>: Clear Cache (if Cache has been enabled in Global Configuration), Global Checkin.</li>
+</ul>
+</div>
+</div>
+ </body>
+</html>

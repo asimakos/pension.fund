@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2008">
+	<name>Poll</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-09 21:27:19</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>This component shows Polls/Surveys</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" dir="rtl" size="30" default="" label="AX_PAGTITLSL" description="AX_PAGTITLD" />
+	</params>
+</mosinstall>

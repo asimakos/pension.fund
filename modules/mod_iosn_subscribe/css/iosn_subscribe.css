@@ -1,0 +1,86 @@
+/*
+CSS for Module IOSN Subscribe
+Author: Stratakis Stavros (WebGigt Web Services)
+URL: http://www.webgift.gr
+*/
+
+
+fieldset.iosnl_fset ul {
+	padding: 10px 10px 0 20px;  
+	list-style: none;
+	background: transparent;
+}
+legend.iosnl_leg {
+	margin-left: 0.8em;  
+	padding: 2px 4px;  
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #86A9D1;
+	border: 1px solid #000;
+}
+
+fieldset.iosnl_fset ul li, fieldset.iosnl_fset li {
+	float: left;  
+	clear: left;  
+	width: 100%;  
+	padding: 0 0 10px 0;
+	margin: 0;
+	text-indent: 0;
+}
+
+div.iosnl_subinfo {
+	margin: 10px 20px;
+	padding: 0;
+	text-align: justify;
+	color: #33617A;
+}
+
+label.iosnl_lbl {
+	float: left;  
+	width: 150px;  
+	margin-right: 1em;
+	color: #3F6E88;
+	font-weight: bold;
+}
+
+input.iosnl_textbox {
+	background-color: #FFF;
+    font:12px tahoma;
+	color: #555;
+	border: 1px solid #82AFC8;
+	padding: 2px 0;
+}
+
+select.iosnl_selbox {
+	background-color: #FFF;
+	color: #555;
+	border: 1px solid #82AFC8;
+	padding: 2px;
+}
+
+
+input.iosnl_button {
+	background-color: #C6DEEF;
+	border: 1px solid #668A9E;
+	padding: 2px;
+	color: #38586A;
+	font-weight: bold;
+	float: none;
+	width: auto;
+}
+
+span.iosnl_security {
+	color: #3F6E88;
+}
+
+.iosnl_noscript {
+	padding: 4px;
+	border: 1px dashed #CC0000;
+	font-weight: bold;
+	color: #CC0000;
+	margin: 4px 0;
+	background-color: #FDE9E9;
+	display: block;
+	text-align: center;
+}

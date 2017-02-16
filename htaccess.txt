@@ -1,0 +1,93 @@
+##
+# Elxis 2009.2 htaccess file
+# Copyright (C) 2006-2010 Elxis.org. All rights reserved.
+# License: http://www.gnu.org/copyleft/gpl.html GNU/GPL
+# Elxis CMS is a Free Software
+##
+
+## Uncomment the following line, if it produces erors, comment it again
+# Options -Indexes +FollowSymLinks
+
+#
+#  mod_rewrite in use
+#
+
+RewriteEngine On
+
+# The following line tells the web server where your Elxis installation is located in relation 
+# to the web server root directory. By default this is set to the www root folder ( RewriteBase / ).
+# If you have installed Elxis in a sub-folder then set this path properly.
+# For example if your elxis site is accessible via this URL http://www.mysite.com/elxis/
+# You should set: RewriteBase /elxis/
+
+RewriteBase /
+
+# Uncomment the line bellow if you use static cache in order to deny direct access to cached files.
+#RewriteRule ^cache/static/(.*)$ - [F]
+
+#
+# Language Handling
+# You may remove the languages that you dont need or add other languages not listed here
+# For the proper language names and the iso 639 code languages consider includes/Core/locale.php file
+# If you wish to use chinese you should add:
+# chinese_traditional : zh-Hant,
+# chinese_simplified : zh-Hans
+#
+
+RewriteCond %{QUERY_STRING} !mylang=[arabic|armenian|bosnian|creole|croatian|danish|dutch|english|french|german|greek|hebrew|indonesian|italian|japanese|latvian|lithuanian|persian|polish|romanian|russian|serbian|spanish|srpski|turkish|vietnamese]{2,}
+
+RewriteRule ^([ar]{2})/(.*)$ /index.php?mylang=arabic [QSA,L]
+RewriteRule ^([hy]{2})/(.*)$ /index.php?mylang=armenian [QSA,L]
+RewriteRule ^([bs]{2})/(.*)$ /index.php?mylang=bosnian [QSA,L]
+#RewriteRule ^([pt\-BR]{5})/(.*)$ /index.php?mylang=brazilian [QSA,L]
+RewriteRule ^([ht]{2})/(.*)$ /index.php?mylang=creole [QSA,L]
+RewriteRule ^([hr]{2})/(.*)$ /index.php?mylang=croatian [QSA,L]
+RewriteRule ^([da]{2})/(.*)$ /index.php?mylang=danish [QSA,L]
+RewriteRule ^([nl]{2})/(.*)$ /index.php?mylang=dutch [QSA,L]
+RewriteRule ^([en]{2})/(.*)$ /index.php?mylang=english [QSA,L]
+RewriteRule ^([fr]{2})/(.*)$ /index.php?mylang=french [QSA,L]
+RewriteRule ^([de]{2})/(.*)$ /index.php?mylang=german [QSA,L]
+RewriteRule ^([el]{2})/(.*)$ /index.php?mylang=greek [QSA,L]
+RewriteRule ^([he]{2})/(.*)$ /index.php?mylang=hebrew [QSA,L]
+RewriteRule ^([id]{2})/(.*)$ /index.php?mylang=indonesian [QSA,L]
+RewriteRule ^([it]{2})/(.*)$ /index.php?mylang=italian [QSA,L]
+RewriteRule ^([ja]{2})/(.*)$ /index.php?mylang=japanese [QSA,L]
+RewriteRule ^([lv]{2})/(.*)$ /index.php?mylang=latvian [QSA,L]
+RewriteRule ^([lt]{2})/(.*)$ /index.php?mylang=lithuanian [QSA,L]
+RewriteRule ^([fa]{2})/(.*)$ /index.php?mylang=persian [QSA,L]
+RewriteRule ^([pl]{2})/(.*)$ /index.php?mylang=polish [QSA,L]
+RewriteRule ^([ro]{2})/(.*)$ /index.php?mylang=romanian [QSA,L]
+RewriteRule ^([ru]{2})/(.*)$ /index.php?mylang=russian [QSA,L]
+RewriteRule ^(sr)/(.*)$ /index.php?mylang=serbian [QSA,L]
+RewriteRule ^([es]{2})/(.*)$ /index.php?mylang=spanish [QSA,L]
+RewriteRule ^(rs)/(.*)$ /index.php?mylang=srpski [QSA,L]
+RewriteRule ^([tr]{2})/(.*)$ /index.php?mylang=turkish [QSA,L]
+RewriteRule ^([vi]{2})/(.*)$ /index.php?mylang=vietnamese [QSA,L]
+
+#
+# Exclude Files and directories
+#
+
+RewriteRule ^(administrator/|bridges/|cache/|components/|editor/|help/|images/|includes/|language/|mambots/|media/|modules/|templates/|tmpr/) - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php
+
+#
+## Security rules. Comment them if they cause problems to your site
+#
+
+# Block out any script trying to set a mosConfig value through the URL
+RewriteCond %{QUERY_STRING} mosConfig_[a-zA-Z_]{1,21}(=|\%3D) [OR]
+# Block out any script trying to base64_encode crap to send via URL
+# This rule is commented because it may cause some Elxis features to not work!
+# RewriteCond %{QUERY_STRING} base64_encode.*\(.*\) [OR]
+# Block out any script that includes a <script> tag in URL
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+# Block out any script trying to set a PHP GLOBALS variable via URL
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+# Block out any script trying to modify a _REQUEST variable via URL
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+# Send all blocked request to homepage with 403 Forbidden error!
+RewriteRule ^(.*)$ index.php [F,L]

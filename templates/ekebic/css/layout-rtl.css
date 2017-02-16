@@ -1,0 +1,355 @@
+/*
+ekebic template CSS for Elxis 2009
+Author: Dejan Viduka (kebic)
+E-mail: dejan@viduka.info
+URL: http://www.viduka.info
+Date: 26.03.2009
+License: GNU/GPL
+Elxis CMS is a free software
+*/
+
+body {text-align:right;background-color:#77b9dc;  padding:0;margin:0}
+ /* ------------------------------------------------------------------------ */
+
+/* okvir */
+#okvir {
+clear:both;
+background-color:#114c78;
+}
+ /* ------------------------------------------------------------------------ */
+
+ /* zaglavlje */
+#header {
+clear:both;
+height: 133px;
+width: 952px;
+background: url('../images/e-glava-r.jpg') no-repeat;
+padding:0;
+margin-top:0px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+ /* zaglavlje */
+#header2 {
+clear:both;
+width: 952px;
+padding:0;
+margin: 0;
+}
+
+/* top kolona */
+.top1 {
+clear:both;
+margin-right:0px;
+height: 14px;
+width: 952px;
+background: url('../images/e-top1.jpg') no-repeat;
+}
+
+.top2 {
+min-height: 100px;
+margin: 0;
+padding: 0 0 20px 0;
+clear:both;
+width: 952px;
+background: url('../images/e-top2.jpg') repeat-y;
+}
+
+.top3 {
+clear:both;
+margin-right:0px;
+margin-top: 0px;
+height: 13px;
+width: 952px;
+background: url('../images/e-top3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+ /* zaglavlje */
+#dno {
+clear:both;
+width: 952px;
+padding:0;
+margin-right: 0px;
+margin-top:0px;
+}
+
+/* top kolona */
+.dno1 {
+clear:both;
+margin-right:0px;
+height: 14px;
+width: 952px;
+background: url('../images/e-top1.jpg') no-repeat;
+}
+
+.dno2 {
+min-height: 100px;
+margin: 0;
+padding: 0;
+clear:both;
+width: 952px;
+background: url('../images/e-top2.jpg') repeat-y;
+}
+
+.dno3 {
+clear:both;
+margin: 0;
+padding: 0;
+height: 13px;
+width: 952px;
+background: url('../images/e-top3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+a.logo {
+    float:right;
+    height: 92px;
+    width: 215px;
+    background: url('../images/logo.png') no-repeat;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+  /* ------------------------------------------------------------------------ */
+
+/* top menu pozicija */
+.navigacija {
+float: right;
+clear:both;
+color:#ccc;
+padding-top:0px;
+margin-top:-95px;
+margin-right: 227px;
+height: 90px;
+width: 720px;
+}
+
+/* Opera*/
+head:first-child+body div.navigacija {margin-top:-95px; margin-right: 235px; }
+
+ /* ------------------------------------------------------------------------ */
+
+.pretraga {
+      color:#FFFFFF;
+      float: right;
+      font: 11px verdana, arial;
+      text-align: left;
+      padding-top: 3px;
+      height: 19px;
+      width: 200px;
+      margin-top:0px;
+      margin-right: 20px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+
+/* putanja */
+.put {
+      float: right;
+      color:#FFFFFF;
+      font: 10px verdana, arial;
+      text-align: right;
+      height: 18px;
+      width: 480px;
+      margin-top: 5px;
+      margin-right: 10px;
+      padding-top: 5px;
+}
+
+ /* ------------------------------------------------------------------------ */
+ .zastava {
+      float: left;
+      color:#FFFFFF;
+      font: 10px verdana, arial;
+      text-align: left;
+      height: 18px;
+      width: 220px;
+      margin-top: 5px;
+      margin-left: 5px;
+      padding-top: 5px;
+}
+
+  /* ------------------------------------------------------------------------ */
+
+/* telo */
+#main {
+clear: both;
+width: 952px;
+margin: 0;
+text-align:right;
+padding-bottom:0px;
+}
+
+/* Opera*/
+head:first-child+body div#main { margin:0px 0px 0 0px; }
+
+/* telo kolona */
+.telo1 {
+clear:both;
+margin-right:0px;
+height: 14px;
+width: 952px;
+background: #ff9900 url('../images/e-body1.jpg') no-repeat;
+}
+
+.telo2 {
+min-height: 500px;
+margin-top: 0px;
+padding-right:10px;
+padding-left:0px;
+padding-bottom:20px;
+clear:both;
+/* width: 952px; */
+background: url('../images/e-body2.jpg') repeat-y;
+}
+
+.telo3 {
+clear:both;
+margin-right:0px;
+margin-top: 0px;
+height: 12px;
+width: 952px;
+background: url('../images/e-body3.jpg') no-repeat;
+}
+ /* ------------------------------------------------------------------------ */
+
+/* footer */
+#footer {
+clear: both;
+margin: 0 ;
+border: 1px solid transparent;
+text-align:center;
+background: url('../images/e-footer.jpg') no-repeat;
+height: 94px;
+width: 952px;
+margin-top:-2px;}
+
+  /* ------------------------------------------------------------------------ */
+
+.copyright {
+margin-top: 23px;
+margin-left: auto;
+color: #999999;
+font-size:10px;
+}
+
+ /* ------------------------------------------------------------------------ */
+
+.signature {
+padding-top:5px;
+color: #999999;
+margin-top:20px;
+font-size:9px;}
+ /* ------------------------------------------------------------------------ */
+
+/* body kolona */
+
+.tkol {
+	width:510px;
+	float:right;
+    margin-right:0px;
+    padding-right: 5px;
+}
+
+/* banner kolona */
+.baner {
+	width:500px;
+	float:left;
+    margin-right:0px;
+    padding-right: 5px;
+    text-align:center;
+}
+
+/* leva kolona */
+.lkol {
+	width:195px;
+	float:right;
+    margin-right: 3px;
+    padding-right: 10px;
+    background: url('../images/e-lcol-rtl.jpg') top right repeat-y;
+}
+/* desna kolona */
+.dkol {
+	width:195px;
+	float:right;
+    margin-right: 3px;
+    padding-right: 8px;
+    background: url('../images/e-rcol-rtl.jpg') top right repeat-y;
+}
+
+/* user 1,2,3,4 kolone */
+
+.user1 {
+	width:210px;
+	float:right;
+    padding-right: 5px;
+	margin-right:20px;
+	border: 1px solid #FFFFFF;
+	text-align:right;
+}
+
+.user2 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    border: 1px solid #FFFFFF;
+    padding-right: 5px;
+    text-align:right;
+}
+
+.user3 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    padding-right: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:right;
+}
+
+.user4 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    padding-right: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:right;
+}
+
+/* user 5,6,7,8 kolone */
+.user5 {
+	width:210px;
+	float:right;
+    padding-right: 5px;
+    margin-right:20px;
+    border: 1px solid #FFFFFF;
+    text-align:right;
+}
+
+.user6 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    border: 1px solid #FFFFFF;
+    padding-right: 5px;
+    text-align:right;
+}
+
+.user7 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    padding-right: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:right;
+}
+
+.user8 {
+	width:210px;
+	float:right;
+    margin-right: 10px;
+    padding-right: 0px;
+    border: 1px solid #FFFFFF;
+    text-align:right;
+}

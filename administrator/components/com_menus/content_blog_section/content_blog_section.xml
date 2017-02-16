@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2009">
+	<name>AX_MUCBS_CNAME</name>
+	<group>Content</group>
+	<author>Elxis Team</author>
+	<creationDate>2009-02-19 21:17:24</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<description>AX_MUCBS_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" dir="rtl" size="30" default="" label="AX_PAGTITLL" description="AX_TDISTPD" />
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="leading" type="text" size="3" default="1" label="AX_LEADINGL" description="AX_LEADINGD" />
+		<param name="intro" type="text" size="3" default="4" label="AX_INTROL" description="AX_INTROD" />
+		<param name="columns" type="list" default="1" label="AX_COLSL" description="AX_COLSD">
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</param>
+		<param name="link" type="text" size="3" default="4" label="AX_LNKSL" description="AX_LNKSD" />
+		<param name="orderby_pri" type="list" dir="rtl" default="" label="AX_CATORL" description="AX_CATORD">
+			<option value="">AX_OCAT01</option>
+			<option value="alpha">AX_OCAT02</option>
+			<option value="ralpha">AX_OCAT03</option>
+			<option value="order">AX_OCAT04</option>
+		</param>
+		<param name="orderby_sec" type="list" dir="rtl" default="" label="AX_PRMORL" description="AX_PRMORD">
+			<option value="">AX_OPRM01</option>
+			<option value="date">AX_OPRM03</option>
+			<option value="rdate">AX_OPRM04</option>
+			<option value="alpha">AX_OCAT02</option>
+			<option value="ralpha">AX_OCAT03</option>
+			<option value="author">AX_OPRM07</option>
+			<option value="rauthor">AX_OPRM08</option>
+			<option value="hits">AX_OPRM09</option>
+			<option value="rhits">AX_OPRM10</option>
+			<option value="order">AX_OCAT04</option>
+		</param>
+		<param name="pagination" type="list" dir="rtl" default="2" label="AX_PAGL" description="AX_PAGD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+			<option value="2">AX_AUTO</option>
+		</param>
+		<param name="pagination_results" type="radio" default="1" label="AX_PAGRL" description="AX_PAGRD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="image" type="radio" default="1" label="AX_MOSIL" description="AX_MOSID">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+ 		<param name="description" type="radio" default="0" label="AX_DESCRL" description="AX_MUCBS_SHSD">
+ 			<option value="0">AX_HIDE</option>
+ 			<option value="1">AX_SHOW</option>
+ 		</param>
+		<param name="description_image" type="radio" default="0" label="AX_DESCIL" description="AX_MUCBS_SHSD">
+ 			<option value="0">AX_HIDE</option>
+ 			<option value="1">AX_SHOW</option>
+ 		</param>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />		
+		<param name="category" type="radio" default="0" label="AX_CATNML" description="AX_CATNMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="category_link" type="radio" default="0" label="AX_CATNMLL" description="AX_CATNMLD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="item_title" type="radio" default="1" label="AX_ITMTL" description="AX_ITMTD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="link_titles" type="list" dir="rtl" default="" label="AX_LNKTTLL" description="AX_LNKTTLD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="readmore" type="list" dir="rtl" default="" label="AX_REMRL" description="AX_REMRD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>	
+		<param name="rating" type="list" dir="rtl" default="" label="AX_ITMRATL" description="AX_ITMRATD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="author" type="list" dir="rtl" default="" label="AX_AUTNML" description="AX_AUTNMD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="createdate" type="list" dir="rtl" default="" label="AX_CTDL" description="AX_CTDD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="modifydate" type="list" dir="rtl" default="" label="AX_MTDL" description="AX_MTDD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="rtf" type="list" dir="rtl" default="" label="AX_RTFICL" description="AX_RTFICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="pdf" type="list" dir="rtl" default="" label="AX_PDFICL" description="AX_PDFICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="print" type="list" dir="rtl" default="" label="AX_PRICL" description="AX_PRICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="email" type="list" dir="rtl" default="" label="AX_EMICL" description="AX_EMICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="comments" type="list" dir="rtl" default="" label="AX_COMMENTS" description="AX_COMMENTSD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+	</params>
+</mosinstall>

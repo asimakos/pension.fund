@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Latest News</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-01 00:15:18</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_AM_LN_DESC</description>
+	<files>
+		<filename module="mod_latestnews">mod_latestnews.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="type" type="list" dir="rtl" default="0" label="AX_SM_MODL" description="AX_SM_MODD">
+			<option value="1">AX_SM_OP01</option>
+			<option value="2">AX_SM_OP02</option>
+			<option value="3">AX_SM_OP03</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_front" type="radio" default="1" label="AX_SM_LN_FPIL" description="AX_SM_LN_FPID">
+			<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="count" type="text" dir="ltr" default="5" label="AX_SM_AR_CNTL" description="AX_SM_AR_CNT5D" />
+		<param name="catid" type="text" dir="ltr" default="" label="AX_SM_LN_CATIL" description="AX_SM_LN_CATID" />
+		<param name="secid" type="text" dir="ltr" default="" label="AX_SM_LN_SECIL" description="AX_SM_LN_SECID" />
+	</params>
+</mosinstall>

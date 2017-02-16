@@ -1,0 +1,28 @@
+/**
+* mod_eisfish_menu vertical vers. 1.0
+* CSS for Slider vertical
+*
+/*** adding the class sf-example2-vertical in addition to sf-example2-vertical creates an all-horizontal nav-bar vertical ***/
+
+.sf-example2-vertical, .sf-example2-vertical li {
+	width:	100%;
+}
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */
+.sf-example2-vertical li:hover ul,
+.sf-example2-vertical li.sfHover ul {
+	left:	100%; /* match ul width */
+	top:	0;
+}
+
+/*** alter arrow directions ***/
+.sf-example2-vertical .sf-sub-indicator { background-position: -10px 0; } /* IE6 gets solid image only */
+.sf-example2-vertical a > .sf-sub-indicator { background-position: 0 0; } /* use translucent arrow for modern browsers*/
+
+/* hover arrow direction for modern browsers*/
+.sf-example2-vertical a:focus > .sf-sub-indicator,
+.sf-example2-vertical a:hover > .sf-sub-indicator,
+.sf-example2-vertical a:active > .sf-sub-indicator,
+.sf-example2-vertical li:hover > a > .sf-sub-indicator,
+.sf-example2-vertical li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}

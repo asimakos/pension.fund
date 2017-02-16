@@ -1,0 +1,103 @@
+<style type="text/css">
+.styleBold
+{ font-weight: bold; }
+.styleItalics
+{ font-style: italic; }
+.styleUnderline
+{ text-decoration: underline; }
+.styleLineThrough
+{ text-decoration: line-through;}
+.styleLeft
+{ text-align: left; }
+.styleRight
+{ text-align: right; }
+.styleCenter
+{ text-align: center; }
+.styleTop
+{ vertical-align: top; }
+.styleMiddle
+{ vertical-align: middle; }
+.styleBottom
+{ vertical-align: bottom; }
+.styleUpper
+{ text-transform: uppercase; }
+.styleCapital
+{ text-transform: capitalize; }
+.styleLower
+{ text-transform: lowercase; }
+.styleHidden
+{ display: none; }
+.styleWrap
+{ word-wrap: break-word; }
+</style>
+
+<TABLE cellspacing="0" cellpadding="5" border="1px" style="width: 100%;" title="Formula Functions">
+    <TBODY>
+        <TR height="32" style="height: 20px;">
+        	<TD colspan="5">
+         	If you specify the first character apostrophe, it means it is introduced into a cell string. In the form the first apostrophe is not displayed.<br/>
+			If you want to prevent entry into a cell, then enter one of the apostrophe.
+        	</TD>
+		</TR>
+        <TR height="32" style="height: 20px;"><TD class="styleBold styleCenter">Function</TD><TD class="styleBold styleCenter">Arguments</TD><TD class="styleBold styleCenter">Example</TD><TD class="styleBold styleCenter">Result</TD>
+			<TD class="styleBold styleCenter">Additional Information</TD>
+		</TR>
+        <TR style="height: 20px;"><TD>ABS</TD><TD>numbers_as_array</TD><TD>=ABS(F4)</TD><TD>62</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>AVERAGE</TD><TD>values_as_array</TD><TD>=AVERAGE(F4:F14)</TD><TD>46.92307692307692</TD>
+			<TD>Synonym: AVG</TD>
+		</TR>
+        <TR style="height: 20px;"><TD>CEILING</TD><TD>numbers_as_array</TD><TD>=CEILING(F4:F14)</TD><TD>62108200361799100</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>COUNT</TD><TD>html_as_string</TD><TD>=COUNT(F2:F14)</TD><TD>13</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>DAYSFROM</TD><TD>url_as_string</TD><TD>=DAYSFROM(2009,4,15)</TD><TD>208</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>DOLLAR</TD><TD>numbers_as_array</TD><TD>=DOLLAR(F13)</TD><TD>$55.00</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>FALSE</TD><TD/><TD>=IF(F4 < 100, TRUE(), FALSE())</TD><TD>TRUE</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>FIXED</TD><TD>number, decimals, noCommas?</TD><TD>=FIXED(F4+F14)</TD><TD>41.00</TD>
+			<TD>Two decimal places</TD>
+		</TR>
+		<TR style="height: 20px;"><TD>FLOOR</TD><TD>numbers_as_array</TD><TD>=FLOOR(F4-F5)</TD><TD>-46</TD>
+			<TD>Synonym: INT</TD>
+		</TR>
+		<TR style="height: 20px;"><TD>IF</TD><TD>IF(logical_test, value_if_true, value_if_false)</TD><TD>=IF(F12 < 100, TRUE(), FALSE())</TD><TD>TRUE</TD>
+			<TD>Can have nested IF functions.</TD>
+		</TR>
+		<TR style="height: 20px;"><TD>MAX</TD><TD>values_as_array</TD><TD>=MAX(F3:F13)</TD><TD>200</TD>
+			<TD/>
+		</TR>
+		<TR style="height: 20px;"><TD>MIN</TD><TD>values_as_array</TD><TD>=MIN(F3:F13)</TD><TD>-100</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>N</TD><TD>numbers_as_array</TD><TD>=N(F3)</TD><TD>45</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>PI</TD><TD/><TD>=PI()</TD><TD>3.141592653589793</TD>
+			<TD>If you use =PI" it will return the actual function as text, which is incorrect. Use =PI().</TD>
+		</TR>
+        <TR style="height: 20px;"><TD>TODAY</TD><TD/><TD>=TODAY()</TD><TD>Sun Oct 24 2010 17:01:27 GMT-0400 (EST)</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>TRUE</TD><TD/><TD>=TRUE()</TD><TD>TRUE</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>SUM</TD><TD>values_as_array</TD><TD>=SUM(F2:F13)</TD><TD class="styleLeft">631</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>ROUND</TD><TD>numbers_as_array</TD><TD>=ROUND(1.6)</TD><TD>2</TD>
+			<TD/>
+		</TR>
+        <TR style="height: 20px;"><TD>RAND</TD><TD/><TD>=RAND()</TD><TD>0.6772214938173313</TD>
+			<TD>Synonym: RND</TD>
+		</TR>
+    </TBODY>
+</TABLE>

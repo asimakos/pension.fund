@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2008">
+	<name>AX_MSEP_CNAME</name>
+	<group>Other</group>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-14 21:53:19</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_MSEP_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

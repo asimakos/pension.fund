@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Sections</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-08-29 19:04:07</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_SEC_DESC</description>
+	<files>
+	<filename module="mod_sections">mod_sections.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="count" type="text" dir="ltr" default="5" label="AX_SM_SEC_CL" description="AX_SM_SEC_CD" />
+		<param name="format" type="list" dir="rtl" default="blog" label="Format" description="Blog or Table">
+			<option value="blog">AX_MUCBS_CNAME</option>
+			<option value="table">AX_MCS_CNAME</option>
+		</param>
+	</params>
+</mosinstall>

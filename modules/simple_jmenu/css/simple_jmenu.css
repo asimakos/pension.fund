@@ -1,0 +1,62 @@
+div.jmenu {
+	width: 150px;
+}
+
+div.jmenu div.simple_jmenu_top {
+	background: #fff url('../images/menu_top.gif') no-repeat scroll top left;	
+	width: 150px;
+}
+
+div.jmenu div.simple_jmenu_bottom {
+	background: #fff url('../images/menu_bottom.gif') no-repeat scroll top left;	
+	width: 150px;
+}
+
+div.jmenu_section, div.jmenu_section_bottom {
+	background-color: #ededed;
+	width: 150px;
+	height: 28px;
+	clear: both;
+}
+
+div.jmenu_section {
+	border-bottom: 1px solid #d8d8d8;
+}
+
+div.jmenu_section_image_contracted, div.jmenu_section_image_expanded, div.jmenu_section_image_nosub {
+	float: left;
+	width: 20px;
+	padding: 5px 0 15px 0;
+}
+
+div.jmenu_section_image_contracted {
+	background: url('../images/plus.gif') no-repeat scroll 5px 9px;	
+}
+
+div.jmenu_section_image_expanded {
+	background: url('../images/minus.gif') no-repeat scroll 5px 9px;	
+}
+
+div.jmenu_section_image_nosub {
+	background: url('../images/bullet.gif') no-repeat scroll 7px 11px;	
+}
+
+div.jmenu_section_text {
+	float: left;
+	width: 126px;
+	padding: 8px 0 8px 0;
+}
+
+div.jmenu_section_text a {
+	font-size: 11px;
+}
+
+div.jmenu_subsection {
+	background-color: #f0f0f0;
+	border-bottom: 1px solid #fff;
+	font-size: 11px;
+}
+
+div.jmenu_subsection div {
+	padding: 5px;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="mambot" group="editors" version="2008">
+    <name>none</name>
+    <version>2008.0</version>
+    <creationDate>2007-09-07 14:02:56</creationDate>
+    <author>Elxis Team</author>
+    <authorEmail>info@elxis.org</authorEmail>
+    <authorUrl>www.elxis.org</authorUrl>
+    <copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <description>This loads a basic text entry field</description>
+	<files>
+		<filename mambot="none">none.php</filename>
+	</files>
+	<params/>
+</mosinstall>

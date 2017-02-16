@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Czech</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-01 17:43:55</creationDate>
+	<author>PARACOM Software</author>
+	<authorEmail>info@elxis.cz</authorEmail>
+	<authorUrl>http://www.elxis.cz</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Czech language for Elxis 2009.1 front-end.</description>
+	<files>
+		<filename>czech.gemini.php</filename>
+		<filename>czech.gif</filename>
+		<filename>czech.pref.php</filename>
+		<filename>czech.php</filename>
+		<filename>czech.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

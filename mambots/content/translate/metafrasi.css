@@ -1,0 +1,69 @@
+/*
+Translate bot by Ioannis Sannos (datahell)
+Copyright (C) 2006-2010 Elxis.org. All rights reserved.
+link: http://www.elxis.org
+license: http://www.gnu.org/copyleft/gpl.html GNU/GPL
+Elxis CMS is a Free Software
+*/
+
+.mtfbox {
+	width: 240px;
+	border: 2px solid #99a8b2;
+	font: normal 12px/16px tahoma, verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	direction: ltr;
+	background: #eff4f7 url(mtfback.png) top left repeat-x;
+}
+
+select.mtfselect {
+	color: #333;
+	font: normal 12px/16px tahoma, verdana, sans-serif;
+	margin: 0 10px;
+	padding: 0;
+	direction: ltr;
+	background-color: #fff;
+	border: 1px solid #446478;
+}
+select.mtfselect option {
+	padding: 1px 3px;
+}
+
+.mtftop {
+	margin: 0 0 5px 0; 
+	padding:2px;
+	height: 24px !important;
+	background-color: transparent;
+	color: #fff;
+	font: bold 12px/16px tahoma, verdana, sans-serif;
+}
+
+a.mtfclose, a.mtfclose:visited, a.mtfclose:hover, a.mtfclose:active, a.mtfclose:link {
+	display: block;
+	float: right;
+	margin: 0 5px;
+	color: #fff;
+	font: bold 12px/16px tahoma, verdana, sans-serif;
+	text-decoration: none;
+}
+a.mtfclose:hover { color: #446478; }
+
+
+.mtfbottom {
+	margin: 10px 0 0 0;
+	background-color: #e1e8ec;
+	padding: 2px;
+	text-align: right;
+	direction: ltr;
+	color: #666;
+	font: normal 11px/14px tahoma, verdana, sans-serif;
+	border-top: 1px solid #d5dfe5;
+}
+
+
+a.mtfpowerby, a.mtfpowerby:visited, a.mtfpowerby:hover, a.mtfpowerby:active, a.mtfpowerby:link {
+	color: #666;
+	font: normal 11px/14px tahoma, verdana, sans-serif;
+	text-decoration: none;
+}
+a.mtfpowerby:hover { color: #000; }

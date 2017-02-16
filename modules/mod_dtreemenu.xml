@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="2008">
+    <name>dTree Menu</name>
+    <author>Dejan Viduka</author>
+    <creationDate>2008-11-29 01:14:37</creationDate>
+    <authorEmail>dejan@viduka.info</authorEmail>
+    <authorUrl>www.viduka.info</authorUrl>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <cxlangdir>/modules/dtree/language</cxlangdir>
+    <version>1.0</version>
+    <description>Shows tree menu's (main, user, MyMenu) Explorer style in Javascript.</description>
+    <files>
+      <filename module="mod_dtreemenu">mod_dtreemenu.php</filename>
+      <filename>dtree/dtree.css</filename>
+      <filename>dtree/dtree.js</filename>
+      <filename>dtree/index.html</filename>
+      <filename>dtree/language/index.html</filename>
+      <filename>dtree/img/index.html</filename>
+
+      <filename>dtree/language/english.php</filename>
+      <filename>dtree/language/serbian.php</filename>
+      <filename>dtree/language/srpski.php</filename>
+      <filename>dtree/language/greek.php</filename>
+      <filename>dtree/language/russian.php</filename>
+
+      <filename>dtree/img/base.gif</filename>
+      <filename>dtree/img/cd.gif</filename>
+      <filename>dtree/img/empty.gif</filename>
+      <filename>dtree/img/folder.gif</filename>
+      <filename>dtree/img/folderopen.gif</filename>
+      <filename>dtree/img/globe.gif</filename>
+      <filename>dtree/img/imgfolder.gif</filename>
+      <filename>dtree/img/join.gif</filename>
+      <filename>dtree/img/joinbottom.gif</filename>
+      <filename>dtree/img/line.gif</filename>
+      <filename>dtree/img/minus.gif</filename>
+      <filename>dtree/img/minusbottom.gif</filename>
+      <filename>dtree/img/musicfolder.gif</filename>
+      <filename>dtree/img/nolines_minus.gif</filename>
+      <filename>dtree/img/nolines_plus.gif</filename>
+      <filename>dtree/img/page.gif</filename>
+      <filename>dtree/img/plus.gif</filename>
+      <filename>dtree/img/plusbottom.gif</filename>
+      <filename>dtree/img/question.gif</filename>
+      <filename>dtree/img/trash.gif</filename>
+    </files>
+    <params>
+	<param name="menutype" type="text" default="mainmenu"
+		label="CX_01a"
+		description="CX_01" />
+	<param name="menutype" type="mos_menu" default="mainmenu" 
+		label="CX_02"
+		description="CX_03" />
+	<param name="base" type="list" default="menu" 
+		label="CX_04"
+		description="CX_05" >
+	<option value="first">CX_06</option>
+	<option value="menu">CX_07</option>
+	<option value="module">CX_08</option>
+	<option value="site">CX_09</option>
+	<option value="text">CX_10</option>
+	</param>
+	<param name="basetext" type="text" default="" 
+		label="CX_11"
+		description="CX_12" />
+	<param name="separator" type="text" default="[css: moduleheading]" 
+		label="CX_13"
+		description="CX_14" />
+	<param name="openAll" type="radio" default="false"
+		label="CX_15"
+		description="CX_16" >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+	<param name="useSelection" type="radio" default="true" 
+		label="CX_17"
+		description="CX_18" >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+	<param name="useLines" type="radio" default="true" 
+		label="CX_19"
+		description="CX_20" >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+	<param name="useIcons" type="radio" default="true" 
+		label="CX_21"
+		description="CX_22" >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+	<param name="useStatusText" type="radio" default="false" 
+		label="CX_23"
+		description="Displays node names in the statusbar instead of the url." >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+	<param name="closeSameLevel" type="radio" default="false" 
+		label="CX_25"
+		description="CX_26" >
+	<option value="true">CX_true</option>
+	<option value="false">CX_false</option>
+	</param>
+    </params>
+  </mosinstall>

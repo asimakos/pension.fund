@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall version="2009" type="mambot" group="content">
+        <name>ks-AddPhp</name>
+	<author>Kostas Stathopoulos</author>
+	<creationDate>28 Oct 2009</creationDate>
+	<copyright>2009 Ks-net.gr</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@ks-net.gr</authorEmail>
+	<authorUrl>www.ks-net.gr</authorUrl>
+	<version>1.0</version>
+	<description>
+        <![CDATA[
+        This bot will include a php file inside content.<br/> <br/>
+        <b>Usage:</b> <b>{addphp file=</b>realtive_path_to_file_in_elxisdir_include_file_name<b>}</b><br/><br/>
+        <span style="color:red;">Note: Adding php files inside elxis must be used by experienced users only.<br/> Avoid using ks-addphp bot if you are not knowing what are you doing!</span>
+        ]]>
+        </description>
+	<files>
+		<filename mambot="ks-addphp">ks-addphp.php</filename>
+	</files>
+	<params />
+</mosinstall>

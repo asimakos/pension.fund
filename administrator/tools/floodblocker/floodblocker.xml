@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2009">
+	<name>FloodBlocker</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-02-05 12:08:05</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>datahell@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/flood.png</icon>
+	<cxlangdir>/administrator/tools/floodblocker/language</cxlangdir>
+	<description>CX_LFLOODBD</description>
+	<files>
+		<filename tool="floodblocker">floodblocker.php</filename>
+		<filename>config.php</filename>		
+		<filename>index.html</filename>
+		<filename>images/flood.png</filename>
+		<filename>images/index.html</filename>
+		<filename>language/index.html</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+	</files>
+</mosinstall>

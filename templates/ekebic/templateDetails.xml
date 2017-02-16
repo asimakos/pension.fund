@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="template" version="2009">
+  <name>ekebic</name>
+  <creationDate>2009-04-20 17:26:10</creationDate>
+	<author>Dejan Viduka</author>
+	<license>GNU/GPL</license>
+	<authorEmail>dejan@viduka.info</authorEmail>
+	<authorUrl>http://www.viduka.info</authorUrl>
+	<version>1.0</version>
+	<description>Elxis 2009.x frontend template.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+    	<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+    <filename>images/atom03.gif</filename>
+		<filename>images/back.png</filename>
+		<filename>images/back-rtl.png</filename>
+    	<filename>images/bars.png</filename>
+    	<filename>images/calendar.png</filename>
+    	<filename>images/category.png</filename>
+    	<filename>images/comments.gif</filename>
+		<filename>images/e-body1.jpg</filename>
+    	<filename>images/e-body2.jpg</filename>
+    	<filename>images/e-body3.jpg</filename>
+    	<filename>images/e-footer.jpg</filename>
+    	<filename>images/e-glava.jpg</filename>
+		<filename>images/e-glava-r.jpg</filename>
+		<filename>images/e-h3p.jpg</filename>
+    	<filename>images/e-h3s.jpg</filename>
+		<filename>images/e-lcol.jpg</filename>
+		<filename>images/e-lcol-rtl.jpg</filename>
+    	<filename>images/emailButton.png</filename>
+    	<filename>images/e-menu.jpg</filename>
+    	<filename>images/e-rcol.jpg</filename>
+    	<filename>images/e-rcol-rtl.jpg</filename>
+    	<filename>images/e-top1.jpg</filename>
+		<filename>images/e-top2.jpg</filename>
+		<filename>images/e-top3.jpg</filename>
+		<filename>images/external.png</filename>
+    	<filename>images/file.png</filename>
+    	<filename>images/indent1.png</filename>
+    	<filename>images/indent1-rtl.png</filename>
+		<filename>images/info.png</filename>
+		<filename>images/info32.png</filename>
+    	<filename>images/key.png</filename>
+    	<filename>images/logo.png</filename>
+    	<filename>images/opml.png</filename>
+    	<filename>images/path-arrows.png</filename>
+    	<filename>images/path-arrows-rtl.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/printButton.png</filename>
+    	<filename>images/read.png</filename>
+    	<filename>images/rss10.gif</filename>
+		<filename>images/rss20.gif</filename>
+    	<filename>images/rss091.gif</filename>
+    	<filename>images/rtf_button.png</filename>
+    	<filename>images/search.jpg</filename>
+    	<filename>images/search-rtl.jpg</filename>
+    	<filename>images/star.png</filename>
+		<filename>images/user.png</filename>
+    	<filename>images/url.png</filename>
+	</images>
+	<css>
+		<filename>css/customize.css</filename>
+		<filename>css/ie.css</filename>
+		<filename>css/ie-rtl.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/template_css.css</filename>
+    	<filename>css/template_css-rtl.css</filename>
+    	<filename>css/customize-rtl.css</filename>
+		<filename>css/layout-rtl.css</filename>
+	</css>
+	<params />
+</mosinstall>

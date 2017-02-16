@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Creole</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-04 20:41:20</creationDate>
+	<author>Patricia Camilien</author>
+	<authorEmail>patricia@aperih.org</authorEmail>
+	<authorUrl>http://www.aperih.org</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Lang kreyol pou entefas piblik Elxis 2009.</description>
+	<files>
+		<filename>creole.gemini.php</filename>
+		<filename>creole.gif</filename>
+		<filename>creole.pref.php</filename>
+		<filename>creole.php</filename>
+		<filename>creole.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

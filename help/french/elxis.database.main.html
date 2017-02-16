@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestionnaire de la Base de Données</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestionnaire de la Base de Données</h1>
+<p>Le gestionnaire de base de données, est un composant très utile pour les administrateurs, il les aide à gérer leur base de données Elxis, sans avoir besoin d'une application supplémentaire, comme phpMyAdmin.</p>
+<p>Les administrateurs peuvent:</p>
+<ul>
+    <li>Voir la structure de la base.</li>
+    <li>Voir la structure des tables.</li>
+    <li>Prendre des informations de la base.</li>
+    <li><a href="#dumpsql">Videz la structure d'une base de données et les données dans le format SQL</a>.</li>
+    <li><a href="#dumpxml">Videz la structure d'une base de données et les données dans le format XML</a>.</li>
+    <li>Téléchargement des Dumps de la base ou la laisser sur le serveur.</li>
+    <li><a href="#monitorstats">Moniteur des Etats</a></li>
+    <li><a href="#monitortables">Moniteur des Tables</a></li>
+    <li><a href="#optimize">Optimiser la base de donnéees</a></li>
+    <li><a href="#repair">Réparer la base de données</a></li>
+</ul>
+<p><strong>Tous les fichiers sont encodés en UTF-8.</strong></p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Icone de la Barre d'Outils</h3>
+<p><strong>Gestion des Sauvegardes</strong>: Ouvre les gestionnaire de sauvegarde de la base de données: Page des Backups, la description fait partie d'une autre aide, pour pouvoir créer une nouvelle sauvegarde ou supprimer une ancienne.</p>
+<p><strong>Aide</strong>: Cet écran d'Aide.</p>
+<p>&nbsp;</p>
+<p><strong>La page est divisée en deux zones. La gauche où vous pouvez voir les tables existantes et la droite où vous pouvez effectuer des opérations sur la base de données.</strong></p>
+<p>&nbsp;</p>
+<h3 class="borders">Zone de Gauche</h3>
+<p>La zone de gauche montre toutes les tables de la base de données. Chaque ligne a deux icônes. "Parcourir" et "Structure".</p>
+<p>Cliquer sur l'icone "Parcourir" affichera les données de la table. En-dessous de la table de données, il y a deux liens. Cliquez sur la "Structure des Tables" vous affichera les détails de la   structure. Cliquez sur "Retour à la Base de Donénes" vous fera revenir à l'écran d'accueil.</p>
+<p>Cliquer sur l'icone "Structure" vous fera afficher les détails de la structure. En dessous de la structure des tables, il y a deux liens. Cliquez sur "Parcourir les tables" vous fera parcourir les données des tables. Cliquez sur "Retour à la Base de Donénes" vous fera revenir à l'écran d'accueil.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Zone de Droite</h3>
+<p>La zone de gauche montre deux onglets: "Information" et "Sauver Base de données".</p>
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Information</h3>
+<p>L'onglet information afiiche les informations sur votre base de données.</p>
+<h3 class="borders">Onglet Sauver Base</h3>
+<p>Cet onglet sert à sauvegarder des données de la base dans une structurer en XML ou au format SQL.</p>
+<strong><a name="dumpxml" id="dumpxml"></a>Comment sauver en XML</strong>
+<ul>
+<li>Choisissez le type de sauvegarde en XML.</li>
+<li>Sélectionnez le type de sauvegarde.<br/>Choisissez "Complet/Full" pour faire une sauvegarde de la structure et des données. Choisissez "Structure Seule" pour faire une sauvegarde de la structure de votre base de données.</li>
+<li>Sélectionnez la destination<br />
+Choisissez "Sauver sur le Serveur" pour faire une sauvegarde locale que vous pourrez télécharger plus tard.  Vous pouvez gérer vos sauvegardes via le gestionnaire: Backups.<br />
+Choisissez "Télécharger" pour télécharger votre sauvegarde sur votre PC.</li>
+<li>Cliquez sur le bouton "Backup XML" pour lancer la sauvegarde.</li>
+</ul>
+<p>&nbsp;</p>
+<strong><a name="dumpsql" id="dumpsql"></a>Comment sauver en SQL:</strong>
+<ul>
+<li>Choisissez le type de sauvegarde en SQL. Vous verrez alors d'autres options.</li>
+<li>Sélectionnez le type de sauvegarde<br />
+Choisissez "Structure & Données " pour faire une sauvegarde de la structure et des données. Choisissez "Structure Uniquement" pour faire une sauvegarde de la structure de la base de données. Choisissez "Données Uniquement" pour faire une sauvegarde des données.</li>
+<li>Options:<br />
+Verrouillez les Tables: Sélectionnez "Oui" pour verrouiller les tables durant la sauvegarde. Utile si la base de données contient des tables pleines de données.<br />
+Syntaxe Complète: Sélectionnez "Oui" pour faire la sauvegarde en mode INSERT SQL complet. Recommandé.<br />
+Passer les Tables: Sélectionnez "Oui" pour ajouter les commandes de fichier à la sauvegarde, et laisser tomber les tables existantes pendant la restauration.<br />
+Tables: Sélectionnez les tables à sauvegarder. Choisissez "Toutes les Tables" pour sauvegarder toutes les tables. Choisissez "Sélection des tables", apparaitra une liste dans un menu déroulant des tables disponibles. Par défaut on sélectionne toutes les tables. Vous pouvez sélectionner ou non les tables que vous voulez, presser sur la touche CTRL et cliquez pour supprimer ou ajouter une table.</li>
+<li>Sélectionner la destination<br />
+Choisissez "Sauver sur le Serveur" pour faire une sauvegarde locale que vous pourrez télécharger plus tard.  Vous pouvez gérer vos sauvegardes via le gestionnaire: Backups.<br />
+Choisissez "Télécharger" pour télécharger votre sauvegarde sur votre PC.</li>
+</ul>
+<p>&nbsp;</p>
+<h3 class="borders">Onglet Maintenance</h3>
+<p>Cet écran montre des informations au sujet de l'état et des performance de la base de données. Les administrateurs peuvent utiliser ces données pour optimiser leurs bases Elxis.</p> 
+<p><strong>Optimiser</strong>: Optimise la base de données et améliore les performances.</p> 
+<p><strong>Réparer</strong>: Répare toutes les erreurs existantes dans les tables de la base de données.</p> 
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

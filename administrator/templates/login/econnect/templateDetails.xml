@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="template" client="login" version="2009">
+	<name>eConnect</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-05-29 18:56:30</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>http://www.elxis.org</authorUrl>
+	<version>1.0</version>
+	<description>A login screen for Elxis 2009.x generation. Login page cloaking support, RTL compatible, tableless design, XHTML valid.</description>
+	<files>
+		<filename>css/template_css.css</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/btnlogin.png</filename>
+		<filename>images/btnlogin_r.png</filename>
+		<filename>images/elxis_off.png</filename>
+		<filename>images/elxis_on.png</filename>
+		<filename>images/footer_bg.png</filename>
+		<filename>images/lock32.png</filename>
+		<filename>images/wrap_bg.png</filename>
+		<filename>images/flags/index.html</filename>
+		<filename>images/flags/albanian.png</filename>
+		<filename>images/flags/bulgarian.png</filename>
+		<filename>images/flags/chinese.png</filename>
+		<filename>images/flags/chinese_simplified.png</filename>
+		<filename>images/flags/chinese_traditional.png</filename>
+		<filename>images/flags/croatian.png</filename>
+		<filename>images/flags/czech.png</filename>
+		<filename>images/flags/danish.png</filename>
+		<filename>images/flags/dutch.png</filename>
+		<filename>images/flags/english.png</filename>
+		<filename>images/flags/english_australia.png</filename>
+		<filename>images/flags/english_canada.png</filename>
+		<filename>images/flags/english_usa.png</filename>
+		<filename>images/flags/finnish.png</filename>
+		<filename>images/flags/french.png</filename>
+		<filename>images/flags/fyrom.png</filename>
+		<filename>images/flags/german.png</filename>
+		<filename>images/flags/german_austria.png</filename>
+		<filename>images/flags/greek.png</filename>
+		<filename>images/flags/greek_cyprus.png</filename>
+		<filename>images/flags/hebrew.png</filename>
+		<filename>images/flags/hungarian.png</filename>
+		<filename>images/flags/icelandic.png</filename>
+		<filename>images/flags/indonesian.png</filename>
+		<filename>images/flags/italian.png</filename>
+		<filename>images/flags/japanese.png</filename>
+		<filename>images/flags/latvian.png</filename>
+		<filename>images/flags/lithuanian.png</filename>
+		<filename>images/flags/norwegian.png</filename>
+		<filename>images/flags/persian.png</filename>
+		<filename>images/flags/polish.png</filename>
+		<filename>images/flags/portuguese.png</filename>
+		<filename>images/flags/portuguese_brazil.png</filename>
+		<filename>images/flags/romanian.png</filename>
+		<filename>images/flags/russian.png</filename>
+		<filename>images/flags/serbian.png</filename>
+		<filename>images/flags/spanish.png</filename>
+		<filename>images/flags/spanish_argentina.png</filename>
+		<filename>images/flags/srpski.png</filename>
+		<filename>images/flags/swedish.png</filename>
+		<filename>images/flags/turkish.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>index.php</filename>
+		<filename>helper.php</filename>
+		<filename>hidden.php</filename>
+	</files>
+	<params />
+</mosinstall>

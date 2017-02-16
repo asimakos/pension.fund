@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>German</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:08:20</creationDate>
+  <author>Siegmund Langsch</author>
+  <authorEmail>s.langsch@langhscnet.de</authorEmail>
+  <authorUrl>www.langschnet.de</authorUrl>
+  <copyright>Copyright (C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>German language for Elxis 2009 backend. Updated for Elxis 2009 by Simom Zollner.</description>
+  <metadata>
+    <name>German</name>
+    <tag>german</tag>
+    <rtl>0</rtl>
+    <locale>de_DE.UTF8, de.utf8, en_US.utf8, en_US.UTF-8, de_DE, german, en, eng</locale>
+  </metadata>
+  <files>
+		<filename>german.com_access.php</filename>
+		<filename>german.com_admin.php</filename>
+		<filename>german.com_banners.php</filename>
+		<filename>german.com_bridge.php</filename>
+		<filename>german.com_categories.php</filename>
+		<filename>german.com_checkin.php</filename>
+		<filename>german.com_config.php</filename>
+		<filename>german.com_contact.php</filename>
+		<filename>german.com_content.php</filename>
+		<filename>german.com_database.php</filename>
+		<filename>german.com_frontpage.php</filename>
+		<filename>german.com_installer.php</filename>
+		<filename>german.com_languages.php</filename>
+		<filename>german.com_mambots.php</filename>
+		<filename>german.com_massmail.php</filename>
+		<filename>german.com_media.php</filename>
+		<filename>german.com_menumanager.php</filename>
+		<filename>german.com_menus.php</filename>
+		<filename>german.com_messages.php</filename>
+		<filename>german.com_modules.php</filename>
+		<filename>german.com_newsfeeds.php</filename>
+		<filename>german.com_poll.php</filename>
+		<filename>german.com_sections.php</filename>
+		<filename>german.com_softdisk.php</filename>
+		<filename>german.com_statistics.php</filename>
+		<filename>german.com_syndicate.php</filename>
+		<filename>german.com_templates.php</filename>
+		<filename>german.com_trash.php</filename>
+		<filename>german.com_typedcontent.php</filename>
+		<filename>german.com_users.php</filename>
+		<filename>german.com_weblinks.php</filename>
+		<filename>german.gemini.php</filename>
+		<filename>german.pref.php</filename>
+		<filename>german.gif</filename>
+		<filename>german.php</filename>
+		<filename>german.xml</filename>
+		<filename>german.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

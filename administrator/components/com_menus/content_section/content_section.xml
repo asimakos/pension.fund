@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2008">
+	<name>AX_MCS_CNAME</name>
+	<group>Content</group>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-14 21:39:17</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_MCS_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_MCS_STL" description="AX_MCS_STD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="orderby" type="list" dir="rtl" default="" label="AX_ORDBYL" description="AX_ORDBYD">
+			<option value="">AX_OPRM01</option>
+			<option value="alpha">AX_OCAT02</option>
+			<option value="ralpha">AX_OCAT03</option>
+			<option value="order">AX_OCAT04</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="AX_CCT_CATLISTSL" description="AX_CCT_CATLISTSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="0" label="AX_DESCRL" description="AX_SHCDESD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_image" type="radio" default="0" label="AX_DESCIL" description="AX_MCS_SHCTID">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="other_cat" type="radio" default="1" label="AX_CCT_CATLISTCL" description="AX_CCT_CATLISTCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="empty_cat" type="radio" default="0" label="AX_MUECATL" description="AX_MUECATD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="AX_CCT_NOCATITL" description="AX_CCT_NOCATITD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="AX_CATDSCL" description="AX_CATDSBLND">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="date_format" type="text" size="15" default="" label="AX_MUDATFL" description="AX_MUDATFD" />
+		<param name="date" type="list" dir="rtl" default="" label="AX_MUDATCL" description="AX_MUDATCD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="author" type="list" dir="rtl" default="" label="AX_MUAUTCL" description="AX_MUAUTCD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="hits" type="list" dir="rtl" default="" label="AX_MUHITCL" description="AX_MUHITCD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="headings" type="radio" default="1" label="AX_TBHEADL" description="AX_TBHEADD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="navigation" type="radio" default="1" label="AX_MUNAVBL" description="AX_MUNAVBD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="order_select" type="radio" default="1" label="AX_MUORDSL" description="AX_MUORDSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="display" type="radio" default="1" label="AX_MUDSPSL" description="AX_MUDSPSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="display_num" type="list" default="50" label="AX_MUDSPNL" description="AX_MUDSPND">
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="50">50</option>
+		</param>
+		<param name="filter" type="radio" default="1" label="AX_MUFLTL" description="AX_MUFLTD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="filter_type" type="list" dir="rtl" default="title" label="AX_MUFLTFL" description="AX_MUFLTFD">
+			<option value="title">AX_FTITLE</option>
+			<option value="author">AX_FAUTH</option>
+			<option value="hits">AX_FHITS</option>
+		</param>
+	</params>
+</mosinstall>

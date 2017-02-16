@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2008">
+	<name>Weblinks</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-09 09:49:46</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_WBL_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="lastmodified" type="radio" default="1" label="AX_MTDL" description="AX_MTDD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="hits" type="list" dir="rtl" default="" label="AX_FHITS" description="AX_MUHITCD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="item_description" type="radio" default="1" label="AX_WBL_LDL" description="AX_WBL_LDD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat_section" type="radio" default="1" label="AX_CCT_CATLISTSL" description="AX_CCT_CATLISTSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="AX_CCT_CATLISTCL" description="AX_CCT_CATLISTCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="description" type="radio" default="1" label="AX_DESCRL" description="AX_DESCRD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_text" type="textarea" dir="rtl" default="" label="AX_DESCRTXL" rows="5" cols="30" description="AX_DESCRTXD"/>
+		<param name="image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_IMAGEL" description="AX_IMGFRPD" />
+		<param name="image_align" type="radio" default="right" label="AX_IMGALL" description="AX_IMGALD">
+			<option value="left">AX_LEFT</option>
+			<option value="right">AX_RIGHT</option>
+		</param>
+		<param name="weblink_icons" type="imagelist" directory="/images/M_images" default="" label="AX_WBL_ICL" description="AX_WBL_ICD" />
+		<param name="sshots" type="radio" default="1" label="AX_WBL_SCSL" description="AX_WBL_SCSD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Latest News</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-05 22:21:19</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_AM_LN_DESC</description>
+	<files>
+		<filename module="mod_latest">mod_latest.php</filename>
+	</files>
+</mosinstall>

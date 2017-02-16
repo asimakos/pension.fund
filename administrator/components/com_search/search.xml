@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2009">
+	<name>Search</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-09-02 10:07:20</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>AX_SEAR_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" default="" label="AX_MENUIMGL" description="AX_MENUIMGD"/>
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD"/>
+		<param name="back_button" type="list" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="AX_PAGTITLL" description="AX_PAGTITLD"/>
+		<param name="pagination_limit" type="list" default="10" dir="ltr" label="Pagination limit" description="Number of search results per page">
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="40">40</option>
+			<option value="50">50</option>
+		</param>
+		<param name="pagination_pos" type="list" default="0" label="AX_PAGL" description="Select where the pagination links to be placed">
+			<option value="0">AX_SM_SEM_BTM</option>
+			<option value="1">AX_SM_SEM_TOP</option>
+			<option value="2">AX_SM_OP03</option>
+		</param>
+		<param name="footer" type="radio" default="1" label="Search footer" description="Show search footer?">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+	</params>
+</mosinstall>

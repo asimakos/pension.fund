@@ -1,0 +1,113 @@
+/* eforms bot by Ioannis Sannos, http://www.isopensource.com */
+
+h3.eforms_h3 {
+	background-image: none;
+	background-color: transparent;
+	margin: 20px 0 20px 0;
+	padding: 0;
+	font: bold 16px/19px Arial, Helvetica, sans-serif;
+	color: #444;
+	border: none;
+}
+p.eforms_para {
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #333;
+	margin: 20px 0;
+	padding: 0;
+}
+.eforms_para a, .eforms_para a:visited, .eforms_para a:link, .eforms_para a:active, .eforms_para a:hover {
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #659BE3;
+	text-decoration: none;
+}
+.eforms_para a:hover { color: #000; }
+
+.eforms_selectbox {
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	background-color: #FFFFFF;
+	border: 1px solid #999;
+	padding: 1px;
+	margin: 1px;
+	color: #000;
+}
+.eforms_textbox {
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	background-color: #FFFFFF;
+	border: 1px solid #999;
+	padding: 1px;
+	margin: 1px;
+	color: #000;
+}
+textarea.eforms_textarea {
+	border: 1px solid #999;
+	padding: 3px;
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	background-color: #fff;
+}
+.eforms_row {
+	margin: 5px 0;
+	padding: 3px 2px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.eforms_row:hover {
+	background-color: #FFFFD4;
+	border: 1px solid #D7D782;
+}
+.eforms_label {
+	display: block;
+	float: left;
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #000;
+	margin:0; 
+	padding: 0;
+	border: none;
+}
+.eforms_labeldesc {
+	font: normal 11px/14px Tahoma, Geneva, sans-serif;
+	color: #666;
+}
+.eforms_button {
+	background-color: #666;
+	border: 1px solid #ccc;
+	color: #fff;
+	font: bold 12px/16px Tahoma, Geneva, sans-serif;
+	padding: 2px;
+	margin: 2px;
+}
+.eforms_button:hover {
+	background-color: #CC0000;
+}
+.eforms_note {
+	color: #666;
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+}
+.eforms_warning {
+	background-color: #FBE3D9;
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #000;
+	margin: 20px 0;
+	padding: 4px;
+	border: 1px solid #F2BBA2;
+}
+.eforms_success {
+	background-color: #EBFBD9;
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #000;
+	margin: 20px 0;
+	padding: 4px;
+	border: 1px solid #C4E89A;
+}
+.eforms_signature {
+	font: normal 12px/16px Tahoma, Geneva, sans-serif;
+	color: #444;
+	margin: 20px 0;
+	padding: 0;
+}
+
+.eforms_signature a, .eforms_signature a:visited, .eforms_signature a:link, .eforms_signature a:active, .eforms_signature a:hover {
+	font: bold 12px/16px Tahoma, Geneva, sans-serif;
+	color: #659BE3;
+	text-decoration: none;
+}
+.eforms_signature a:hover { color: #000; }

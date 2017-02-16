@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Main Menu</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-01-11 22:09:10</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>AX_SM_MNM_DESC</description>
+	<files>
+		<filename module="mod_mainmenu">mod_mainmenu.php</filename>
+	</files>
+	<params>
+		<param name="class_sfx" type="text" dir="ltr" default="" label="AX_SM_MUCSL" description="AX_SM_MUCSD" />
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="menutype" type="mos_menu" dir="ltr" default="" label="AX_SM_MNM_MNL" description="AX_SM_MNM_MND" />
+		<param name="menu_style" type="list" dir="rtl" default="vert_indent" label="AX_SM_MNM_MSL" description="AX_SM_MNM_MSD">
+			<option value="vert_indent">AX_SM_MNM_OP1</option>
+			<option value="horiz_flat">AX_SM_MNM_OP2</option>
+			<option value="list_flat">AX_SM_MNM_OP3</option>
+		</param>
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="menu_images" type="radio" default="0" label="AX_SM_SMIL" description="AX_SM_SMID">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="menu_images_align" type="radio" default="0" label="AX_SM_MIAL" description="AX_SM_MIAD">
+			<option value="0">AX_LEFT</option>
+			<option value="1">AX_RIGHT</option>
+		</param>
+		<param name="expand_menu" type="radio" default="0" label="AX_SM_MNM_EML" description="AX_SM_MNM_EMD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="indent_image" type="list" dir="rtl" default="0" label="AX_SM_MNM_IIL" description="AX_SM_MNM_IID">
+			<option value="0">AX_SM_MNM_OP4</option>
+			<option value="1">AX_SM_MNM_OP5</option>
+			<option value="2">AX_SM_MNM_OP6</option>
+			<option value="3">AX_SM_MNM_OP7</option>
+		</param>
+		<param name="indent_image1" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II1L" description="AX_SM_MNM_II1D" />
+		<param name="indent_image2" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II2L" description="AX_SM_MNM_II2D" />
+		<param name="indent_image3" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II3L" description="AX_SM_MNM_II3D" />
+		<param name="indent_image4" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II4L" description="AX_SM_MNM_II4D" />
+		<param name="indent_image5" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II5L" description="AX_SM_MNM_II5D" />
+		<param name="indent_image6" type="imagelist" dir="ltr" directory="/images/M_images" default="" label="AX_SM_MNM_II6L" description="AX_SM_MNM_II6D" />
+		<param name="@spacer" type="spacer" default="SEO PRO" label="" description="" />
+		<param name="idpreload" type="radio" default="0" label="AX_SM_MNM_IDPR" description="AX_SM_MNM_IDPRD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="@spacer" type="spacer" default="AX_SM_MNM_SPL" label="" description="" />
+		<param name="spacer" type="text" dir="rtl" default="" size="5" label="AX_SM_MNM_SPL" description="AX_SM_MNM_SPD" />
+		<param name="end_spacer" type="text" dir="rtl" default="" size="5" label="AX_SM_MNM_ESL" description="AX_SM_MNM_ESD" />
+	</params>
+</mosinstall>

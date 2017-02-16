@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Poll</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-04-12 09:38:16</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<description>AX_SM_POL_DESC</description>
+	<files>
+		<filename module="mod_poll">mod_poll.php</filename>
+		<filename>mod_poll/poll.css</filename>
+		<filename>mod_poll/poll.js</filename>
+		<filename>mod_poll/index.html</filename>
+		<filename>mod_poll/images/index.html</filename>
+		<filename>mod_poll/images/graph.gif</filename>
+		<filename>mod_poll/images/graph_left_1.gif</filename>
+		<filename>mod_poll/images/graph_middle_1.gif</filename>
+		<filename>mod_poll/images/graph_right_1.gif</filename>
+	</files>
+	<params>
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	</params>
+</mosinstall>

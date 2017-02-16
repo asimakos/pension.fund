@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="component" version="2008">
+	<name>Contact Items</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-13 12:55:19</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_CCT_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="print" type="list" dir="rtl" default="" label="AX_PRNTICOL" description="AX_PRNTICOD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="name" type="radio" default="1" label="AX_CCT_NAMEL" description="AX_CCT_NAMED">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="position" type="radio" default="1" label="AX_CCT_POSITL" description="AX_CCT_POSITD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="email" type="radio" default="0" label="AX_CCT_EMAILL" description="AX_CCT_EMAILD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="street_address" type="radio" default="1" label="AX_CCT_SADDREL" description="AX_CCT_SADDRED">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="suburb" type="radio" default="1" label="AX_CCT_TOWNL" description="AX_CCT_TOWND">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="state" type="radio" default="1" label="AX_CCT_STATEL" description="AX_CCT_STATED">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="country" type="radio" default="1" label="AX_CCT_COUNTRL" description="AX_CCT_COUNTRD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="postcode" type="radio" default="1" label="AX_CCT_ZIPL" description="AX_CCT_ZIPD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="telephone" type="radio" default="1" label="AX_CCT_TELL" description="AX_CCT_TELD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="fax" type="radio" default="1" label="AX_CCT_FAXL" description="AX_CCT_FAXD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="misc" type="radio" default="1" label="AX_CCT_MISCL" description="AX_CCT_MISCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+			<param name="vcard" type="radio" default="1" label="AX_CCT_VCARDL" description="AX_CCT_VCARDD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param> 
+		<param name="image" type="radio" default="1" label="AX_CCT_CIMGL" description="AX_CCT_CIMGD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="email_description" type="radio" default="1" label="AX_CCT_DEMAILL" description="AX_CCT_DEMAILD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="email_description_text" type="text" dir="rtl" size="30" default="" label="AX_CCT_DTXTL" description="AX_CCT_DTXTD" />
+		<param name="email_form" type="radio" default="1" label="AX_CCT_EMFRML" description="AX_CCT_EMFRMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="email_copy" type="radio" default="1" label="AX_CCT_EMCPYL" description="AX_CCT_EMCPYD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="drop_down" type="radio" default="0" label="AX_CCT_DDL" description="AX_CCT_DDD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="contact_icons" type="list" dir="rtl" default="0" label="AX_CCT_ICONTXL" description="AX_CCT_ICONTXD">
+			<option value="0">AX_CCT_ICONS</option>
+			<option value="1">AX_CCT_TEXT</option>
+			<option value="2">AX_CCT_NONE</option>
+		</param>
+		<param name="icon_address" type="imagelist" directory="/images/M_images" hide_none="1" default="" label="AX_CCT_ADICONL" description="AX_CCT_ADICOND" />
+		<param name="icon_email" type="imagelist" directory="/images/M_images" hide_none="1" default="" label="AX_CCT_EMICONL" description="AX_CCT_EMICOND" />
+		<param name="icon_telephone" type="imagelist" directory="/images/M_images" hide_none="1" default="" label="AX_CCT_TLICONL" description="AX_CCT_TLICOND" />
+		<param name="icon_fax" type="imagelist" directory="/images/M_images" hide_none="1" default="" label="AX_CCT_FXICONL" description="AX_CCT_FXICOND" />
+		<param name="icon_misc" type="imagelist" directory="/images/M_images" hide_none="1" default="" label="AX_CCT_MCICONL" description="AX_CCT_MCICOND" />
+	</params>
+</mosinstall>

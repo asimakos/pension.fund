@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Statistics</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-01 21:52:32</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_STA_DESC</description>
+	<files>
+		<filename module="mod_stats">mod_stats.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="serverinfo" type="radio" default="0" label="AX_SM_STA_SVIL" description="AX_SM_STA_SVID">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="siteinfo" type="radio" default="0" label="AX_SM_STA_SIL" description="AX_SM_STA_SID">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="counter" type="radio" default="0" label="AX_SM_STA_HCL" description="AX_SM_STA_HCD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="increase" type="text" dir="ltr" default="0" label="AX_SM_STA_ICL" description="AX_SM_STA_ICD" />
+	</params>
+</mosinstall>

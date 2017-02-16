@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2009">
+	<name>AX_TCLEANCACHE_L</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-04-17 22:19:11</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/trashcan.png</icon>
+	<description>AX_TCLEANCACHE_D</description>
+	<files>
+		<filename tool="clean_cache">clean_cache.php</filename>
+		<filename>images/trashcan.png</filename>
+		<filename>language/index.html</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+	</files>
+</mosinstall>

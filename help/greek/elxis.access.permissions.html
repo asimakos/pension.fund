@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
+<head>
+<title>Διαχειριστής Πρόσβασης - Δικαιώματα</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 Elxis.org." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Διαχειριστής Πρόσβασης - Δικαιώματα</h1>
+
+<p>Ο Διαχειριστής Πρόσβασης χρησιμοποιείται για να εφαρμόσει τον έλεγχο πρόσβασης. 
+Στο Elxis, οι διαχειριστές έχουν την ελευθερία να ορίσουν τα σχήματα ασφαλείας που ταιριάζουν καλύτερα 
+στις ανάγκες τους. Μπορούν να ορίσουν ποιος έχει πρόσβαση που και τι μπορεί να κάνει.</p>
+
+<p>Ο έκεγχος πρόσβασης βασίζεται στην έννοια των Ομάδων Χρηστών. 
+Δεν ελέγχετε μεμονωμένους χρήστες. Ελέγχετε ομάδες χρηστών. 
+Ορίζετε τα δικαιώματα για τις ομάδες. Όλοι οι χρήστες που ανήκουν σε μία συγκεκριμένη ομάδα κληρονομούν τα
+δικαιώματα της ομάδας.</p>
+
+<p>Δεν περιορίζεστε στις προκαθορισμένες ομάδες. Μπορείτε να δημιουργήστετε τις δικές σας.<br />
+Δεν περιορίζεστε σε προκαθορισμένα δικαιώματα. Μπορείτε να δημιουργήσετε τα δικά σας.</p>
+<p>Ο Διαχειριστής Πρόσβασης βασίζει τη λειτουργικότητά του στη γνωστή κλάση <a href="http://phpgacl.sourceforge.net/" target="_blank">phpGACL</a>.</p>
+<p>Σε αυτή την οθόνη θα συναντήσετε τους ακόλουθους όρους:</p>
+<p><strong style="color:#D00">ACO = Access Control Objects</strong>. Ελέγχουν τα δικαιώματα που είναι διαθέσιμα στα ARO objects. 
+Στο Elxis μπορείτε να φανταστείτε τις Ομάδες Χρηστών να είναι ισοδύναμες με τα ARO objects.</p>
+<p><strong>Διαθέσιμα Αντικείμενα</strong>:</p>
+<ul>
+    <li><strong>Action</strong> - αναφέρεται στο τι επιτρέπεται να κάνει μία ομάδα χρηστών στο Δημόσιο Τμήμα. 
+	Μπορεί να πάρει τις ακόλουθες τιμές: Add, Edit, Publish, View, Upload.</li>
+    <li><strong>Administration</strong> - αναφέρεται στο τι επιτρέπεται να κάνει μία ομάδα χρηστών στο Τμήμα της Διαχείρισης. 
+	Μπορεί να πάρει τις ακόλουθες τιμές: Login, Global Configuration, Manage, Install, Edit.</li>
+    <li><strong>Workflow</strong> - επιλέξτε το αν θέλετε η ομάδα χρηστών να επιτρέπεται να λαμβάνει 
+	ειδοποιήσεις μέσω email. Αυτά είναι emails που παράγει το Elxis και στέλνει στα άτομα που εμπλέκονται 
+	με τη διαχείριση, με σκοπό να τα ειδοποιήσει για διάφορα γεγονότα. 
+	Μπορεί να λάβει την τιμή: email_events</li>
+</ul>
+<p><strong style="color:#D00">ARO = Access Request Objects</strong>. Αυτές είναι οι καθορισμένες Ομάδες Χρηστών.<br />
+<strong>Πιθανές Τιμές ARO</strong>: Μπορεί να είναι όποια από τις προκαθορισμένες ομάδες χρηστών,
+ή ομάδες χρητσών που έχει δημιουργήσει ο διαχειριστής, π.χ. Registered, Administrators, Super Administrators, 
+Authors, κ.λπ.</p>
+<p><strong style="color:#D00">AXO = Access eXtension Objects</strong>. Αυτά είναι τα αντικείμενα τα οποία μπορείτε 
+να ελέγξετε.<br />
+<strong>Available AXO Objects</strong>: Τα διαθέσιμα αντικείμενα AXO Objects εξαρτώνται από 
+την τιμή των ACO και ARO. Μπορεί να είναι κάποια από τα: Content, Links, Profile, Components, Files, 
+Templates, Languages, Modules, Bots, Bridges, Tools.<br />
+<strong>Πιθανές τιμές για τα AXO Objects</strong>: All, Own, installed Components, Images, Avatars, block_user.</p>
+<p>Το μοντέλο της πρόσβασης, βασίζεται στη συνθήκη ότι όλα απαγορεύονται εκτός και αν έχει δοθεί άδεια.</p>
+<p>Προκειμένου να καταλάβετε πως μπορείτε να ορίσετε τα δικά σας δικαιώματα, θα πρέπει να αρχίσετε σα να 
+δημιουργείτε προτάσεις. Αυτές οι προτάσεις ορίζουν τους <strong>κανόνες</strong>.</p>
+<p>Για παράδειγμα, ας υποθέσουμε ότι θέλετε να δημιουργήσετε έναν <strong>κανόνα</strong>, ο οποίος θα επιτρέπει 
+όλους τους εγγεγραμμένους χρήστες (registered users) να έχουν πρόσβαση σε όλα τα components του Front-End). 
+Σε αυτή την περίπτωση, η πρότασή σας θα έμοιαζε με την ακόλουθη:</p>
+<p>&quot;<i>Θέλω όλοι οι registered users, να μπορούν να view (δουν) όλα τα components στο Front-End.</i>&quot;</p>
+<p>Ο <strong>κανόνας</strong> στο Διαχειριστή Πρόσβασης θα ήταν:</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+		<td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+</table>
+<p>Για να καταλάβετε καλύτερα τον τρόπο που ορίζονται οι κανόνες για τις διάφορες ομάδες χρηστών, θα ήταν 
+καλύτερο να χρησιμοποιήσουμε κάποια παραδείγματα και να δούμε τι κανόνες έχουν εφαρμοστεί για κάποιες από τις 
+προκαθορισμένες ομάδες.</p>
+<p><strong>Παράδειγμα I - Εγγεγραμμένοι Χρήστες (Registered Users)</strong><br />
+Ας δούμε τι δικαιώματα έχουν οι <strong>Registered users</strong> και πως αυτά ορίζονται στο Διαχειριστή Πρόσβασης. 
+Οι Registered users μπορούν να:</p>
+<ul>
+<li>Προσθέτουν Weblinks από το Δημόσιο Τμήμα</li>
+<li>Να επεξεργαστούν το προφίλ τους</li>
+<li>Να ανεβάσουν εικόνα Avatar για το προφίλ τους</li>
+<li>Να δουν όλα τα Components</li>
+<li>Να δουν τα Προφίλ όλων των χρηστών</li>
+</ul>
+<p>Τώρα δείτε τον ακόλουθο πίνακα για τους κανόνες.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">weblinks</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">own</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">upload</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">files</p></td>
+        <td><p align="center">avatars</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Παράδειγμα II - Manager</strong><br />
+Ας δούμε τι δικαιώματα έχουν οι <strong>Managers</strong> και πως αυτά ορίζονται στο Διαχειριστή Πρόσβασης. 
+Οι Managers μπορούν να:</p>
+<ul>
+<li>Να Προσθέτουν Περιεχόμενο από το Δημόσιο Τμήμα</li>
+<li>Προσθέτουν Weblinks από το Δημόσιο Τμήμα</li>
+<li>Να Επεξεργάζονται όλο το Περιεχόμενο από το Δημόσιο Τμήμα</li>
+<li>Να επεξεργαστούν το προφίλ τους</li>
+<li>Να Δημοσιεύουν Περιεχόμενο από το Δημόσιο Τμήμα</li>
+<li>Να ανεβάσουν αρχεία από το Δημόσιο Τμήμα</li>
+<li>Να δουν όλα τα Components</li>
+<li>Να δουν τα Προφίλ όλων των χρηστών</li>
+<li>Να επεξεργάζονται το component NewsFlash</li>
+<li>Να επεξεργάζονται το component Frontpage</li>
+<li>Να επεξεργάζονται το component Media Manager</li>
+<li>Να συνδέονται στο Back-End</li>
+</ul>
+<p>Τώρα δείτε τον ακόλουθο πίνακα για τους κανόνες.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">weblinks</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">own</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">publish</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">upload</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">files</p></td>
+        <td><p align="center">images</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_newsflash</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_frontpage</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_media</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">login</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">&nbsp;</p></td>
+        <td><p align="center">&nbsp;</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Σημαντική Σημείωση</strong>: Παρακαλούμε χρησιμοποιήστε αυτή την οθόνη με πολύ προσοχή. 
+Οι ομάδες χρηστών είναι ένα ζωτικό κομμάτι της ασφάλειας του Elxis. 
+Τροποποιώντας τα δικαιώματα χωρίς να γνωρίζετε τι κάνετε, μπορείτε να δημιουργήσετε σοβαρά 
+προβλήματα σε αυτό τον ιστότοπο.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+ </body>
+</html>

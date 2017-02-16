@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Custom Module</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-12-30 19:11:44</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_CU_DESC</description>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="rssurl" type="text" dir="ltr" default="" label="AX_SM_CU_RSURL" description="AX_SM_CU_RSURD" />
+		<param name="rssdesc" type="radio" default="1" label="AX_SM_CU_FEDL" description="AX_SM_CU_FEDD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="rssimage" type="radio" default="1" label="AX_SM_CU_FEIL" description="AX_SM_CU_FEID">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="rssitems" type="text" dir="ltr" default="3" label="AX_SM_CU_ITL" description="AX_SM_CU_ITD" />
+		<param name="rssitemdesc" type="radio" default="1" label="AX_SM_CU_ITDL" description="AX_SM_CU_ITDD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="word_count" type="text" dir="ltr" size="6" default="0" label="AX_SM_CU_WCL" description="AX_SM_CU_WCD" />
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

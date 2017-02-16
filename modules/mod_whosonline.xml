@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Who's Online</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-11-27 22:02:11</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_SM_WSO_DESC</description>
+	<files>
+		<filename module="mod_whosonline">mod_whosonline.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	  <param name="showmode" type="radio" default="0" label="AX_SM_WSO_DL" description="AX_SM_WSO_DD">
+		<option value="0">AX_SM_WSO_OP1</option>
+		<option value="1">AX_SM_WSO_OP2</option>
+		<option value="2">AX_SM_WSO_OP3</option>
+	  </param>
+	  <param name="filtergroups" type="radio" default="0" label="AX_MODWHO_FILGR" description="AX_MODWHO_FILGRD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	  <param name="groupip" type="radio" default="0" label="Group by IP" description="Group visitors sharing the same IP address">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

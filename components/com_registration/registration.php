@@ -1,0 +1,487 @@
+<?php 
+/** 
+* @version: $Id: registration.php 2611 2010-03-31 19:03:39Z datahell $
+* @copyright: Copyright (C) 2006-2010 Elxis.org. All rights reserved.
+* @package: Elxis
+* @subpackage: Component Registration
+* @author: Elxis Team
+* @email: info@elxis.org
+* @link: http://www.elxis.org
+* @license: http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Elxis CMS is a Free Software
+*/
+
+defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
+
+
+if (($mainframe->getCfg('access') == '1') | ($mainframe->getCfg('access') == '3')) {
+	$usertype = ($my->usertype == '') ? $acl->get_group_name('29') : $my->usertype;
+	$usertype = eUTF::utf8_strtolower($usertype);
+	if (!($acl->acl_check( 'action', 'view', 'users', $usertype, 'components', 'all' ) || 
+		$acl->acl_check( 'action', 'view', 'users', $usertype, 'components', 'com_registration' ))) {
+		mosRedirect( 'index.php', _NOT_AUTH );
+	}
+}
+
+$task = mosGetParam( $_REQUEST, 'task', "" );
+require_once( $mainframe->getPath( 'front_html' ) );
+
+switch( $task ) {
+	case 'lostPassword':
+	lostPassForm();
+	break;
+	case 'sendNewPass':
+	sendNewPass();
+	break;
+	case 'saveRegistration':
+	saveRegistration();
+	break;
+	case 'activate':
+	activate( $option );
+	break;
+	case 'register':
+	default:
+	registerForm();
+	break;	
+}
+
+
+/******************************/
+/* PREPARE LOST PASSWORD FORM */
+/******************************/
+function lostPassForm() {
+	global $mainframe, $my;
+
+	$mainframe->setPageTitle(_LOST_PASSWORD);
+    if ($mainframe->getCfg('sef') == 2) {
+        $mainframe->setMetaTag('robots', 'noindex, follow');
+        $mainframe->addCustomHeadTag('<meta http-equiv="Pragma" content="no-cache" />');
+        $mainframe->addCustomHeadTag('<meta http-equiv="Expires" content="-1" />');
+    }
+
+    if ($my->id) { //just in case...
+        elxError(_E_NOREMPASS, 0, _ALREADY_LOGIN);
+        return;
+    }
+
+	$mainframe->addonLoad('lostautocoff()');
+
+	HTML_registration::lostPassForm();
+}
+
+
+/*********************/
+/* SEND NEW PASSWORD */
+/*********************/
+function sendNewPass() {
+	global $database, $mainframe, $mosConfig_mailfrom, $mosConfig_fromname, $my, $_VERSION;
+
+    if ($my->id) {
+        elxError(_E_NOREMPASS, 0, _ALREADY_LOGIN);
+        return;
+    }
+
+	/* SECURITY CHECK */
+	if ($mainframe->getCfg('captcha')) {
+        $code = getEncString(trim( mosGetParam($_POST, 'code', '')));
+        if ($code != $_SESSION['captcha']) {
+            elxError(_E_INV_SECCODE, 1);
+            return;
+	   }
+	}
+
+	// ensure no malicous sql gets past
+	$checkusername = eUTF::utf8_trim( mosGetParam( $_POST, 'checkusername', '') );
+	$checkusername = $database->getEscaped( $checkusername );
+	$confirmEmail = eUTF::utf8_trim( mosGetParam( $_POST, 'confirmEmail', '') );
+	$confirmEmail = $database->getEscaped( $confirmEmail );
+
+	$redLink = sefRelToAbs('index.php?option=com_registration&task=lostPassword', 'registration/lost-password.html');
+
+	$database->setQuery("SELECT id, gid FROM #__users WHERE username='$checkusername' AND email='$confirmEmail' AND block='0' AND expires > '".date('Y-m-d H:i:s')."'", '#__', 1, 0);
+    $userinfo = $database->loadRow();
+
+	if (!$checkusername || !$confirmEmail || !$userinfo) {
+        elxError(_E_ERROR_PASS, 0);
+        return;
+	}
+
+    $user_id = intval($userinfo['id']);
+    $user_gid = intval($userinfo['gid']);
+    if ($user_gid == '25') {
+        elxError(_E_NOCPASSADM, 0);
+        return;
+    }
+
+    $newpass = mosMakePassword();
+	$md5newpass = md5( $newpass );
+	$database->setQuery( "UPDATE #__users SET password='$md5newpass' WHERE id='$user_id'" );
+	if (!$database->query()) {
+        mosRedirect( $redLink, 'Could not change your password, please try again' );
+	}
+
+	$message = _E_NEWPASS_MSG;
+    eval ("\$message = \"$message\";");
+    $subject = $mainframe->getCfg('sitename').' :: '.sprintf(_E_NEWPASS_SUB, $checkusername);
+    mosMail($mosConfig_mailfrom, $mosConfig_fromname, $confirmEmail, $subject, $message);
+
+    $database->setQuery( "SELECT sdvalue FROM #__softdisk WHERE sdsection='USERS' AND sdname='USERS_RPASSMAIL'", '#__', 1, 0 );
+    $notify = intval($database->loadResult());
+
+    if ($notify) {
+        $database->setQuery( "SELECT email, preflang FROM #__users WHERE block='0' AND expires > '".date('Y-m-d H:i:s')."' AND ((gid = '24') OR (gid = '25')) AND sendemail='1'" );
+        $rows = $database->loadRowList();
+        if ($rows) {
+        	$prlang = new prefLang();
+            foreach ($rows as $row) {
+            	$prlang->load($row['preflang']);
+				$subject = $mainframe->getCfg('sitename').' :: '.sprintf($prlang->lng->_E_NEWPASS_SUB, $checkusername);
+
+            	$msg = sprintf($prlang->lng->_E_RPASS_NADMIN, $checkusername);
+	        	$msg .= "\r\n\r\n".$mainframe->getCfg('sitename')."\r\n";
+            	$msg .= $mainframe->getCfg('live_site');
+            	$msg .= "\r\n\r\n\r\n";
+				$msg .= 'Generated by '.$_VERSION->PRODUCT.' '.$_VERSION->RELEASE.'.'.$_VERSION->DEV_LEVEL.' ('.$_VERSION->CODENAME.')';
+				$msg .= "\r\n";
+				$msg .= $_VERSION->COPYRIGHT;
+
+                mosMail($mosConfig_mailfrom, $mosConfig_fromname, $row['email'], $subject, $msg);
+            }
+        }
+	}
+
+    mosRedirect( $redLink, _E_NEWPASS_SENT );
+}
+
+
+/*****************************/
+/* PREPARE REGISTRATION FORM */
+/*****************************/
+function registerForm() {
+	global $mainframe, $database, $acl, $mosConfig_pub_langs, $lang, $my;
+
+    $mainframe->setPageTitle(_E_REGISTRATION);
+    $mainframe->setMetaTag( 'description', _E_REGISTRATION.' '.$mainframe->getCfg('sitename'));
+    $mainframe->setMetaTag( 'keywords', ''._E_REGISTRATION.', '._E_MEMBERS.', register, free' );
+
+	if (!$mainframe->getCfg( 'allowUserRegistration' )) {
+        elxError(_E_REGDISABLED, 0);
+		return;
+	}
+
+    if ($my->id) { //just in case...
+        elxError(_ALREADY_LOGIN, 0);
+        return;
+    }
+
+	//EXTRA FIELDS
+	$lists['extra'] = array();
+	$lists['reqs'] = array(); //list of required fields elements
+
+	//get system published extra fields
+	$query = "SELECT * FROM #__users_extra WHERE published='1' AND registration='1' ORDER BY ordering ASC";
+	$database->setQuery( $query );
+	$fields = $database->loadObjectList();
+
+	if (count($fields) > 0 ) {
+    	for ($q=0; $q<count($fields); $q++) {
+    		$field = &$fields[$q];
+    		$ckid = $field->extraid;
+    		$fvals = explode("|", $field->defvalue);
+            $options = explode("|", $field->eoptions);
+            
+            $req = 0;
+            if ($field->etype == 'text' && $field->required == '1') {
+                $req = 1;
+                $lists['reqs'][] = 'req'.$field->extraid;
+            }
+            $lists['extra'][] = mosHTML::xfieldFormArray( $field->extraid, $field->name, $options, $fvals, $field->etype, $field->readonly, $field->halign, $field->maxlength, '', $req);
+    	}
+    }
+
+    //User's preferable language
+	if (preg_match('/\,/', $mainframe->getCfg('pub_langs'))) {
+    	$plangs = explode(',', $mainframe->getCfg('pub_langs'));
+		$lists['preflang'] = '<select name="preflang" dir="ltr" title="'._E_PREFLANG.'" class="selectbox">'."\n";
+		foreach ( $plangs as $plang ) {
+			$sel = ($plang == $lang) ? ' selected="selected"' : '';
+			$lists['preflang'] .= '<option value="'.$plang.'"'.$sel.'>'.$plang."</option>\n";
+    	}
+    	$lists['preflang'] .= "</select>\n";
+	} else {
+		$lists['preflang'] = '';
+	}
+
+    //Registration agreement
+    $agreeid = 0;
+    $sdlangname = 'REG_AGREE_'.strtoupper($lang);
+    $database->setQuery("SELECT sdvalue FROM #__softdisk WHERE sdsection='USERS' AND sdname = '$sdlangname'", '#__', 1, 0);
+    $agreeid = intval($database->loadResult());
+    if (!$agreeid) {
+        $database->setQuery("SELECT sdvalue FROM #__softdisk WHERE sdsection='USERS' AND sdname = 'REG_AGREE'", '#__', 1, 0);
+        $agreeid = intval($database->loadResult());
+    }
+    if ($agreeid) {
+        $query = "SELECT COUNT(*) FROM #__content WHERE id='".$agreeid."' AND state='1' AND sectionid='0' AND catid='0' AND access='29'";
+        $database->setQuery($query);
+        if (!intval($database->loadResult())) { $agreeid = 0; }
+    }
+
+	$mainframe->addonLoad('regautocoff()');
+
+	HTML_registration::registerForm($lists, $agreeid);
+}
+
+
+function getEncString($string='') {
+	global $mainframe;
+
+	$enc = $string.date('Ymd').$mainframe->getCfg('secret');
+    if (isset($_SERVER['HTTP_USER_AGENT'])) {
+        $enc .= $_SERVER['HTTP_USER_AGENT'];
+    }
+    if (isset($_SERVER['REMOTE_ADDR'])) {
+        $enc .= $_SERVER['REMOTE_ADDR'];
+    }
+    return md5($enc);
+}
+
+
+/**************************/
+/* SAVE REGISTRATION DATA */
+/**************************/
+function saveRegistration() {
+	global $database, $my, $acl, $mainframe;
+
+    $mainframe->setPageTitle(_E_REGISTRATION);
+
+	if (!intval($mainframe->getCfg('allowUserRegistration'))) {
+        elxError(_E_REGDISABLED, 1);
+		return;
+	}
+
+    if ($my->id) { //just in case...
+        elxError(_ALREADY_LOGIN, 1);
+        return;
+    }
+
+    /* SECURITY CHECK */
+    if ($mainframe->getCfg('captcha')) {
+        $code = getEncString(trim( mosGetParam($_POST, 'code', '')));
+        if ($code != $_SESSION['captcha']) {
+            elxError(_E_INV_SECCODE, 1);
+            return;
+	   }
+    }
+
+	/* FLOOD PROTECTION */
+	$database->setQuery("SELECT registerdate FROM #__users ORDER BY id DESC", '#__', 1, 0);
+	if ($ldate = $database->loadResult()) {
+		$tdiff = (time() + ($mainframe->getCfg('offset') * 3600) -strtotime($ldate));
+		if ($tdiff < 30) {
+            elxError(_REG_TRYAGAIN_SECS, 0);
+            return;
+		}
+	}
+
+	//EXTRA FIELDS
+    $efields = mosGetParam( $_POST, 'efield', null );
+    $extrafields = '';
+
+    if ($efields) {
+    //check if empty checkboxes exist
+    $ckboxes = mosGetParam( $_POST, 'efieldhidden', null );
+    if ($ckboxes) {
+        foreach ($ckboxes as $ckbox) {
+            //if ckbox is empty
+            if (!array_key_exists($ckbox, $efields)) {
+                $efields[$ckbox] = '';
+            }
+        }
+    }
+    
+    foreach ($efields as $efld => $val ) {
+        if (is_array($efld)) { $efld = $efld[0]; } //checkbox
+
+        $extrafields .= $efld.'=';
+
+        if (is_array($val)) {
+            foreach ($val as $vl) {
+                $vl = preg_replace("/[\`\~\#\$\%\^\&\*\<\>\{\}\[\]\\\|\/\"\']+/", "", $vl);
+                $extrafields .= $vl.'/';
+            }
+        } else {
+            $val = preg_replace("/[\`\~\#\$\%\^\&\*\<\>\{\}\[\]\\\|\/\"\']+/", "", $val);
+            $extrafields .= $val;
+        }
+
+        //strip out any trailing forward slashes
+        $extrafields = preg_replace("/[\/]$/", "", $extrafields);        
+        $extrafields .= '|';
+    }
+    //strip out any trailing vertical slashes
+    $extrafields = preg_replace("/[\|]$/", "", $extrafields);
+    }
+
+   $_POST['extrafields'] = $extrafields;
+
+	$row = new mosUser( $database );
+	if (!$row->bind( $_POST, 'usertype' )) {
+		echo "<script type=\"text/javascript\">alert('".$row->getError()."'); window.history.go(-1);</script>"._LEND;
+		exit();
+	}
+
+	mosMakeHtmlSafe($row);
+
+	$row->id = 0;
+	$row->gid = '18';
+	$row->usertype = $acl->get_group_name( '18', 'ARO');
+    $row->sendemail = 0;
+    $row->params = null;
+
+	if ($mainframe->getCfg('useractivation') == '1') {
+		$row->activation = md5( mosMakePassword() );
+		$row->block = '1';
+	} else if ($mainframe->getCfg('useractivation') == '2') {
+		$row->block = '1';
+	}
+
+	if (!$row->check()) {
+        elxError($row->getError(), 1);
+        return;
+	}
+
+	$pwd = $row->password;
+	$row->password = md5( $row->password );
+	$row->registerdate = date("Y-m-d H:i:s");
+	$row->expires = '2060-01-01 00:00:00';
+
+	if (!$row->store()) {
+		echo "<script type=\"text/javascript\">alert('".$row->getError()."'); window.history.go(-1);</script>"._LEND;
+		exit();
+	}
+	$row->checkin();
+
+	$name = $row->name;
+	$email = $row->email;
+	$username = $row->username;
+
+	$subject = sprintf (_E_SEND_SUB, $name, $mainframe->getCfg('sitename'));
+	$subject = html_entity_decode($subject, ENT_QUOTES);
+	if ($mainframe->getCfg('useractivation') == "1") {
+        $actLink = $mainframe->getCfg('live_site').'/';
+        $actLink .= ($mainframe->getCfg('sef') == 2) ? 'registration/activate.html?activation='.$row->activation : 'index.php?option=com_registration&task=activate&activation='.$row->activation;
+		$message = sprintf(_USEND_MSG_ACTIVATE, $name, $mainframe->getCfg('sitename'), $actLink, $mainframe->getCfg('live_site'), $username, $pwd);
+
+		$message = html_entity_decode($message, ENT_QUOTES);
+		mosMail($mainframe->getCfg('mailfrom'), $mainframe->getCfg('fromname'), $email, $subject, $message);
+	} else if ($mainframe->getCfg('useractivation') == "2") {
+		//do nothing
+	} else {
+		$message = sprintf(_USEND_MSG, $name, $mainframe->getCfg('sitename'), $mainframe->getCfg('live_site'));
+		$message = html_entity_decode($message, ENT_QUOTES);
+		mosMail($mainframe->getCfg('mailfrom'), $mainframe->getCfg('fromname'), $email, $subject, $message);
+	}
+
+	//Send notification to all administrators
+    $database->setQuery("SELECT name, email, preflang FROM #__users WHERE gid='25' AND block='0' AND sendemail='1' AND expires > '".date('Y-m-d H:i:s')."'");
+    $admins = $database->loadRowList();
+    
+	if ($admins) {
+		$prlang = new prefLang();
+
+        foreach ($admins as $adminx) {
+        	$prlang->load($adminx['preflang']);
+
+			$subject2 = sprintf($prlang->lng->_E_SEND_SUB, $name, $mainframe->getCfg('sitename'));
+			$subject2 = html_entity_decode($subject2, ENT_QUOTES);
+			$message2 = sprintf($prlang->lng->_ASEND_MSG, $adminx['name'], $mainframe->getCfg('sitename'), $row->name, $email, $username);
+			if ($mainframe->getCfg('useractivation') == '2') {
+				$message2 .= "\r\n\r\n".$prlang->lng->_MANAPPROVE;
+			}
+			$message2 .= "\r\n\r\n\r\n";
+			$message2 .=$mainframe->getCfg('sitename')."\r\n";
+			$message2 .=$mainframe->getCfg('live_site');
+			$message2 = html_entity_decode($message2, ENT_QUOTES);
+            mosMail($mainframe->getCfg('mailfrom'), $mainframe->getCfg('fromname'), $adminx['email'], $subject2, $message2);
+        }
+    }
+
+    echo '<h1>'._REG_COMPLETE.'</h1>'._LEND;
+	if ($mainframe->getCfg('useractivation') == '1') {
+		echo '<p>'._REG_COMPLETE_ACTIVATE.'</p><br />'._LEND;
+	} else if ($mainframe->getCfg('useractivation') == '2') {
+		echo '<p>'._REG_COMPLETE_MANACT.'</p><br />'._LEND;
+	} else {
+        echo '<p>'._REG_NOWLOGIN.'<br />'._LEND;
+        echo _REG_VISITPROF.'</p><br />'._LEND;
+	}
+}
+
+
+/********************/
+/* ACTIVATE ACCOUNT */
+/********************/
+function activate( $option ) {
+	global $database, $my, $mainframe;
+
+    $mainframe->setPageTitle(_E_ACCACTIV);
+    $mainframe->setMetaTag( 'description', _E_ACCACTIV.' '.$mainframe->getCfg('sitename'));
+    if ($mainframe->getCfg('sef') == 2) {
+        $mainframe->addCustomHeadTag('<meta http-equiv="Pragma" content="no-cache" />');
+        $mainframe->addCustomHeadTag('<meta http-equiv="Expires" content="-1" />');
+    }
+
+    echo '<h1>'._E_ACCACTIV.'</h1>'._LEND;
+
+    if ($my->id) {
+        elxError(_ALREADY_LOGIN, 1);
+        return;
+    }
+	if (!intval($mainframe->getCfg('allowUserRegistration'))) {
+        elxError(_E_REGDISABLED, 1);
+		return;
+	}
+	if ($mainframe->getCfg('useractivation') != '1') {
+        elxError('Invalid request!', 1);
+		return;
+	}
+
+	$activation = trim(mosGetParam( $_REQUEST, 'activation', '' ));
+	$activation = $database->getEscaped( $activation );
+
+	if (empty( $activation )) {
+        elxError(_REG_ACTIVATE_NOT_FOUND, 1, _REG_INVACTLINK);
+		return;
+	}
+
+	$database->setQuery("SELECT id FROM #__users WHERE activation='".$activation."' AND block='1'");
+	$result = $database->loadResult();
+	if ($result) {
+		$database->setQuery("UPDATE #__users SET block='0', activation='' WHERE activation='".$activation."' AND block='1'");
+		if (!$database->query()) {
+            elxError($database->stderr(true), 1, 'SQL Error!');
+		} else {
+		    echo '<p><strong>'._REG_ACTIVATE_COMPLETE.'</strong><br /><br />'._LEND;
+		    echo _REG_ACACTNOWLOGIN.' '._REG_VISITPROF.'</p><br />'._LEND;
+		}
+	} else {
+		elxError(_REG_ACTIVATE_NOT_FOUND, 1, _REG_INVACTLINK);
+	}
+}
+
+
+/******************************/
+/* CHECK IF AN EMAIL IS VALID */
+/******************************/
+function is_email($email){
+    if (preg_match("/[\w\.\-]+@\w+[\w\.\-]*?\.\w{1,4}/", $email )==false) { return false; }
+    $parts = preg_split("/[\@]/", $email);
+    if (count($parts) != 2) { return false; }
+    if (!preg_match("#^[a-zA-Z0-9_.-]+$#", $parts[0])) { return false; }
+    if (!preg_match("#^[a-zA-Z0-9_.-]+$#", $parts[1])) { return false; }
+    if (!preg_match("#\.[a-zA-Z]+$#", $parts[1])) { return false; }
+    return true;
+}
+
+?>

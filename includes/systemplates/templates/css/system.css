@@ -1,0 +1,58 @@
+/*
+System template CSS
+Elxis CMS
+http://www.elxis.org
+*/
+
+*html { margin: 0; padding: 0; }
+body, p, div, h1, h2, h3, ul, li, a, span, label, input, form, table, tr, td { margin: 0; padding: 0; }
+html {height:100%; overflow: hidden; } /* IE7 */
+body { color: #000; background:#7abcff url(../images/elxis_grass.jpg) bottom right no-repeat; overflow:hidden; }
+body, p, div, ul, li, span { font: normal 14px/17px tahoma, arial, sans-serif; color: #000; }
+a, a:active, a:link, a:visited { font-weight: normal; text-decoration: none; color: #163B94; }
+a:hover { text-decoration: underline; color: #000000; }
+.maincontainer { width: 632px; margin: 80px auto 20px auto; }
+.maininner { background:transparent url(../images/box_mid.png) top left repeat-y; margin: 0; padding: 0 30px; }
+h1.offline, h1.error { padding: 0 0 0 38px; background:transparent url(../images/warning32.png) top left no-repeat; font: bold 26px/32px arial, tahoma, sans-serif; color:#FF9900; }
+p.subtitle { padding: 0 0 0 38px; font: normal 14px/17px tahoma, verdana, sans-serif; color: #555; }
+p.messagebox { margin: 20px 0; font: normal 14px/18px tahoma, verdana, sans-serif; color: #000; }
+.signature { margin: 0; padding: 0; font: normal 15px/18px "Trebuchet MS", "DejaVu Sans", Helvetica, Verdana; color: #777; }
+.elxiscopyright { margin: 30px auto; text-align: center; font: normal 12px/16px tahoma, verdana, sans-serif; color: #dbeefb; }
+.elxiscopyright a { font: normal 12px/16px tahoma, verdana, sans-serif; color: #fff; text-decoration: none; }
+.elxiscopyright a:hover { color: #000; }
+div.loginbox { background-color: #d9ecfe; padding: 4px; border: 1px solid #7abcff; margin: 0 0 20px 0; }
+.inlabel { padding: 0; margin: 0 0 10px 0; }
+label { font: normal 14px/17px arial, tahoma, sans-serif; color: #2a5580; display: block; width: 220px; float: left; }
+input.inputbox { color: #666; background-color: #fff; width: 120px; padding: 2px; margin: 0; border: 1px solid #d3dde5; font: normal 14px/17px arial, tahoma, sans-serif; }
+input.inputbox:focus { background-color: #faf9d8; border: 1px solid #9dceff; color: #000; }
+input.searchbox { background: #fff url(../images/magnify.png) 120px 2px no-repeat; color: #666; width: 120px; padding: 2px 18px 2px 2px; margin: 0; border: 1px solid #d3dde5; font: normal 13px/16px arial, tahoma, sans-serif; }
+input.searchbox:focus { background-color: #faf9d8; border: 1px solid #9dceff; color: #000; }
+input.sbutton { background-color: #9dceff; border: 3px double #faf9d8; color: #fff; padding: 1px; font: normal 12px/16px tahoma, verdana, sans-serif; }
+input.sbutton:hover { cursor: pointer; }
+div.btnlogin {
+	background: transparent url(../images/btnlogin.png) top left no-repeat; 
+	background-attachment: scroll; 
+	display: block; 
+	float: right; 
+	height: 40px;
+	padding: 0 20px 0 0; 
+	margin: 10px 15px 10px 0; 
+	cursor: pointer; 
+	font: normal 14px/17px tahoma, verdana, sans-serif;
+}
+div.btnlogin input {
+	background: transparent url(../images/btnlogin_r.png) no-repeat 100% 0% !important; 
+	display: block; 
+	float: left; 
+	padding: 2px 20px 5px 38px !important; 
+	margin: 0 -30px 0 0 !important; 
+	border: none; 
+	height: 40px;
+	cursor: pointer;
+	font: normal 14px/17px tahoma, verdana, sans-serif;
+	color: #fff;
+}
+div.btnlogin input:hover {border: none; color: #faf9ac}
+div.btnlogin input:focus {border: none; background-color: inherit;}
+.visittitle { margin: 10px 0; padding-bottom: 2px; border-bottom: 1px solid #aaa; text-align:left; color: #000; }
+td { padding: 2px; }

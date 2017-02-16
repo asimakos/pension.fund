@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cu3er>
+	<settings>
+		<general slide_panel_width="540" slide_panel_height="360" slide_panel_horizontal_align="center" slide_panel_vertical_align="center" ui_visibility_time="3"/>
+		<auto_play>
+			<defaults symbol="circular" time="5"/>
+			<tweenIn x="45" y="45" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+			<tweenOut x="45" y="45" width="30" height="30" tint="0xFFFFFF" alpha="0.5"/>
+			<tweenOver />
+		</auto_play>
+		<prev_button>
+			<defaults round_corners="0,0,0,0" />
+			<tweenIn x="65" y="300" />
+			<tweenOut />
+			<tweenOver />
+		</prev_button>
+		<prev_symbol>
+			<defaults type="3"/>
+			<tweenIn x="65" y="300" alpha="0.5"/>
+			<tweenOut />
+			<tweenOver time="0.15" x="65" scaleX="1.1" scaleY="1.1"/>
+		</prev_symbol>
+		<next_button>
+			<defaults round_corners="0,0,0,0" />
+			<tweenIn x="95" y="300"/>
+			<tweenOut />
+			<tweenOver />
+		</next_button>
+		<next_symbol>
+			<defaults type="3"/>
+			<tweenIn x="95" y="300" alpha="0.5"/>
+			<tweenOut />
+			<tweenOver time="0.15" x="95" scaleX="1.1" scaleY="1.1"/>
+		</next_symbol>
+		<preloader>
+			<defaults symbol="circular" />
+			 <tweenIn />
+			<tweenOut />
+			<tweenOver />
+		</preloader>
+		<description >
+			<defaults round_corners="0,0,0,0" paragraph_font="Arial" heading_font="Georgia" heading_text_size="18" paragraph_text_size="12" heading_text_color="0xFFFFFF" paragraph_text_color="0xFFFFFF" paragraph_text_align="center" heading_text_align="center" heading_text_margin="10,25,0,25" paragraph_text_margin="5, 25, 0, 25" heading_text_leading="0" paragraph_text_leading="0" heading_text_letterSpacing="0" paragraph_text_letterSpacing="0" />
+			<tweenIn />
+			<tweenOut />
+			<tweenOver />
+		</description>
+		<transitions num="3" slicing="horizontal" direction="left" duration="0.6" delay="0.2" cube_color="0x611811"/>
+	</settings>
+	<slides>
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy1.JPG</url>
+			<description>
+				<heading>Όψη κτιρίου ΜΤΠΥ </heading>
+				<paragraph>Επί της Λυκούργου </paragraph>
+			</description>
+		</slide>
+		<transition   direction="left"      />
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy2.jpg</url>
+			<description>
+				<heading> Όψη κτιρίου ΜΤΠΥ </heading>
+				<paragraph> Επί της Αθηνάς </paragraph>
+			</description>
+		</slide>
+		<transition   direction="down" duration="0.6" delay="0.2"    />
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy3.jpg</url>
+			<description>
+				<heading> Εσωτερικό ΜΤΠΥ </heading>
+				<paragraph> Κύρια Είσοδος </paragraph>
+			</description>
+		</slide>
+		<transition num="3" slicing="horizontal" direction="left"  delay="0.05"    />
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy4.jpg</url>
+			<description>
+				<heading> Εσωτερικό ΜΤΠΥ </heading>
+				<paragraph> Κλιμακοστάσιο </paragraph>
+			</description>
+		</slide>
+		<transition num="4"        />
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy5.jpg</url>
+			<description>
+				<heading> Εσωτερικός χώρος </heading>
+				<paragraph> Είσοδος γραφείου </paragraph>
+			</description>
+		</slide>
+		<transition num="6" slicing="horizontal" direction="right" duration="0.8" delay="0.05"    z_multiplier="5"/>
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy6.jpg</url>
+			<description>
+				<heading> Εσωτερικός χώρος </heading>
+				<paragraph> Χώρος γραφείου </paragraph>
+			</description>
+		</slide>
+		<transition num="6" slicing="vertical" direction="down"  delay="0.05" shader="phong"   />
+		<slide>
+			<url>http://192.168.0.252/mtpy/modules/mod_cu3er/slides/ktirio_mtpy/mtpy7.jpg</url>
+			<description>
+				<heading> Διοικητικό συμβούλιο</heading>
+				<paragraph> Αίθουσα συνεδριάσεων</paragraph>
+			</description>
+		</slide>
+		<transition num="4" slicing="horizontal" direction="down"  delay="0.1"    z_multiplier="6"/>
+	</slides>
+</cu3er>

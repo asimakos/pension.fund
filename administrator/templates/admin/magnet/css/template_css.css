@@ -1,0 +1,839 @@
+/**
+* @ Version: $Id: template_css.css 1878 2008-01-25 21:26:29Z datahell $
+* @ Copyright: Copyright (C) 2006-2008 Elxis.org. All rights reserved.
+* @ Package: Elxis
+* @ Subpackage: Administration templates / Magnet
+* @ Author: Ioannis Sannos (datahell)
+* @ URL: www.elxis.org
+* @ License: http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* @ Description: CSS class for the Magnet template
+*/
+
+
+#wrapper {
+    border: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.fadebox {
+	margin: 0px;
+	border: 1px solid #CCCCCC;
+	background-color: #EBF6DA;
+	padding: 4px;
+	font-size: 12px;
+	height: 240px;
+    width:150px !important;
+    text-align: justify;
+}
+
+#header {
+        background-color: #FFFFFF;
+        background-position: right top;
+        width: 100%;
+}
+
+#elxis {
+        position: relative;
+        width: 100%;
+        background: url(../images/header_back2.gif);
+        background-position: top left;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+}
+
+#topheader {
+    position: absolute;
+	right:10px;
+	display:inline;
+	margin-top: 10px;
+    padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+#wrapper1 div {
+    border: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 5px 0px 5px;
+    display: inline;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+}
+a {
+	color: #951F23;
+	text-decoration: none;
+}
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+a:active {
+	color: #951F23;
+	text-decoration: underline;
+}
+
+a.toolbar, a.toolbar:active, a.toolbar:hover {
+	text-decoration: none;
+}
+
+a.toolbar div {
+	color: #000000;
+	font-size: 10px;
+	padding: 0px 1px 0px 1px;
+	margin: 1px 1px 0px 0px;
+	text-align: center;
+}
+
+a.toolbar:hover div {
+	color: #666666;
+}
+
+.pagenav {
+	font-size: 10px;
+}
+a.pagenav {
+	color: #808080;
+	font-size: 10px;
+	text-decoration: underline;
+}
+a.pagenav:hover {
+	color: #FFFFFF;
+	font-size: 10px;
+}
+a.pagenav:active {
+	color: #333333;
+	font-size: 10px;
+}
+a.treeunp {
+	color: #ADADAD;
+	text-decoration: none;
+	font-style: italic;
+}
+a.treeunp:hover {
+	text-decoration: underline;
+}
+.sectionname {
+	color: #9C0F1A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.button {
+	border-top: solid 1px #d5d5d5;
+	border-right: solid 1px #808080;
+	border-bottom: solid 1px #808080;
+	border-left: solid 1px #d5d5d5;
+	color: #333;
+	font-weight: bold;
+}
+input, textarea, select {
+	z-index: -3;
+	font-size: 11px;
+}
+.inputbox {
+	color: #333333;
+    background: #FFFFFF;
+    z-index: -3;
+    font-family: tahoma, verdana, arial;
+    font-size: 11px;
+    padding: 2px;
+}
+.text_area {
+    border: 1px solid #999999;
+    color: #333333;
+    background: #FFFFFF;
+    font-family: tahoma, verdana, arial;
+    z-index: -3;
+    font-size: 11px;
+    padding: 2px;
+}
+.small {
+	color: #333333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+.smallgrey { color: #666666; font-size: 10px; }
+.smallgrey a { color: #222222; }
+
+.error {
+	color: #C40000;
+	font-size: 11px;
+	font-weight: bold;
+}
+.contentheading, .componentheading, .moduleheading {
+	font-size: 14px;
+	font-weight: bold;
+}
+table.menubar {
+	width: 100%;
+}
+td {
+	font-size: 11px;
+}
+/* header block */
+table.adminheading {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+}
+table.adminheading th {
+	text-align: left;
+	width: 99%;
+	height: 50px;
+	padding-left: 50px;
+	background: url(../../../../images/asterisk.png) no-repeat left;
+}
+
+table.adminheading th.checkin {
+	background: url(../../../../images/checkin.png) no-repeat left;
+}
+table.adminheading th.cpanel {
+	background: url(../../../../images/cpanel.png) no-repeat left;
+}
+table.adminheading th.tools {
+	background: url(../../../../images/tools.png) no-repeat left;
+}
+table.adminheading th.config {
+	background: url(../../../../images/config.png) no-repeat left;
+}
+table.adminheading th.modules {
+	background: url(../../../../images/module.png) no-repeat left;
+}
+table.adminheading th.menus {
+	background: url(../../../../images/menu.png) no-repeat left;
+}
+table.adminheading th.trash {
+	background: url(../../../../images/trash.png) no-repeat left;
+}
+table.adminheading th.user {
+	background: url(../../../../images/user.png) no-repeat left;
+}
+table.adminheading th.access {
+	background: url(../../../../images/access.png) no-repeat left;
+}
+table.adminheading th.inbox {
+	background: url(../../../../images/inbox.png) no-repeat left;
+}
+table.adminheading th.msgconfig {
+	background: url(../../../../images/message_config.png) no-repeat left;
+}
+table.adminheading th.langmanager {
+	background: url(../../../../images/langmanager.png) no-repeat left;
+}
+table.adminheading th.mediamanager {
+	background: url(../../../../images/mediamanager.png) no-repeat left;
+}
+table.adminheading th.impressions {
+	background: url(../../../../images/impressions.png) no-repeat left;
+}
+table.adminheading th.browser {
+	background: url(../../../../images/browser.png) no-repeat left;
+}
+table.adminheading th.searchtext {
+	background: url(../../../../images/searchtext.png) no-repeat left;
+}
+table.adminheading th.templates {
+	background: url(../../../../images/templatemanager.png) no-repeat left;
+}
+table.adminheading th.massemail {
+	background: url(../../../../images/massemail.png) no-repeat left;
+}
+table.adminheading th.frontpage {
+	background: url(../../../../images/frontpage.png) no-repeat left;
+}
+table.adminheading th.sections {
+	background: url(../../../../images/sections.png) no-repeat left;
+}
+table.adminheading th.edit {
+	background: url(../../../../images/content.png) no-repeat left;
+}
+table.adminheading th.static {
+	background: url(../../../../images/static.png) no-repeat left;
+}
+table.adminheading th.categories {
+	background: url(../../../../images/categories.png) no-repeat left;
+}
+table.adminheading th.install {
+	background: url(../../../../images/install.png) no-repeat left;
+}
+table.adminheading th.dbbackup {
+	background: url(../../../../images/backup.png) no-repeat left;
+}
+table.adminheading th.dbrestore {
+	background: url(../../../../images/dbrestore.png) no-repeat left;
+}
+table.adminheading th.dbquery {
+	background: url(../../../../images/query.png) no-repeat left;
+}
+table.adminheading th.info {
+	background: url(../../../../images/systeminfo.png) no-repeat left;
+}
+table.adminheading th.database {
+	background: url(../../../../images/database.png) no-repeat left;
+}
+table.adminheading th.syndicate {
+	background: url(../../../../images/syndicate.png) no-repeat left;
+}
+table.adminheading th.poll {
+	background: url(../../../../images/poll.png) no-repeat left;
+}
+table.adminheading th.contact {
+	background: url(../../../../images/contact.png) no-repeat left;
+}
+table.adminheading th.banner {
+	background: url(../../../../images/banner.png) no-repeat left;
+}
+table.adminheading th.outbox {
+	background: url(../../../../images/mail_compose.png) no-repeat left;
+}
+table.adminheading th.softhead {
+    background: url(../../../../components/com_softdisk/images/softdisk48.png) no-repeat left;
+}
+
+table.adminheading td {
+	color: #000000;
+}
+/* standard list style table */
+table.adminlist {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #CCCCCC;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.adminlist th {
+	margin: 0px;
+	padding: 4px 2px 2px 4px;
+	height: 26px;
+	background: #DDDDDD url(../images/thback.gif) top left repeat-x;
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 11px;
+	color: #444444;
+	white-space:nowrap;
+}
+
+table.adminlist th.title {
+	text-align: left;
+}
+
+table.adminlist th a {
+	color: #395A08;
+}
+
+table.adminlist tr.row0 {
+	background-color: #F5F5F5;
+}
+table.adminlist tr.row1 {
+	background-color: #FFFFFF;
+}
+table.adminlist tr.rowX {
+	background-color: #F6F1A1;
+}
+table.adminlist td {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 4px;
+	text-align: left;
+}
+table.adminlist tr.row0:hover {
+	background-color: #f1f1f1;
+}
+table.adminlist tr.row1:hover {
+	background-color: #f1f1f1;
+}
+table.adminlist tr.rowX:hover {
+	background-color: #F4EB58;
+}
+table.adminlist td.options {
+	background-color: #ffffff;
+	font-size: 8px;
+}
+select.options, input.options {
+	font-size: 8px;
+	font-weight: normal;
+	border: 1px solid #999999;
+}
+/* standard form style table */
+table.adminForm, table.adminform {
+	background-color: #f5f5f5;
+	border: solid 1px #d5d5d5;
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+}
+table.adminForm tr.row0, table.adminform tr.row0 {
+	background-color: #f5f5f5;
+}
+table.adminForm tr.row1, table.adminform tr.row1 {
+	background-color: #eeeeee;
+}
+
+table.adminForm th, table.adminform th {
+	font-size: 12px;
+	padding: 4px 4px 4px 4px;
+	text-align: left;
+	height: 26px;
+	color: #444444;
+	background: #DDDDDD url(../images/thback.gif) top left repeat-x;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+table.adminForm td, table.adminform td {
+	padding: 3px;
+	text-align: left;
+}
+table.adminForm td.editor, table.adminform td.editor {
+	font-size: 9px;
+}
+
+table.cpanel td {
+	text-align: center;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+}
+
+/* Styles for dhtml tabbed-pages */
+.ontab {
+	font-size: 12px;
+	background-color: #AA0F1B;
+	border: 1px solid #cccccc;
+	width: 14%;
+	text-align: center;
+	/*cursor: hand;  not compatible with all browsers*/
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.offtab {
+	font-size: 12px;
+	background-color: #e5e5e5;
+	border: 1px solid #cccccc;
+	width: 14%;
+	text-align: center;
+	/*cursor: hand; not compatible with all browsers*/
+	font-weight: normal;
+}
+.tabpadding {
+	/*border-bottom: solid 1px #D5D5D5;*/
+}
+.tabheading {
+	background-color: #AA0F1B;
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: left;
+}
+.pagetext {
+	visibility: hidden;
+	display: none;
+	position: relative;
+	top: 0;
+}
+.menubackgr {
+	background: #3D4D72; /* #253352; */
+	/* background: url(../images/menuback.gif); */
+	/* background-repeat: repeat-x; */
+	/* border-top: 1px solid #0E1B37; */
+	border-bottom: 2px solid #CCCCCC;
+	color: #FFFFFF;
+}
+.menudottedline {
+	background-color: #F1F1F1;
+    right: 50px;
+}
+
+.curve_out {
+    height: 10px;
+	border: 0px;
+	border-top: 1px solid #CCCCCC;
+}
+
+.pathway {
+	padding: 1px;
+	width: 95%;
+	margin: 4px;
+}
+
+.adminheader {
+	color: #9C0F1A;
+	font-size: 24px;
+}
+
+/* Text passed with mosmsg url parameter */
+.message {
+	width: 550px;
+	background-color: #FDE9E9;
+	padding: 4px;
+	margin-bottom: 6px;
+	clear: both;
+	border: 1px dashed #E76167;
+	font-weight: bold;
+	font-size: 0.95em;
+	color: #9C0F1A;
+	text-align: left;
+}
+
+.main {
+	width: 98%;
+}
+.quote {
+	margin: 4px;
+	border: 1px solid #CCCCCC;
+	background-color: #E1F2C7;
+	padding: 10px;
+	font-size: 12px;
+	color: #254D78;
+}
+
+.filter {
+	margin: 2px;
+	border: 1px solid #666666;
+	background-color: #E5E5E5;
+	padding: 2px;
+}
+
+.filtertop {
+	background: url(../images/menuback_on.gif) top left repeat-x;
+    border: 1px #2D3B5B solid;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 3px;
+	white-space:nowrap;
+	text-align: center;
+	margin-bottom: 4px;
+}
+
+.filterbottom {
+	padding: 4px;
+	text-align: center;
+}
+
+.ajaxbox {
+	margin: 0px;
+	border: 1px solid #cccccc;
+	background-color: #E1F2C7;
+	padding: 4px;
+	font-size: 11px;
+	text-align: center;
+}
+
+#dbman { 
+	text-align: center; 
+	vertical-align: middle; 
+}
+
+#dbman div.icon { 
+	margin: 1px;
+}
+#dbman div.icon a { 
+	padding: 1px 1px 1px 1px;
+	display: block; 
+	height: 24px !important;
+	height: 24px; 
+	width: 24px !important;
+	width: 24px; 
+	vertical-align: middle; 
+	text-decoration: none;
+	border: 1px solid #DDDDDD;
+}
+
+#dbman div.icon a:hover   { 
+	color: #333333; 
+	background-color: #D5E9B6;  
+	border: 1px solid #45690F;
+}
+
+#dbman div.iconWide a { 
+	padding: 1px 3px 1px 1px;
+	display: block;
+	height: 24px !important;
+	height: 24px;
+	width: 160px;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #DDDDDD;
+}
+
+#dbman div.iconWide a:hover { 
+	color: #333333; 
+	background-color: #D5E9B6;  
+	border: 1px solid #45690F;
+}
+
+li.sec {
+	list-style-type: none;
+	padding: 2px 2px 2px 8px;
+	border: 1px solid #DDDDDD;
+	background-color: #F5F5F5;
+}
+
+li.cat {
+	list-style-type: none;
+	padding: 2px 2px 2px 2px;
+}
+
+li.item {
+	list-style-type: none;
+	padding: 2px 2px 2px 2px;
+}
+
+li.sec:hover {
+	border: 1px solid #DDDDDD;
+	background-color: #EEFCD7;
+}
+
+li.cat:hover {
+	border: 1px solid #DDDDDD;
+	padding: 1px 1px 1px 1px;
+	background-color: #DDEDF7;
+}
+
+li.item:hover {
+	border: 1px solid #DDDDDD;
+	padding: 1px 1px 1px 1px;
+	background-color: #F8F9DB;
+}
+
+#tools { 
+}
+
+#tools div.title { 
+	margin: 2px;
+}
+
+#tools div.item { 
+	margin: 1px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 5px;
+}
+
+#tools div.title a { 
+	border: 1px solid #CCCCCC;
+	padding: 1px 1px 1px 3px;
+	display: block; 
+	height: 24px !important;
+	height: 24px; 
+	text-decoration: none;
+	background-color: #EEEEEE;
+}
+
+#tools div.title a:hover { 
+	color: #333333; 
+	background-color: #D5E9B6;  
+	border: 1px solid #45690F;
+}
+
+#tools div.desc {
+	padding: 1px 1px 1px 1px;
+	text-align: justify;
+}
+
+
+#tools div.itemmain {
+	margin: 5px;
+	border: 0px;
+	width: 200px;
+	height: 110px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+
+#tools div.titlemain { 
+	margin: 2px;
+}
+
+#tools div.titlemain a { 
+	border: 1px solid #DDDDDD;
+	padding: 1px 1px 1px 3px;
+	display: block; 
+	height: 24px !important;
+	height: 24px; 
+	text-decoration: none;
+	background-color: #EEEEEE;
+	text-align: left;
+}
+
+#tools div.titlemain a:hover   {
+	color: #000000; 
+	background-color: #CCCCCC;
+	border: 1px solid #999999;
+}
+
+/* LOGOUT LIGHTBOX */
+#elx_overlay {
+    position: absolute;
+    z-index: 90;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.elx_lightbox {
+    width: 350px;
+    height: 220px;
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+	position: absolute;
+	color: #EEEEEE;
+	z-index: 91;
+}
+.elx_lightbox table, .elx_lightbox td { text-align: center; color: #ffffff; }
+
+.elx_lightclose {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+}
+
+.elx_logoutprofimg {
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+    margin: 2px;
+}
+
+/* LANGUAGE SELECT BOX */
+.langbox {
+	margin: 2px;
+	border: 1px solid #333333;
+	background-color: #222222;
+	padding: 2px;
+	color: #000000;
+	position:absolute;
+    right: 10px;
+    width: 160px;
+    z-index: 89;
+}
+
+.langboxtop {
+	background: url(../images/menuback_on.gif);
+	background-repeat: repeat-x;
+    background-position: top left;
+    border: 1px #2D3B5B solid;
+	font-size: 11px;
+	color: #FFFFFF;
+	padding: 4px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.langrow {
+    color: #FFFFFF;
+    padding: 2px;
+    margin: 2px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.langrowX {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 2px;
+    margin: 2px;
+	font-weight: bold;
+}
+
+.langrow:hover, .langrowX:hover {
+	background-color: #444444;
+}
+
+.langbox div.filterbottom a, .langbox div.filterbottom a:visited {
+	color: #cccccc;
+}
+
+/* cpanel icons */
+.cpicons{
+    position:relative;
+}
+
+.cpicons ul{
+    list-style:none;
+    margin: 0;
+    padding:0;
+    width:100%;
+}
+
+.cpicons li {
+    margin:5px 5px 0px 0px;
+    padding:0;
+    position:relative;
+    float:left;
+    width:150px;
+    vertical-align: middle;
+}
+
+.cpicons li a {
+  background: #eeeeee url('../images/cpiglobal.jpg') top left no-repeat;
+  border:1px solid #afbec5;
+  color:#333333;
+  display:block;
+  padding:2px 0;
+  margin:1px;
+  height:36px;
+  vertical-align: middle;
+}
+
+.cpicons li.lipersonal a {
+  background: #DEEBF4 url('../images/cpipersonal.jpg') top left no-repeat;
+}
+
+.cpicons li.liglobal a {
+  background: #eeeeee url('../images/cpiglobal.jpg') top left no-repeat;
+}
+
+.cpicons li a:link, .cpicons li a:visited, .cpicons li a:hover{text-decoration:none;}
+
+.cpicons li img {
+    float:left;
+    margin:0 5px 0 2px;
+    padding:1px;
+}
+
+.cpicons li img.shortcut {
+    border: 0px;
+    background-color: inherit;
+    position: absolute;
+    top: 23px;
+}
+
+div.countdown {
+	text-align: right;
+	background-color: #efefef;
+	border: 1px dashed #ccc;
+	padding: 4px;
+	margin: 4px;
+	float: right;
+	color: #666;
+}

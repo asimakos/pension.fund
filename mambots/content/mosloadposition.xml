@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2008">
+	<name>mosloadposition</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-08 20:26:11</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>Loads module positions within Content, Syntax: {mosloadposition user1}</description>
+	<files>
+		<filename mambot="mosloadposition">mosloadposition.php</filename>
+	</files>
+	<params>
+		<param name="style" type="list" default="0" label="Style" description="Code that will wrap modules">
+			<option value="0">Wrapped by Table - Column</option>
+			<option value="1">Wrapped by Table - Horizontal</option>
+			<option value="-2">Wrapped by Divs</option>
+			<option value="-1">No wrapping - raw output</option>
+		</param>
+	</params>
+</mosinstall>

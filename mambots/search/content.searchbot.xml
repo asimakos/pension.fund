@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="search" version="2009">
+	<name>content searchbot</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-09-02 10:04:21</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>Extends search to content items</description>
+	<files>
+		<filename mambot="content.searchbot">content.searchbot.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="30" dir="ltr" label="AX_SEARCH_LIMIT" description="AX_MAXNUM_SRES" />		
+	</params>
+</mosinstall>

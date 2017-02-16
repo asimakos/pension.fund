@@ -1,0 +1,4 @@
+# Direct access to this folder is not allowed
+
+Options -Indexes
+deny from all

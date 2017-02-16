@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="2008">
+  <name>Simple Javascript Menu</name>
+  <author>Dejan Viduka</author>
+  <creationDate>2008-06-28 17:10:15</creationDate>
+  <authorEmail>dejan@viduka.info</authorEmail>
+  <authorUrl>www.viduka.info</authorUrl>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <cxlangdir>/modules/simple_jmenu/language</cxlangdir>
+  <version>1.0</version>
+  <description>The module has been based on the "Simple Javascript Menu" module by SpottedFrog. Module contains language files in 10 languages! Thanks to the Elxis community members for their translations. </description>
+  <files>
+    <filename module="mod_simple_jmenu">mod_simple_jmenu.php</filename>
+    <filename>simple_jmenu/default.html</filename>
+    <filename>simple_jmenu/js/simple_jmenu.js</filename>
+    <filename>simple_jmenu/css/simple_jmenu.css</filename>
+    <filename>simple_jmenu/images/bullet.gif</filename>
+    <filename>simple_jmenu/images/menu_bottom.gif</filename>
+    <filename>simple_jmenu/images/menu_top.gif</filename>
+    <filename>simple_jmenu/images/minus.gif</filename>
+    <filename>simple_jmenu/images/plus.gif</filename>
+    <filename>simple_jmenu/images/shim.gif</filename>
+    <filename>simple_jmenu/language/index.html</filename>
+
+   <filename>simple_jmenu/language/english.php</filename>
+   <filename>simple_jmenu/language/serbian.php</filename>
+   <filename>simple_jmenu/language/srpski.php</filename>
+   <filename>simple_jmenu/language/greek.php</filename>
+   <filename>simple_jmenu/language/persian.php</filename>
+   <filename>simple_jmenu/language/indonesian.php</filename>
+   <filename>simple_jmenu/language/french.php</filename>
+   <filename>simple_jmenu/language/russian.php</filename>
+   <filename>simple_jmenu/language/german.php</filename>
+   <filename>simple_jmenu/language/danish.php</filename>
+
+  </files>
+  <params>
+  	<param name="menu" type="mos_menu" default="mainmenu" label="CX_MENU" description="CX_MENUDIS" />
+  	<param name="order" type="list" default="CX_ORDER" label="CX_ORDER" description="CX_ORDERDIS">
+			<option value="CX_ORDER">CX_ORDER</option>
+			<option value="CX_NAME">CX_NAME</option>
+			<option value="CX_ID">CX_ID</option>
+			<option value="CX_TYPE">CX_TYPE</option>
+		</param>
+  </params>		
+</mosinstall>

@@ -1,0 +1,128 @@
+/*
+* Greek Calendar v. 1.3 for Elxis 2009.x
+* Copyright (C) 2009 - 2011 www.osw.gr - All rights reserved.
+* Licence GNU/GPL
+*/
+
+#grcal_week, #grcal_day, #grcal_month, #grcal_year, #grcal_location, #grcal_sunrise, #grcal_sunset, #grcal_moon, #grcal_worlddays, #grcal_namedays_label, #grcal_namedays, #grcal_nextnamedays_label, #grcal_nextnamedays { text-align: center; }
+#grcal_week {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+#grcal_day {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+#grcal_month {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+#grcal_year {
+	padding-top: 3px;
+	padding-bottom: 5px;
+	font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 16px;
+  font-weight: bold;	
+}
+#grcal_location {
+  font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #404040;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-bottom: 1px dotted #C0C0C0;
+  background-color: #E7E7E7;
+}
+#grcal_sun_moon {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px dotted #C0C0C0;
+  background-color: #E7E7E7;
+}
+#grcal_sun {
+  float: left;
+  width: 49%;
+  border-right: 1px solid #C0C0C0;
+}
+#grcal_sunrise { 
+  font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	color: #404040;
+}
+#grcal_sunset {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	color: #404040;
+}
+#grcal_moon {
+	font-family: Verdana,Arial,Geneva,Helvetica,sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	color: #404040;
+}
+#grcal_worlddays {
+  border-left: 1px dashed #C0C0C0;
+  border-right: 1px dashed #C0C0C0;
+  padding: 0 3px;
+	font-family: "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #404040;
+	background-color: #E7E7E7;
+}
+#grcal_namedays_label {
+  margin: 0;
+	padding-top: 4px;
+	padding-bottom: 1px;
+  font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 12px;   
+  font-weight: bold;
+  color: #FFFFFF;
+}
+#grcal_namedays {
+  margin-top: 5px;
+  border-left: 1px solid #C0C0C0;
+  border-right: 1px solid #C0C0C0;
+  border-bottom: 0;
+  padding: 5px;
+	font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #404040;
+	background-color: #E7E7E7;
+}
+#grcal_nextnamedays_label {
+	padding-top: 2px;
+	padding-bottom: 2px;
+  font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+#grcal_nextnamedays {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+  padding-right: 5px;
+	border-left: 1px solid #C0C0C0;
+  border-right: 1px solid #C0C0C0;
+	border-bottom: 1px solid #C0C0C0;
+  font-family: Georgia, "Bookman Old Style", "Book Antiqua", "Times New Roman", serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #404040;
+	background: #E7E7E7 url(../images/grcal_corner.gif) no-repeat right bottom;
+}
+.clear { clear: both; }

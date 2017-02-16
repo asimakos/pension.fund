@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestionnaire des Menus</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestionnaire des Menus</h1>
+<p>&quot;Les Menus&quot; dans Elxis sont regroupés pour une navigation entre les sections, catégories, aticles, les composants ou des pages externes. Ces liens sont appelés "Eléments de Menu".</p>
+<p>Chaque menu doit avoir un nom dl'identification qui doit être utilisé uniquement en interne par Elxis. Un menu devient seulement visible sur le site si il est publié par "mod_mainmenu" ou par un module qui le référence.  Un menu peut avoir des modules multiples du "mod_mainmmenu" qui le référencent.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Icône de la barre Outils</h3>
+<p><strong>Nouveau</strong>: Cliquez sur l'icone pour créer un nouveau Menu. Vous aurez accès à une fenêtre de "Détails du Menu". Saisissez un <strong>Nom de Menu</strong>. Ceci est le nom d'identification utilisé par Elxis pour identifier ce menu dans le code.  Il doit être unique.  Il est recommandé de ne pas utiliser d'espaces dans le nom. Par exemple, dans le core de Elxis le nom du Menu Utilisateur est "usermenu" et le Menu Principal est "mainmenu". </p>
+<p>Ensuite, saisissez le <strong>Titre du Module</strong>. C'est le nom donné au nouveau module "mod_mainmenu" qui est créé automatiquement quand vous enregistrez ce menu. C'est aussi le Nom du menu comme il apparaîtra sur la page si vous choisissez de le publier. Cela peut être changé dans le futur quand vous éditerez le module. Cliquez sur l'icône &quot;<strong>Sauver</strong>&quot; . Votre nouveau menu apparaît dans la liste du Gestionnaire du Menu.</p>
+<p><strong>Editer</strong>: Cliquez sur le bouton radio à côté du Nom du menu que vous voulez modifier.  Quand vous cliquez sur l'icone "Editer" cela vous emmènera à la page d'Édition.</p>
+<p><strong>Copier</strong>: Cliquez sur le bouton radio à côté du Nom de menu que vous voulez copier. Quand vous cliquez sur l'icone "Copier" de la barre d'outils, cela reproduira le menu. Vous pouvez copier chacun des menus. Copier créera un nouveau Nom de menu, en contenant les mêmes Articles du Menu copié, mais associé au nouveau Module du Menu.</p>
+<p><strong>Supprimer</strong>: Cliquez sur le bouton radio à côté du Nom de menu que vous voulez effacer. Quand vous cliquez sur l'icone "Supprimer" de la barre d'outils, cela supprimera le Menu. Un écran de confirmation de "Supprimer le Menu apparaitra à l'écra. Il vous affiche le(s) Module(s) à supprimer (le mod_mainmenu modules associé à ce Menu) ainsi que les éléments du Menu. Cliquez sur l'Icône de Suppression entourée par un trait pointillé. Cela effacera ce Menu, TOUS les Articles du Menu et TOUS les Modules associés. Une dernière fenêtre d'alerte Javascript vous proposera le choix entre "OK" et "Annuler".</p>
+<p><strong>NOTE:</strong> Les menus effacés ne peuvent pas être régénérés à partir de la Corbeille!</p>
+<p>&nbsp;</p>
+<h3 class="table">Colonnes</h3>
+<p><strong>Nom du Menu</strong>: Cliquez sur le nom pour le modifier. Ce nom peut être celui qui est donné par défaut au menu ou le nom que vous avez donné à ce menu.</p>
+<p><strong>Eléments du Menu</strong>: Cliquez sur l'icone "Editer" dans cette colonne, ajouter ou modifier les Articles du Menu associés à un menu. Alternativement vous pouvez aller dans "Menu->le-menu-que-vous-avez-choisi-d'éditer". Le "Gestionnaire de Menu fera apparaitre une fenêtre avec la liste de tous les éléments de Menu associé avec ce Menu[le-menu-que-vous-avez-choisi-d'éditer].</p>
+<p><strong>#Publié</strong>: C'est le nombre d'Articles publiés dans le Menu.</p>
+<p><strong>#Dépublié</strong>: C'est le nombre d'Articles dépubliés dans le Menu.</p>
+<p><strong>#Corbeille</strong>: C'est le nombre d'Articles dans la corbeille.</p>
+<p><strong>#Modules</strong>: TC'est le nombre de modules du menu associé au Nom du Menu.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

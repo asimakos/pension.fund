@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>Translate</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-06-05 19:35:40</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description><![CDATA[
+	<p>Provides translation for content items and autonomous pages using the Google online translation services.<br />
+	For help visit the <a href="http://wiki.elxis.org/wiki/Translate_bot" target="_blank">Translate bot page on Elxis wiki</a>.</p>
+	]]>
+	</description>
+	<files>
+		<filename mambot="translate">translate.php</filename>
+		<filename>translate/do.php</filename>
+		<filename>translate/index.html</filename>
+		<filename>translate/metafrasi.css</filename>
+		<filename>translate/metafrasi.js</filename>
+		<filename>translate/mtfback.png</filename>
+		<filename>translate/mtftop.png</filename>
+		<filename>translate/translate.png</filename>
+	</files>
+	<params>
+		<param name="globalshow" type="radio" default="1" label="AX_SHOW" description="The general display setting for all content items. You can change this for idividual content items.">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

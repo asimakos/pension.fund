@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="component" version="2008">
+	<name>Contact Items</name>
+	<author>Elxis Team</author>
+	<creationDate>2007-09-04 09:46:11</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.0</version>
+	<description>AX_LG_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="header_login" type="text" size="30" default="" label="AX_LG_LPTL" description="AX_LG_LPTD" />
+		<param name="login" type="text" size="30"  default="" label="AX_LG_LRURLL" description="AX_LG_LRURLD" />
+		<param name="login_message" type="radio" default="0" label="AX_LG_LJSML" description="AX_LG_LJSMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_login" type="radio" default="0" label="AX_LG_LDESCL" description="AX_LG_LDESCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_login_text" type="textarea" cols="30" rows="5" default="" label="AX_LG_LDESTL" description="AX_LG_LDESTD" />
+		<param name="image_login" type="imagelist" directory="/images/stories" default="" label="AX_LG_LIMGL" description="AX_LG_LIMGD" />
+		<param name="image_login_align" type="radio" default="right" label="AX_LG_LIMGAL" description="AX_LG_LIMGAD">
+			<option value="left">AX_LEFT</option>
+			<option value="right">AX_RIGHT</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="header_logout" type="text" size="30" default="" label="AX_LG_LOPTL" description="AX_LG_LOPTD" />
+		<param name="logout" type="text" size="30" default="" label="AX_LG_LORURLL" description="AX_LG_LORURLD" />
+		<param name="logout_message" type="radio" default="1" label="AX_LG_LOJSML" description="AX_LG_LOJSMD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_logout" type="radio" default="1" label="AX_LG_LODSCL" description="AX_LG_LODSCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="description_logout_text" type="textarea" cols="30" rows="5" default="" label="AX_LG_LODSTL" description="AX_LG_LODSTD" />
+		<param name="image_logout" type="imagelist" directory="/images/stories" default="" label="AX_LG_LOGOIL" description="AX_LG_LOGOID" />
+		<param name="image_logout_align" type="radio" default="1" label="AX_LG_LOGOIAL" description="AX_LG_LOGOIAD">
+			<option value="left">AX_LEFT</option>
+			<option value="right">AX_RIGHT</option>
+		</param>
+	</params>
+</mosinstall>

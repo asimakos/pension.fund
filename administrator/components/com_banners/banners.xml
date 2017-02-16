@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="component" version="2008">
+  <name>Banners</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-05-19 22:25:44</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+  <description>This component manages banners and banner clients</description>
+  <params />
+</mosinstall>

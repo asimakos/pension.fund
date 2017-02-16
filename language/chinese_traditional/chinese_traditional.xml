@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Chinese_traditional</name>
+	<version>2009.2</version>
+	<creationDate>2010-04-27 22:34:10</creationDate>
+	<author>劉仲濱</author>
+	<authorEmail>bing@j2eemx.com</authorEmail>
+	<authorUrl>http://j2eemx.com</authorUrl>
+	<copyright>(C) 2009 正洋資訊顧問有限公司.</copyright>
+	<license>GNU/GPL</license>
+	<description>Traditional Chinese language for Elxis 2009.x front-end.</description>
+	<files>
+		<filename>chinese_traditional.gemini.php</filename>
+		<filename>chinese_traditional.gif</filename>
+		<filename>chinese_traditional.pref.php</filename>
+		<filename>chinese_traditional.php</filename>
+		<filename>chinese_traditional.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

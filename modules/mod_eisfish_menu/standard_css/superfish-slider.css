@@ -1,0 +1,54 @@
+/**
+* mod_eisfish_menu vers. 1.0
+* CSS for Slider slider
+*
+/*** adding the class sf-slider in addition to sf-slider creates an all-horizontal nav-bar slider ***/
+
+.sf-slider, .sf-slider li {
+	width:	100%;
+}
+
+.sf-slider ul a {
+	background-color: #444444;
+}
+
+
+/* this lacks ul at the start of the selector, so the styles from the main CSS file override it where needed */
+.sf-slider li:hover ul,
+.sf-slider li.sfHover ul {
+	left:	100%; /* match ul width */
+	top:	0;
+	position: static;
+	width:100%;
+}
+
+/*** alter arrow directions ***/
+.sf-slider .sf-sub-indicator { background-position: -10px -100px; } /* IE6 gets solid image only */
+.sf-slider a > .sf-sub-indicator { background-position: 0 -100px;} /* use translucent arrow for modern browsers*/
+
+.sf-slider ul a > .sf-sub-indicator { background-position: 0 -100px;}
+
+/* hover arrow direction for modern browsers*/
+.sf-slider a:focus > .sf-sub-indicator,
+.sf-slider a:hover > .sf-sub-indicator,
+.sf-slider a:active > .sf-sub-indicator,
+.sf-slider li:hover > a > .sf-sub-indicator,
+.sf-slider li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+.sf-slider ul a:focus > .sf-sub-indicator,
+.sf-slider ul a:hover > .sf-sub-indicator,
+.sf-slider ul a:active > .sf-sub-indicator,
+.sf-slider ul li:hover > a > .sf-sub-indicator,
+.sf-slider ul li.sfHover > a > .sf-sub-indicator {
+	background-position: 0 -100px /* arrow hovers for modern browsers*/
+}
+
+.sf-slider ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+.sf-slider .sf-shadow ul {
+padding:0 0 0 0;
+}

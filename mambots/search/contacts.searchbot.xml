@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="search" version="2009">
+	<name>contacts searchbot</name>
+	<author>Elxis Team</author>
+	<creationDate>2009-09-02 10:04:20</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.1</version>
+	<description>Extends search to contact items</description>
+	<files>
+		<filename mambot="contacts.searchbot">contacts.searchbot.php</filename>
+	</files>
+	<params/>
+</mosinstall>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2008">
+	<name>AX_TCAL_L</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2008-07-16 22:53:14</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<icon>images/calc.png</icon>
+	<description>AX_TCAL_D</description>
+	<files>
+		<filename tool="calculator">calculator.php</filename>
+		<filename>baseexpoent.html</filename>
+		<filename>images/calc.png</filename>
+	</files>
+</mosinstall>

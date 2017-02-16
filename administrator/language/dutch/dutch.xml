@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Dutch</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:06:10</creationDate>
+  <author>Frank Gijsels</author>
+  <authorEmail>elxis@onsnet.be</authorEmail>
+  <authorUrl>elxis.onsnet.be</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Dutch language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Dutch</name>
+    <tag>dutch</tag>
+    <rtl>0</rtl>
+    <locale>nl_NL.utf8, en_US.UTF-8, en_US, dutch, nl, eng</locale>
+  </metadata>
+  <files>
+		<filename>dutch.com_access.php</filename>
+		<filename>dutch.com_admin.php</filename>
+		<filename>dutch.com_banners.php</filename>
+		<filename>dutch.com_bridge.php</filename>
+		<filename>dutch.com_categories.php</filename>
+		<filename>dutch.com_checkin.php</filename>
+		<filename>dutch.com_config.php</filename>
+		<filename>dutch.com_contact.php</filename>
+		<filename>dutch.com_content.php</filename>
+		<filename>dutch.com_database.php</filename>
+		<filename>dutch.com_frontpage.php</filename>
+		<filename>dutch.com_installer.php</filename>
+		<filename>dutch.com_languages.php</filename>
+		<filename>dutch.com_mambots.php</filename>
+		<filename>dutch.com_massmail.php</filename>
+		<filename>dutch.com_media.php</filename>
+		<filename>dutch.com_menumanager.php</filename>
+		<filename>dutch.com_menus.php</filename>
+		<filename>dutch.com_messages.php</filename>
+		<filename>dutch.com_modules.php</filename>
+		<filename>dutch.com_newsfeeds.php</filename>
+		<filename>dutch.com_poll.php</filename>
+		<filename>dutch.com_sections.php</filename>
+		<filename>dutch.com_softdisk.php</filename>
+		<filename>dutch.com_statistics.php</filename>
+		<filename>dutch.com_syndicate.php</filename>
+		<filename>dutch.com_templates.php</filename>
+		<filename>dutch.com_trash.php</filename>
+		<filename>dutch.com_typedcontent.php</filename>
+		<filename>dutch.com_users.php</filename>
+		<filename>dutch.com_weblinks.php</filename>
+		<filename>dutch.gemini.php</filename>
+		<filename>dutch.pref.php</filename>
+		<filename>dutch.gif</filename>
+		<filename>dutch.php</filename>
+		<filename>dutch.xml</filename>
+		<filename>dutch.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>French</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-01 09:07:18</creationDate>
+	<author>Vianney Zahner</author>
+	<authorEmail>info@elxis-france.com</authorEmail>
+	<authorUrl>http://www.elxis-france.com</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Langue française pour l interface public de Elxis 2009.</description>
+	<files>
+		<filename>french.gemini.php</filename>
+		<filename>french.gif</filename>
+		<filename>french.pref.php</filename>
+		<filename>french.php</filename>
+		<filename>french.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

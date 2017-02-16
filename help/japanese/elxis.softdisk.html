@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<title>ソフトディスク(SoftDisk)</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2007-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+<style>
+h1.softdisk { 
+	color: #000;
+	font-size: 16pt;
+	border-left: 0;
+	border-bottom: 2px solid #D00;
+	padding: 10px 0px 10px 55px;
+	margin-top: 40px;
+	background: url(../../../administrator/components/com_softdisk/images/softdisk48.png) no-repeat center left;
+}	
+ul.softdisk {list-style-type: none;}
+li.decimal {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/DECIMAL.png) no-repeat center left;}
+li.email {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/EMAIL.png) no-repeat center left;}
+li.image {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/IMAGE.png) no-repeat center left;}
+li.integer {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/INTEGER.png) no-repeat center left;}
+li.string {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/STRING.png) no-repeat center left;}
+li.text {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/TEXT.png) no-repeat center left;}
+li.time {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/TIME.png) no-repeat center left;}
+li.yesno {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/YESNO.png) no-repeat center left;}
+li.url {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/URL.png) no-repeat center left;}
+li.unknown {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/unknown.png) no-repeat center left;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1 class="softdisk">ソフトディスク(SoftDisk)</h1>
+<p>ソフトディスクは色々な種類の変数とパラメータのための仮想記憶領域です。
+システムによって所有されているように記載されたものを除いて既存のソフトディスクのエントリを新しく追加・編集・又は削除することができます。
+また、「書き込み不可」として表示されているエントリは編集のみできます。
+ソフトディスクのセクションと変数の命名については大文字のラテン文字、数字、そしてアンダースコア(_)を使用できます。</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">ツールバーアイコン</h3>
+<p><strong>新規</strong>: 新しいソフトディスクの変数を作成します。</p>
+<p><strong>編集</strong>: 選択されたソフトディスクの変数を編集します。</p>
+<p><strong>削除</strong>: 選択されたソフトディスクの変数を削除します。「削除不可」としてマークされた変数は削除できません。</p>
+<p><strong>ヘルプ</strong>: このヘルプ画面です。</p>
+<p><strong>システム更新</strong>: ソフトディスクに格納された特定の変数をシステム更新します。</p>
+<p>&nbsp;</p>
+<h3 class="borders">セクションフィルタ</h3>
+<p>選択されたセクションに属するソフトディスクの変数のみ表示するために<strong>セクション</strong>フィルタを使用することができます。</p>
+<p>&nbsp;</p>
+<h3 class="table">欄</h3>
+<p><strong>チェックボックス欄</strong>: <span style="color:#D00">鍵アイコン</span>はこの変数が削除できないことを意味します。</p>
+<p><strong>タイプ欄</strong>: ソフトディスクの変数のタイプを表示します。利用可能なタイプは以下の通りです:</p>
+<ul class="softdisk">
+<li class="decimal">小数 (例 - 10.45)</li>
+<li class="email">メールアドレス (例 - user@domain.com)</li>
+<li class="image">画像 (例 - http://www.domain.com/image01.png)</li>
+<li class="integer">整数 (例 - 10)</li>
+<li class="string">文字列 (例 - こんにちは)</li>
+<li class="text">テキスト (i.e. - 全文)</li>
+<li class="time">時間</li>
+<li class="url">URL (例 - http://www.domain.com)</li>
+<li class="yesno">はい/いいえ</li>
+</ul>
+<p><strong>セクション</strong>: ソフトディスクの変数が属するセクションです。ソフトディスクのセクションはコンテンツセクションで何もしません。</p>
+<p><strong>名前</strong>: ソフトディスクの変数名です。編集するにはクリックします。<strong style="color:#D00">注</strong>: ヘルプアイコンの上にマウスを置くとソフトディスクの変数の使用についての情報を得ることができます。</p>
+<p><strong>値</strong>: 変数の値です。</p>
+<p><strong>システム</strong>: システムタイプに変数があるかどうかを知らせます。</p>
+<p><strong>削除不可</strong>: 削除不可としてマークされた変数は削除できません。</p>
+<p><strong>最終更新日</strong>: 値が最後に更新された日付です。</p>
+<p><strong>セクション</strong>: (「全てのコンテンツアイテム」を見るときにのみ表示されます。)これはアイテムが属するセクションです。セクション名はセクションのパラメータへのリンクとして動作します。</p>
+<p><strong>カテゴリ</strong>: これはアイテムが属するカテゴリです。カテゴリ名はカテゴリのパラメータへのリンクとして動作します。</p>
+<p><strong>作者</strong>: コンテンツアイテムの作者名を表示します。作者名は作者詳細へのリンクとして動作します。</p>
+<p><strong>言語</strong>: このコンテンツアイテムが利用可能な言語を表示します。ユーザがリストされた言語の一つでこのウェブサイトを閲覧しているなら表示されるだけです。「全て」に設定をすると全ての言語で見ることができます。</p>
+<p>&nbsp;</p>
+<h3 class="borders">フッタ</h3>
+<p>ページの下部にあるフッタです。</p>
+<p><strong>ナビゲーション</strong> - ソフトディスクの変数の数が1ページ当たりに表示される変数の数よりも大きい場合、ナビゲーションコントロールがアクティブになります。ページを切り替えるためにそれを使用することができます。</p>
+<p><strong>表示数(Display #)</strong> - 1ページ当たりに表示された数を変更するにはこのコントロールを使用します。デフォルト値は全体設定で定義された「一覧の長さ」からコントロールされます。</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

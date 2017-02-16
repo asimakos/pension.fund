@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2009">
+	<name>CX_SHORTCUTS</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-05-02 12:09:51</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>datahell@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/shortcuts.png</icon>
+	<cxlangdir>/administrator/tools/shortcuts/language</cxlangdir>
+	<description>CX_SHORTCUTSDESC</description>
+	<files>
+		<filename tool="shortcuts">shortcuts.php</filename>
+		<filename>index.html</filename>
+		<filename>shortcuts.xml</filename>
+		<filename>images/shortcuts.png</filename>
+		<filename>images/index.html</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+		<filename>language/index.html</filename>
+	</files>
+</mosinstall>

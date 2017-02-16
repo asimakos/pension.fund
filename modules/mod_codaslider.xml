@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>Coda Slider</name>
+	<author>Nikos Sirigos</author>
+	<creationDate>2010-07-22 16:49:00</creationDate>
+	<license>http://www.creativeoptions.eu</license>
+	<authorEmail>info@creativeoptions.eu</authorEmail>
+	<authorUrl>http://www.creativeoptions.eu</authorUrl>
+	<version>1.0</version>
+	<cxlangdir>/modules/mod_codaslider/language</cxlangdir>
+	<description>CX_CODA_DESCRIPTION</description>
+	<files>
+		<filename>mod_codaslider/language/english.php</filename>
+		<filename>mod_codaslider/language/greek.php</filename>
+		<filename module="mod_codaslider">mod_codaslider.php</filename>
+		<filename>mod_codaslider/style.css</filename>
+		<filename>mod_codaslider/js/coda-slider.1.1.1.pack.js</filename>
+		<filename>mod_codaslider/js/jquery-1.2.6.min.js</filename>
+		<filename>mod_codaslider/js/jquery-easing-1.3.pack.js</filename>
+		<filename>mod_codaslider/js/jquery-easing-compatibility.1.2.pack.js</filename>
+		<filename>mod_codaslider/js/script.js</filename>
+		<filename>mod_codaslider/js/ycodaslider-2.0.pack.js</filename>
+		<filename>mod_codaslider/images/bg.png</filename>
+		<filename>mod_codaslider/images/transpBlack.png</filename>
+		<filename>mod_codaslider/images/icon-uparrowsmallwhite.png</filename>
+  	</files>
+	<params>
+		<param name="autoscroll" type="radio" default="0" label="CX_CODA_AUTOSCROLL" description="CX_CODA_AUTOSCROLL">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="autoscrolltime" type="text" size="5" default="3000" label="CX_CODA_AUTOSCROLLTIME" description="CX_CODA_AUTOSCROLLTIME" />
+		<param name="imagewidth" type="text" size="5" default="549" label="CX_CODA_IMAGEWIDTH" description="CX_CODA_IMAGEWIDTH" />
+		<param name="imageheight" type="text" size="5" default="300" label="CX_CODA_IMAGEHEIGHT" description="CX_CODA_IMAGEHEIGHT" />
+		<param name="thumbwidth" type="text" size="5" default="70" label="CX_CODA_THUMBWIDTH" description="CX_CODA_THUMBWIDTH" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE1" description="CX_CODA_SLIDE1" />
+		<param name="slide1" type="radio" default="0" label="CX_CODA_ENABLESLIDE1" description="CX_CODA_ENABLESLIDE1">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title1" type="text" size="60" default="" label="CX_CODA_TITLE1" description="CX_CODA_TITLE1" />
+		<param name="description1" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION1" description="CX_CODA_DESCRIPTION1" />
+		<param name="thumb1" type="imagelist" size="60" default="" label="CX_CODA_THUMB1" description="CX_CODA_THUMB1" directory="/images/stories/codaslider" />
+		<param name="image1" type="imagelist" size="60" default="" label="CX_CODA_IMAGE1" description="CX_CODA_IMAGE1" directory="/images/stories/codaslider" />
+		<param name="link1" type="text" size="60" default="" label="CX_CODA_LINK1" description="CX_CODA_LINK1" />
+		<param name="linktarget1" type="radio" default="_self" label="CX_CODA_LINKTARGET1" description="CX_CODA_LINKTARGET1">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid1" type="text" size="20" default="" label="CX_CODA_CONTENTID1" description="CX_CODA_CONTENTID1" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE2" description="CX_CODA_SLIDE2" />
+		<param name="slide2" type="radio" default="0" label="CX_CODA_ENABLESLIDE2" description="Enable Slide 2">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title2" type="text" size="60" default="" label="CX_CODA_TITLE2" description="CX_CODA_TITLE2" />
+		<param name="description2" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION2" description="CX_CODA_DESCRIPTION2" />
+		<param name="thumb2" type="imagelist" size="60" default="" label="CX_CODA_THUMB2" description="CX_CODA_THUMB2" directory="/images/stories/codaslider" />
+		<param name="image2" type="imagelist" size="60" default="" label="CX_CODA_IMAGE2" description="CX_CODA_IMAGE2" directory="/images/stories/codaslider" />
+		<param name="link2" type="text" size="60" default="" label="CX_CODA_LINK2" description="CX_CODA_LINK2" />
+		<param name="linktarget2" type="radio" default="_self" label="CX_CODA_LINKTARGET2" description="CX_CODA_LINKTARGET2">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid2" type="text" size="20" default="" label="CX_CODA_CONTENTID2" description="CX_CODA_CONTENTID2" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE3" description="Slide 3" />
+		<param name="slide3" type="radio" default="0" label="CX_CODA_ENABLESLIDE3" description="Enable Slide 3">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title3" type="text" size="60" default="" label="CX_CODA_TITLE3" description="CX_CODA_TITLE3" />
+		<param name="description3" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION3" description="CX_CODA_DESCRIPTION3" />
+		<param name="thumb3" type="imagelist" size="60" default="" label="CX_CODA_THUMB3" description="CX_CODA_THUMB3" directory="/images/stories/codaslider" />
+		<param name="image3" type="imagelist" size="60" default="" label="CX_CODA_IMAGE3" description="CX_CODA_IMAGE3" directory="/images/stories/codaslider" />
+		<param name="link3" type="text" size="60" default="" label="CX_CODA_LINK3" description="CX_CODA_LINK3" />
+		<param name="linktarget3" type="radio" default="_self" label="CX_CODA_LINKTARGET3" description="CX_CODA_LINKTARGET3">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid3" type="text" size="20" default="" label="CX_CODA_CONTENTID3" description="CX_CODA_CONTENTID3" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE4" description="Slide 4" />
+		<param name="slide4" type="radio" default="0" label="CX_CODA_ENABLESLIDE4" description="Enable Slide 4">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title4" type="text" size="60" default="" label="CX_CODA_TITLE4" description="CX_CODA_TITLE4" />
+		<param name="description4" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION4" description="CX_CODA_DESCRIPTION4" />
+		<param name="thumb4" type="imagelist" size="60" default="" label="CX_CODA_THUMB4" description="CX_CODA_THUMB4" directory="/images/stories/codaslider" />
+		<param name="image4" type="imagelist" size="60" default="" label="CX_CODA_IMAGE4" description="CX_CODA_IMAGE4" directory="/images/stories/codaslider" />
+		<param name="link4" type="text" size="60" default="" label="CX_CODA_LINK4" description="CX_CODA_LINK4" />
+		<param name="linktarget4" type="radio" default="_self" label="CX_CODA_LINKTARGET4" description="CX_CODA_LINKTARGET4">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid4" type="text" size="20" default="" label="CX_CODA_CONTENTID4" description="CX_CODA_CONTENTID4" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE5" description="Slide 5" />
+		<param name="slide5" type="radio" default="0" label="CX_CODA_ENABLESLIDE5" description="Enable Slide 5">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title5" type="text" size="60" default="" label="CX_CODA_TITLE5" description="CX_CODA_TITLE5" />
+		<param name="description5" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION5" description="CX_CODA_DESCRIPTION5" />
+		<param name="thumb5" type="imagelist" size="60" default="" label="CX_CODA_THUMB5" description="CX_CODA_THUMB5" directory="/images/stories/codaslider" />
+		<param name="image5" type="imagelist" size="60" default="" label="CX_CODA_IMAGE5" description="CX_CODA_IMAGE5" directory="/images/stories/codaslider" />
+		<param name="link5" type="text" size="60" default="" label="CX_CODA_LINK5" description="CX_CODA_LINK5" />
+		<param name="linktarget5" type="radio" default="_self" label="CX_CODA_LINKTARGET5" description="CX_CODA_LINKTARGET5">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid5" type="text" size="20" default="" label="CX_CODA_CONTENTID5" description="CX_CODA_CONTENTID5" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE6" description="Slide 6" />
+		<param name="slide6" type="radio" default="0" label="CX_CODA_ENABLESLIDE6" description="Enable Slide 6">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title6" type="text" size="60" default="" label="CX_CODA_TITLE6" description="CX_CODA_TITLE6" />
+		<param name="description6" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION6" description="CX_CODA_DESCRIPTION6" />
+		<param name="thumb6" type="imagelist" size="60" default="" label="CX_CODA_THUMB6" description="CX_CODA_THUMB6" directory="/images/stories/codaslider" />
+		<param name="image6" type="imagelist" size="60" default="" label="CX_CODA_IMAGE6" description="CX_CODA_IMAGE6" directory="/images/stories/codaslider" />
+		<param name="link6" type="text" size="60" default="" label="CX_CODA_LINK6" description="CX_CODA_LINK6" />
+		<param name="linktarget6" type="radio" default="_self" label="CX_CODA_LINKTARGET6" description="CX_CODA_LINKTARGET6">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid6" type="text" size="20" default="" label="CX_CODA_CONTENTID6" description="CX_CODA_CONTENTID6" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE7" description="Slide 7" />
+		<param name="slide7" type="radio" default="0" label="CX_CODA_ENABLESLIDE7" description="Enable Slide 7">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title7" type="text" size="60" default="" label="CX_CODA_TITLE7" description="CX_CODA_TITLE7" />
+		<param name="description7" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION7" description="CX_CODA_DESCRIPTION7" />
+		<param name="thumb7" type="imagelist" size="60" default="" label="CX_CODA_THUMB7" description="CX_CODA_THUMB7" directory="/images/stories/codaslider" />
+		<param name="image7" type="imagelist" size="60" default="" label="CX_CODA_IMAGE7" description="CX_CODA_IMAGE7" directory="/images/stories/codaslider" />
+		<param name="link7" type="text" size="60" default="" label="CX_CODA_LINK7" description="CX_CODA_LINK7" />
+		<param name="linktarget7" type="radio" default="_self" label="CX_CODA_LINKTARGET7" description="CX_CODA_LINKTARGET7">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid7" type="text" size="20" default="" label="CX_CODA_CONTENTID7" description="CX_CODA_CONTENTID7" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE8" description="Slide 8" />
+		<param name="slide8" type="radio" default="0" label="CX_CODA_ENABLESLIDE8" description="Enable Slide 8">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title8" type="text" size="60" default="" label="CX_CODA_TITLE8" description="CX_CODA_TITLE8" />
+		<param name="description8" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION8" description="CX_CODA_DESCRIPTION8" />
+		<param name="thumb8" type="imagelist" size="60" default="" label="CX_CODA_THUMB8" description="CX_CODA_THUMB8" directory="/images/stories/codaslider" />
+		<param name="image8" type="imagelist" size="60" default="" label="CX_CODA_IMAGE8" description="CX_CODA_IMAGE8" directory="/images/stories/codaslider" />
+		<param name="link8" type="text" size="60" default="" label="CX_CODA_LINK8" description="CX_CODA_LINK8" />
+		<param name="linktarget8" type="radio" default="_self" label="CX_CODA_LINKTARGET8" description="CX_CODA_LINKTARGET8">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid8" type="text" size="20" default="" label="CX_CODA_CONTENTID8" description="CX_CODA_CONTENTID8" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE9" description="Slide 9" />
+		<param name="slide9" type="radio" default="0" label="CX_CODA_ENABLESLIDE9" description="Enable Slide 9">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title9" type="text" size="60" default="" label="CX_CODA_TITLE9" description="CX_CODA_TITLE9" />
+		<param name="description9" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION9" description="CX_CODA_DESCRIPTION9" />
+		<param name="thumb9" type="imagelist" size="60" default="" label="CX_CODA_THUMB9" description="CX_CODA_THUMB9" directory="/images/stories/codaslider" />
+		<param name="image9" type="imagelist" size="60" default="" label="CX_CODA_IMAGE9" description="CX_CODA_IMAGE9" directory="/images/stories/codaslider" />
+		<param name="link9" type="text" size="60" default="" label="CX_CODA_LINK9" description="CX_CODA_LINK9" />
+		<param name="linktarget9" type="radio" default="_self" label="CX_CODA_LINKTARGET9" description="CX_CODA_LINKTARGET9">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid9" type="text" size="20" default="" label="CX_CODA_CONTENTID9" description="CX_CODA_CONTENTID9" />
+		
+		<param name="@spacer" type="spacer" default="" label="CX_CODA_SLIDE10" description="Slide 10" />
+		<param name="slide10" type="radio" default="0" label="CX_CODA_ENABLESLIDE10" description="Enable Slide 10">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="title10" type="text" size="60" default="" label="CX_CODA_TITLE10" description="CX_CODA_TITLE10" />
+		<param name="description10" type="textarea" cols="58" rows="10" default="" label="CX_CODA_DESCRIPTION10" description="CX_CODA_DESCRIPTION10" />
+		<param name="thumb10" type="imagelist" size="60" default="" label="CX_CODA_THUMB10" description="CX_CODA_THUMB10" directory="/images/storie/codasliders" />
+		<param name="image10" type="imagelist" size="60" default="" label="CX_CODA_IMAGE10" description="CX_CODA_IMAGE10" directory="/images/stories/codaslider" />
+		<param name="link10" type="text" size="60" default="" label="CX_CODA_LINK10" description="CX_CODA_LINK10" />
+		<param name="linktarget10" type="radio" default="_self" label="CX_CODA_LINKTARGET10" description="CX_CODA_LINKTARGET10">
+			<option value="_self">CX_CODA_LINKTARGETSELF</option>
+			<option value="_blank">CX_CODA_LINKTARGETBLANK</option>
+		</param>
+		<param name="contentid10" type="text" size="20" default="" label="CX_CODA_CONTENTID10" description="CX_CODA_CONTENTID10" />
+	</params>
+</mosinstall>

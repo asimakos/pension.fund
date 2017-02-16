@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>german</name>
+	<version>2009.1</version>
+	<creationDate>2009-05-04 19:33:15</creationDate>
+	<author>Siegmund Langsch</author>
+	<authorEmail>s.langsch@langschnet.de</authorEmail>
+	<authorUrl>http://www.langschnet.de</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>German language for Elxis 2009 front-end.</description>
+	<files>
+		<filename>german.gemini.php</filename>
+		<filename>german.gif</filename>
+		<filename>german.pref.php</filename>
+		<filename>german.php</filename>
+		<filename>german.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

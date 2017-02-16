@@ -1,0 +1,75 @@
+/*
+CSS for Simple Pie RSS feeds
+Author: Ioannis Sannos (datahell)
+URL: http://www.elxis.org
+Date: 11 April, 2009
+*/
+
+div.feeddscr {
+	margin: 20px 0 10px 0;
+	padding: 5px 0;
+	border-top: 1px solid #89a8c8;
+	border-bottom: 1px solid #89a8c8;
+	background-color: #eaf3fd;
+	text-align: center;
+	line-height:1.2em;
+}
+
+h3.feedtitle {
+	margin: 0;
+	padding:0;
+	font-size:1.5em;
+	font-family:"Lucida Grande",Tahoma,sans-serif;
+	color:#000;
+	line-height:1.8em;
+}
+
+h3.feedtitle a, h3.feedtitle a:active, h3.feedtitle a:visited { color:#336699; text-decoration:none; }
+h3.feedtitle a:hover { color:#000; text-decoration:underline; }
+div.feeddscr img { margin: 3px auto; }
+
+
+p.feedsubscribe {
+	font-size:0.92em;
+	text-align:center;
+}
+
+p.feedsubscribe a, p.feedsubscribe a:link, p.feedsubscribe a:visited { padding: 0 2px; color:#284a6c; text-decoration:underline; }
+p.feedsubscribe a:hover { background-color: #444; color:#FFF; text-decoration:none; }
+
+ul.feeditems {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.feeditems li {
+	background-color: inherit;
+	margin: 20px 0;
+	padding: 0;
+}
+
+ul.feeditems h4 {
+	margin:0 0 10px 0;
+	padding:0;
+	font-size:1.2em;
+	color:#000;
+}
+
+ul.feeditems h4 a, ul.feeditems h4 a:visited { padding: 0 2px; color:#13212f; }
+ul.feeditems h4 a:hover { background-color: #444; color:#FFF; text-decoration:none; }
+
+ul.feeditems h4 span {
+	font-size:12px;
+	line-height:1.3em;
+	color:#888;
+	font-weight: normal;
+}
+
+div.feedtext {
+}
+
+div.feedtext img { padding: 2px; }
+
+div.feedtext a { color:#284a6c; text-decoration:underline; }
+div.feedtext a:hover { color:#000; text-decoration:underline; }

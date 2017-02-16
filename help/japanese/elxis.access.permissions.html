@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<title>アクセス管理 - グループ許可</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>アクセス管理 - グループ許可</h1>
+<p>アクセス管理はアクセスコントロールを実行するのに使用されます。Elxisでは、管理者はセキュリティパターンを必要に応じて最良の組み合わせで自由に定義する事ができます。それらは、誰がどこへアクセスができ、何をすることができるのかを定義することができます。</p>
+<p>アクセスコントロールはグループの考えに基づいていており、個々のユーザをコントロールしません。ユーザのグループをコントロールします。グループの権限を定義します。特定のグループに属する全てのユーザが全てのグループ権限を引き継ぎます。</p>
+<p>あなたは予め定義されたアクセスグループに制限されません。あなた自身を作成することができます。<br />
+あなたは予め定義された許可に制限されません。あなた自身を定義することができます。</p>
+<p>アクセス管理には良く知られている<a href="http://phpgacl.sourceforge.net/" target="_blank">phpGACL</a>クラスに基づいています。</p>
+<p>この画面では以下の用語があります:</p>
+<p><strong style="color:#D00">ACO = Access Control Objects</strong> AROオブジェクトで利用可能な許可をコントロールします。ElxisではAROオブジェクトと同等であるとしてユーザグループを考えることができます。</p>
+<p><strong>利用可能なオブジェクト</strong>:</p>
+<ul>
+    <li><strong>操作(Action)</strong> - ユーザグループがフロントエンドで行えることを指します。それは次の値のいずれかを利用することができます: 追加(Add)、編集(Edit)、公開(Publish)、閲覧(View)、アップロード(Upload)</li>
+    <li><strong>管理(Administration)</strong> - ユーザグループがバックエンドで行えることを指します。それは次の値のいずれかを利用することができます: Login, Global Configuration, Manage, Install, Edit.</li>
+    <li><strong>ワークフロー(Workflow)</strong> - ユーザグループが管理メールを受け取ることができるかどうかを選択します。これらは、Elxisが管理に関わるユーザへいくつかのイベントについて彼らに通知するために作成され、送られるメールです。それは次の値を利用することができます: email_events</li>
+</ul>
+<p><strong style="color:#D00">ARO = Access Request Objects</strong> これらは定義されたユーザグループです。<br />
+<strong>利用可能なAROの値</strong>: 予め定義されたユーザグループ又は、管理者が作成したユーザグループです。例: 登録済み、管理者、最高管理者、作者、等。</p>
+<p><strong style="color:#D00">AXO = Access eXtension Objects</strong> これらはあなたがコントロールできるオブジェクトです。<br />
+<strong>利用可能なAXOオブジェクト</strong>: 利用可能なAXOオブジェクトはACOとAROの値に基づいて変更します。次のいずれかを利用することができます: コンテンツ(Content)、リンク(Links)、プロフィール(Profile)、コンポーネント(Components)、ファイル(Files)、テンプレート(Templates)、言語(Languages)、モジュール(Modules)、ボット(Bots)、ブリッジ(Bridges)、ツール(Tools)<br />
+<strong>利用可能なAXOオブジェクトの値</strong>: 全て(All)、Own、インストール済みコンポーネント(installed Components)、画像(Images)、アバター(Avatars)、block_user</p>
+<p>アクセスモデルは許可されていない場合、全てが拒否されるという仮定に基づいています。</p>
+<p>許可をどのように定義できるかを良く理解するために、文章をを作っているように考え始めなければなりません。文章は<strong>ルール</strong>を定義します。</p>
+<p>例えば、<strong>ルール</strong>を作りたいと言ったとしましょう。それは全てのコンポーネントのフロントエンドにアクセスをするために全ての登録済みユーザを許可します。次に、実際の文章はこのように見えるでしょう:</p>
+<p>&quot;<i>私は登録済みユーザが全てのコンポーネントの閲覧ができるようになることを望みます。</i>&quot;</p>
+<p>アクセス管理の<strong>ルール</strong>は以下の通りとなるでしょう:</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+		<td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACOの値</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">AROの値</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXOの値</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">閲覧(view)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registerd)</p></td>
+        <td><p align="center">コンポーネント(components)</p></td>
+        <td><p align="center">全ての(all)</p></td>
+    </tr>
+</table>
+<p>ルールがそれぞれのグループに設定される手段としてよく理解するために、いくつかの例を用いたり、いくつかの予め定義されたグループに適用されたルールを閲覧するのが良いでしょう。</p>
+<p><strong>例その1 - 登録済みユーザ</strong><br /><strong>登録済みユーザ</strong>がどのような許可を持っていてアクセス管理でどのように定義されているかを見てみましょう。登録済みユーザができること:</p>
+<ul>
+<li>フロントエンドからウェブリンクを追加する</li>
+<li>自身のプロフィールを編集する</li>
+<li>自身のプロフィールに使うアバター画像をアップロードする</li>
+<li>全てのコンポーネントを閲覧する</li>
+<li>全てのプロフィールを閲覧する</li>
+</ul>
+<p>今度は以下のテーブルとルールを見てみましょう。</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACOの値</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">AROの値</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXOの値</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">追加(add)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registered)</p></td>
+        <td><p align="center">ウェブリンク(weblinks)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registered)</p></td>
+        <td><p align="center">プロフィール(profile)</p></td>
+        <td><p align="center">自身(own)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">アップロード(upload)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registered)</p></td>
+        <td><p align="center">ファイル(files)</p></td>
+        <td><p align="center">アバター(avatars)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">閲覧(view)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registered)</p></td>
+        <td><p align="center">コンポーネント(components)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">閲覧(view)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">登録済み(registered)</p></td>
+        <td><p align="center">プロフィール(profile)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>例その2 - マネージャー</strong><br /><strong>マネージャー</strong>がどのような許可を持っていてアクセス管理でどのように定義されているかを見てみましょう。マネージャーができること:</p>
+<ul>
+<li>フロントエンドからコンテンツを追加する</li>
+<li>フロントエンドからウェブリンクを追加する</li>
+<li>フロントエンドから全てのコンテンツを編集する</li>
+<li>自身のプロフィールを編集する</li>
+<li>フロントエンドからコンテンツを公開する</li>
+<li>フロントエンドからファイルをアップロードする</li>
+<li>全てのコンポーネントを閲覧する</li>
+<li>全てのプロフィールを閲覧する</li>
+<li>ニュース速報コンポーネントを編集する</li>
+<li>フロントページコンポーネントを編集する</li>
+<li>メディア管理コンポーネントを編集する</li>
+<li>バックエンドへログインする</li>
+</ul>
+<p>今度は以下のテーブルとルールを見てみましょう。</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACOの値</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">AROの値</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXOの値</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">追加(add)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンテンツ(content)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">追加(add)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">ウェブリンク(weblinks)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンテンツ(content)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">プロフィール(profile)</p></td>
+        <td><p align="center">自身(own)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">公開(publish)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンテンツ(content)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">アップロード(upload)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">ファイル(files)</p></td>
+        <td><p align="center">画像(images)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">閲覧(view)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンポーネント(components)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">操作(action)</p></td>
+        <td><p align="center">閲覧(view)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">プロフィール(profile)</p></td>
+        <td><p align="center">全て(all)</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">管理(administration)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンポーネント(components)</p></td>
+        <td><p align="center">com_newsflash</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">管理(administration)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンポーネント(components)</p></td>
+        <td><p align="center">com_frontpage</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">管理(administration)</p></td>
+        <td><p align="center">編集(edit)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">コンポーネント(components<)/p></td>
+        <td><p align="center">com_media</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">管理(administration)</p></td>
+        <td><p align="center">ログイン(login)</p></td>
+        <td><p align="center">ユーザ(users)</p></td>
+        <td><p align="center">マネージャー(manager)</p></td>
+        <td><p align="center">&nbsp;</p></td>
+        <td><p align="center">&nbsp;</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>注</strong>: この画面は注意して使用してください。操作を誤るとウェブサイトが機能しなくなる恐れがあります。</p>
+<p>&nbsp;</p>
+</div>
+</div>
+ </body>
+</html>

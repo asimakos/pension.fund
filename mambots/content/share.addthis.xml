@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>Share - Add This</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-06-04 19:40:30</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>Displays an AddThis (addthis.com) sharing button in articles icons bar</description>
+	<files>
+		<filename mambot="share.addthis">share.addthis.php</filename>
+	</files>
+	<params>
+		<param name="username" type="text" default="" dir="ltr" size="20" label="AX_SM_LF_OP01" description="Your AddThis username (optional)" />
+		<param name="globalshow" type="radio" default="0" label="AX_SHOW" description="The general display setting for all content items. You can change this for idividual content items.">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

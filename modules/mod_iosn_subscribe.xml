@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>IOSN Subscribe</name>
+	<creationDate>2010-12-02 16:07:00</creationDate>
+	<author>Stavros Stratakis</author>
+	<copyright>(C) 2007-2010 WebGift Web Services. All rights reserved </copyright>
+	<license>GNU / GPL</license>
+	<authorEmail>info@webgift.gr</authorEmail>
+	<authorUrl>http://www.webgift.gr</authorUrl>
+	<version>1.1</version>
+	<description>
+	<![CDATA[ 
+	<img src="../modules/mod_iosn_subscribe/images/iosn_subscribe_logo.png" alt="IOS Newsletter Subscribe Logo Module Development" width="100" height="100" hspace="6" vspace="6" align="left" /><p><strong>IOSN Subscribe</strong> module developed - designed by <strong>Stratakis Stavros</strong> via <a href="http://www.webgift.gr" target="_blank" title="WebGift Web Services">WebGift Web Services</a> for <a href="http://www.elxis.org" target="_blank" name="elxis.org " title="Elxis Content Management System">Elxis CMS</a> !<br /> 
+    You can publish this module giving to your website's visitors the opportunity to subscribe - interactive quickly and easily with <a href="http://www.elxis-downloads.com/downloads/newsletters/8.html" target="_blank" title="IOS Newsletter Component">IOS Newsletter</a> Component!<br/> <br />
+    Elxis CMS Compatibility: 2009.1 ( or newer )<br />
+    Browser Compatibility : IE 7, IE 8 and IE9 Beta. Opera , Safari , Firefox , Google Chrome.<br /><br/>
+    <span style="color:#669900;font-weight:bold;">Advice :</span><br />
+    - IOSN Subscribe module doesn't run when we click on IOS Newsletter Component Menu Item. So we advice you either disable the title of that module or don't create a menu item linked to IOS Newsletter. <br />
+    <br/>
+    <span style="color:#669900;font-weight:bold;">Requirements : </span><br />
+    - <span style="color:#ff0000;font-weight:bold;">IOS Newsletter component</span> must be installed in order to work this module correctly.<br /><br/>
+    <strong>Change log</strong><br />
+    Version 1.1: loads dynamically the css file from IOS Newsletter component. 
+    </p>
+	]]>
+	</description>
+	<files>
+		<filename module="mod_iosn_subscribe">mod_iosn_subscribe.php</filename>
+        <filename>mod_iosn_subscribe/index.html</filename>
+        <filename>mod_iosn_subscribe/css/highslide.css</filename>
+        <filename>mod_iosn_subscribe/css/iosn_subscribe.css</filename>
+        <filaname>mod_iosn_subscribe/css/iosn_subscribe-rtl.css</filaname>        
+        <filename>mod_iosn_subscribe/css/index.html</filename>
+        <filename>mod_iosn_subscribe/images/outlines/beveled.png</filename>
+        <filename>mod_iosn_subscribe/images/outlines/drop-shadow.png</filename>
+        <filename>mod_iosn_subscribe/images/outlines/glossy-dark.png</filename>
+        <filename>mod_iosn_subscribe/images/outlines/index.html</filename>
+        <filename>mod_iosn_subscribe/images/outlines/outer-glow.png</filename>
+        <filename>mod_iosn_subscribe/images/outlines/Outlines.psd</filename>
+        <filename>mod_iosn_subscribe/images/outlines/rounded-black.png</filename>
+        <filename>mod_iosn_subscribe/images/outlines/rounded-white.png</filename>
+        <filename>mod_iosn_subscribe/images/close.png</filename>
+        <filename>mod_iosn_subscribe/images/closeX.png</filename>
+        <filename>mod_iosn_subscribe/images/controlbar-black-border.gif</filename>
+        <filename>mod_iosn_subscribe/images/controlbar-text-buttons.png</filename>
+        <filename>mod_iosn_subscribe/images/controlbar-white.gif</filename>
+        <filename>mod_iosn_subscribe/images/controlbar-white-small.gif</filename>
+        <filename>mod_iosn_subscribe/images/fullexpand.gif</filename>
+        <filename>mod_iosn_subscribe/images/iosn_subscribe_logo.png</filename>
+        <filename>mod_iosn_subscribe/images/icon.gif</filename>
+        <filename>mod_iosn_subscribe/images/index.html</filename>
+        <filename>mod_iosn_subscribe/images/loader.white.gif</filename>
+        <filename>mod_iosn_subscribe/images/subnewsletter.png</filename>
+        <filename>mod_iosn_subscribe/images/resize.gif</filename>
+        <filename>mod_iosn_subscribe/images/scrollarrows.png</filename>
+        <filename>mod_iosn_subscribe/images/zoomout.cur</filename>
+        <filename>mod_iosn_subscribe/images/zoomin.cur</filename>
+        <filename>mod_iosn_subscribe/javascript/highslide-full.min.js</filename>
+        <filename>mod_iosn_subscribe/javascript/index.html</filename>
+    </files>
+    <params>
+        <param name="@spacer" type="spacer" default="HighSlide Parameters" dir="rtl" label="" description="" />
+        <param name="border_color" type="list" default="1" dir="rtl" label="Border Color" description="Choose the color of Highslider popup window!">
+            <option value="0">Black</option>
+            <option value="1">White</option>
+		</param>
+        <param name="hscredits" type="radio" default="1" dir="rtl" label="Highslide Credits" description="Show HighSlide Credits">
+            <option value="0">AX_NO</option>
+            <option value="1">AX_YES</option>
+		</param>						
+        <param name="@spacer" type="spacer" default="Module Suffix" dir="rtl" label="" description="" />											
+	   <param name="moduleclass_sfx" type="text" dir="rtl" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	</params>
+</mosinstall>

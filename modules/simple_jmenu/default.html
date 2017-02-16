@@ -1,0 +1,27 @@
+<mos:comment>
+@version 1.0.0
+@package Simple_JMenu
+@license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+</mos:comment>
+<mos:tmpl name="simple_jmenu">
+	<div class="jmenu">
+		<script type="text/javascript" src="{MODULE_PATH}/js/simple_jmenu.js"></script>
+		<link href="{MODULE_PATH}/css/simple_jmenu.css" rel="stylesheet" type="text/css">
+		<div class="simple_jmenu_top"><img src="{MODULE_PATH}/images/shim.gif" height="10" width="1" border="0"></div>
+	  <mos:tmpl name="menu_section">
+	  	<div class="jmenu_section{_BOTTOM}">
+		  	<div class="jmenu_section_image_{SECTION_CLASS}" id="parent_{MENU_ITEM_ID}" onclick="javascript:toggleMenu('{MENU_ITEM_ID}');"><img src="{MODULE_PATH}/images/shim.gif" height="10" width="1" border="0"></div>
+		  	<div class="jmenu_section_text"><a href="{MENU_ITEM_LINK}">{MENU_ITEM_NAME}</a></div>
+		  	<img src="{MODULE_PATH}/images/shim.gif" height="0" width="1" border="0">
+	  	</div>
+	  	<div id="{MENU_ITEM_ID}" style="display: {SUBSECTION_DISPLAY}">
+		  	<mos:tmpl name="menu_subsection" type="simpleCondition" requiredVars="MENU_ITEM_NAME">
+			  	<div class="jmenu_subsection">
+			  		<div><a href="{MENU_ITEM_LINK}">{MENU_ITEM_NAME}</a></div>
+		  		</div>
+		  	</mos:tmpl>
+		  </div>
+	  </mos:tmpl>
+	  <div class="simple_jmenu_bottom"><img src="{MODULE_PATH}/images/shim.gif" height="10" width="1" border="0"></div>
+  </div>
+</mos:tmpl>

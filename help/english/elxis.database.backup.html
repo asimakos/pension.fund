@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Database Manager: Backup</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 Elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Database Manager: Backup</h1>
+<p>From this page you can view database backups that you have saved on the server and create new ones.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Backup Files</h3>
+<p>Backup files are saved in the /administrator/backups/database directory. Filenames use the format explained bellow:</p>
+<p>yyyymmddhhmmss_elxis[_full].aaaaaaaa.sql/xml</p>
+<p>Every file name starts with date it was taken (yyyymmdd), followed by the time (hhmmss). Then always follows the string &quot;_elxis&quot;. If it is a full backup (structure and data) there is the word &quot;_full&quot;. Finally there is an 8 position random alphanumerical string, followed by the extension of the backup type (xml or sql).</p>
+<p><strong>You can download a file</strong> to your local computer, by right clicking its name and selecting from the fly-out menu &quot;Save Target As&quot;.</p>
+<p><strong>All files are UTF-8 Encoded.</strong></p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Toolbar Icons</h3>
+<p><strong>Delete selected backups</strong>: Select a backup file and click this icon to delete it.</p>
+<p><strong>New Full XML Backup</strong>: Press this icon to create a new Full (structure and data) XML backup.</p>
+<p><strong>New Full SQL Backup</strong>: Press this icon to create a new Full (structure and data) SQL backup.</p>
+<p><strong>Help</strong>: This Help Screen.</p>
+<p>&nbsp;</p>
+<h3 class="table">Columns</h3>
+<p><strong>File</strong>: The filename of the backup.</p>
+<p><strong>Type</strong>: Description of the type of the backup.</p>
+<p><strong>Size</strong>: Size of the file in KB.</p>
+<p><strong>Date</strong>: The Date backup was taken.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

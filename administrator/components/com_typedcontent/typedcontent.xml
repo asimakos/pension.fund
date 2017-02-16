@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2009">
+	<name>Typed Content Page</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-06-04 20:55:50</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>AX_TDC_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="item_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="pageclass_sfx" type="text" size="20" dir="ltr" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="textclass_sfx" type="text" size="20" dir="ltr" default="" label="AX_TEXTPAGECL" description="AX_TEXTPAGECLD" />
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="rating" type="list" dir="rtl" default="" label="AX_ITMRATL" description="AX_ITMRATD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="author" type="list" dir="rtl" default="" label="AX_AUTNML" description="AX_AUTNMD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="createdate" type="list" dir="rtl" default="" label="AX_CTDL" description="AX_CTDD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="modifydate" type="list" dir="rtl" default="" label="AX_MTDL" description="AX_MTDD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="translate" type="list" default="2" label="Translate" description="Display an automatic translation icon? Requires Bot Translate to be published. For the global setting see the bot parameters.">
+			<option value="2">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="addthis" type="list" default="2" label="AddThis" description="Display AddThis (addthis.com) sharing button? Requires Bot Share - AddThis to be published. For the global setting see the bot parameters.">
+			<option value="2">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="emailit" type="list" default="2" label="Email-it" description="Display E-mailit (e-mailit.com) sharing button? Requires Bot Share - E-mailit to be published. For the global setting see the bot parameters.">
+			<option value="2">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="pdf" type="list" default="" dir="rtl" label="AX_PDFICL" description="AX_PDFICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="rtf" type="list" default="" dir="rtl" label="AX_RTFICL" description="AX_RTFICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="print" type="list" default="" dir="rtl" label="AX_PRICL" description="AX_PRICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="email" type="list" default="" dir="rtl" label="AX_EMICL" description="AX_EMICD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="post_comments" type="list" dir="rtl" default="0" label="AX_COMMENTARY" description="AX_COMMENTARYD">
+			<option value="0">AX_NOONE</option>
+			<option value="1">AX_REGUSERS</option>
+			<option value="2">AX_ALL</option>
+		</param>
+	</params>
+</mosinstall>

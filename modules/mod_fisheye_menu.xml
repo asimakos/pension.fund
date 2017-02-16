@@ -1,0 +1,108 @@
+<mosinstall type="module" version="2008">
+	<name>FishEye Menu</name>
+	<author>Ivan Trebjesanin</author>
+	<creationDate>2008-01-25 12:56:34</creationDate>
+	<copyright>GNU/GPL</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@elxis-srbija.org</authorEmail>
+	<authorUrl>www.elxis-srbija.org</authorUrl>
+	<cxlangdir>/modules/fisheye/language</cxlangdir>
+	<version>1.0</version>
+	<description><![CDATA[<br/><img src="../modules/fisheye/images/logo.png" alt="FishEye" /><p><strong>The FishEye Menu</strong> is a GPL Elxis module from <strong><a href="http://www.elxis-srbija.org" target="_blank" >elxis-srbija.org</a></strong><br/> This module will apply FishEye zooming effect to your menu. It is based on <strong><a href="http://jquery.com/" target="_blank">jQuery</a></strong> and <strong><a href="http://interface.eyecon.ro" target="_blank">interface element</a></strong> for jQuery scripts.<br/>This module includes png fix for IE, wich means that you can use .png images for your menu and still they will be displayed correctly on IE<br/><br/>
+	<h3>Features</h3>
+	<ul>
+		<li>Up to 7 menu items</li>
+		<li>Compatile with all modern browsers (also with some older)</li>
+		<li>Multilingual XML (2008 version)</li>
+	</ul>
+	]]></description>
+	<files>
+<filename module="mod_fisheye_menu">mod_fisheye_menu.php</filename>
+<filename>fisheye/index.html</filename>
+<filename>fisheye/logo.gif</filename>
+<filename>fisheye/png.htc</filename>
+<filename>fisheye/language/english.php</filename>
+<filename>fisheye/language/greek.php</filename>
+<filename>fisheye/language/index.html</filename>
+<filename>fisheye/language/srpski.php</filename>
+<filename>fisheye/language/serbian.php</filename>
+<filename>fisheye/js/fisheye.js</filename>
+<filename>fisheye/js/index.html</filename>
+<filename>fisheye/js/iutil.js</filename>
+<filename>fisheye/js/jquery.js</filename>
+<filename>fisheye/images/blank.gif</filename>
+<filename>fisheye/images/Chat.png</filename>
+<filename>fisheye/images/Contact.png</filename>
+<filename>fisheye/images/Home.png</filename>
+<filename>fisheye/images/index.html</filename>
+<filename>fisheye/images/Lock.png</filename>
+<filename>fisheye/images/logo.png</filename>
+<filename>fisheye/images/Media.png</filename>
+<filename>fisheye/images/Music.png</filename>
+<filename>fisheye/images/User.png</filename>
+	</files>
+	<params>
+<param name="fmenu_align" type="text" default="center" label="CX_ALIGN" description="CX_ALGN" />
+<param name="txtcolor" type="text" default="#333333" label="CX_FNT_CLR" description="CX_FONTC" />
+<param name="fontsize" type="text" default="12px" label="CX_FNT_SIZE" description="CX_FNTSZ" />
+<param name="fmenu_itemwidth" type="text" default="40" label="CX_ICN_WDTH" description="CX_ICNW" />
+<param name="fmenu_itemmaxwidth" type="text" default="40" label="CX_MAXWIDTH_ICN" description="CX_MAX_ZOOM" />
+<param name="fmenu_proximity" type="text" default="40" label="CX_PRX" description="CX_PROX" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status1" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url1" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img1" type="imagelist" directory="/modules/fisheye/images" default="Home.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt1" type="text" default="CX_DFTXT1" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status2" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url2" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img2" type="imagelist" directory="/modules/fisheye/images" default="Media.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt2" type="text" default="CX_DFTXT2" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status3" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url3" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img3" type="imagelist" directory="/modules/fisheye/images" default="Music.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt3" type="text" default="CX_DFTXT3" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status4" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url4" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img4" type="imagelist" directory="/modules/fisheye/images" default="Chat.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt4" type="text" default="CX_DFTXT4" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status5" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url5" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img5" type="imagelist" directory="/modules/fisheye/images" default="Contact.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt5" type="text" default="CX_DFTXT5" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status6" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url6" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img6" type="imagelist" directory="/modules/fisheye/images" default="User.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt6" type="text" default="CX_DFTXT6" label="CX_MN_TXT" description="CX_TYP_TXT" />
+<param name="@spacer" type="spacer" default="" label="" description="" />
+<param name="menu_status7" type="radio" default="1" label="CX_MN_STS" description="CX_EN_DIS">
+			<option value="0">CX_DSB</option>
+			<option value="1">CX_ENB</option>
+		</param>
+<param name="menu_url7" type="text" default="http://www.elxis-srbija.org" label="CX_URL" description="CX_TYPE_URL" />
+<param name="menu_img7" type="imagelist" directory="/modules/fisheye/images" default="Lock.png" label="CX_MN_IMG" description="CX_MN" />
+<param name="menu_txt7" type="text" default="CX_DFTXT7" label="CX_MN_TXT" description="CX_TYP_TXT" />
+</params>
+</mosinstall>

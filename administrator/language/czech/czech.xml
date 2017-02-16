@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Czech</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:01:10</creationDate>
+  <author>PARACOM Software</author>
+  <authorEmail>info@elxis.cz</authorEmail>
+  <authorUrl>www.elxis.cz</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Czech language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Czech</name>
+    <tag>czech</tag>
+    <rtl>0</rtl>
+    <locale>cs_CS.utf8, cs_CS.UTF-8, cs_CS, czech, cs</locale>
+  </metadata>
+  <files>
+		<filename>czech.com_access.php</filename>
+		<filename>czech.com_admin.php</filename>
+		<filename>czech.com_banners.php</filename>
+		<filename>czech.com_bridge.php</filename>
+		<filename>czech.com_categories.php</filename>
+		<filename>czech.com_checkin.php</filename>
+		<filename>czech.com_config.php</filename>
+		<filename>czech.com_contact.php</filename>
+		<filename>czech.com_content.php</filename>
+		<filename>czech.com_database.php</filename>
+		<filename>czech.com_frontpage.php</filename>
+		<filename>czech.com_installer.php</filename>
+		<filename>czech.com_languages.php</filename>
+		<filename>czech.com_mambots.php</filename>
+		<filename>czech.com_massmail.php</filename>
+		<filename>czech.com_media.php</filename>
+		<filename>czech.com_menumanager.php</filename>
+		<filename>czech.com_menus.php</filename>
+		<filename>czech.com_messages.php</filename>
+		<filename>czech.com_modules.php</filename>
+		<filename>czech.com_newsfeeds.php</filename>
+		<filename>czech.com_poll.php</filename>
+		<filename>czech.com_sections.php</filename>
+		<filename>czech.com_softdisk.php</filename>
+		<filename>czech.com_statistics.php</filename>
+		<filename>czech.com_syndicate.php</filename>
+		<filename>czech.com_templates.php</filename>
+		<filename>czech.com_trash.php</filename>
+		<filename>czech.com_typedcontent.php</filename>
+		<filename>czech.com_users.php</filename>
+		<filename>czech.com_weblinks.php</filename>
+		<filename>czech.gemini.php</filename>
+		<filename>czech.pref.php</filename>
+		<filename>czech.gif</filename>
+		<filename>czech.php</filename>
+		<filename>czech.xml</filename>
+		<filename>czech.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

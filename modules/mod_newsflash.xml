@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2008">
+	<name>Newsflash</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-04-30 13:30:26</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_SM_NWF_DESC</description>
+	<files>
+		<filename module="mod_newsflash">mod_newsflash.php</filename>
+	</files>
+	<params>
+		<param name="catid" type="mos_category" dir="ltr" default="0" label="AX_SM_NWF_CATL" description="AX_SM_NWF_CATD" />
+		<param name="style" type="list" dir="rtl" default="random" label="AX_SM_NWF_STL" description="AX_SM_NWF_STL">
+		  <option value="random">AX_SM_NWF_OP1</option>
+		  <option value="horiz">AX_SM_NWF_OP2</option>
+		  <option value="vert">AX_SM_NWF_OP3</option>
+		</param>
+		<param name="image" type="radio" default="0" label="AX_SM_NWF_SIL" description="AX_SM_NWF_SID">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="link_titles" type="list" dir="rtl" default="" label="AX_SM_NWF_LTL" description="AX_SM_NWF_LTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="readmore" type="radio" default="0" label="AX_SM_NWF_RML" description="AX_SM_NWF_RMD">
+  			<option value="0">AX_HIDE</option>
+      		<option value="1">AX_SHOW</option>
+    	</param>
+    	<param name="item_title" type="radio" default="0" label="AX_SM_NWF_ITL" description="AX_SM_NWF_ITD">
+      		<option value="0">AX_NO</option>
+      		<option value="1">AX_YES</option>
+    	</param>
+		<param name="items" type="list" default="1" label="AX_SM_NWF_NOIL" description="AX_SM_NWF_NOID">
+      		<option value="1">1</option>
+      		<option value="2">2</option>
+      		<option value="3">3</option>
+      		<option value="4">4</option>
+      		<option value="5">5</option>
+      		<option value="6">6</option>
+      		<option value="7">7</option>
+      		<option value="8">8</option>
+      		<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="cache" type="radio" dir="rtl" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	</params>
+</mosinstall>

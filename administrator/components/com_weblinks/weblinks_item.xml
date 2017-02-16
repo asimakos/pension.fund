@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="component" version="2008">
+	<name>Target</name>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-09 09:49:23</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_WBL_CDESC</description>
+	<params>
+		<param name="target" type="list" dir="rtl" default="1" label="AX_WBLI_TL" description="AX_WBLI_TD">
+			<option value="0">AX_WBLI_OT01</option>
+			<option value="1">AX_WBLI_OT02</option>
+			<option value="2">AX_WBLI_OT03</option>
+		</param>
+	</params>
+</mosinstall>

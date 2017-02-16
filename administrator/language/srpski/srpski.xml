@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Srpski</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 21:55:50</creationDate>
+  <author>Ivan Trebjesanin</author>
+  <authorEmail>admin@elxis-srbija.org</authorEmail>
+  <authorUrl>www.elxis-srbija.org</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Srpski language for Elxis 2009 administration</description>
+  <metadata>
+    <name>Srpski</name>
+    <tag>srpski</tag>
+    <rtl>0</rtl>
+    <locale>sr_YU@utf8, sr_CS.UTF-8, rs_RS, serbian, rs, srb</locale>
+  </metadata>
+  <files>
+		<filename>srpski.com_access.php</filename>
+		<filename>srpski.com_admin.php</filename>
+		<filename>srpski.com_banners.php</filename>
+		<filename>srpski.com_bridge.php</filename>
+		<filename>srpski.com_categories.php</filename>
+		<filename>srpski.com_checkin.php</filename>
+		<filename>srpski.com_config.php</filename>
+		<filename>srpski.com_contact.php</filename>
+		<filename>srpski.com_content.php</filename>
+		<filename>srpski.com_database.php</filename>
+		<filename>srpski.com_frontpage.php</filename>
+		<filename>srpski.com_installer.php</filename>
+		<filename>srpski.com_languages.php</filename>
+		<filename>srpski.com_mambots.php</filename>
+		<filename>srpski.com_massmail.php</filename>
+		<filename>srpski.com_media.php</filename>
+		<filename>srpski.com_menumanager.php</filename>
+		<filename>srpski.com_menus.php</filename>
+		<filename>srpski.com_messages.php</filename>
+		<filename>srpski.com_modules.php</filename>
+		<filename>srpski.com_newsfeeds.php</filename>
+		<filename>srpski.com_poll.php</filename>
+		<filename>srpski.com_sections.php</filename>
+		<filename>srpski.com_softdisk.php</filename>
+		<filename>srpski.com_statistics.php</filename>
+		<filename>srpski.com_syndicate.php</filename>
+		<filename>srpski.com_templates.php</filename>
+		<filename>srpski.com_trash.php</filename>
+		<filename>srpski.com_typedcontent.php</filename>
+		<filename>srpski.com_users.php</filename>
+		<filename>srpski.com_weblinks.php</filename>
+		<filename>srpski.gemini.php</filename>
+		<filename>srpski.pref.php</filename>
+		<filename>srpski.gif</filename>
+		<filename>srpski.php</filename>
+		<filename>srpski.xml</filename>
+		<filename>srpski.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

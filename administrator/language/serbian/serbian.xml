@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Serbian</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 21:54:10</creationDate>
+  <author>Ivan Trebjesanin</author>
+  <authorEmail>admin@elxis-srbija.org</authorEmail>
+  <authorUrl>www.elxis-srbija.org</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Srpski jezik za Elxis 2009 administraciju</description>
+  <metadata>
+    <name>Serbian</name>
+    <tag>serbian</tag>
+    <rtl>0</rtl>
+    <locale>sr_YU@utf8, sr_CS.UTF-8, rs_RS, serbian, rs, srb</locale>
+  </metadata>
+  <files>
+		<filename>serbian.com_access.php</filename>
+		<filename>serbian.com_admin.php</filename>
+		<filename>serbian.com_banners.php</filename>
+		<filename>serbian.com_bridge.php</filename>
+		<filename>serbian.com_categories.php</filename>
+		<filename>serbian.com_checkin.php</filename>
+		<filename>serbian.com_config.php</filename>
+		<filename>serbian.com_contact.php</filename>
+		<filename>serbian.com_content.php</filename>
+		<filename>serbian.com_database.php</filename>
+		<filename>serbian.com_frontpage.php</filename>
+		<filename>serbian.com_installer.php</filename>
+		<filename>serbian.com_languages.php</filename>
+		<filename>serbian.com_mambots.php</filename>
+		<filename>serbian.com_massmail.php</filename>
+		<filename>serbian.com_media.php</filename>
+		<filename>serbian.com_menumanager.php</filename>
+		<filename>serbian.com_menus.php</filename>
+		<filename>serbian.com_messages.php</filename>
+		<filename>serbian.com_modules.php</filename>
+		<filename>serbian.com_newsfeeds.php</filename>
+		<filename>serbian.com_poll.php</filename>
+		<filename>serbian.com_sections.php</filename>
+		<filename>serbian.com_softdisk.php</filename>
+		<filename>serbian.com_statistics.php</filename>
+		<filename>serbian.com_syndicate.php</filename>
+		<filename>serbian.com_templates.php</filename>
+		<filename>serbian.com_trash.php</filename>
+		<filename>serbian.com_typedcontent.php</filename>
+		<filename>serbian.com_users.php</filename>
+		<filename>serbian.com_weblinks.php</filename>
+		<filename>serbian.gemini.php</filename>
+		<filename>serbian.pref.php</filename>
+		<filename>serbian.gif</filename>
+		<filename>serbian.php</filename>
+		<filename>serbian.xml</filename>
+		<filename>serbian.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="component"  version="2009">
+  <name>AkForms</name>
+  <creationDate>07.04.2010</creationDate>
+  <author>Andrej Kambalov</author>
+  <copyright>GPL</copyright>
+  <authorEmail>ACampball@yandex.ru</authorEmail>
+  <version>1.7</version>
+  <description>AkForms - component of creating a simple arbitrary shapes</description>
+  <cxlangdir>/administrator/components/com_akforms/language</cxlangdir>
+  <install />
+  <uninstall />
+  <installfile>
+    <filename>install.akforms.php</filename>
+  </installfile>
+  <uninstallfile>
+    <filename>uninstall.akforms.php</filename>
+  </uninstallfile>
+  <files>
+    <filename>index.html</filename>
+    <filename>akforms.php</filename>
+    <filename>akforms.html.php</filename>
+    <filename>files/index.html</filename>
+    <filename>css/akforms.css</filename>
+    <filename>css/index.html</filename>
+    <filename>js/index.html</filename>
+    <filename>js/jquery.js</filename>
+    <filename>js/parser.js</filename>
+    <filename>js/akformsfront.js</filename>
+    <filename>js/jquery.scrollTo-min.js</filename>
+    <filename>js/jquery.timeentry.pack.js</filename>
+  </files>
+  <images>
+  </images>
+  <administration>
+	<menu>AkForms</menu>
+	<files>
+		<filename>admin.akforms.html.php</filename>
+		<filename>admin.akforms.php</filename>
+		<filename>config.akforms.php</filename>
+		<filename>index.html</filename>
+		<filename>toolbar.akforms.php</filename>
+		<filename>install.akforms.php</filename>
+		<filename>uninstall.akforms.php</filename>
+		<filename>akforms.xml</filename>
+
+	    <filename>js/jquery.js</filename>
+	    <filename>js/jquery-ui-sort.min.js</filename>
+	    <filename>js/jquery.simplemodal.min.js</filename>
+	    <filename>js/jquery.fixer.js</filename>
+	    <filename>js/index.html</filename>
+
+		<filename>includes/akforms.class.php</filename>
+		<filename>includes/index.html</filename>
+		<filename>includes/intro_russian.php</filename>
+		<filename>includes/intro_english.php</filename>
+		<filename>includes/intro_italian.php</filename>
+		<filename>includes/intro_greek.php</filename>
+		<filename>includes/seopro.com_akforms.php</filename>
+
+		<filename>language/russian.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/italian.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/german.php</filename>
+	    <filename>language/index.html</filename>
+
+	    <filename>css/aakforms.css</filename>
+    	<filename>css/index.html</filename>
+
+		<filename>schema/index.html</filename>
+		<filename>schema/schema.xml</filename>
+		<filename>schema/schema03.xml</filename>
+
+		<filename>doc/field_table.html</filename>
+		<filename>doc/index.html</filename>
+	</files>
+	<images>
+        <filename>images/index.html</filename>
+		<filename>images/config64.png</filename>
+		<filename>images/fields64.png</filename>
+		<filename>images/forms16.png</filename>
+		<filename>images/forms48.png</filename>
+		<filename>images/forms64.png</filename>
+        <filename>images/thback.gif</filename>
+        <filename>images/import.png</filename>
+        <filename>images/import_f2.png</filename>
+        <filename>images/export.png</filename>
+        <filename>images/export_f2.png</filename>
+        <filename>images/sort.gif</filename>
+        <filename>images/data64.png</filename>
+        <filename>images/info.png</filename>
+        <filename>images/x.png</filename>
+        <filename>images/sort_asc.png</filename>
+        <filename>images/sort_desc.png</filename>
+        <filename>images/document_export.png</filename>
+	</images>
+  </administration>
+  <params>
+  </params>
+</mosinstall>

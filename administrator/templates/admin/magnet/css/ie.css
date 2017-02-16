@@ -1,0 +1,13 @@
+
+/* Theme Office */
+.ThemeOfficeSubMenu {
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#BDC3BD, Direction=135, Strength=4);
+}
+
+#elx_overlay {
+    filter:alpha(opacity=50);
+}
+
+html {
+	overflow: auto;
+}

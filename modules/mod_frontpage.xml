@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="module" version="2009">
+	<name>FrontPage</name>
+	<author>Elxis Team</author>
+	<creationDate>2010-01-11 22:13:20</creationDate>
+	<copyright>(C) 2006-2010 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.2</version>
+	<description>AX_MODFRONTPAGE</description>
+	<files>
+		<filename module="mod_frontpage">mod_frontpage.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" dir="ltr" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+		<param name="cache" type="radio" default="0" label="AX_SM_ECL" description="AX_SM_ECD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="sections" type="text" dir="ltr" default="" label="AX_SECTIONS" description="AX_SECTIONSD" />
+		<param name="categories" type="text" dir="ltr" default="" label="AX_CATEGORIES" description="AX_CATEGORIESD" />
+		<param name="order" type="list" dir="rtl" default="0" label="AX_ORDBYL" description="AX_PRMORD">
+			<option value="0">AX_OPRM04</option>
+			<option value="1">AX_OPRM09</option>
+		</param>
+		<param name="period" type="text" dir="ltr" default="900" label="AX_NUMDAYS" description="AX_NUMDAYSD" />
+		<param name="cat_title" type="radio" default="1" label="AX_CATNML" description="AX_CATNMD">
+			<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="show_front" type="radio" default="1" label="AX_SM_LN_FPIL" description="AX_SM_LN_FPID">
+			<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="show_author" type="radio" default="1" label="AX_AUTNML" description="AX_AUTNMD">
+      		<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="show_date" type="radio" default="1" label="AX_CTDL" description="AX_CTDD">
+      		<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="textlimit" type="text" dir="ltr" default="200" label="AX_SYN_LMTL" description="AX_SM_CU_WCD" />
+		<param name="title_link" type="radio" default="1" label="AX_LNKTTLL" description="AX_LNKTTLD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+   		<param name="readmore" type="radio" default="0" label="AX_REMRL" description="AX_REMRD">
+      		<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+   		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="columns" type="list" default="2" label="AX_COLSL" description="AX_COLSD">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</param>
+		<param name="count" type="list" default="10" label="AX_SM_AR_CNTL" description="AX_SM_AR_CNTD">
+			<option value="1">1</option>
+			<option value="2">2</option>
+      		<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+      		<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+      		<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="40">40</option>
+			<option value="50">50</option>
+			<option value="60">60</option>
+			<option value="70">70</option>
+			<option value="80">80</option>
+		</param>
+		<param name="num_intro" type="list" default="1" label="AX_INTROL" description="AX_INTROD">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+      		<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+      		<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_thumbs" type="radio" default="1" label="AX_SHOWTHUMBS" description="AX_SHOWTHUMBSD">
+			<option value="1">AX_SHOW</option>
+			<option value="0">AX_HIDE</option>
+		</param>
+		<param name="thumb_width" type="text" dir="ltr" default="64" label="AX_MWRP_WDTL" description="AX_THUMBWIDTHD" />
+		<param name="thumb_height" type="text" dir="ltr" default="64" label="AX_MWRP_HEIL" description="AX_THUMBHEIGHTD" />
+		<param name="keepratio" type="radio" default="0" label="AX_KEEPRATIO" description="AX_KEEPRATIOD">
+			<option value="1">AX_YES</option>
+			<option value="0">AX_NO</option>
+		</param>
+	</params>
+</mosinstall>

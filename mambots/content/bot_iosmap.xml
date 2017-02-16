@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="mambot" group="content" version="2009">
+	<name>IOS MAP</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2010-03-05 22:16:40</creationDate>
+	<copyright>(C) 2008-2012 Is Open Source. All right reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@isopensource.com</authorEmail>
+	<authorUrl>www.isopensource.com</authorUrl>
+	<cxlangdir>/mambots/content/bot_iosmap</cxlangdir>
+	<version>1.2</version>
+	<description>
+	<![CDATA[ 
+	<p><strong>IOS MAP</strong> bot for Elxis CMS by 
+	<a href="http://www.isopensource.com" target="_blank" title="Is Open Source">Ioannis Sannos</a> 
+	generates maps using the Google map service.<br /><br >
+	<strong>General Usage</strong<br />
+	{iosmap title=XXX&info=YYY}address{/iosmap}<br />
+	<strong>title</strong>: The link title (optional, ie: Athens)<br />
+	<strong>info</strong>: Information about the selected location (optional, ie: The city of Athens)<br />
+	<strong>address</strong>: A valid google map address using normal address or latitude (i.e. "athens, greece" or "38.070989, 23.766053")<br /><br />
+	Register google map key (for <strong>API v2</strong>) at <a href="http://www.google.com/apis/maps/signup.html" target="_blank">http://www.google.com/apis/maps/signup.html</a><br />
+	Here is a sample Google map key to test the bot (written in 2 lines - works only for http://localhost/ sites):<br />
+	ABQIAAAAoM-kEW8yHxWwveOZAouVXhTkQdzC1XuexHl<br />
+	QDsWmu58XcfHJ8xQB-xtA9nt_7NDWTsfJfHHxosdNZg<br /><br />
+	License: GNU/GPL<br />
+	Compatibility: Elxis 2008.x/Elxis 2009.x<br />
+	Author: <a href="http://www.isopensource.com" target="_blank" title="Is Open Source"><strong>Ioannis Sannos</strong></a><br /><br />
+	<strong>Changelog</strong><br />
+	Version 1.0 (2008-01-23): Initial release<br />
+	Version 1.1 (2009-07-06): Improved accurancy, option to set the default map type, code improvement.<br />
+	Version 1.2 (2010-03-05): Small fix for PHP 5.3 support.
+	</p>
+	]]>
+	</description>
+	<files>
+		<filename mambot="bot_iosmap">bot_iosmap.php</filename>
+		<filename>bot_iosmap/index.html</filename>
+		<filename>bot_iosmap/iosmap.class.php</filename>
+		<filename>bot_iosmap/english.php</filename>
+		<filename>bot_iosmap/german.php</filename>
+		<filename>bot_iosmap/greek.php</filename>
+	</files>
+	<params>
+		<param name="mapkey" type="text" dir="ltr" default="" size="40" label="CX_IOSMAP_GMK" description="CX_IOSMAP_GMKD" />
+		<param name="mContinuousZoom" type="radio" default="0" label="CX_IOSMAP_COZ" description="CX_IOSMAP_COZD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>		
+		<param name="mDoubleClickZoom" type="radio" default="0" label="CX_IOSMAP_DCZ" description="CX_IOSMAP_DCZD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="mScale" type="radio" default="1" label="CX_IOSMAP_SMS" description="CX_IOSMAP_SMSD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="mInset" type="radio" default="0" label="CX_IOSMAP_MI" description="CX_IOSMAP_MID">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="mMapType" type="radio" default="0" label="CX_IOSMAP_MTS" description="CX_IOSMAP_MTSD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="maptypedef" type="list" dir="ltr" default="1" label="CX_IOSMAP_DMT" description="CX_IOSMAP_DMTD">
+			<option value="0">CX_IOSMAP_ROM</option>
+			<option value="1">CX_IOSMAP_SAM</option>
+			<option value="2">CX_IOSMAP_HYM</option>
+		</param>
+		<param name="mapwidth" type="text" dir="ltr" default="400" label="AX_MWRP_WDTL" description="CX_IOSMAP_MWD" />
+		<param name="mapheight" type="text" dir="ltr" default="400" label="AX_MWRP_HEIL" description="CX_IOSMAP_MHD" />
+		<param name="mapzoom" type="list" dir="ltr" default="13" label="CX_IOSMAP_MZ" description="CX_IOSMAP_MZD">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+		</param>
+		<param name="mapcontrol" type="list" dir="ltr" default="SMALL_PAN_ZOOM" label="CX_IOSMAP_MC" description="CX_IOSMAP_MCD">
+			<option value="SMALL_PAN_ZOOM">SMALL_PAN_ZOOM</option>
+			<option value="LARGE_PAN_ZOOM">LARGE_PAN_ZOOM</option>
+			<option value="SMALL_ZOOM">SMALL_ZOOM</option>
+			<option value="NONE">NONE</option>
+		</param>
+		<param name="miconstyle" type="list" dir="ltr" default="GT_FLAT" label="CX_IOSMAP_IS" description="CX_IOSMAP_ISD">
+			<option value="FLAG">FLAG</option>
+			<option value="GT_FLAT">GT_FLAT</option>
+			<option value="GT_PILLOW">GT_PILLOW</option>
+			<option value="HOUSE">HOUSE</option>
+			<option value="PIN">PIN</option>
+			<option value="PUSH_PIN">PUSH_PIN</option>
+			<option value="STAR">STAR</option>
+		</param>
+		<param name="miconcolor" type="list" dir="ltr" default="PACIFICA" label="CX_IOSMAP_IC" description="CX_IOSMAP_ICD">
+			<option value="PACIFICA">PACIFICA</option>
+			<option value="YOSEMITE">YOSEMITE</option>
+			<option value="MOAB">MOAB</option>
+			<option value="GRANITE_PINE">GRANITE_PINE</option>
+			<option value="DESERT_SPICE">DESERT_SPICE</option>
+			<option value="CABO_SUNSET">CABO_SUNSET</option>
+			<option value="TAHITI_SEA">TAHITI_SEA</option>
+			<option value="POPPY">POPPY</option>
+			<option value="NAUTICA">NAUTICA</option>
+			<option value="DEEP_JUNGLE">DEEP_JUNGLE</option>
+			<option value="SLATE">SLATE</option>
+		</param>
+		<param name="showsidelink" type="radio" default="0" label="CX_IOSMAP_SHL" description="CX_IOSMAP_SHLD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

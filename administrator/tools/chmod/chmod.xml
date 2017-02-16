@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="tool" version="2009">
+	<name>AX_TCHMOD_L</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-05-02 12:05:18</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/chmod.png</icon>
+	<description>AX_TCHMOD_D</description>
+	<files>
+		<filename tool="chmod">chmod.php</filename>
+		<filename>index.html</filename>
+		<filename>chmod.js</filename>
+		<filename>images/chmod.png</filename>
+		<filename>images/index.html</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+		<filename>language/index.html</filename>
+	</files>
+</mosinstall>

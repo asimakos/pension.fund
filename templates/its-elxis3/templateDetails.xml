@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<mosinstall type="template" version="2009">
+  <name>its-elxis3</name>
+	<creationDate>2009-04-30 12:19:15</creationDate>
+	<author>Ivan Trebjesanin</author>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>ivan@trebjesanin.com</authorEmail>
+	<authorUrl>http://www.trebjesanin.com</authorUrl>
+	<version>1.0</version>
+	<description>
+    ITS Elxis3 is a 3-column layout template, inpired by the Elxis 2009.0 installer with collapsible left and right columns. 
+    The template is table-less, SEO optimized, RTL compatible, XHTML and CSS valid and compatible with all modern browsers. 
+    The template voted first by the Elxis Community members to become the Elxis 2009.0 default template!
+  </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+	</files>
+	<images>
+		<filename>images/alert.png</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/arrow-rtl.png</filename>
+		<filename>images/back.png</filename>
+		<filename>images/back-rtl.png</filename>
+		<filename>images/calendar.png</filename>
+		<filename>images/comments.gif</filename>
+		<filename>images/curl1.png</filename>
+		<filename>images/curl.png</filename>
+		<filename>images/edit.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/indent5.png</filename>
+		<filename>images/indent6.png</filename>
+		<filename>images/indent.png</filename>
+		<filename>images/indent1-rtl.png</filename>
+		<filename>images/indent2-rtl.png</filename>
+		<filename>images/indent3-rtl.png</filename>
+		<filename>images/indent4-rtl.png</filename>
+		<filename>images/indent5-rtl.png</filename>
+		<filename>images/indent6-rtl.png</filename>
+		<filename>images/info32.png</filename>
+		<filename>images/info.png</filename>
+		<filename>images/emailButton.png</filename>
+		<filename>images/external.png</filename>
+		<filename>images/folder.png</filename>
+		<filename>images/footer.png</filename>
+		<filename>images/graph.png</filename>
+		<filename>images/h3s2.png</filename>
+		<filename>images/h3s2-rtl.png</filename>
+		<filename>images/header.png</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/module2.png</filename>
+		<filename>images/module.png</filename>
+		<filename>images/pdf_button.png</filename>
+		<filename>images/play.gif</filename>
+		<filename>images/play.png</filename>
+		<filename>images/pointer.png</filename>
+		<filename>images/printButton.png</filename>
+		<filename>images/rtf_button.png</filename>
+		<filename>images/searchbox.png</filename>
+		<filename>images/searchbox-rtl.png</filename>
+		<filename>images/star.png</filename>
+		<filename>images/unlock.png</filename>
+		<filename>images/user.png</filename>
+	</images>
+	<css>
+		<filename>css/customize.css</filename>
+		<filename>css/customize-rtl.css</filename>
+		<filename>css/layout.css</filename>
+		<filename>css/layout-rtl.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/ie6-rtl.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>css/ie7-rtl.css</filename>
+		<filename>css/template_css.css</filename>
+		<filename>css/template_css-rtl.css</filename>
+	</css>
+	<params />
+</mosinstall>

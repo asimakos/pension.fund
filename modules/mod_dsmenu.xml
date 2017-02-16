@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="2008">
+	<name>DSMenu</name>
+	<author>Ivan Trebješanin</author>
+	<creationDate>2008-09-07 00:00:00</creationDate>
+	<copyright>(C) 2008 trebjesanin.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ivan@trebjesanin.com</authorEmail>
+	<authorUrl>www.trebjesanin.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Dynamic Suckerfish Menu is just what it says, but also if menu image is specified it will be taken as menu item instead of text. Edit CSS /modules/dsmenu/dsmenu_h.css (Horizontal) or modules/dsmenu/dsmenu_v.css (Vertical) respectively to customize.</description>
+	<cxlangdir>/modules/dsmenu/language</cxlangdir>
+  <files>
+		<filename module="mod_dsmenu">mod_dsmenu.php</filename>
+		<filename>dsmenu/dsmenu_h.css</filename>
+		<filename>dsmenu/dsmenu_v.css</filename>
+		<filename>dsmenu/arrow_v.gif</filename>
+		<filename>dsmenu/arrow_h.gif</filename>
+		<filename>dsmenu/menu.js</filename>
+		<filename>dsmenu/language/english.php</filename>
+		<filename>dsmenu/language/creole.php</filename>
+		<filename>dsmenu/language/french.php</filename>
+		<filename>dsmenu/language/german.php</filename>
+		<filename>dsmenu/language/greek.php</filename>
+		<filename>dsmenu/language/russian.php</filename>
+		<filename>dsmenu/language/italian.php</filename>
+		<filename>dsmenu/language/spanish.php</filename>
+		<filename>dsmenu/language/index.html</filename>
+		<filename>dsmenu/readme.txt</filename>
+		<filename>dsmenu/index.html</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="AX_SM_MCSL" description="AX_SM_MCSD" />
+	  <param name="menutype" type="mos_menu" default="mainmenu" label="AX_SM_MNM_MNL" description="AX_SM_MNM_MND" />
+	  <param name="orientation" type="list" default="0" label="AX_SM_MNM_MSL">
+			<option value="0">AX_SM_MNM_OP2</option>
+			<option value="1">AX_SM_MNM_OP1</option>
+		</param>
+	  <param name="roll" type="text" default="_on" label="CX_DSM_ROLL" description="CX_DSM_ROLLD" />
+	  		<param name="idpreload" type="radio" default="0" label="AX_SM_MNM_IDPR" description="AX_SM_MNM_IDPRD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+			</param>
+	</params>
+</mosinstall>

@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestion des Accés - Permissions des Groupes</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestion des Accès - Permissions des Groupes</h1>
+<p>Le Gestionnaire des accès est utilisé pour implanter des Restrictions d'accès dans Elxis, les administrateurs ont la liberté pour définir des modèles de protection suivant leurs besoins. Ils peuvent définir qui a accès ou qui ne peut pas.</p>
+<p>La restriction d'accès est basé sur l'idée de groupes. Vous ne contrôlez pas d'utilisateur unique. Vous contrôlez des groupes d'utilisateurs. Vous définissez les droits pour les groupes. Tous les utilisateurs qui appartiennent à un groupe spécifique, hérite de tous les droits de l'utilisateur.</p>
+<p>Vous n'êtes pas limités aux droits d'accès prédéfinis. Vous pouvez définir vos propres accès.<br />
+Vous n'êtes pas limités aux droits d'accès prédéfinis. Vous pouvez définir vos propres droits.</p>
+<p>Le gestionnaire des accès est basé sur le système <a href="http://phpgacl.sourceforge.net/" target="_blank">phpGACL</a>.</p>
+<p>Sur cet écran vous trouverez les termes suivants:</p>
+<p><strong style="color:#D00">ACO = Contrôle Accès</strong>. Contrôlez l'accès qui est disponible pour les objets ARO. Dans Elxis vous pouvez penser que les groupes utilisateurs soient équivalant aux objets ARO.</p>
+<p><strong>Objets Disponibles</strong>:</p>
+<ul>
+    <li><strong>Action</strong> - réference à ce auquel un groupe d'utilisateurs a possibilité de faire sur la partie public. eIle peut prendre chacune des valeurs suivantes: ajouter, modifier, publier, afficher.</li>
+    <li><strong>Administration</strong> - réference à ce auquel un groupe utilisateur a l'autorisation de faire sur le serveur, dans la zone administration. Elle peut prendre chacune des valeurs suivantes: connection, configuration, diriger, installer, modifier.</li>
+    <li><strong>Workflow</strong> - réference à un groupe d'utilisateur autorisé à recevoir des courriers électronique de l'administration. Ce sont courriers électronique que Elxis écrit et envoie aux gens impliqués avec leur administrateur, les informer au sujet de plusieurs événements. Elle peut prendre chacune des valeurs suivantes: email_events</li>
+</ul>
+<p><strong style="color:#D00">ARO = Demande d'Accès</strong>. Ce sont les groupes utilisateurs définis. Les groupes utilisateurs peuvent être définis dans le Noyau ou ajouté par un administrateur.<br />
+<strong>Valeurs ARO Possible</strong>: Ce peut être un des groupes prédéfinis ou les groupes que l'administrateur a créé: Enregistré, Administrateurs, Super Administrateur, Auteurs, etc.</p>
+<p><strong style="color:#D00">AXO = Extension des Accès</strong>. Ce sont les objets que vous contrôlez.<br />
+<strong>Objets AXO</strong>: contenus, composants, templates, langues, modules, bots, outils, bridge propriétés des utilisateurs.<br />
+<strong>Valeurs possibles pour les objets AXO</strong>: toutes, pouvoir, bloquage utilisateur, installation de composants</p>
+<p>Le modéle d'accès est basé sur la supposition que tout est impossible à moins que cela ne soit permis.</p>
+<p>Pour meiux comprendre comment vous pouvez définir vos propres droits d'accès vous devez commencer par penser créer des phrases. Ces phrases définissent les <strong>rôles</strong>.</p>
+<p>Par exemple, dite vous que vous voulez créer une <strong>régle</strong>, cela permettra à tous les utilisateurs enregistrés d'avoir accès à la partie et à tous les composants. Alors que votre vraie phrase ressemblerait à ceci:</p>
+<p>&quot;<i>Je veux que pour les utilisateurs enregistré on soit capable d'afficher tous les composants public.</i>&quot;</p>
+<p>La <strong>régle</strong> du Gestionnaire d'Accès sera:</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+		<td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">Valeur ACO</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">Valeur ARO</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">Valeur AXO</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">voir</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+</table>
+<p>Comprendre mieux les roles de chacun des ensembles de chaque groupe, ce serait mieux d'afficher quelles régles appliquées pour les groupes prédefinis.</p>
+<p><strong>Exemple I - les utilisateurs enregistrés </strong><br />ont le droit d'afficher et d'ajouter du contenu, <strong>les utilisateurs enregistrés</strong> sont défini dans le Gestionnaire d'Accès. Les utilisateurs enregistrés peuvent:</p>
+<ul>
+<li>Ajouter des liens Web à partir de la partie-public</li>
+<li>Editer les autres profils</li>
+<li>Transférer une image pour un Avatar dans son profil</li>
+<li>Voir tous les Composants</li>
+<li>Voir tous les Profils</li>
+</ul>
+<p>Maintenant regarder le tableau suivant pour en voir les règles.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">Valeur ACO</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">Valeur ARO</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">Valeur AXO</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">ajouter</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">liens web</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">profils</p></td>
+        <td><p align="center">possédé</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">transfert</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">fichiers</p></td>
+        <td><p align="center">avatars</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">voir</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">voir</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">enregistré</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Exemple II - Les auteurs </strong><br />ont le droit d'ajouter du contenu et modifier seulement leurs propres soumissions. Ils n'ont pas le droit modifier les autres soumissions ou de publier leurs articles. Leurs articles doivent être approuvés par un éditeur ou un administrateur. Les régles sont dans ce cas:</p>
+<ul>
+<li>Ajouter du Contenu sur la partie-public</li>
+<li>Ajouter des liens Web sur la partie-public</li>
+<li>Editer tous les Contenus sur la partie-public</li>
+<li>Editer son Profil</li>
+<li>Publier des Contenus sur la partie-public</li>
+<li>Transférer des fichiers à partir de la partie-public</li>
+<li>Voir tous les Composants</li>
+<li>Voir tous les Profils</li>
+<li>Editer le composant NewsFlash</li>
+<li>Editer le composant page d'accueil</li>
+<li>Editer le composant Gestion des Média</li>
+<li>Se connecter à l'administration</li>
+</ul>
+<p>Maintenant regarder le tableau suivant pour en voir les régles.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">Valeur ACO</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">Valeur ARO</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">Valeur AXO</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">ajouté</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">contenu</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">ajouté</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">liens web</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">contenu</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profil</p></td>
+        <td><p align="center">possédé</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">publié</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">contenu</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">transfert</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">fichiers</p></td>
+        <td><p align="center">images</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">voir</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">voir</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profil</p></td>
+        <td><p align="center">tous</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">com_newsflash</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">com_frontpage</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">édité</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">composants</p></td>
+        <td><p align="center">com_media</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">connexion</p></td>
+        <td><p align="center">utilisateurs</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">&nbsp;</p></td>
+        <td><p align="center">&nbsp;</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Note</strong>: Veuillez utiliser cet écran avec prudence. Une mauvaise utilisation, peut endommager la configuration de votre site web.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+ </body>
+</html>

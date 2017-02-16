@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access Manager - Groups</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 Elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Access Manager - Groups</h1>
+<p>Using Access Manager you can create new user groups and define their permissions, inspect permissions for existing user groups or edit their permissions. 
+<br />
+The screen is devided in two parts. Left side shows a table with all the defined user groups. Right side shows the user groups hierarchy.</p>
+<p><strong>Important Note</strong>: Please use this screen with caution. User groups are a vital part on Elxis security. Modifying permissions without knowing what you are doing, can cause major trouble to this site.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Toolbar Icons</h3>
+<p><strong>New</strong>: Add a new user group.</p>
+<p><strong>Edit Group</strong>: Edit the selected user group.</p>
+<p><strong>Delete</strong>: Delete the selected user group.</p>
+<p><strong>Edit Permissions</strong>: Edit selected group&#39;s permissions.</p>
+<p><strong>Help</strong>: This Help Screen.</p>
+<p>&nbsp;</p>
+<h3 class="table">Columns</h3>
+<p><strong>Name</strong>: User&#39;s group name.</p>
+<p><strong>Group Users</strong>: The number of users that belong to this group.</p>
+<p><strong>Backend Access</strong>: A green tick marks that members of that group, have access to Back-End (Administration area).</p>
+<p><strong>Groups Hierarchy</strong>: Shows the hierarchy between user groups.</p>
+<p>&nbsp;</p>
+<h1>Default Access Control Levels</h1> 
+<p>Registered users to an Elxis site can belong to several user groups. These groups are divided into two main categories: Front-End and Back-End. Users belonging to Front-End groups have only access to the Front-End. Users belonging to Back-End groups have access both to the Front-End and to the Back-End.</p>
+<p>Elxis is shipped with several predefined groups. It also gives administrators the freedom to define their own user groups.</p>
+<p>Groups, are the way Elxis uses to set permissions and access rights to users. Based on them, users can view, have access to info for registered users, or edit/add/delete content using the Front-End or Back-End interface.</p>
+<p>&nbsp;</p>
+<h3>Front-End groups</h3>
+<p><strong>Registered - </strong>This group allows the user to <strong>login</strong> to the Front-End.</p>
+<p><strong>Author -</strong> This group allows a user to <strong>post content</strong>, usually via a link in the User Menu.</p>
+<p><strong>Editor - </strong>This group allows a user to <strong>post and edit any content item</strong> from the Front-End.</p>
+<p><strong>Publisher -</strong> This group allows a user to <strong>post, edit and publish any content item</strong> from the Front-End.</p>
+<p>&nbsp;</p>
+<h3>Back-End groups or Administration section groups</h3>
+<h4>Manager</h4>
+<p>This group allows access to content creation and system information. </p>
+<p>Administration Menus accessed:</p>
+<ul>
+<li><strong>Help</strong> (general), including System Info.</li>
+<li><strong>Site</strong>: Media Manager, Preview.</li>
+<li><strong>Menu</strong>: Edit existing Menus, including creating Menu Items. All related functions.</li>
+<li><strong>Content</strong>: Content Managers, Static Content Manager, Section Manager, Category Manager, FrontPage Manager and Archives Manager. All related functions.</li>
+</ul>
+<h4>Administrator</h4>
+<p>This group allows access to most administration functions.</p>
+<p>All functions accessed by <strong>Manager</strong>, plus:</p>
+<ul>
+<li><strong>Site</strong>: Statistics, Trash Manager, User Manager (may create/edit/delete any type of user except SuperAdministrator)</li>
+<li><strong>Menu</strong>: Menu Manager</li>
+<li><strong>Modules, Components, Bots</strong>: Install/Uninstall, Create, Edit. Except Mass mail Component.</li>
+</ul>
+<h4>Super Administrator</h4>
+<p>This group allows access to all administration functions.</p>
+<p>All functions accessed by Manager and Administrator, plus:</p>
+<ul>
+<li><strong>Site</strong>: Global Configuration, Language Manager, Template Manager, User Manager (may create/edit any type of user, may delete any user except SuperAdministrator. <strong>Note</strong>: SuperAdministrator can be deleted only by editing the database).</li>
+<li><strong>Components</strong>: Mass Mail.</li>
+<li><strong>Messages</strong>: Inbox, Configuration.</li>
+<li><strong>System</strong>: Clear Cache (if Cache has been enabled in Global Configuration), Global Checkin.</li>
+</ul>
+</div>
+</div>
+ </body>
+</html>

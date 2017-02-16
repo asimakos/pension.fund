@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Russian</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:08:20</creationDate>
+  <author>Ilnaz Giliazov</author>
+  <authorEmail>info@elxis.ru</authorEmail>
+  <authorUrl>www.elxis.ru</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Russian language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Russian</name>
+    <tag>russian</tag>
+    <rtl>0</rtl>
+    <locale>ru_RU.utf8, ru_RU.UTF-8, ru_RU, russian, ru, rus</locale>
+  </metadata>
+  <files>
+		<filename>russian.com_access.php</filename>
+		<filename>russian.com_admin.php</filename>
+		<filename>russian.com_banners.php</filename>
+		<filename>russian.com_bridge.php</filename>
+		<filename>russian.com_categories.php</filename>
+		<filename>russian.com_checkin.php</filename>
+		<filename>russian.com_config.php</filename>
+		<filename>russian.com_contact.php</filename>
+		<filename>russian.com_content.php</filename>
+		<filename>russian.com_database.php</filename>
+		<filename>russian.com_frontpage.php</filename>
+		<filename>russian.com_installer.php</filename>
+		<filename>russian.com_languages.php</filename>
+		<filename>russian.com_mambots.php</filename>
+		<filename>russian.com_massmail.php</filename>
+		<filename>russian.com_media.php</filename>
+		<filename>russian.com_menumanager.php</filename>
+		<filename>russian.com_menus.php</filename>
+		<filename>russian.com_messages.php</filename>
+		<filename>russian.com_modules.php</filename>
+		<filename>russian.com_newsfeeds.php</filename>
+		<filename>russian.com_poll.php</filename>
+		<filename>russian.com_sections.php</filename>
+		<filename>russian.com_softdisk.php</filename>
+		<filename>russian.com_statistics.php</filename>
+		<filename>russian.com_syndicate.php</filename>
+		<filename>russian.com_templates.php</filename>
+		<filename>russian.com_trash.php</filename>
+		<filename>russian.com_typedcontent.php</filename>
+		<filename>russian.com_users.php</filename>
+		<filename>russian.com_weblinks.php</filename>
+		<filename>russian.gemini.php</filename>
+		<filename>russian.pref.php</filename>
+		<filename>russian.gif</filename>
+		<filename>russian.php</filename>
+		<filename>russian.xml</filename>
+		<filename>russian.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

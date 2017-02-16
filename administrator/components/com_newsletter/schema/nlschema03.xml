@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="iosnl_messages">
+		<field name="id" type="I">
+			<KEY/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="subject" type="C" size="255"></field>
+		<field name="textplain" type="X"></field>
+		<field name="texthtml" type="X"></field>
+		<field name="htmlfile" type="C" size="255"></field>
+		<field name="lastsent" type="C" size="20"></field>
+		<field name="recipients" type="I">
+			<NOTNULL/>
+			<DEFAULT value="0"/>
+		</field>
+		<field name="msglang" type="C" size="255"></field>
+	</table>
+
+	<sql>
+		<query>INSERT INTO iosnl_messages VALUES (1, 'Elxis News (sample message)', 'If you read this message is because your mail client does not support html e-mails.\nIn this case you can set IOS Newsletter to display an alternative message in plain text format.\n\n-------------------------------------\nIOS Newsletter by Is Open Source', NULL, 'elxis-news.html', 0, 0, 'english')</query>
+	</sql>
+
+	<table name="iosnl_subscribers">
+		<field name="sid" type="I">
+			<KEY/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="userid" type="I">
+			<NOTNULL/>
+			<DEFAULT value="0"/>
+		</field>
+		<field name="subname" type="C" size="60"></field>
+		<field name="subsurname" type="C" size="60"></field>
+		<field name="subemail" type="C" size="80"></field>
+		<field name="confirmed" type="I2">
+			<NOTNULL/>
+			<DEFAULT value="0"/>
+		</field>
+		<field name="subtime" type="C" size="20"></field>
+		<field name="sublang" type="C" size="80"></field>
+		<field name="confirmcode" type="C" size="20"></field>
+		<field name="subgroup" type="C" size="80"></field>
+	</table>
+
+</schema>

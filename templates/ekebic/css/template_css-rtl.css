@@ -1,0 +1,12 @@
+/*
+ekebic template CSS for Elxis 2009
+Author: Dejan Viduka (kebic)
+E-mail: dejan@viduka.info
+URL: http://www.viduka.info
+Date: 26.03.2009
+License: GNU/GPL
+Elxis CMS is a free software
+*/
+
+@import url("layout-rtl.css"); /*layout css file*/
+@import url("customize-rtl.css"); /*Use this file to customize your website*/

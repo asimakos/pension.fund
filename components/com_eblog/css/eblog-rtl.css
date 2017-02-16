@@ -1,0 +1,413 @@
+/* 
+Elxis Blog (eBlog) native RTL style 
+Created by Ioannis Sannos (Elxis Team)
+*/
+
+
+/* eblog overall container */
+#elxisblog {
+}
+
+
+/************ BLOG HEADER ************/
+
+/* header overall container */
+div.eblog-blogtop {
+	margin: 0;
+	padding: 0;
+}
+
+/* blog title */
+h1.eblog-blogtitle {
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 2.4em;
+	line-height: normal;
+	color: #1A4F6A;
+	padding: 0;
+	margin: 0.2em 0;
+}
+
+/* blog title link */
+h1.eblog-blogtitle a, h1.eblog-blogtitle a:link, 
+h1.eblog-blogtitle a:visited, h1.eblog-blogtitle a:active {
+	color: #1A4F6A;
+	text-decoration: none;
+}
+h1.eblog-blogtitle a:hover { color: #333333; text-decoration: none; }
+
+/* archive date header */
+div.arcivedate {
+	width: 120px;
+	height: 84px;
+	margin: 3px 0;
+	padding: 0;
+	background: transparent url('archive_back.gif') top right no-repeat;
+	text-align: center;
+	min-height: 84px;
+}
+div.archiveyear {
+	font-family: verdana, tahoma, arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 25px 0 14px 0;
+}
+div.archivemonth {
+	font-family: tahoma, verdana, arial;
+	color: #000000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/* blog slogan */
+div.eblog-slogan {
+	padding: 0;
+	margin: 0.3em 0;
+}
+
+/* blog owner name */
+div.eblog-ownername {
+}
+div.eblog-ownername a, div.eblog-ownername a:link, div.eblog-ownername a:hover, 
+div.eblog-ownername a:visited, div.eblog-ownername a:active  {
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #444;
+}
+div.eblog-ownername a:hover { text-decoration: underline; }
+
+/* link to blog control panel */
+div.eblog-gocpanel {
+	text-align: left;
+	padding: 0 10px;
+	font-weight: bold;
+}
+div.eblog-gocpanel a, div.eblog-gocpanel a:link, 
+div.eblog-gocpanel a:visited, div.eblog-gocpanel a:active  {
+	color: #CC0000;
+	text-decoration: none;
+}
+div.eblog-gocpanel a:hover { color: #000000; text-decoration: none; }
+
+
+/************ BLOG ARTICLE ************/
+
+/* post overall container */
+div.eblog-post {
+	margin: 1em 0 2em 0;
+}
+
+/* post title */
+h3.eblog-posttitle {
+	font-size: 1.6em;
+	line-height: normal;
+	margin: 0.2em 0;
+	padding: 0 0 0.2em 0;
+	background: none;
+	border-bottom: 1px dotted #AAAAAA;
+}
+
+/* post title link */
+h3.eblog-posttitle a, h3.eblog-posttitle a:link, 
+h3.eblog-posttitle a:visited, h3.eblog-posttitle a:active {
+	color: #1A4F6A;
+	text-decoration: none;
+}
+h3.eblog-posttitle a:hover { color: #333333; text-decoration: none; }
+
+/* post date */
+div.eblog-postdate {
+	color: #444;
+	font-size: 0.94em;
+	background: url(date.gif) top right no-repeat;
+	padding-right: 20px;
+}
+
+/* post main content */
+div.eblog-postbody { margin: 1em 0; text-align: justify; }
+
+.eblog-postbody a, .eblog-postbody a:visited, .eblog-postbody a:active, .eblog-postbody a:link {
+	color: #1979AA;
+	text-decoration: none;
+}
+.eblog-postbody a:hover { color: #333333; text-decoration: underline; }
+
+/* post tags */
+div.eblog-posttags {
+	font-size: 0.9em;
+	clear: both;
+}
+div.eblog-posttags a , div.eblog-posttags a:link, div.eblog-posttags a:visited, 
+div.eblog-posttags a:hover, div.eblog-posttags a:active {
+	text-decoration: none;
+	color: #1979AA;
+}
+div.eblog-posttags a:hover { color: #CC0000; }
+
+/* post footer container */
+div.eblog-postfooter {
+	margin: 0 0 1em 0;
+	font-size: 0.9em;
+	clear: both;
+}
+/* footer archives links */
+a.eblog-arclink, a.eblog-arclink:link, a.eblog-arclink:visited, a.eblog-arclink:hover, a.eblog-arclink:active {
+	text-decoration: none;
+	color: #1A4F6A;
+	background: url(date.gif) top right no-repeat;
+	padding-right: 20px;
+	margin-left: 10px;
+}
+a.eblog-arclink:hover {
+	color: #000000;
+}
+
+/* post author */
+a.eblog-postauthor, a.eblog-postauthor:link, a.eblog-postauthor:visited, a.eblog-postauthor:hover, a.eblog-postauthor:active {
+	text-decoration: none;
+	color: #1979AA;
+}
+a.eblog-postauthor:hover {
+	color: #CC0000;
+}
+
+/* post hits */
+span.eblog-posthits{}
+
+/* post permanent link */
+a.eblog-postlink, a.eblog-postlink:link, a.eblog-postlink:visited, a.eblog-postlink:hover, a.eblog-postlink:active {
+	padding: 0 16px 0 0;
+	background: url('../images/permlink.gif') top right no-repeat;
+	text-decoration: none;
+	color: #1979AA;
+}
+a.eblog-postlink:hover {
+	color: #CC0000;
+}
+
+/* post comments link */
+a.eblog-postcomments, a.eblog-postcomments:link, a.eblog-postcomments:visited, a.eblog-postcomments:hover, a.eblog-postcomments:active {
+	padding: 0 16px 0 0;
+	background: url('../images/comments.gif') top right no-repeat;
+	text-decoration: none;
+	color: #1979AA;
+}
+
+a.eblog-postcomments:hover {
+	color: #CC0000;
+}
+
+
+/************ BLOG COMMENTS - TAG RESULTS - CPANEL POSTS LIST ************/
+
+/* comments overall container */
+div.eblog-comments { margin: 20px 0; }
+
+/* comments title */
+h3.eblog-commentstitle {
+	background: transparent;
+	background-image: none;
+	margin: 10px 0;
+	padding: 0;
+	color: #000000;
+	font-size: 1.4em;
+}
+
+/* comments unordered list */
+ul#eblog-commentsul { margin:5px 0; padding: 0; list-style: none; }
+
+/* comment row */
+ul#eblog-commentsul li, li.eblog-line0, li.eblog-line1 {
+	list-style-type: none;
+	margin: 2px 0;
+	padding: 4px;
+	color: #444444;
+	min-height: 80px;
+	font: normal 1em/1.2em tahoma, verdana, serif;
+}
+ul#eblog-commentsul li.eblog-line0, li.eblog-line0 {
+	border-bottom: 1px dotted #CCC;
+}
+ul#eblog-commentsul li.eblog-line1, li.eblog-line1 {
+	border-bottom: 1px dotted #CCC;
+}
+
+/* tag result, article title */
+div.eblog-tagarticle {
+	font-weight: bold;
+}
+div.eblog-tagarticle a, div.eblog-tagarticle a:visited, 
+div.eblog-tagarticle a:active, div.eblog-tagarticle a:link {
+	color: #1979AA;
+	text-decoration: none;
+}
+div.eblog-tagarticle a:hover { text-decoration: underline; }
+
+/* comment author */
+div.eblog-commentauthor {
+	background: transparent url(user_message.png) top right no-repeat;
+	font: bold 12px/16px tahoma, verdana, serif;
+	color: #888;
+	padding: 0 20px 0 0;
+}
+
+/* comment date */
+div.eblog-commentdate {
+	font: normal 12px/16px tahoma, verdana, serif;
+	color: #888;
+}
+
+/* cpanel post more info */
+div.eblog-postmore {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+div.eblog-postmore a, div.eblog-postmore a:visited, div.eblog-postmore a:active, div.eblog-postmore a:link {
+	text-decoration: none;
+	color: #CC0000;
+}
+div.eblog-postmore a:hover { text-decoration: underline; color: #000; }
+
+/* add comment form */
+form#eblogcomfm { color: #444444; }
+form#eblogcomfm label { display: block; margin: 2px 0; }
+
+
+/************ BLOG FOOTER ************/
+/* footer overall container */
+div.eblog-blogfooter {
+	margin: 20px 0;
+	padding: 0;
+}
+
+
+/************ BLOG CONTROL PANEL ************/
+
+/* control panel tollbar */
+ul.eblog-toolbar {
+	background: #DDDDDD url(tbar.gif) top right repeat-x;
+	height: 28px;
+	margin: 10px 0;
+	padding: 0;
+	overflow: hidden;
+	display:block;
+	list-style-type: none;
+	border-left: 1px solid #BDBDBD;
+}
+ul.eblog-toolbar li {
+	float: right;
+	background: none;
+	padding: 0;
+	margin: 0;
+	height: 28px;
+	border: none;
+	border-right: 1px solid #BDBDBD;
+}
+ul.eblog-toolbar li:hover {	background: url(tbar_hover.gif) top right repeat-x; }
+ul.eblog-toolbar li a, ul.eblog-toolbar li a:link, ul.eblog-toolbar li a:visited, 
+ul.eblog-toolbar li a:active, ul.eblog-toolbar li a:hover {
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 0;
+	line-height: 24px;
+	color: #19489F;
+	text-decoration: none;
+}
+ul.eblog-toolbar li a:hover, a.tbar-selected:hover { color: #FFFFFF; }
+#eblog-tbarsel {
+	background: url(tbar_hover.gif) top right repeat-x;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+#eblog-tbarsel a { color: #FFFFFF; }
+
+/* configuration table */
+#ebcfgtable,  table#ebcfgtable, table.ebloguptop {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font: normal 12px auto Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#ebcfgtable caption {
+	padding: 0 0 5px 0;
+	width: 100%;
+	font: italic 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+#ebcfgtable th {
+	font: bold 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border: 1px solid #C1DAD7;
+	border-right: none;
+	letter-spacing: 2px;
+	text-align: right;
+	padding: 6px 12px 6px 6px;
+	background: #CAE8EA url(theader.jpg) top right repeat-x;
+}
+#ebcfgtable td {
+	border-left: 1px solid #C1DAD7;
+	border-bottom: 1px solid #C1DAD7;
+	background: #FFFFFF;
+	padding: 6px 12px 6px 6px;
+	color: #4f6b72;
+}
+
+table.ebloguptop td {
+	border: 0;
+	background: #F5FAFA;
+	padding: 3px 6px;
+	color: #4f6b72;
+	margin: 0;
+}
+#ebcfgtable td.alt { background: #F5FAFA; }
+#ebcfgtable th.spec, #ebcfgtable th.specalt {
+	border-right: 1px solid #C1DAD7;
+	border-top: 0;
+	background: #fff url(bullet1.gif) top left no-repeat;
+	font: bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#ebcfgtable th.specalt { background: #f5fafa url(bullet2.gif) top left no-repeat; }
+
+#ebcfgtable td a, #ebcfgtable td a:visited { color: #4f6b72; text-decoration: none; }
+#ebcfgtable td a:hover { color: #4f6b72; text-decoration: underline; }
+
+/* form input fields */
+.eblog-inputbox, input.eblog-inputbox, select.eblog-inputbox {
+	background-color: #fff;
+	font: normal 12px/14px auto Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #555555;
+	margin: 2px;
+	padding: 1px;
+	border: 1px solid #C1DAD7;
+}
+
+.eblog-button, input.eblog-button {
+	font: bold 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border: 1px solid #C1DAD7;
+	background: #CAE8EA url(tableheader.jpg) top right no-repeat;
+	margin: 10px 0;
+	padding: 3px;
+	cursor:pointer;
+}
+
+.eblog-button2, input.eblog-button2 {
+	font: bold 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #4f6b72;
+	border: 1px solid #C1DAD7;
+	background: #CAE8EA url(tableheader.jpg) top right no-repeat;
+	margin: 0;
+	padding: 3px;
+	cursor:pointer;
+}
+
+span.eblog-prevnexttitle { color: #888; font-weight: normal; font-size: 11px; font-family: tahoma, verdana, sans-serif; }
+a.eblog-prevnextpost, a.eblog-prevnextpost:visited, a.eblog-prevnextpost:active, a.eblog-prevnextpost:link {
+	color: #1A4F6A;
+	text-decoration: none;
+	font-size: 12px;
+}
+a.eblog-prevnextpost:hover { color: #333333; text-decoration: none; font-size: 12px; }

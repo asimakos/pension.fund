@@ -1,0 +1,25 @@
+/*
+CSS for component Newsletter
+Author: Ioannis Sannos (Is Open Source)
+URL: http://www.isopensource.com
+Extra style for IE6
+*/
+
+fieldset.iosnl_fset {
+	position: relative;
+	width: 90%;
+}
+
+legend.iosnl_leg {
+	position: relative;
+	top: -10px;
+	left: -7px;
+}
+
+fieldset.iosnl_fset ul {
+	padding: 4px 10px 0 20px;
+}
+
+input.iosnl_button {
+	margin-left: 190px;
+}

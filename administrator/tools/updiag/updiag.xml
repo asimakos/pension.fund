@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2009">
+	<name>Updiag</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-05-02 12:02:14</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/lgpl.html GNU/LGPL</license>
+	<authorEmail>datahell@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/updiag.png</icon>
+	<cxlangdir>/administrator/tools/updiag/language</cxlangdir>
+	<description>CX_LUPDIAGD</description>
+	<files>
+		<filename tool="updiag">updiag.php</filename>
+		<filename>updiag.class.php</filename>
+		<filename>updiag.html.php</filename>
+		<filename>index.html</filename>
+		<filename>css/index.html</filename>
+		<filename>css/tabmenu.css</filename>
+		<filename>css/updiag.css</filename>
+		<filename>data/index.html</filename>
+		<filename>data/hashes/index.html</filename>
+		<filename>data/hashes/.htaccess</filename>
+		<filename>data/scripts/index.html</filename>
+		<filename>data/scripts/.htaccess</filename>
+		<filename>images/adodb.jpg</filename>
+		<filename>images/alert.gif</filename>
+		<filename>images/credits.jpg</filename>
+		<filename>images/elxis.jpg</filename>
+		<filename>images/elxislogo.png</filename>
+		<filename>images/error.png</filename>
+		<filename>images/help.png</filename>
+		<filename>images/index.html</filename>
+		<filename>images/linux.jpg</filename>
+		<filename>images/loading.gif</filename>
+		<filename>images/mac.jpg</filename>
+		<filename>images/news.png</filename>
+		<filename>images/passed.png</filename>
+		<filename>images/php.jpg</filename>
+		<filename>images/run.png</filename>
+		<filename>images/security.jpg</filename>
+		<filename>images/update.png</filename>
+		<filename>images/updiag.png</filename>
+		<filename>images/warning.gif</filename>
+		<filename>images/windows.jpg</filename>
+		<filename>js/index.html</filename>
+		<filename>js/tabmenu.js</filename>
+		<filename>js/upajax.js</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+		<filename>language/hashes.czech.php</filename>
+		<filename>language/hashes.english.php</filename>
+		<filename>language/hashes.french.php</filename>
+		<filename>language/hashes.german.php</filename>
+		<filename>language/hashes.greek.php</filename>
+		<filename>language/hashes.japanese.php</filename>
+		<filename>language/hashes.russian.php</filename>
+		<filename>language/hashes.serbian.php</filename>
+		<filename>language/hashes.spanish.php</filename>
+		<filename>language/hashes.srpski.php</filename>
+		<filename>language/index.html</filename>		
+	</files>
+</mosinstall>

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
+<head>
+<title>Διαχειριστής Μενού</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Διαχειριστής Μενού</h1>
+<p>&quot;Menus&quot; in Elxis are groups of navigational links to sections, categories, content items, components or external pages. These links are called &quot;Menu Items&quot;.</p>
+<p>Each menu must have an identification name which is only used internally by Elxis. A menu only becomes visible on a site if it has a published &quot;mod_mainmenu&quot; module which references it. A menu may have multiple &quot;mod_mainmmenu&quot; modules referencing it.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Toolbar Icons</h3>
+<p><strong>New</strong>: Click this icon to create a new Menu. You will access the &quot;Menu Details&quot; window. Type a <strong>Menu Name</strong>. This is the identification name used by Elxis to identify this menu within the code. It must be unique. It is recommended to use no spaces within this name. For example, in the core Elxis the User Menu&#39;s Menu Name is &quot;usermenu&quot; and the Main Menu&#39;s menu name is &quot;mainmenu&quot;.</p>
+<p>Next, type the <strong>Title Module</strong>. This is the name given to the new &quot;mod_mainmenu&quot; module which is automatically created when you save this menu. It is also the Name of the menu as it will appear on the page if you choose to publish it. This may be changed in the future when editing the module. Click on the &quot;<strong>Save</strong>&quot; icon. Your new menu appears in the Menu Manager list.</p>
+<p><strong>Edit</strong>: Select the menu that you want to edit. Then, click on the &quot;Edit&quot; icon which will take you to the Editing page.</p>
+<p><strong>Copy</strong>: Select the menu that you want to copy. Then, click the &quot;Copy&quot; icon in the toolbar. This will duplicate the menu. You may copy any of your menus. Copying will create a new Menu Name, containing the same Menu Items as the menu copied, associated to a new Menu Module. A &quot;Copy Page&quot; will display, with the same choices as in Create New Menu. It will also state the name of the Menu being copied and a list of the Menu Items associated to the menu being copied. Fill in the fields as in the &quot;Create New Menu&quot; screen.</p>
+<p><strong>Delete</strong>: Select the menu that you want to delete. Then, click the &quot;Delete&quot; icon in the toolbar. This will delete the Menu. A &quot;Delete Menu : Name-of-the-menu&quot; screen will display. It shows the Module(s) to be deleted (the mod_mainmenu modules associated to this Menu) and the Menu Items to be deleted. Click the Delete Icon surrounded by a dotted line. This will delete this Menu, ALL its Menu Items and ALL the Modules associated with it. A Javascript alert popup box gives you the choice to &quot;OK&quot; or to &quot;Cancel&quot; this action.</p>
+<p><strong>NOTE:</strong> Deleted menus cannot be recovered from the Trash Manager!</p>
+<p>&nbsp;</p>
+<h3 class="table">Columns</h3>
+<p><strong>Menu Name</strong>: Click on the name to edit it. This name may be the one that is given to the menu by default or the name you gave to that menu.</p>
+<p><strong>Menu Items</strong>: Click on the &quot;Edit&quot; icon in this column to add or edit Menu Items associated with a menu. Alternatively go to &quot;Menu-&gt;[the-menu-you-choose-to-edit]&quot;. A &quot;Menu Manager [the-menu-you-choose-to-edit]&quot; window will appear with a list of all Menu Items associated to this Menu.</p>
+<p><strong>#Published</strong>: This is the number of published Menu Items.</p>
+<p><strong>#Unpublished</strong>: This is the number of unpublished Menu Items.</p>
+<p><strong>#Trash</strong>: This is the number of Menu Items in the Trash Manager.</p>
+<p><strong>#Modules</strong>: This is the number of menu modules associated to the Menu Name.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

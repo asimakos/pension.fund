@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Polish</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:08:20</creationDate>
+  <author>Ryszard Brys</author>
+  <authorEmail>ryszard.brys@gmail.com</authorEmail>
+  <authorUrl>www.elxis.pl</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Polish language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Polish</name>
+    <tag>polish</tag>
+    <rtl>0</rtl>
+    <locale>pl_PL.utf8, pl_PL.UTF-8, pl_PL, polish, pl, plk</locale>
+  </metadata>
+  <files>
+		<filename>polish.com_access.php</filename>
+		<filename>polish.com_admin.php</filename>
+		<filename>polish.com_banners.php</filename>
+		<filename>polish.com_bridge.php</filename>
+		<filename>polish.com_categories.php</filename>
+		<filename>polish.com_checkin.php</filename>
+		<filename>polish.com_config.php</filename>
+		<filename>polish.com_contact.php</filename>
+		<filename>polish.com_content.php</filename>
+		<filename>polish.com_database.php</filename>
+		<filename>polish.com_frontpage.php</filename>
+		<filename>polish.com_installer.php</filename>
+		<filename>polish.com_languages.php</filename>
+		<filename>polish.com_mambots.php</filename>
+		<filename>polish.com_massmail.php</filename>
+		<filename>polish.com_media.php</filename>
+		<filename>polish.com_menumanager.php</filename>
+		<filename>polish.com_menus.php</filename>
+		<filename>polish.com_messages.php</filename>
+		<filename>polish.com_modules.php</filename>
+		<filename>polish.com_newsfeeds.php</filename>
+		<filename>polish.com_poll.php</filename>
+		<filename>polish.com_sections.php</filename>
+		<filename>polish.com_softdisk.php</filename>
+		<filename>polish.com_statistics.php</filename>
+		<filename>polish.com_syndicate.php</filename>
+		<filename>polish.com_templates.php</filename>
+		<filename>polish.com_trash.php</filename>
+		<filename>polish.com_typedcontent.php</filename>
+		<filename>polish.com_users.php</filename>
+		<filename>polish.com_weblinks.php</filename>
+		<filename>polish.gemini.php</filename>
+		<filename>polish.pref.php</filename>
+		<filename>polish.gif</filename>
+		<filename>polish.php</filename>
+		<filename>polish.xml</filename>
+		<filename>polish.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

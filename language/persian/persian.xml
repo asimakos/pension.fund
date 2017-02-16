@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Persian</name>
+	<version>2009.1</version>
+	<creationDate>2009-04-18 13:37:24</creationDate>
+	<author>Farhad Sakhaei</author>
+	<authorEmail>farhad0@gmail.com</authorEmail>
+	<authorUrl>http://www.farsicms.com</authorUrl>
+	<copyright>(C) 2006-2009 Portalha Group. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Persian language for Elxis 2009 front-end.</description>
+	<files>
+		<filename>persian.gemini.php</filename>
+		<filename>persian.gif</filename>
+		<filename>persian.pref.php</filename>
+		<filename>persian.php</filename>
+		<filename>persian.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

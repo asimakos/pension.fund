@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Italian</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:08:20</creationDate>
+  <author>Roberto D Alessio</author>
+  <authorEmail>info@elxis.it</authorEmail>
+  <authorUrl>www.elxis.it</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Italian language for Elxis 2009 backend. Additions for Elxis 2009.0 by Francesco Venuti (Amigamerlin).</description>
+  <metadata>
+    <name>Italian</name>
+    <tag>italian</tag>
+    <rtl>0</rtl>
+    <locale>it_ITA.utf8, it_ITA.UTF-8, it_ITA, italian, it, ita</locale>
+  </metadata>
+  <files>
+		<filename>italian.com_access.php</filename>
+		<filename>italian.com_admin.php</filename>
+		<filename>italian.com_banners.php</filename>
+		<filename>italian.com_bridge.php</filename>
+		<filename>italian.com_categories.php</filename>
+		<filename>italian.com_checkin.php</filename>
+		<filename>italian.com_config.php</filename>
+		<filename>italian.com_contact.php</filename>
+		<filename>italian.com_content.php</filename>
+		<filename>italian.com_database.php</filename>
+		<filename>italian.com_frontpage.php</filename>
+		<filename>italian.com_installer.php</filename>
+		<filename>italian.com_languages.php</filename>
+		<filename>italian.com_mambots.php</filename>
+		<filename>italian.com_massmail.php</filename>
+		<filename>italian.com_media.php</filename>
+		<filename>italian.com_menumanager.php</filename>
+		<filename>italian.com_menus.php</filename>
+		<filename>italian.com_messages.php</filename>
+		<filename>italian.com_modules.php</filename>
+		<filename>italian.com_newsfeeds.php</filename>
+		<filename>italian.com_poll.php</filename>
+		<filename>italian.com_sections.php</filename>
+		<filename>italian.com_softdisk.php</filename>
+		<filename>italian.com_statistics.php</filename>
+		<filename>italian.com_syndicate.php</filename>
+		<filename>italian.com_templates.php</filename>
+		<filename>italian.com_trash.php</filename>
+		<filename>italian.com_typedcontent.php</filename>
+		<filename>italian.com_users.php</filename>
+		<filename>italian.com_weblinks.php</filename>
+		<filename>italian.gemini.php</filename>
+		<filename>italian.pref.php</filename>
+		<filename>italian.gif</filename>
+		<filename>italian.php</filename>
+		<filename>italian.xml</filename>
+		<filename>italian.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>Indonesian</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:19:30</creationDate>
+  <author>Zaenal Mutaqin</author>
+  <authorEmail>info@elxis.org</authorEmail>
+  <authorUrl>www.elxis.org</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>Indonesian language for Elxis 2009 backend</description>
+  <metadata>
+    <name>Indonesian</name>
+    <tag>indonesian</tag>
+    <rtl>0</rtl>
+    <locale>id_ID.utf8, id_ID.UTF-8, id_ID, indonesian, id, ind</locale>
+  </metadata>
+  <files>
+		<filename>indonesian.com_access.php</filename>
+		<filename>indonesian.com_admin.php</filename>
+		<filename>indonesian.com_banners.php</filename>
+		<filename>indonesian.com_bridge.php</filename>
+		<filename>indonesian.com_categories.php</filename>
+		<filename>indonesian.com_checkin.php</filename>
+		<filename>indonesian.com_config.php</filename>
+		<filename>indonesian.com_contact.php</filename>
+		<filename>indonesian.com_content.php</filename>
+		<filename>indonesian.com_database.php</filename>
+		<filename>indonesian.com_frontpage.php</filename>
+		<filename>indonesian.com_installer.php</filename>
+		<filename>indonesian.com_languages.php</filename>
+		<filename>indonesian.com_mambots.php</filename>
+		<filename>indonesian.com_massmail.php</filename>
+		<filename>indonesian.com_media.php</filename>
+		<filename>indonesian.com_menumanager.php</filename>
+		<filename>indonesian.com_menus.php</filename>
+		<filename>indonesian.com_messages.php</filename>
+		<filename>indonesian.com_modules.php</filename>
+		<filename>indonesian.com_newsfeeds.php</filename>
+		<filename>indonesian.com_poll.php</filename>
+		<filename>indonesian.com_sections.php</filename>
+		<filename>indonesian.com_softdisk.php</filename>
+		<filename>indonesian.com_statistics.php</filename>
+		<filename>indonesian.com_syndicate.php</filename>
+		<filename>indonesian.com_templates.php</filename>
+		<filename>indonesian.com_trash.php</filename>
+		<filename>indonesian.com_typedcontent.php</filename>
+		<filename>indonesian.com_users.php</filename>
+		<filename>indonesian.com_weblinks.php</filename>
+		<filename>indonesian.gemini.php</filename>
+		<filename>indonesian.pref.php</filename>
+		<filename>indonesian.gif</filename>
+		<filename>indonesian.php</filename>
+		<filename>indonesian.xml</filename>
+		<filename>indonesian.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

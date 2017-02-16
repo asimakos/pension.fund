@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2009">
+	<name>AX_MNSFC_CNAME</name>
+	<group>Component</group>
+	<author>Elxis Project</author>
+	<creationDate>2009-05-01 09:46:10</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<description>AX_MNSFC_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMG2D" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" dir="ltr" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" dir="rtl" default="" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" dir="rtl" size="30" default="" label="AX_PAGTITLL" description="AX_PAGTITLD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="headings" type="radio" default="1" label="AX_TBHEADL" description="AX_TBHEADD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="name" type="radio" default="1" label="AX_NAMCOLL" description="AX_MNSFC_SHNCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="articles" type="radio" default="1" label="AX_MNSFC_ACL" description="AX_MNSFC_ACD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="link" type="radio" default="1" label="AX_MNSFC_LCL" description="AX_MNSFC_LCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="other_cat" type="radio" default="1" label="AX_OTHCATL" description="AX_OTHCATD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_description" type="radio" default="1" label="AX_CATDSCL" description="AX_CCT_CATDSCD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="cat_items" type="radio" default="1" label="AX_CCT_NOCATITL" description="AX_CCT_NOCATITD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="subscribe_links" type="radio" default="1" label="Subscribe links" description="Show feed subscribe links?">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="share_links" type="radio" default="1" label="Share links" description="Show share links?">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+	</params>
+</mosinstall>

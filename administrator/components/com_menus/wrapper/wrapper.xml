@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="menu" version="2008">
+	<name>AX_MWRP_CNAME</name>
+	<group>Other</group>
+	<author>Elxis Team</author>
+	<creationDate>2008-07-14 22:10:21</creationDate>
+	<copyright>(C) 2006-2008 Elxis.org</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2008.1</version>
+	<description>AX_MWRP_CDESC</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="AX_MENUIMGL" description="AX_MENUIMGD" />
+		<param name="menu_image_only" type="radio" default="0" label="AX_MENUIMGONLYL" description="AX_MENUIMGONLYD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="pageclass_sfx" type="text" size="20" default="" label="AX_PAGCLASUFL" description="AX_PAGCLASUFD" />
+		<param name="back_button" type="list" default="" dir="rtl" label="AX_BACKBUTL" description="AX_BACKBUTD">
+			<option value="">AX_USEGLB</option>
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="AX_PAGTITLSL" description="AX_PAGTITLSD">
+			<option value="0">AX_HIDE</option>
+			<option value="1">AX_SHOW</option>
+		</param>
+		<param name="header" type="text" size="30" dir="rtl" default="" label="AX_PAGTITLL" description="AX_PAGTITLD" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="scrolling" type="radio" default="auto" label="AX_MWRP_SCRBL" description="AX_MWRP_SCRBD">
+			<option value="no">AX_NO</option>
+			<option value="yes">AX_YES</option>
+			<option value="auto">AX_AUTO</option>
+		</param>
+		<param name="width" type="text" size="5" default="100%" label="AX_MWRP_WDTL" description="AX_MWRP_WDTD" />
+		<param name="height" type="text" size="5" default="500" label="AX_MWRP_HEIL" description="AX_MWRP_HEID" />
+		<param name="height_auto" type="radio" default="1" label="AX_MWRP_AHL" description="AX_MWRP_AHD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+		<param name="add" type="radio" default="1" label="AX_MWRP_AADL" description="AX_MWRP_AADD">
+			<option value="0">AX_NO</option>
+			<option value="1">AX_YES</option>
+		</param>
+	</params>
+</mosinstall>

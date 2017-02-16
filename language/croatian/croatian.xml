@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall type="language" version="2009">
+	<name>Croatian</name>
+	<version>2009.1</version>
+	<creationDate>2009-04-18 10:18:12</creationDate>
+	<author>Zan Andic and Dario Zujic</author>
+	<authorEmail>zanomaja@net.hr</authorEmail>
+	<authorUrl>http://www.bhmeteo.com/</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Hrvatski jezik za Elxis 2009.</description>
+	<files>
+    <filename>croatian.xml</filename>
+		<filename>croatian.gemini.php</filename>
+		<filename>croatian.gif</filename>
+		<filename>croatian.pref.php</filename>
+		<filename>croatian.php</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

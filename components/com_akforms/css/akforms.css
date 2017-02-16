@@ -1,0 +1,13 @@
+table.akForms {}
+table.akForms tr td {}
+table.akForms tr td span {}
+table.akForms tr td input {}
+table.akftable { margin:5px 0; padding: 0; border: none; border-top: 1px solid #b7ddf2; }
+table.akftable th { background-color: #7485b3; margin: 0; padding: 2px; color:#FFF; border: none; border-bottom: 1px solid #b7ddf2; }
+table.akftable td { margin: 0; padding: 2px; color:#394C7D; border: none; border-bottom: 1px solid #b7ddf2; }
+table.akftable tr.line0 td { background-color: #f2f8fc; }
+table.akftable tr.line1 td { background-color: #ebf4fb; }
+table.akftable tr.linetotal td { background-color: #f8f8d2; }
+table.akftable th.ircen, table.akftable td.cen, table.akftable tr.line0 td.cen, table.akftable tr.lin10 td.cen { text-align: center; }
+table.akftable img { margin: 0; padding: 0; border: none; }
+span.akfsmall { color:#666666; font: normal 10px/14px tahoma, verdana, arial; }

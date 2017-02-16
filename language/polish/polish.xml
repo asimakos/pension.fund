@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" version="2009">
+	<name>Polish</name>
+	<version>2009.1</version>
+	<creationDate>2009-04-27 14:00:15</creationDate>
+	<author>Ryszard Brys</author>
+	<authorEmail>ryszard.brys@gmail.com</authorEmail>
+	<authorUrl>http://www.elxis.pl</authorUrl>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<description>Polski dla Elxis 2009.0 front-end.</description>
+	<files>
+		<filename>polish.gemini.php</filename>
+		<filename>polish.gif</filename>
+		<filename>polish.pref.php</filename>
+		<filename>polish.php</filename>
+		<filename>polish.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</mosinstall>

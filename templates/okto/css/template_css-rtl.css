@@ -1,0 +1,12 @@
+/*
+Okto template CSS for Elxis 2008 (RTL version)
+Author: Ioannis Sannos (datahell)
+E-mail: datahell@elxis.org
+URL: http://www.elxis.org
+Date: December 30, 2007
+License: GNU/GPL
+Elxis CMS is a free software
+*/
+
+@import url("layout-rtl.css"); /*layout css file*/
+@import url("customize-rtl.css"); /*Use this file to customize your website*/

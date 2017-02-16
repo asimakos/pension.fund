@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Access Manager - Group Permissions</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(C) 2006-2008 Elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Access Manager - Group Permissions</h1>
+<p>Access Manager is used to implement Access Control. In Elxis, administrators have the freedom to define the security patterns that best suite their needs. They can define who has access where and what he can do.</p>
+<p>The access control is based on the idea of groups. You do not control individual users. You control groups of users. You define the rights for groups. All users that belong to a specific group inherit all group rights.</p>
+<p>You are not limited to predefined access groups. You can create your own.<br />
+You are not limited to predefined permissions. You can define your own.</p>
+<p>Access manager is based on the well known <a href="http://phpgacl.sourceforge.net/" target="_blank">phpGACL</a> class.</p>
+<p>In this screen you will find the following terms:</p>
+<p><strong style="color:#D00">ACO = Access Control Objects</strong>. Control the permissions that are available to ARO objects. In Elxis you can think user groups as being equivelant to ARO objects.</p>
+<p><strong>Available objects</strong>:</p>
+<ul>
+    <li><strong>Action</strong> - referes to what a user group is allowed to do in the Front-End. It can take any of the following values: Add, Edit, Publish, View, Upload.</li>
+    <li><strong>Administration</strong> - referes to what a user group is allowed to do in the Back-End. It can take any of the following values: Login, Global Configuration, Manage, Install, Edit.</li>
+    <li><strong>Workflow</strong> - selects if a user group is allowed to receive administration emails. These are emails that Elxis produces and sends to people involved with administration, in order to inform them about several events. It can take the value: email_events</li>
+</ul>
+<p><strong style="color:#D00">ARO = Access Request Objects</strong>. These are the defined user groups.<br />
+<strong>Possible ARO Values</strong>: It can be any of the predefined user groups, or user groups that administrator has created, i.e Registered, Administrators, Super Administrators, Authors, etc.</p>
+<p><strong style="color:#D00">AXO = Access eXtension Objects</strong>. These are the object you have control on.<br />
+<strong>Available AXO Objects</strong>: Available AXO Objects vary based on the value of ACO and ARO. It can be any of: Content, Links, Profile, Components, Files, Templates, Languages, Modules, Bots, Bridges, Tools.<br />
+<strong>Possible values for AXO Objects</strong>: All, Own, installed Components, Images, Avatars, block_user.</p>
+<p>The access model is based in the assumption that everything is denied unless it is allowed.</p>
+<p>In order to better understand how you can define your own permissions you should start thinking like that you are creating sentences. These sentences define the <strong>rules</strong>.</p>
+<p>For example, lets say that you want to create a <strong>rule</strong>, that will allow all registered users to have access in the Front-End to all components. Then your real-world-sentence would look like this:</p>
+<p>&quot;<i>I want for the registered users, to be able to view all the components at the Front-End.</i>&quot;</p>
+<p>The Access Manager <strong>rule</strong>&nbsp;would be:</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+		<td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+</table>
+<p>To better understand the way rules are set for each group, it would be better to use some examples and view what rules have been applied for some predefined groups.</p>
+<p><strong>Example I - Registered Users</strong><br />Lets see what permissions <strong>Registered users</strong> have and how they are defined in Access Manager. Registered users can:</p>
+<ul>
+<li>Add Weblinks from the Front-End</li>
+<li>Edit their own profile</li>
+<li>Upload Avatar images for their profile</li>
+<li>View All Components</li>
+<li>View All Profiles</li>
+</ul>
+<p>Now look the following table and see the rules.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">weblinks</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">own</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">upload</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">files</p></td>
+        <td><p align="center">avatars</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">registered</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Example II - Manager</strong><br />Lets see what permissions <strong>Managers</strong> have and how they are defined in Access Manager. Managers can:</p>
+<ul>
+<li>Add Content from the Front-End</li>
+<li>Add Weblinks the Front-End</li>
+<li>Edit all Content from the Front-End</li>
+<li>Edit its own Profile</li>
+<li>Publish Content from the Front-End</li>
+<li>Upload Files from the Front-End</li>
+<li>View All Components</li>
+<li>View All Profiles</li>
+<li>Edit component NewsFlash</li>
+<li>Edit component Frontpage</li>
+<li>Edit component Media Manager</li>
+<li>Login to Back-End</li>
+</ul>
+<p>Now look the following table and see the rules.</p>
+<table align="center" border="1" cellpadding="1" cellspacing="0" width="100%">
+    <tr style="font-weight:bold;">
+        <td width="16%"><p align="center">ACO</p></td>
+        <td width="16%"><p align="center">ACO value</p></td>
+        <td width="16%"><p align="center">ARO</p></td>
+        <td width="16%"><p align="center">ARO value</p></td>
+        <td width="16%"><p align="center">AXO</p></td>
+        <td width="16%"><p align="center">AXO value</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">add</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">weblinks</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">own</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">publish</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">content</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">upload</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">files</p></td>
+        <td><p align="center">images</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">action</p></td>
+        <td><p align="center">view</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">profile</p></td>
+        <td><p align="center">all</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_newsflash</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_frontpage</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">edit</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">components</p></td>
+        <td><p align="center">com_media</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">administration</p></td>
+        <td><p align="center">login</p></td>
+        <td><p align="center">users</p></td>
+        <td><p align="center">manager</p></td>
+        <td><p align="center">&nbsp;</p></td>
+        <td><p align="center">&nbsp;</p></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<p><strong>Note</strong>: Please use this screen with caution. Failing to do so, may lead to a non functional web site.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+ </body>
+</html>

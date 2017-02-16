@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="language" client="administrator" version="2009">
+  <name>French</name>
+  <version>2009.2</version>
+  <creationDate>2010-06-05 22:06:50</creationDate>
+  <author>Vianney Zahner</author>
+  <authorEmail>info@elxis-france.com</authorEmail>
+  <authorUrl>www.elxis-france.com</authorUrl>
+  <copyright>(C) 2006-2010 Elxis.org. All rights reserved.</copyright>
+  <license>GNU/GPL</license>
+  <description>French language for Elxis 2009 backend</description>
+  <metadata>
+    <name>French</name>
+    <tag>french</tag>
+    <rtl>0</rtl>
+    <locale>fr_FR.utf8, fr_FR.UTF-8, fr_FR, french, fr, fre</locale>
+  </metadata>
+  <files>
+		<filename>french.com_access.php</filename>
+		<filename>french.com_admin.php</filename>
+		<filename>french.com_banners.php</filename>
+		<filename>french.com_bridge.php</filename>
+		<filename>french.com_categories.php</filename>
+		<filename>french.com_checkin.php</filename>
+		<filename>french.com_config.php</filename>
+		<filename>french.com_contact.php</filename>
+		<filename>french.com_content.php</filename>
+		<filename>french.com_database.php</filename>
+		<filename>french.com_frontpage.php</filename>
+		<filename>french.com_installer.php</filename>
+		<filename>french.com_languages.php</filename>
+		<filename>french.com_mambots.php</filename>
+		<filename>french.com_massmail.php</filename>
+		<filename>french.com_media.php</filename>
+		<filename>french.com_menumanager.php</filename>
+		<filename>french.com_menus.php</filename>
+		<filename>french.com_messages.php</filename>
+		<filename>french.com_modules.php</filename>
+		<filename>french.com_newsfeeds.php</filename>
+		<filename>french.com_poll.php</filename>
+		<filename>french.com_sections.php</filename>
+		<filename>french.com_softdisk.php</filename>
+		<filename>french.com_statistics.php</filename>
+		<filename>french.com_syndicate.php</filename>
+		<filename>french.com_templates.php</filename>
+		<filename>french.com_trash.php</filename>
+		<filename>french.com_typedcontent.php</filename>
+		<filename>french.com_users.php</filename>
+		<filename>french.com_weblinks.php</filename>
+		<filename>french.gemini.php</filename>
+		<filename>french.pref.php</filename>
+		<filename>french.gif</filename>
+		<filename>french.php</filename>
+		<filename>french.xml</filename>
+		<filename>french.xml.php</filename>
+		<filename>index.html</filename>
+  </files>
+  <params />
+</mosinstall>

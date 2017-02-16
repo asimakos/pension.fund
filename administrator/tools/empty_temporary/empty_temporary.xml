@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<mosinstall type="tool" version="2009">
+	<name>AX_TEMTEMP_L</name>
+	<author>Ioannis Sannos</author>
+	<creationDate>2009-05-02 12:06:31</creationDate>
+	<copyright>(C) 2006-2009 Elxis.org. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@elxis.org</authorEmail>
+	<authorUrl>www.elxis.org</authorUrl>
+	<version>2009.0</version>
+	<icon>images/trashcan.png</icon>
+	<description>AX_TEMTEMP_D</description>
+	<files>
+		<filename tool="empty_temporary">empty_temporary.php</filename>
+		<filename>images/trashcan.png</filename>
+		<filename>images/index.html</filename>
+		<filename>language/czech.php</filename>
+		<filename>language/english.php</filename>
+		<filename>language/french.php</filename>
+		<filename>language/german.php</filename>
+		<filename>language/greek.php</filename>
+		<filename>language/japanese.php</filename>
+		<filename>language/russian.php</filename>
+		<filename>language/serbian.php</filename>
+		<filename>language/spanish.php</filename>
+		<filename>language/srpski.php</filename>
+		<filename>language/index.html</filename>
+	</files>
+</mosinstall>

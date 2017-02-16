@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>SoftDisk</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2007-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+<style>
+h1.softdisk { 
+	color: #000;
+	font-size: 16pt;
+	border-left: 0;
+	border-bottom: 2px solid #D00;
+	padding: 10px 0px 10px 55px;
+	margin-top: 40px;
+	background: url(../../../administrator/components/com_softdisk/images/softdisk48.png) no-repeat center left;
+}	
+ul.softdisk {list-style-type: none;}
+li.decimal {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/DECIMAL.png) no-repeat center left;}
+li.email {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/EMAIL.png) no-repeat center left;}
+li.image {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/IMAGE.png) no-repeat center left;}
+li.integer {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/INTEGER.png) no-repeat center left;}
+li.string {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/STRING.png) no-repeat center left;}
+li.text {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/TEXT.png) no-repeat center left;}
+li.time {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/TIME.png) no-repeat center left;}
+li.yesno {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/YESNO.png) no-repeat center left;}
+li.url {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/URL.png) no-repeat center left;}
+li.unknown {padding-left: 20px;background: url(../../../administrator/components/com_softdisk/images/unknown.png) no-repeat center left;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1 class="softdisk">SoftDisk</h1>
+<p>SoftDisk est une zone de la mémoire virtuelle pour variables et paramètres en tout genre.
+Vous pouvez en ajouter de nouvelles ou modifier/supprimer des entrées SoftDisk existantes sauf celles étiquetés comme intégrées au système. Aussi les entrées marquées comme &quot;Ne pas supprimer&quot; peuvent seulement être éditées. Pour nommer les sections de SoftDisk et les valeurs vous êtes seulement autorisé à utiliser des lettres latin, des chiffres et caractère souligné (_).</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Barre d'Outils</h3>
+<p><strong>Nouveau</strong>: Créer une nouvelle variable SoftDisk.</p>
+<p><strong>Editer</strong>: Editer la variable SoftDisk sélectionnée.</p>
+<p><strong>Supprimer</strong>: Supprimer la variable SoftDisk sélectionnée. Vous ne pouvez pas supprimer les variables marquées à &#39;Ne pas supprimer&#39;.</p>
+<p><strong>Aide</strong>: Cet écran d'aide.</p>
+<p><strong>Mise à Jour du système</strong>: Mise à jour des valeurs spécifiques du système stockées dans SoftDisk.</p>
+<p>&nbsp;</p>
+<h3 class="borders">Section Filtrer</h3>
+<p>Vous pouvez utiliser les filtres de <strong>Section</strong> pour afficher uniquement les variables SoftDisk d'une section sélectionnée.</p>
+<p>&nbsp;</p>
+<h3 class="table">Colonnes</h3>
+<p><strong>Colonne cases à cocher</strong>: <span style="color:#D00">Une icône cadenas</span>, vous informe que cette variable ne peut pas être supprimée.</p>
+<p><strong>Type de colonne</strong>: Affiche le type de variable SoftDisk. Types disponibles:</p>
+<ul class="softdisk">
+<li class="decimal">Décimale (exp. - 10.45)</li>
+<li class="email">Email (exp. - user@domain.com)</li>
+<li class="image">Image (exp. - http://www.domain.com/image01.png)</li>
+<li class="integer">Nombre entier (exp. - 10)</li>
+<li class="string">Chaîne (exp. - Hello World)</li>
+<li class="text">Texte (exp. - Full Text)</li>
+<li class="time">Temps (exp. 1190459123) Le temps est entré dans format estampillé Unix (entier long qui contient le nombre de secondes entre Unix (janvier 1 1970 00:00:00 GMT) et le temps spécifiés.)</li>
+<li class="url">URL (exp. - http://www.domain.com)</li>
+<li class="yesno">OUINON</li>
+</ul>
+<p><strong>Section</strong>: Section d'appartenance d'une variable SoftDisk. Les Sections de SoftDisk n'ont rien à voir avec les Sections de Contenu.</p>
+<p><strong>Nom</strong>: Nom de la variable Softisk. Cliquez pour éditer. <strong style="color:#D00">Note</strong>: Un survol de la souris sur l'icône d'aide et vous obtenez des infos au sujet de l'utilisation des variables SoftDisk.</p>
+<p><strong>Valeur</strong>: Valeur de la Variable.</p>
+<p><strong>Système</strong>: Informe si la variable est d'un type de système ou pas.</p>
+<p><strong>Ne pas Supprimer</strong>: Vous ne pouvez pas supprimer une variable marquée à Ne pas supprimer.</p>
+<p><strong>Dernière modification</strong>: Date et heure, la valeur a été modifiée pour la dernière fois.</p>
+<p><strong>Section</strong>: (A affiché seulement quand vous voyez &#39;Tous les élements de Contenu&#39;). C'est la Section à laquelle l'article appartient. Le nom de section agit comme un lien pour les paramètres de section.</p>
+<p><strong>Catégorie</strong>: C'est la Catégorie à laquelle l'article appartient. Le nom de la catégorie est lié aux paramètres de la catégorie.</p>
+<p><strong>Auteur</strong>: Affiche le nom de l'auteur des éléments de Contenu. Le nom de l'auteur est lié aux détails de l'auteur.</p>
+<p><strong>Langues</strong>: Affiche pour quels langages du site les éléments de Contenu sont disponibles. Il sera montré seulement si les utilisateurs affichent ce site web sur une des langages disponibles. Si vous sélectionnez &quot;Tous&quot;, il sera disponible et visible dans toutes les langues.</p>
+<p>&nbsp;</p>
+<p>En bas de page il y a le pied de page.</p>
+<p>At the bottom of the page there is the footer.</p>
+<p><strong>Navigation</strong> - Si le nombre de variable SoftDisk variables est plus grand que le nombre de variables affichées par page, alors les contrôles de navigation sont activés. Vous pouvez les utiliser pour changer de pages.</p>
+<p><strong>Affichage #</strong> - Utilisez ce contrôle pour changer le nombre de messages affichés par page. La valeur par défaut est définie par le paramètre &#39;Longueur de Liste&#39; dans la Configuration Globale.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

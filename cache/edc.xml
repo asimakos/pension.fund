@@ -1,0 +1,5038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elxisdc>
+	<package>
+		<type>component</type>
+		<id>322</id>
+		<title>Maps component</title>
+		<category>Miscellaneous</category>
+		<extension>com_maps</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1303392095_maps64.png</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/322.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=322</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>280.92KB</size>
+		<hits>7839</hits>
+		<downloads>1743</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1303392026</timeadded>
+		<lastmod>1388780495</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>360</id>
+		<title>Content comments</title>
+		<category>User commentary</category>
+		<extension>ccomments</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_ccomments.jpg</image>
+		<version>1.0.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/user-commentary/360.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=360</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>16.15KB</size>
+		<hits>4480</hits>
+		<downloads>997</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1322740196</timeadded>
+		<lastmod>1388780479</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>367</id>
+		<title>E-Tables</title>
+		<category>Miscellaneous</category>
+		<extension>com_etables</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_tables64.png</image>
+		<version>1.4</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/367.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=367</downloadlink>
+		<compatibility></compatibility>
+		<size>237.56KB</size>
+		<hits>7406</hits>
+		<downloads>1271</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1326460751</timeadded>
+		<lastmod>1388780467</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>323</id>
+		<title>Maps module</title>
+		<category>Miscellaneous</category>
+		<extension>mod_maps</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1303392241_maps64.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/323.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=323</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>64.37KB</size>
+		<hits>7406</hits>
+		<downloads>1562</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1303392153</timeadded>
+		<lastmod>1386228641</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>368</id>
+		<title>E-Tables bot</title>
+		<category>Miscellaneous</category>
+		<extension>bot_etables</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1326460980_tables64.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/368.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=368</downloadlink>
+		<compatibility></compatibility>
+		<size>5.10KB</size>
+		<hits>7055</hits>
+		<downloads>1207</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1326460894</timeadded>
+		<lastmod>1386228622</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>276</id>
+		<title>Imagination Webgift</title>
+		<category>Front-end templates</category>
+		<extension>imagination</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_template_imagination_webgift.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/276.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=276</downloadlink>
+		<compatibility>elxis 2009.1+ , php 5.x</compatibility>
+		<size>1.16MB</size>
+		<hits>11576</hits>
+		<downloads>2622</downloads>
+		<author>webgift</author>
+		<timeadded>1278435706</timeadded>
+		<lastmod>1385400507</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>270</id>
+		<title>Addthis Bot</title>
+		<category>Bookmarks and sharing</category>
+		<extension>addthis</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_addthis_bot_logo.png</image>
+		<version>2.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/270.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=270</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>4.35KB</size>
+		<hits>10845</hits>
+		<downloads>1990</downloads>
+		<author>webgift</author>
+		<timeadded>1275653595</timeadded>
+		<lastmod>1385400497</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>318</id>
+		<title>Cuber Slider</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_cu3er</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_cu3er_logo.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/318.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=318</downloadlink>
+		<compatibility>elxis 2009.x</compatibility>
+		<size>0.52MB</size>
+		<hits>10520</hits>
+		<downloads>2134</downloads>
+		<author>webgift</author>
+		<timeadded>1301331154</timeadded>
+		<lastmod>1385400486</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>251</id>
+		<title>Press News</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_pressnews</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_1271937841_logo_module.png</image>
+		<version>2.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/251.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=251</downloadlink>
+		<compatibility>2008.x ,2009.x</compatibility>
+		<size>52.51KB</size>
+		<hits>8446</hits>
+		<downloads>2173</downloads>
+		<author>webgift</author>
+		<timeadded>1271937392</timeadded>
+		<lastmod>1385400423</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>248</id>
+		<title>Scroll Top</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_scrolltop</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_scroll.png</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/248.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=248</downloadlink>
+		<compatibility>2008.x,2009.x</compatibility>
+		<size>32.01KB</size>
+		<hits>9196</hits>
+		<downloads>1807</downloads>
+		<author>webgift</author>
+		<timeadded>1271434988</timeadded>
+		<lastmod>1385400413</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>245</id>
+		<title>WGFlash show</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_wgflashow</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_module.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/245.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=245</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>32.74KB</size>
+		<hits>11416</hits>
+		<downloads>1938</downloads>
+		<author>webgift</author>
+		<timeadded>1270411101</timeadded>
+		<lastmod>1385400397</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>243</id>
+		<title>WG Twitter</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_wgtwitter</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_1.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/243.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=243</downloadlink>
+		<compatibility>elxis 2009.x</compatibility>
+		<size>23.42KB</size>
+		<hits>9596</hits>
+		<downloads>1918</downloads>
+		<author>webgift</author>
+		<timeadded>1268910025</timeadded>
+		<lastmod>1385400317</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>241</id>
+		<title>WGEarth</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_1268315326_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/241.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=241</downloadlink>
+		<compatibility>2008.x 2009.x</compatibility>
+		<size>143.04KB</size>
+		<hits>10025</hits>
+		<downloads>2614</downloads>
+		<author>webgift</author>
+		<timeadded>1268314785</timeadded>
+		<lastmod>1385400300</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>240</id>
+		<title>MyElxis Blog</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/240.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=240</downloadlink>
+		<compatibility>2008.x,2009.x</compatibility>
+		<size>61.02KB</size>
+		<hits>9858</hits>
+		<downloads>2567</downloads>
+		<author>webgift</author>
+		<timeadded>1267449433</timeadded>
+		<lastmod>1385400289</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>356</id>
+		<title>Archivist Module</title>
+		<category>Miscellaneous</category>
+		<extension>mod_archivist</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_archivist.png</image>
+		<version>1.0.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/356.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=356</downloadlink>
+		<compatibility>Elxis 2008.x, Elxis 2009.x</compatibility>
+		<size>48.91KB</size>
+		<hits>6054</hits>
+		<downloads>1038</downloads>
+		<author>webgift</author>
+		<timeadded>1316630660</timeadded>
+		<lastmod>1385400249</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>388</id>
+		<title>Event Calendar Gallery (bot)</title>
+		<category>Calendars</category>
+		<extension>bot_eventcalendargallery</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_92_1358613931_logo.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/388.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=388</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>7.12KB</size>
+		<hits>495</hits>
+		<downloads>95</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1383391328</timeadded>
+		<lastmod>1383469216</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>383</id>
+		<title>Event Calendar Search (bot)</title>
+		<category>Calendars</category>
+		<extension>bot_eventcalendarsearch</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_1358613931_logo.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/383.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=383</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>9.26KB</size>
+		<hits>3516</hits>
+		<downloads>559</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1358613562</timeadded>
+		<lastmod>1383469099</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>382</id>
+		<title>Event Calendar Search (module)</title>
+		<category>Calendars</category>
+		<extension>mod_eventcalendarsearch</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_logo.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/382.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=382</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>9.94KB</size>
+		<hits>3469</hits>
+		<downloads>579</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1358613156</timeadded>
+		<lastmod>1383469070</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>184</id>
+		<title>Event Calendar (module)</title>
+		<category>Calendars</category>
+		<extension>mod_eventcalendar</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_event_calendar_module.jpg</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/184.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=184</downloadlink>
+		<compatibility>2008.1+, 2009.x</compatibility>
+		<size>32.01KB</size>
+		<hits>10636</hits>
+		<downloads>4014</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1243786738</timeadded>
+		<lastmod>1383469055</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>183</id>
+		<title>Event Calendar (component)</title>
+		<category>Calendars</category>
+		<extension>com_eventcalendar</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_event_calendar.jpg</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/183.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=183</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>200.67KB</size>
+		<hits>11461</hits>
+		<downloads>4497</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1243784472</timeadded>
+		<lastmod>1383469034</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>343</id>
+		<title>UPPOD multimedia Player 1.7.3</title>
+		<category>Multimedia</category>
+		<extension>mod_uppod</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/107_uppod_17.jpg</image>
+		<version>1.7.3</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/343.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=343</downloadlink>
+		<compatibility>elxis 2009.2</compatibility>
+		<size>189.94KB</size>
+		<hits>15110</hits>
+		<downloads>2816</downloads>
+		<author>Michail Platonov</author>
+		<timeadded>1309458559</timeadded>
+		<lastmod>1375879075</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>364</id>
+		<title>YouTube Playlist Bot</title>
+		<category>Multimedia</category>
+		<extension>botytpl</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_1323893185_youtubeplaylist.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/364.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=364</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>1.55KB</size>
+		<hits>8092</hits>
+		<downloads>1175</downloads>
+		<author>osw.gr</author>
+		<timeadded>1323892718</timeadded>
+		<lastmod>1370206352</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>352</id>
+		<title>Google Docs Viewer Bot</title>
+		<category>Miscellaneous</category>
+		<extension>bot_googlereader</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_bot_greader_logo.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/352.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=352</downloadlink>
+		<compatibility>Elxis 2009.x , php 5.x</compatibility>
+		<size>87.13KB</size>
+		<hits>8282</hits>
+		<downloads>1239</downloads>
+		<author>webgift</author>
+		<timeadded>1313226314</timeadded>
+		<lastmod>1365171898</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>299</id>
+		<title>IOSR Additional Info</title>
+		<category>Real Estate and Reservations</category>
+		<extension>mod_iosr_addinfo</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_hotel_add_info.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/299.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2009.1+, IOS Reservations</compatibility>
+		<size>0KB</size>
+		<hits>8776</hits>
+		<downloads>0</downloads>
+		<author>webgift</author>
+		<timeadded>1294497652</timeadded>
+		<lastmod>1365171871</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>370</id>
+		<title>IOSR Hotels</title>
+		<category>Real Estate and Reservations</category>
+		<extension>mod_iosr_hotels</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_mod_iosr_hotels.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/370.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>elxis 2009.1 (or later), IOSR 3.3 (or later)</compatibility>
+		<size>0KB</size>
+		<hits>8196</hits>
+		<downloads>0</downloads>
+		<author>webgift</author>
+		<timeadded>1330195848</timeadded>
+		<lastmod>1365171752</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>375</id>
+		<title>IOSR Filter hotels</title>
+		<category>Real Estate and Reservations</category>
+		<extension>mod_iosr_filter</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_mod_iosr_filter.png</image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/375.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>elxis 2009.2 (or newer), IOSR 3.3 (or newer)</compatibility>
+		<size>0KB</size>
+		<hits>10352</hits>
+		<downloads>0</downloads>
+		<author>webgift</author>
+		<timeadded>1331478141</timeadded>
+		<lastmod>1365171647</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>277</id>
+		<title>eBlog Popular posts</title>
+		<category>Blog</category>
+		<extension>mod_eblog_mostread</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_eblog_popular.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/277.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=277</downloadlink>
+		<compatibility>elxis 2008.1+,2009.x</compatibility>
+		<size>3.33KB</size>
+		<hits>15148</hits>
+		<downloads>1732</downloads>
+		<author>webgift</author>
+		<timeadded>1282647396</timeadded>
+		<lastmod>1365171551</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>278</id>
+		<title>eBlog Latest posts</title>
+		<category>Blog</category>
+		<extension>mod_eblog_latest</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_eblog_latest.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/278.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=278</downloadlink>
+		<compatibility>Elxis 2008.1+, 2009.x</compatibility>
+		<size>3.30KB</size>
+		<hits>16239</hits>
+		<downloads>1779</downloads>
+		<author>webgift</author>
+		<timeadded>1282648031</timeadded>
+		<lastmod>1365171545</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>279</id>
+		<title>eBlog Frontpage</title>
+		<category>Blog</category>
+		<extension>mod_eblog_frontpage</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_eblog_frontpage.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/279.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=279</downloadlink>
+		<compatibility>Elxis 2008.1+, 2009.x</compatibility>
+		<size>5.88KB</size>
+		<hits>16888</hits>
+		<downloads>1991</downloads>
+		<author>webgift</author>
+		<timeadded>1282829283</timeadded>
+		<lastmod>1365171538</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>284</id>
+		<title>Mod YouTube Plus</title>
+		<category>Multimedia</category>
+		<extension>mod_youtube_plus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_mutp.png</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/284.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=284</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>1.84KB</size>
+		<hits>7668</hits>
+		<downloads>1427</downloads>
+		<author>osw.gr</author>
+		<timeadded>1288167502</timeadded>
+		<lastmod>1364758111</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>374</id>
+		<title>inTicker (module)</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_inticker</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_1331401473_logo.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/374.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=374</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>7.15KB</size>
+		<hits>7347</hits>
+		<downloads>1251</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1331400785</timeadded>
+		<lastmod>1358673903</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>373</id>
+		<title>inMenu (module)</title>
+		<category>Menus</category>
+		<extension>mod_inmenu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_1330342242_logo.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/373.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=373</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>6.41KB</size>
+		<hits>7801</hits>
+		<downloads>1439</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1330341352</timeadded>
+		<lastmod>1358673870</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>167</id>
+		<title>iCatalog</title>
+		<category>Miscellaneous</category>
+		<extension>mod_icatalog</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_icatalog.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/167.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=167</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x+</compatibility>
+		<size>5.76KB</size>
+		<hits>8256</hits>
+		<downloads>3146</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1238876674</timeadded>
+		<lastmod>1358673850</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>205</id>
+		<title>Arthrology (module)</title>
+		<category>Miscellaneous</category>
+		<extension>mod_arthrology</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_logo.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL 2 or later</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/205.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=205</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>6.45KB</size>
+		<hits>10152</hits>
+		<downloads>2427</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1253444764</timeadded>
+		<lastmod>1358614103</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>204</id>
+		<title>Arthrology (component)</title>
+		<category>Miscellaneous</category>
+		<extension>com_arthrology</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/92_1275243431_logo.png</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/204.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=204</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>93.84KB</size>
+		<hits>10615</hits>
+		<downloads>2322</downloads>
+		<author>BitCraft-Labs.gr</author>
+		<timeadded>1253443384</timeadded>
+		<lastmod>1358614082</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>309</id>
+		<title>Livestream module</title>
+		<category>Multimedia</category>
+		<extension>mod_livestream</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_mod_livestream_elxis.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/309.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=309</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>1.60KB</size>
+		<hits>6467</hits>
+		<downloads>1377</downloads>
+		<author>osw.gr</author>
+		<timeadded>1299502426</timeadded>
+		<lastmod>1357493728</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>381</id>
+		<title>Simple GoogleMap</title>
+		<category>Miscellaneous</category>
+		<extension>googlemap</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_location64.png</image>
+		<version>1.0</version>
+		<license>GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/381.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=381</downloadlink>
+		<compatibility></compatibility>
+		<size>36.16KB</size>
+		<hits>4470</hits>
+		<downloads>769</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1353039842</timeadded>
+		<lastmod>1354113886</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>305</id>
+		<title>akForms Bot</title>
+		<category>Miscellaneous</category>
+		<extension>bot_akforms</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1301056484_forms64.png</image>
+		<version>1.7</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/305.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=305</downloadlink>
+		<compatibility></compatibility>
+		<size>10.51KB</size>
+		<hits>6918</hits>
+		<downloads>1710</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1297770873</timeadded>
+		<lastmod>1353558849</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>304</id>
+		<title>akForms Component</title>
+		<category>Miscellaneous</category>
+		<extension>com_akforms</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_forms64.png</image>
+		<version>1.7</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/304.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=304</downloadlink>
+		<compatibility></compatibility>
+		<size>166.06KB</size>
+		<hits>7724</hits>
+		<downloads>2807</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1297770254</timeadded>
+		<lastmod>1353558822</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>321</id>
+		<title>Weather module</title>
+		<category>Weather</category>
+		<extension>mod_weather</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1302242468_weather64.png</image>
+		<version>1.4.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/weather/321.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=321</downloadlink>
+		<compatibility></compatibility>
+		<size>323.14KB</size>
+		<hits>8819</hits>
+		<downloads>1960</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1302242279</timeadded>
+		<lastmod>1353558791</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>320</id>
+		<title>Weather component</title>
+		<category>Weather</category>
+		<extension>weather</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_weather64.png</image>
+		<version>1.4.2</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/weather/320.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=320</downloadlink>
+		<compatibility></compatibility>
+		<size>340.15KB</size>
+		<hits>8668</hits>
+		<downloads>1957</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1302241791</timeadded>
+		<lastmod>1353558766</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>306</id>
+		<title>Photo contest</title>
+		<category>Image galleries</category>
+		<extension>com_contest</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_contest64.png</image>
+		<version>1.3</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/306.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=306</downloadlink>
+		<compatibility></compatibility>
+		<size>164.23KB</size>
+		<hits>8069</hits>
+		<downloads>1838</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1297850305</timeadded>
+		<lastmod>1353040405</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>377</id>
+		<title>VK Group</title>
+		<category>Communication</category>
+		<extension>mod_vkgroup</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/107_1346599818_vkg_name.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/377.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=377</downloadlink>
+		<compatibility>Elxis 2009</compatibility>
+		<size>4.14KB</size>
+		<hits>5833</hits>
+		<downloads>797</downloads>
+		<author>Michail Platonov</author>
+		<timeadded>1346599705</timeadded>
+		<lastmod>1346600685</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>369</id>
+		<title>Nivo Slider</title>
+		<category>Image galleries</category>
+		<extension>mod_nivoslider</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/369.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=369</downloadlink>
+		<compatibility></compatibility>
+		<size>39.87KB</size>
+		<hits>8653</hits>
+		<downloads>1458</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1326875749</timeadded>
+		<lastmod>1333388210</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>52</id>
+		<title>AccuWeather</title>
+		<category>Weather</category>
+		<extension>mod_accuweather</extension>
+		<image></image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/weather/52.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=52</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>153.16KB</size>
+		<hits>28826</hits>
+		<downloads>7034</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1211089635</timeadded>
+		<lastmod>1332874992</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>376</id>
+		<title>Bing Maps Bot</title>
+		<category>Miscellaneous</category>
+		<extension>bingmaps</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_bmb.png</image>
+		<version>1.0.</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/376.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=376</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>4.07KB</size>
+		<hits>8557</hits>
+		<downloads>1197</downloads>
+		<author>osw.gr</author>
+		<timeadded>1332610878</timeadded>
+		<lastmod>1332706712</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>362</id>
+		<title>Social Like Buttons</title>
+		<category>User commentary</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_like.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/user-commentary/362.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=362</downloadlink>
+		<compatibility></compatibility>
+		<size>7.12KB</size>
+		<hits>5877</hits>
+		<downloads>1150</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1323846007</timeadded>
+		<lastmod>1326460674</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>363</id>
+		<title>YouTube Playlist Module</title>
+		<category>Multimedia</category>
+		<extension>mod_youtube_playlist</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_youtubeplaylist.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/363.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=363</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>1.69KB</size>
+		<hits>7337</hits>
+		<downloads>1123</downloads>
+		<author>osw.gr</author>
+		<timeadded>1323892248</timeadded>
+		<lastmod>1323938998</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>163</id>
+		<title>Greek Calendar</title>
+		<category>Calendars</category>
+		<extension>mod_greek_calendar</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_greek_calendar.png</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/163.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=163</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>39.60KB</size>
+		<hits>17867</hits>
+		<downloads>4039</downloads>
+		<author>osw.gr</author>
+		<timeadded>1236018853</timeadded>
+		<lastmod>1323363602</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>361</id>
+		<title>IOS Eshop Super Product Page module</title>
+		<category>E-commerce</category>
+		<extension>mod_eshop_superproductspage</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_super_product_page.jpg</image>
+		<version>1.0</version>
+		<license>commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/361.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=361</downloadlink>
+		<compatibility>IOS Eshop 2.0</compatibility>
+		<size>6.80KB</size>
+		<hits>4812</hits>
+		<downloads>1017</downloads>
+		<author>Speck</author>
+		<timeadded>1323073522</timeadded>
+		<lastmod>1323088063</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>267</id>
+		<title>Multithumb Image</title>
+		<category>Image galleries</category>
+		<extension>multithumb</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_multithumb_image.jpg</image>
+		<version>2.4</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/267.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=267</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>168.46KB</size>
+		<hits>9063</hits>
+		<downloads>2318</downloads>
+		<author>Speck</author>
+		<timeadded>1275334364</timeadded>
+		<lastmod>1322669635</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>351</id>
+		<title>Google Charts</title>
+		<category>Miscellaneous</category>
+		<extension>bot_gcharts</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_chart.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/351.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=351</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>106.31KB</size>
+		<hits>5890</hits>
+		<downloads>1013</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1312896527</timeadded>
+		<lastmod>1320736524</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>334</id>
+		<title>ht-restaurant</title>
+		<category>Front-end templates</category>
+		<extension>ht-restaurant</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/113_1307175230_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/334.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>0KB</size>
+		<hits>5685</hits>
+		<downloads>0</downloads>
+		<author>Iraklis Touloukoglou</author>
+		<timeadded>1307175177</timeadded>
+		<lastmod>1319803317</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>359</id>
+		<title>Button for MP3 Dewplayer Bot</title>
+		<category>Multimedia</category>
+		<extension>mp3dewplayer.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_mp3dewplayer_btn.png</image>
+		<version>1.0</version>
+		<license>Creative Commons</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/359.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=359</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>3.07KB</size>
+		<hits>5181</hits>
+		<downloads>962</downloads>
+		<author>osw.gr</author>
+		<timeadded>1319373170</timeadded>
+		<lastmod>1319380094</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>358</id>
+		<title>MP3 Dewplayer bot</title>
+		<category>Multimedia</category>
+		<extension>mp3dewplayer</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_mp3dewplayer_bot.png</image>
+		<version>1.0</version>
+		<license>Creative Commons</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/358.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=358</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>17.36KB</size>
+		<hits>5017</hits>
+		<downloads>873</downloads>
+		<author>osw.gr</author>
+		<timeadded>1319372752</timeadded>
+		<lastmod>1319380063</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>357</id>
+		<title>MP3 Dewplayer module</title>
+		<category>Multimedia</category>
+		<extension>mod_mp3dewplayer</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_mp3dewplayer_mod.png</image>
+		<version>1.0</version>
+		<license>Creative Commons</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/357.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=357</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>17.41KB</size>
+		<hits>5571</hits>
+		<downloads>909</downloads>
+		<author>osw.gr</author>
+		<timeadded>1319372225</timeadded>
+		<lastmod>1319379885</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>222</id>
+		<title>Easy Gallery</title>
+		<category>Image galleries</category>
+		<extension>easygallery</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_easy_gallery.jpg</image>
+		<version>1.7</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/222.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=222</downloadlink>
+		<compatibility>Elxis 2008.0+, PHP5.x</compatibility>
+		<size>48.60KB</size>
+		<hits>14702</hits>
+		<downloads>4098</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1258289945</timeadded>
+		<lastmod>1319379669</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>255</id>
+		<title>eForum</title>
+		<category>Forums</category>
+		<extension>com_eforum</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_eforum100.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/255.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=255</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x, MySQL</compatibility>
+		<size>0.80MB</size>
+		<hits>40527</hits>
+		<downloads>3645</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1273937021</timeadded>
+		<lastmod>1318420644</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>313</id>
+		<title>Web TV</title>
+		<category>Multimedia</category>
+		<extension>com_webtv</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_web_tv.jpg</image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/313.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>0KB</size>
+		<hits>6627</hits>
+		<downloads>0</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1300519065</timeadded>
+		<lastmod>1317580474</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>312</id>
+		<title>Online Booking PRO</title>
+		<category>Front-end templates</category>
+		<extension>co_onlinebookingpro</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_co_onlinebookingpro_preview.jpg</image>
+		<version>1.0</version>
+		<license>Commercial 1 domain</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/312.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>0KB</size>
+		<hits>8591</hits>
+		<downloads>0</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1300438377</timeadded>
+		<lastmod>1317580288</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>355</id>
+		<title>Auto Ads</title>
+		<category>Ad management</category>
+		<extension>autoads</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/355.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=355</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>5.44KB</size>
+		<hits>5356</hits>
+		<downloads>1129</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1316278323</timeadded>
+		<lastmod>1316279033</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>354</id>
+		<title>Text to Image</title>
+		<category>Miscellaneous</category>
+		<extension>text2image</extension>
+		<image></image>
+		<version>1.0.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/354.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=354</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>99.55KB</size>
+		<hits>5830</hits>
+		<downloads>1124</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1314277001</timeadded>
+		<lastmod>1314861781</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>347</id>
+		<title>Panorama Bot</title>
+		<category>Image galleries</category>
+		<extension>panorama</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_panoramabot.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/347.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=347</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>13.22KB</size>
+		<hits>5173</hits>
+		<downloads>1158</downloads>
+		<author>osw.gr</author>
+		<timeadded>1311382136</timeadded>
+		<lastmod>1313995815</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>349</id>
+		<title>Panorama Module</title>
+		<category>Image galleries</category>
+		<extension>mod_panorama</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_panoramamod.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/349.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=349</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>13.14KB</size>
+		<hits>5947</hits>
+		<downloads>1278</downloads>
+		<author>osw.gr</author>
+		<timeadded>1311383608</timeadded>
+		<lastmod>1313995688</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>239</id>
+		<title>Countdown for elxis</title>
+		<category>Miscellaneous</category>
+		<extension>mod_countdown_elxis</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/101_logo.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/239.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=239</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>6.92KB</size>
+		<hits>9729</hits>
+		<downloads>1991</downloads>
+		<author>Jim KanaDOS</author>
+		<timeadded>1267387604</timeadded>
+		<lastmod>1313082685</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>346</id>
+		<title>Greek Date Inline</title>
+		<category>Calendars</category>
+		<extension>mod_grdateinline</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_grdateinline_display.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/346.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=346</downloadlink>
+		<compatibility>2009+</compatibility>
+		<size>2.58KB</size>
+		<hits>5240</hits>
+		<downloads>1121</downloads>
+		<author>osw.gr</author>
+		<timeadded>1311381396</timeadded>
+		<lastmod>1311413840</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>348</id>
+		<title>Button for Panorama bot</title>
+		<category>Image galleries</category>
+		<extension>panorama.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_btnpanorama_display.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/348.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=348</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>3.53KB</size>
+		<hits>5224</hits>
+		<downloads>1255</downloads>
+		<author>osw.gr</author>
+		<timeadded>1311382928</timeadded>
+		<lastmod>1311383350</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>286</id>
+		<title>Button YouTube Plus</title>
+		<category>Multimedia</category>
+		<extension>btnyoutube_plus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_btnutp.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/286.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=286</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>2.37KB</size>
+		<hits>7945</hits>
+		<downloads>1341</downloads>
+		<author>osw.gr</author>
+		<timeadded>1288168211</timeadded>
+		<lastmod>1311381115</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>285</id>
+		<title>Bot YouTube Plus</title>
+		<category>Multimedia</category>
+		<extension>bot_youtube_plus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_butp.png</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/285.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=285</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>1.68KB</size>
+		<hits>8050</hits>
+		<downloads>1347</downloads>
+		<author>osw.gr</author>
+		<timeadded>1288167836</timeadded>
+		<lastmod>1311380867</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>188</id>
+		<title>Image and Event of the Day</title>
+		<category>Calendars</category>
+		<extension>mod_image_event_oftheday</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_image_event_oftheday.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/188.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=188</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>2.87KB</size>
+		<hits>8137</hits>
+		<downloads>3132</downloads>
+		<author>osw.gr</author>
+		<timeadded>1244464866</timeadded>
+		<lastmod>1311380231</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>186</id>
+		<title>Date Inline</title>
+		<category>Calendars</category>
+		<extension>mod_dateinline</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_dateinline_display.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/186.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=186</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>1.64KB</size>
+		<hits>8531</hits>
+		<downloads>3073</downloads>
+		<author>osw.gr</author>
+		<timeadded>1244196769</timeadded>
+		<lastmod>1311379923</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>345</id>
+		<title>Banckle online meeting</title>
+		<category>Communication</category>
+		<extension>mod_banckleonlinemeeting</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/114_online-meeting.png</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/345.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=345</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>3.00KB</size>
+		<hits>5918</hits>
+		<downloads>1431</downloads>
+		<author>Imran Anwar</author>
+		<timeadded>1310838547</timeadded>
+		<lastmod>1311003593</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>344</id>
+		<title>eCron Scheduler</title>
+		<category>Miscellaneous</category>
+		<extension>com_ecron</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_logo.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/344.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=344</downloadlink>
+		<compatibility>2009+</compatibility>
+		<size>64.87KB</size>
+		<hits>5301</hits>
+		<downloads>1021</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1310473502</timeadded>
+		<lastmod>1310661361</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>342</id>
+		<title>uppod button bot</title>
+		<category>Miscellaneous</category>
+		<extension>uppod.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/107_1308945121_uppod.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/342.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=342</downloadlink>
+		<compatibility>elxis 2009.2</compatibility>
+		<size>3.89KB</size>
+		<hits>4448</hits>
+		<downloads>960</downloads>
+		<author>Michail Platonov</author>
+		<timeadded>1308944989</timeadded>
+		<lastmod>1309010849</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>340</id>
+		<title>bot uppod</title>
+		<category>Miscellaneous</category>
+		<extension>bot_uppod</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/107_1308943908_uppod.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/340.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=340</downloadlink>
+		<compatibility>elxis 2009.2</compatibility>
+		<size>1.96KB</size>
+		<hits>4793</hits>
+		<downloads>973</downloads>
+		<author>Michail Platonov</author>
+		<timeadded>1308943007</timeadded>
+		<lastmod>1309010795</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>339</id>
+		<title>bot eforum discussion</title>
+		<category>Miscellaneous</category>
+		<extension>eforumdiscussion.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/107_wbdesign_logo.png</image>
+		<version></version>
+		<license></license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/339.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=339</downloadlink>
+		<compatibility>elxis 2009.2</compatibility>
+		<size>7.35KB</size>
+		<hits>4717</hits>
+		<downloads>936</downloads>
+		<author>Michail Platonov</author>
+		<timeadded>1308672609</timeadded>
+		<lastmod>1308725377</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>337</id>
+		<title>IOSR Room Details</title>
+		<category>Real Estate and Reservations</category>
+		<extension>mod_iosr_roomdetails</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_mod_iosr_roomdetails_logo.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/337.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=337</downloadlink>
+		<compatibility>IOS Reservations 3.5 , Elxis 2009.x</compatibility>
+		<size>109.69KB</size>
+		<hits>5883</hits>
+		<downloads>1313</downloads>
+		<author>webgift</author>
+		<timeadded>1308493032</timeadded>
+		<lastmod>1308554554</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>336</id>
+		<title>Twitter Follow</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_Twitter</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/106_twitter-follow-me-post.jpg</image>
+		<version>1</version>
+		<license>Free</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/336.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=336</downloadlink>
+		<compatibility>2009+</compatibility>
+		<size>8.37KB</size>
+		<hits>10992</hits>
+		<downloads>1230</downloads>
+		<author>Davide Imperato</author>
+		<timeadded>1308161463</timeadded>
+		<lastmod>1308222091</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>335</id>
+		<title>Google +1 Button</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_GpulsOne</extension>
+		<image></image>
+		<version>1</version>
+		<license>Free</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/335.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=335</downloadlink>
+		<compatibility>2009+</compatibility>
+		<size>1.70KB</size>
+		<hits>5385</hits>
+		<downloads>1323</downloads>
+		<author>Davide Imperato</author>
+		<timeadded>1308132730</timeadded>
+		<lastmod>1308137187</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>218</id>
+		<title>Philoxenia</title>
+		<category>Front-end templates</category>
+		<extension>philoxenia</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_philoxenia.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/218.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=218</downloadlink>
+		<compatibility>Elxis 2009.1+</compatibility>
+		<size>145.46KB</size>
+		<hits>14577</hits>
+		<downloads>5842</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1257003753</timeadded>
+		<lastmod>1307371405</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>262</id>
+		<title>eForum Authors</title>
+		<category>Forums</category>
+		<extension>mod_eforum_author</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_1274253564_eforum_authors_logo.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/262.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=262</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>14.57KB</size>
+		<hits>18113</hits>
+		<downloads>1957</downloads>
+		<author>webgift</author>
+		<timeadded>1274253314</timeadded>
+		<lastmod>1305554299</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>294</id>
+		<title>IOS Newsletter Subscribe</title>
+		<category>Newsletters</category>
+		<extension>mod_iosn_subscribe</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_iosn_subscribe_logo.png</image>
+		<version>1.1</version>
+		<license>GNU / GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/newsletters/294.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=294</downloadlink>
+		<compatibility>Elxis 2009.1+ , IE7-9 , Mozilla Firefox , Chrome ,Opera, Safari</compatibility>
+		<size>90.99KB</size>
+		<hits>7986</hits>
+		<downloads>1931</downloads>
+		<author>webgift</author>
+		<timeadded>1291907436</timeadded>
+		<lastmod>1304751323</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>152</id>
+		<title>IOS eshop</title>
+		<category>E-commerce</category>
+		<extension>com_eshop</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_eshop.png</image>
+		<version>2.2</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/152.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>0KB</size>
+		<hits>16918</hits>
+		<downloads>0</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1232435339</timeadded>
+		<lastmod>1304751285</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>47</id>
+		<title>IOS Reservations</title>
+		<category>Real Estate and Reservations</category>
+		<extension>com_reservations</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_reservations.png</image>
+		<version>3.6</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/47.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>0KB</size>
+		<hits>16299</hits>
+		<downloads>0</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1223097000</timeadded>
+		<lastmod>1304538202</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>207</id>
+		<title>IOS NoobSlide</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_iosnoobslide</extension>
+		<image></image>
+		<version>1.4</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/207.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=207</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>45.96KB</size>
+		<hits>15513</hits>
+		<downloads>3008</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1254600322</timeadded>
+		<lastmod>1304448298</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>324</id>
+		<title>Maps bot</title>
+		<category>Miscellaneous</category>
+		<extension>bot_maps</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1303392345_maps64.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/324.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=324</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>2.16KB</size>
+		<hits>6855</hits>
+		<downloads>1356</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1303392248</timeadded>
+		<lastmod>1303467756</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>319</id>
+		<title>IOS Eshop Related Products.</title>
+		<category>E-commerce</category>
+		<extension>mod_eshop_productsrelated</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1301425712_related_products_module.jpg</image>
+		<version>1.1</version>
+		<license>commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/319.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=319</downloadlink>
+		<compatibility>IOS Eshop 2.0</compatibility>
+		<size>6.84KB</size>
+		<hits>6807</hits>
+		<downloads>1449</downloads>
+		<author>Speck</author>
+		<timeadded>1301425458</timeadded>
+		<lastmod>1302854043</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>293</id>
+		<title>EI Superfish Menu</title>
+		<category>Menus</category>
+		<extension>mod_eifish_menu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_ei_sfish_menu_module.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/293.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=293</downloadlink>
+		<compatibility>elxis 2009.0</compatibility>
+		<size>82.09KB</size>
+		<hits>9739</hits>
+		<downloads>2362</downloads>
+		<author>Speck</author>
+		<timeadded>1290529333</timeadded>
+		<lastmod>1302683408</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>317</id>
+		<title>akForms button</title>
+		<category>Miscellaneous</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/105_1301057268_forms64.png</image>
+		<version>1.0</version>
+		<license></license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/317.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=317</downloadlink>
+		<compatibility></compatibility>
+		<size>2.60KB</size>
+		<hits>5870</hits>
+		<downloads>1213</downloads>
+		<author>Andrej Kambalov</author>
+		<timeadded>1301057146</timeadded>
+		<lastmod>1302241540</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>315</id>
+		<title>Product of one period</title>
+		<category>E-commerce</category>
+		<extension>mod_eshop_product_period</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_logo_product_weekp.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/315.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=315</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>6.30KB</size>
+		<hits>5808</hits>
+		<downloads>1422</downloads>
+		<author>webgift</author>
+		<timeadded>1300750524</timeadded>
+		<lastmod>1300780775</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>314</id>
+		<title>eshop Tags module</title>
+		<category>E-commerce</category>
+		<extension>mod_eshop_tags</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/314.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=314</downloadlink>
+		<compatibility>elxis 2009.x , IOS eshop 2.x , php 5.0+</compatibility>
+		<size>11.31KB</size>
+		<hits>6078</hits>
+		<downloads>1300</downloads>
+		<author>webgift</author>
+		<timeadded>1300633290</timeadded>
+		<lastmod>1300718566</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>275</id>
+		<title>Easy Slider</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_easyslider</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_easy_slider.png</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/275.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=275</downloadlink>
+		<compatibility>Elxis 2008.x - Elxis 2009.x - PHP 5.x</compatibility>
+		<size>32.78KB</size>
+		<hits>12111</hits>
+		<downloads>2235</downloads>
+		<author>osw.gr</author>
+		<timeadded>1277907974</timeadded>
+		<lastmod>1300331198</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>311</id>
+		<title>SSL Detect Bot</title>
+		<category>Content</category>
+		<extension>bot_ssl</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ssslbot.jpg</image>
+		<version>1.0</version>
+		<license>GNU/gpl</license>
+		<url>http://www.elxis-downloads.com/downloads/content/311.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=311</downloadlink>
+		<compatibility>2009.2+</compatibility>
+		<size>1.27KB</size>
+		<hits>7191</hits>
+		<downloads>1344</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1300236306</timeadded>
+		<lastmod>1300270067</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>310</id>
+		<title>3 Column Module</title>
+		<category>Content</category>
+		<extension>mod_3col</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_3col.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/content/310.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=310</downloadlink>
+		<compatibility>2009.2+</compatibility>
+		<size>4.53KB</size>
+		<hits>7091</hits>
+		<downloads>1697</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1300214471</timeadded>
+		<lastmod>1300270032</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>246</id>
+		<title>EIB Transition Rotator</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_eibmultitransition_rotator</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_banner_multitransition_rotator.jpg</image>
+		<version>1.5</version>
+		<license>Creative Commons 3</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/246.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=246</downloadlink>
+		<compatibility>elxis 2009.x</compatibility>
+		<size>346.45KB</size>
+		<hits>9184</hits>
+		<downloads>2012</downloads>
+		<author>Speck</author>
+		<timeadded>1270752713</timeadded>
+		<lastmod>1300169163</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>308</id>
+		<title>Facebook Like Box</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_facebooklikebox</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_facebook_like_box.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/308.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=308</downloadlink>
+		<compatibility>Elxis 2008.x,2009.x</compatibility>
+		<size>3.20KB</size>
+		<hits>7823</hits>
+		<downloads>1731</downloads>
+		<author>webgift</author>
+		<timeadded>1298714965</timeadded>
+		<lastmod>1298718984</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>307</id>
+		<title>Facebook Like button</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_facebooklike</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_facebook-like-button.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/307.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=307</downloadlink>
+		<compatibility>Elxis 2008.x,2009.x</compatibility>
+		<size>3.45KB</size>
+		<hits>7955</hits>
+		<downloads>1862</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1298663251</timeadded>
+		<lastmod>1298663796</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>298</id>
+		<title>EI Dynamic Slider News2 Pro</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_ei_dynamicslidernews2</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_ei_dynamicslider_news2_pro.jpg</image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/298.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>0KB</size>
+		<hits>7059</hits>
+		<downloads>0</downloads>
+		<author>Speck</author>
+		<timeadded>1292739015</timeadded>
+		<lastmod>1298287333</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>295</id>
+		<title>EI Dynamic Slider News1 Pro</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_ei_dynamicslidernews1</extension>
+		<image></image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/295.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2009.x, PHP 5.3</compatibility>
+		<size>0KB</size>
+		<hits>6439</hits>
+		<downloads>0</downloads>
+		<author>Speck</author>
+		<timeadded>1292687875</timeadded>
+		<lastmod>1298287318</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>291</id>
+		<title>Coda Slider</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_codaslider</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_codaslider.jpg</image>
+		<version>1.0</version>
+		<license>Free</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/291.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=291</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>34.58KB</size>
+		<hits>10547</hits>
+		<downloads>2146</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1289817835</timeadded>
+		<lastmod>1297162975</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>297</id>
+		<title>Latest Commended Content or Eblog Articles</title>
+		<category>User commentary</category>
+		<extension>mod_ks_latest_commended</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-latest-commended.jpg</image>
+		<version>2.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/user-commentary/297.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=297</downloadlink>
+		<compatibility>Elxis 2008.1+, 2009.x</compatibility>
+		<size>8.93KB</size>
+		<hits>6650</hits>
+		<downloads>1361</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1292704978</timeadded>
+		<lastmod>1296676658</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>296</id>
+		<title>Recommended articles</title>
+		<category>Content</category>
+		<extension>mod_recommended_articles</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_recommended_articles.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/296.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=296</downloadlink>
+		<compatibility></compatibility>
+		<size>3.09KB</size>
+		<hits>7701</hits>
+		<downloads>1493</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1292702488</timeadded>
+		<lastmod>1296676629</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>303</id>
+		<title>Business Template</title>
+		<category>Front-end templates</category>
+		<extension>co_business</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_1296468614_co_business_sm.jpg</image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/303.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>0KB</size>
+		<hits>6630</hits>
+		<downloads>0</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1296467922</timeadded>
+		<lastmod>1296472709</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>302</id>
+		<title>Luxury template for Elxis CMS</title>
+		<category>Front-end templates</category>
+		<extension>co_luxury</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_luxury_template_for_elxis_cms.jpg</image>
+		<version>1.1</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/302.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>0KB</size>
+		<hits>7687</hits>
+		<downloads>0</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1296142509</timeadded>
+		<lastmod>1296201347</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>301</id>
+		<title>Bot FlowPlayer</title>
+		<category>Multimedia</category>
+		<extension>botflowplayer</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_1295088714_flowplayer.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/301.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=301</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>176.32KB</size>
+		<hits>8728</hits>
+		<downloads>1654</downloads>
+		<author>osw.gr</author>
+		<timeadded>1295088479</timeadded>
+		<lastmod>1295101870</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>300</id>
+		<title>Button for Bot FlowPlayer</title>
+		<category>Multimedia</category>
+		<extension>botflowplayer.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_flowplayer_button.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/300.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=300</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>3.45KB</size>
+		<hits>7063</hits>
+		<downloads>1386</downloads>
+		<author>osw.gr</author>
+		<timeadded>1295088202</timeadded>
+		<lastmod>1295099603</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>187</id>
+		<title>IOS Sitemap</title>
+		<category>Site maps</category>
+		<extension>com_sitemap</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_sitemap.png</image>
+		<version>2.3</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/site-maps/187.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=187</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>92.71KB</size>
+		<hits>14271</hits>
+		<downloads>5615</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1244287704</timeadded>
+		<lastmod>1293650856</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>249</id>
+		<title>EI PageEar</title>
+		<category>Miscellaneous</category>
+		<extension>mod_eipageear</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_ei_pageear_magic_corner3.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/249.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=249</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>115.93KB</size>
+		<hits>6930</hits>
+		<downloads>1748</downloads>
+		<author>Speck</author>
+		<timeadded>1271754725</timeadded>
+		<lastmod>1291653568</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>266</id>
+		<title>Show Section/Category Description</title>
+		<category>Content</category>
+		<extension>mod_descr_sect_categories</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_mod_descr_sect_categories.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/266.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=266</downloadlink>
+		<compatibility>elxis 2009</compatibility>
+		<size>7.54KB</size>
+		<hits>8427</hits>
+		<downloads>1820</downloads>
+		<author>Speck</author>
+		<timeadded>1275017706</timeadded>
+		<lastmod>1291653542</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>191</id>
+		<title>KL RSS FEED</title>
+		<category>Remote content</category>
+		<extension>kl_rssfeed</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_kl_rss_feed.jpg</image>
+		<version>3.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/remote-content/191.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=191</downloadlink>
+		<compatibility>2008+ PHP 5.3</compatibility>
+		<size>26.57KB</size>
+		<hits>8003</hits>
+		<downloads>2700</downloads>
+		<author>Speck</author>
+		<timeadded>1249595083</timeadded>
+		<lastmod>1291653344</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>242</id>
+		<title>IOS Clean</title>
+		<category>Front-end templates</category>
+		<extension>iosclean</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_iosclean.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/242.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=242</downloadlink>
+		<compatibility>Elxis 2009.1+, PHP 5.x</compatibility>
+		<size>153.38KB</size>
+		<hits>15160</hits>
+		<downloads>4330</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1268812172</timeadded>
+		<lastmod>1290237897</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>268</id>
+		<title>Social Video</title>
+		<category>Multimedia</category>
+		<extension>socialvideo</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_social_video.jpg</image>
+		<version>2.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/268.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=268</downloadlink>
+		<compatibility>Elxis 2006.x - 2009.x</compatibility>
+		<size>2.60KB</size>
+		<hits>7857</hits>
+		<downloads>1728</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1275335198</timeadded>
+		<lastmod>1290102265</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>289</id>
+		<title>Flickr Slide Show bot</title>
+		<category>Image galleries</category>
+		<extension>botflickr</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_flickr_bot_for_elxis.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/289.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=289</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>1.76KB</size>
+		<hits>7541</hits>
+		<downloads>1572</downloads>
+		<author>osw.gr</author>
+		<timeadded>1289691068</timeadded>
+		<lastmod>1289758364</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>288</id>
+		<title>Flickr Slide Show module</title>
+		<category>Image galleries</category>
+		<extension>mod_flickr</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_flickr_mod_for_elxis.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/288.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=288</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>1.40KB</size>
+		<hits>7101</hits>
+		<downloads>1634</downloads>
+		<author>osw.gr</author>
+		<timeadded>1289690532</timeadded>
+		<lastmod>1289758356</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>290</id>
+		<title>Flickr Slide Show button</title>
+		<category>Image galleries</category>
+		<extension>btnflickr.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_btnflickr.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/290.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=290</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>3.15KB</size>
+		<hits>7432</hits>
+		<downloads>1583</downloads>
+		<author>osw.gr</author>
+		<timeadded>1289691766</timeadded>
+		<lastmod>1289754613</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>282</id>
+		<title>Tabs / Slides Bot</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>tabs_slides</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_tab_slide_plugin.jpg</image>
+		<version>1.2</version>
+		<license>GNU /GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/282.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=282</downloadlink>
+		<compatibility>2008.x,2009.x</compatibility>
+		<size>109.06KB</size>
+		<hits>6506</hits>
+		<downloads>1583</downloads>
+		<author>Speck</author>
+		<timeadded>1287036577</timeadded>
+		<lastmod>1288944658</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>287</id>
+		<title>EI Flash Module</title>
+		<category>Multimedia</category>
+		<extension>mod_eiflash</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1288215140_flash_module.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/287.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=287</downloadlink>
+		<compatibility>Elxis 2009.x</compatibility>
+		<size>4.58KB</size>
+		<hits>7789</hits>
+		<downloads>1476</downloads>
+		<author>Speck</author>
+		<timeadded>1288214919</timeadded>
+		<lastmod>1288283036</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>226</id>
+		<title>Marketplace Multilanguage</title>
+		<category>Ad management</category>
+		<extension>com_marketplace</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_market_place.jpg</image>
+		<version>0.1.4.6.21(beta)</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/226.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=226</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>0.56MB</size>
+		<hits>10412</hits>
+		<downloads>2774</downloads>
+		<author>Speck</author>
+		<timeadded>1261139121</timeadded>
+		<lastmod>1288029953</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>227</id>
+		<title>Marketplace Latest 5 Ads</title>
+		<category>Ad management</category>
+		<extension>mod_marketplace_latest5</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_market_place_latest5.jpg</image>
+		<version>1.0 (0.1.4.6.15)</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/227.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=227</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>5.95KB</size>
+		<hits>8929</hits>
+		<downloads>2637</downloads>
+		<author>Speck</author>
+		<timeadded>1261139823</timeadded>
+		<lastmod>1288029922</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>228</id>
+		<title>Marketplace Latest photos</title>
+		<category>Ad management</category>
+		<extension>mod_marketplace_photos</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_market_place_pics.jpg</image>
+		<version>1.0 (0.1.4.6.15)</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/228.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=228</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>5.90KB</size>
+		<hits>8778</hits>
+		<downloads>2415</downloads>
+		<author>Speck</author>
+		<timeadded>1261140191</timeadded>
+		<lastmod>1288029902</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>281</id>
+		<title>Tabs / Slides module</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_tabs_slides</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_tab_slide_module.jpg</image>
+		<version>1.01</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/281.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=281</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>111.14KB</size>
+		<hits>6922</hits>
+		<downloads>1650</downloads>
+		<author>Speck</author>
+		<timeadded>1286994565</timeadded>
+		<lastmod>1287163191</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>283</id>
+		<title>Tabs / Slides button</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_tabs_slide_button_1.jpg</image>
+		<version>1.0</version>
+		<license>GNY/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/283.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=283</downloadlink>
+		<compatibility>2008.x,2009.x</compatibility>
+		<size>2.60KB</size>
+		<hits>7206</hits>
+		<downloads>1570</downloads>
+		<author>Speck</author>
+		<timeadded>1287036816</timeadded>
+		<lastmod>1287154342</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>33</id>
+		<title>Elxis Couloir Gallery</title>
+		<category>Image galleries</category>
+		<extension>mod_elxiscouloir</extension>
+		<image></image>
+		<version>1.1</version>
+		<license>Creative Commons 2.0</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/33.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=33</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>52.40KB</size>
+		<hits>13543</hits>
+		<downloads>4797</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1206576860</timeadded>
+		<lastmod>1284444161</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>21</id>
+		<title>Doctor Cloud</title>
+		<category>Blog</category>
+		<extension>mod_doctorcloud</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_mod_doctorcloud.jpg</image>
+		<version>1.0</version>
+		<license></license>
+		<url>http://www.elxis-downloads.com/downloads/blog/21.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=21</downloadlink>
+		<compatibility>Elxis 2008.1+</compatibility>
+		<size>15.79KB</size>
+		<hits>19661</hits>
+		<downloads>3676</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1221544363</timeadded>
+		<lastmod>1283787823</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>280</id>
+		<title>eForms</title>
+		<category>Communication</category>
+		<extension>eforms</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_eforms_logo.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/280.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=280</downloadlink>
+		<compatibility>elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>25.54KB</size>
+		<hits>8468</hits>
+		<downloads>2334</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1283535852</timeadded>
+		<lastmod>1283594183</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>30</id>
+		<title>PayPal Buy Now</title>
+		<category>E-commerce</category>
+		<extension>bot_ppbuynow</extension>
+		<image></image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/30.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=30</downloadlink>
+		<compatibility>Elxis 2008.x/2009.x, PHP 5.x</compatibility>
+		<size>23.03KB</size>
+		<hits>11793</hits>
+		<downloads>4203</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1201247892</timeadded>
+		<lastmod>1280776423</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>34</id>
+		<title>IOS Image Rotator</title>
+		<category>Image galleries</category>
+		<extension>mod_image_rotator</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_image_rotator.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/34.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=34</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>23.41KB</size>
+		<hits>17517</hits>
+		<downloads>5340</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1204367575</timeadded>
+		<lastmod>1280088493</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>182</id>
+		<title>Bookmark Us</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_bookmarkus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_bookmark_us.png</image>
+		<version>1.4</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/182.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=182</downloadlink>
+		<compatibility>2008.0+</compatibility>
+		<size>12.90KB</size>
+		<hits>8842</hits>
+		<downloads>3132</downloads>
+		<author>Speck</author>
+		<timeadded>1243465009</timeadded>
+		<lastmod>1279529211</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>45</id>
+		<title>MP3 bot</title>
+		<category>Multimedia</category>
+		<extension>botmp3</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_bot_mp3_logo.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/45.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=45</downloadlink>
+		<compatibility>Elkxis 2008.x, 2009.x, PHP 4.x, PHP 5.x</compatibility>
+		<size>8.44KB</size>
+		<hits>10962</hits>
+		<downloads>3775</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1229122986</timeadded>
+		<lastmod>1278516340</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>269</id>
+		<title>Multithumb Button</title>
+		<category>Image galleries</category>
+		<extension>multithumb</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1275342274_multithumb_button_image.jpg</image>
+		<version>2.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/269.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=269</downloadlink>
+		<compatibility></compatibility>
+		<size>34.00KB</size>
+		<hits>8209</hits>
+		<downloads>1991</downloads>
+		<author>Speck</author>
+		<timeadded>1275342043</timeadded>
+		<lastmod>1278023495</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>229</id>
+		<title>Primezilla</title>
+		<category>Ad management</category>
+		<extension>com_primezilla</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_primezilla.jpg</image>
+		<version>0.1.2.12 (beta)</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/229.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=229</downloadlink>
+		<compatibility>Marketplace 0.1.4.6..x</compatibility>
+		<size>426.12KB</size>
+		<hits>9563</hits>
+		<downloads>2473</downloads>
+		<author>Speck</author>
+		<timeadded>1261140402</timeadded>
+		<lastmod>1278001306</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>10</id>
+		<title>Appendix</title>
+		<category>Directories and Indexes</category>
+		<extension>com_appendix</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_com_appendix.jpg</image>
+		<version>1.2</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/directories-indexes/10.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=10</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP5.x</compatibility>
+		<size>48.08KB</size>
+		<hits>13189</hits>
+		<downloads>4099</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1224707696</timeadded>
+		<lastmod>1277753557</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>215</id>
+		<title>Content Item Module</title>
+		<category>Content</category>
+		<extension>mod_contentitem</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_content_items_1_4.jpg</image>
+		<version>1.4</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/215.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=215</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>10.84KB</size>
+		<hits>13227</hits>
+		<downloads>2686</downloads>
+		<author>Speck</author>
+		<timeadded>1256227440</timeadded>
+		<lastmod>1277238899</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>273</id>
+		<title>ks-accordion</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_ksaccordion</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ksaccordion.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/273.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=273</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP5.x</compatibility>
+		<size>13.18KB</size>
+		<hits>8360</hits>
+		<downloads>1952</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1277071190</timeadded>
+		<lastmod>1277122518</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>271</id>
+		<title>World Cup 2010</title>
+		<category>Remote content</category>
+		<extension>mod_worldcup2010</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_worldcup_2010_logo.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/remote-content/271.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=271</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x</compatibility>
+		<size>1.74KB</size>
+		<hits>7255</hits>
+		<downloads>1656</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1276324651</timeadded>
+		<lastmod>1276325094</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>116</id>
+		<title>IOS Downloads</title>
+		<category>Download systems</category>
+		<extension>com_downloads</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_downloads.png</image>
+		<version>1.3</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/116.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=116</downloadlink>
+		<compatibility>Elxis 2008.x/2009.x, PHP 5.x</compatibility>
+		<size>305.50KB</size>
+		<hits>20361</hits>
+		<downloads>5726</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1229632957</timeadded>
+		<lastmod>1275816950</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>8</id>
+		<title>IOS Newsletter</title>
+		<category>Newsletters</category>
+		<extension>com_newsletter</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_newsletter.jpg</image>
+		<version>1.3</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/newsletters/8.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=8</downloadlink>
+		<compatibility>Elxis 2008.x/2009.x, PHP5.x</compatibility>
+		<size>202.51KB</size>
+		<hits>15653</hits>
+		<downloads>5733</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1225273875</timeadded>
+		<lastmod>1275579771</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>265</id>
+		<title>eForum Discussion</title>
+		<category>Forums</category>
+		<extension>bot_eforum_discussion</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_eforum100_discussion.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/265.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=265</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>6.01KB</size>
+		<hits>11133</hits>
+		<downloads>1865</downloads>
+		<author>webgift</author>
+		<timeadded>1274795680</timeadded>
+		<lastmod>1274810219</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>260</id>
+		<title>eForum Popular - Active Topics</title>
+		<category>Forums</category>
+		<extension>mod_eforum_popular</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_94_eforum100_populartopics.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/260.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=260</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>7.32KB</size>
+		<hits>13368</hits>
+		<downloads>2067</downloads>
+		<author>webgift</author>
+		<timeadded>1274021346</timeadded>
+		<lastmod>1274775914</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>257</id>
+		<title>eForum recent posts</title>
+		<category>Forums</category>
+		<extension>mod_eforum_recentposts</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_eforum100_recentposts.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/257.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=257</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>7.48KB</size>
+		<hits>13623</hits>
+		<downloads>2166</downloads>
+		<author>webgift</author>
+		<timeadded>1273938857</timeadded>
+		<lastmod>1274645333</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>258</id>
+		<title>eForum login</title>
+		<category>Forums</category>
+		<extension>mod_eforum_login</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_eforum100_login.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/258.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=258</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>22.76KB</size>
+		<hits>14881</hits>
+		<downloads>2045</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1273939291</timeadded>
+		<lastmod>1274645276</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>256</id>
+		<title>eForum search posts</title>
+		<category>Forums</category>
+		<extension>eforum.searchbot</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/94_eforum100_searchbot.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/256.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=256</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, eForum</compatibility>
+		<size>2.82KB</size>
+		<hits>13540</hits>
+		<downloads>1919</downloads>
+		<author>webgift</author>
+		<timeadded>1273938467</timeadded>
+		<lastmod>1274645229</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>121</id>
+		<title>SMF Recent Topics</title>
+		<category>Forums</category>
+		<extension>mod_smf_recent_topics_sa</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_smf_recent_topics.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/121.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=121</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>13.63KB</size>
+		<hits>40987</hits>
+		<downloads>4389</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1203118243</timeadded>
+		<lastmod>1274004741</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>177</id>
+		<title>Validator W3C - CSS</title>
+		<category>Miscellaneous</category>
+		<extension>mod_validator</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_mod_validator.jpg</image>
+		<version>2.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/177.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=177</downloadlink>
+		<compatibility>2008.0+</compatibility>
+		<size>1.69KB</size>
+		<hits>15552</hits>
+		<downloads>2851</downloads>
+		<author>Speck</author>
+		<timeadded>1242294334</timeadded>
+		<lastmod>1272821826</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>206</id>
+		<title>Logo Multi Language</title>
+		<category>Miscellaneous</category>
+		<extension>mod_logo</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_logo_multi.jpg</image>
+		<version>2.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/206.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=206</downloadlink>
+		<compatibility>Elxis 2008.x - 2009.x</compatibility>
+		<size>2.06KB</size>
+		<hits>9021</hits>
+		<downloads>2290</downloads>
+		<author>osw.gr</author>
+		<timeadded>1254168756</timeadded>
+		<lastmod>1272477983</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>254</id>
+		<title>Flowplayer</title>
+		<category>Multimedia</category>
+		<extension>mod_flowplayer</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_1272391689_flowplayer.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/254.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=254</downloadlink>
+		<compatibility></compatibility>
+		<size>189.17KB</size>
+		<hits>8347</hits>
+		<downloads>1913</downloads>
+		<author>osw.gr</author>
+		<timeadded>1272391428</timeadded>
+		<lastmod>1272396148</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>253</id>
+		<title>SoundCloud Bot 1.0</title>
+		<category>Multimedia</category>
+		<extension>soundcloud</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/102_soundcloud-bot-image.jpg</image>
+		<version>1.0</version>
+		<license>GNU / GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/253.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=253</downloadlink>
+		<compatibility>2008.x,2009.x</compatibility>
+		<size>137.80KB</size>
+		<hits>12260</hits>
+		<downloads>3124</downloads>
+		<author>Theo Evangelatos</author>
+		<timeadded>1272104088</timeadded>
+		<lastmod>1272114487</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>247</id>
+		<title>Elham login screen</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/247.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=247</downloadlink>
+		<compatibility>2009.x</compatibility>
+		<size>130.87KB</size>
+		<hits>8573</hits>
+		<downloads>2273</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1271012055</timeadded>
+		<lastmod>1271015974</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>40</id>
+		<title>IOS Map Bot</title>
+		<category>Miscellaneous</category>
+		<extension>bot_iosmap</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_bot_iosmap_logo.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/40.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=40</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP5.x</compatibility>
+		<size>10.15KB</size>
+		<hits>13185</hits>
+		<downloads>4396</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1201121909</timeadded>
+		<lastmod>1267820516</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>44</id>
+		<title>YouTube video bot</title>
+		<category>Multimedia</category>
+		<extension>youtube</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_bot_youtube.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/44.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=44</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>1.29KB</size>
+		<hits>12715</hits>
+		<downloads>4623</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1207548431</timeadded>
+		<lastmod>1267809477</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>237</id>
+		<title>Tab slider</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_tabslider</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_tab-slider-isopensource.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/237.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=237</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>107.69KB</size>
+		<hits>14447</hits>
+		<downloads>2926</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1267294835</timeadded>
+		<lastmod>1267295057</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>236</id>
+		<title>Contact Info</title>
+		<category>Miscellaneous</category>
+		<extension>mod_contactinfo</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_contact_info.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/236.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=236</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x</compatibility>
+		<size>26.36KB</size>
+		<hits>8555</hits>
+		<downloads>1976</downloads>
+		<author>osw.gr</author>
+		<timeadded>1267171882</timeadded>
+		<lastmod>1267217476</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>3</id>
+		<title>Suckerfish Menu</title>
+		<category>Menus</category>
+		<extension>mod_dsmenu</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/3.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=3</downloadlink>
+		<compatibility>2008.x</compatibility>
+		<size>10.63KB</size>
+		<hits>17661</hits>
+		<downloads>5849</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1222741579</timeadded>
+		<lastmod>1266022964</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>235</id>
+		<title>Works Progress</title>
+		<category>Content</category>
+		<extension>mod_work_progress</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 S.A.</license>
+		<url>http://www.elxis-downloads.com/downloads/content/235.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=235</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, PHP 5.x</compatibility>
+		<size>9.07KB</size>
+		<hits>10032</hits>
+		<downloads>1991</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1266009434</timeadded>
+		<lastmod>1266009798</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>232</id>
+		<title>WebPageArts</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/100_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/232.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=232</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>149.66KB</size>
+		<hits>9731</hits>
+		<downloads>3424</downloads>
+		<author>Panagiotis Adamopoulos</author>
+		<timeadded>1262007104</timeadded>
+		<lastmod>1262539871</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>120</id>
+		<title>Bubbles</title>
+		<category>Forums</category>
+		<extension>com_bubbles</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_bubbles.jpg</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/forums/120.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=120</downloadlink>
+		<compatibility>Elxis 2008.x, PHP5.x</compatibility>
+		<size>114.24KB</size>
+		<hits>40712</hits>
+		<downloads>4445</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1222417702</timeadded>
+		<lastmod>1262539421</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>230</id>
+		<title>Primezilla Notify</title>
+		<category>Ad management</category>
+		<extension>mod_primezilla</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1261141007_primezilla.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/230.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=230</downloadlink>
+		<compatibility>2008.x, 2009.x</compatibility>
+		<size>2.65KB</size>
+		<hits>8111</hits>
+		<downloads>2287</downloads>
+		<author>Speck</author>
+		<timeadded>1261140826</timeadded>
+		<lastmod>1261157490</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>225</id>
+		<title>EI Radio</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1260520995_ei_radio_professional_template.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/225.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2009.1+</compatibility>
+		<size>0KB</size>
+		<hits>10320</hits>
+		<downloads>0</downloads>
+		<author>Speck</author>
+		<timeadded>1260520656</timeadded>
+		<lastmod>1260551279</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>224</id>
+		<title>White Dream</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/87_1258996030_1.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/224.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=224</downloadlink>
+		<compatibility>2008.x - 2009.1</compatibility>
+		<size>195.19KB</size>
+		<hits>10430</hits>
+		<downloads>2855</downloads>
+		<author>Yiannis Kottaras</author>
+		<timeadded>1258995932</timeadded>
+		<lastmod>1259244208</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>149</id>
+		<title>BlueGray Tanager</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/87_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/149.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=149</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>85.45KB</size>
+		<hits>7299</hits>
+		<downloads>2900</downloads>
+		<author>Yiannis Kottaras</author>
+		<timeadded>1231610581</timeadded>
+		<lastmod>1258930593</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>223</id>
+		<title>Easy Gallery button</title>
+		<category>Image galleries</category>
+		<extension>easygallery.btn</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_easy_gallery_btn_logo.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0 SA</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/223.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=223</downloadlink>
+		<compatibility>Elxis 2008.0+</compatibility>
+		<size>2.74KB</size>
+		<hits>14236</hits>
+		<downloads>3243</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1258310369</timeadded>
+		<lastmod>1258311454</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>216</id>
+		<title>EI Comp Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_1256547227_ie_comp_template.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/216.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=216</downloadlink>
+		<compatibility>Elxis 2008.1, 2009.0, 2009.1</compatibility>
+		<size>470.06KB</size>
+		<hits>9040</hits>
+		<downloads>4093</downloads>
+		<author>Speck</author>
+		<timeadded>1256547089</timeadded>
+		<lastmod>1258295212</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>221</id>
+		<title>Digsby</title>
+		<category>Communication</category>
+		<extension>mod_digsby</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_digsby_196x196.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/221.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=221</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x</compatibility>
+		<size>2.00KB</size>
+		<hits>10911</hits>
+		<downloads>2463</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1258107564</timeadded>
+		<lastmod>1258108353</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>217</id>
+		<title>Ks-LService</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-lservice.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/217.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=217</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>408.00KB</size>
+		<hits>10959</hits>
+		<downloads>3150</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1256599607</timeadded>
+		<lastmod>1257665593</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>220</id>
+		<title>eHide</title>
+		<category>Content</category>
+		<extension>ehide</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_ehide.jpg</image>
+		<version>1.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/220.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=220</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x</compatibility>
+		<size>1.54KB</size>
+		<hits>11687</hits>
+		<downloads>2438</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1257532075</timeadded>
+		<lastmod>1257585760</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>39</id>
+		<title>Sliding Toolbox 2</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_SlidingToolbox2</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_logo.gif</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/39.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=39</downloadlink>
+		<compatibility></compatibility>
+		<size>10.03KB</size>
+		<hits>12074</hits>
+		<downloads>3601</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1204677924</timeadded>
+		<lastmod>1257190346</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>164</id>
+		<title>iTabs</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_itabs</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/164.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=164</downloadlink>
+		<compatibility>2008.1</compatibility>
+		<size>25.29KB</size>
+		<hits>9370</hits>
+		<downloads>2876</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1236200288</timeadded>
+		<lastmod>1257190289</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>190</id>
+		<title>eTabs</title>
+		<category>Sliders, scrollers and tabs</category>
+		<extension>mod_etabs</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/sliders-scrollers-tabs/190.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=190</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>27.41KB</size>
+		<hits>8431</hits>
+		<downloads>2639</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1248422316</timeadded>
+		<lastmod>1257190261</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>37</id>
+		<title>4 Elements</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_4elements</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_mod_4elements.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/37.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=37</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x</compatibility>
+		<size>35.70KB</size>
+		<hits>10762</hits>
+		<downloads>3444</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1215765775</timeadded>
+		<lastmod>1257190122</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>214</id>
+		<title>Social Elements</title>
+		<category>Bookmarks and sharing</category>
+		<extension>mod_socelements</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_social_elements.gif</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/bookmarks-sharing/214.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=214</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x, 2009.x</compatibility>
+		<size>60.52KB</size>
+		<hits>9591</hits>
+		<downloads>3101</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1255797855</timeadded>
+		<lastmod>1257190055</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>219</id>
+		<title>Add PHP Bot</title>
+		<category>Content</category>
+		<extension>ks-addphp</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_addphp.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/219.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=219</downloadlink>
+		<compatibility>2006 2008 2009</compatibility>
+		<size>1.81KB</size>
+		<hits>24221</hits>
+		<downloads>2638</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1257093660</timeadded>
+		<lastmod>1257189906</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>41</id>
+		<title>Ultimate Content Display</title>
+		<category>Content</category>
+		<extension>mod_ucd</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_module_ucd.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/41.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=41</downloadlink>
+		<compatibility></compatibility>
+		<size>51.82KB</size>
+		<hits>15515</hits>
+		<downloads>4579</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1200602209</timeadded>
+		<lastmod>1257189819</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>198</id>
+		<title>Front Page Plus</title>
+		<category>Content</category>
+		<extension>mod_frontpageplus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_elxis-plugin-frontpageplus.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/content/198.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=198</downloadlink>
+		<compatibility>2009.0+</compatibility>
+		<size>5.01KB</size>
+		<hits>11700</hits>
+		<downloads>3272</downloads>
+		<author>Elxis Italia Team</author>
+		<timeadded>1250097189</timeadded>
+		<lastmod>1257189714</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>38</id>
+		<title>Alexa and Google Page Rank</title>
+		<category>Statistics</category>
+		<extension>mod_google_alexa</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_alexa_and_google_page_rank.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/statistics/38.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=38</downloadlink>
+		<compatibility></compatibility>
+		<size>12.15KB</size>
+		<hits>11157</hits>
+		<downloads>3211</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1215095542</timeadded>
+		<lastmod>1257189432</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>201</id>
+		<title>Google Analytics</title>
+		<category>Statistics</category>
+		<extension>mod_elxanalytics</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_google-low.jpg</image>
+		<version>0.1 BETA</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/statistics/201.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=201</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>1.55KB</size>
+		<hits>9083</hits>
+		<downloads>3115</downloads>
+		<author>Elxis Italia Team</author>
+		<timeadded>1251455463</timeadded>
+		<lastmod>1257188837</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>66</id>
+		<title>Ks-Color Pack</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_tp_ks-netcolorpack.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/66.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=66</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>350.48KB</size>
+		<hits>8972</hits>
+		<downloads>2962</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1223855598</timeadded>
+		<lastmod>1256599459</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>63</id>
+		<title>Ks-Blacky</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-blacky.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/63.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=63</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>193.61KB</size>
+		<hits>8716</hits>
+		<downloads>3259</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1225840847</timeadded>
+		<lastmod>1256599424</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>60</id>
+		<title>Ks-LiteBlue Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-liteblue.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/60.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=60</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>129.75KB</size>
+		<hits>8799</hits>
+		<downloads>3315</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1227394214</timeadded>
+		<lastmod>1256599382</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>64</id>
+		<title>Ks-MyBlog template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-myblog.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/64.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=64</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>254.96KB</size>
+		<hits>10226</hits>
+		<downloads>2926</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1225487818</timeadded>
+		<lastmod>1256599296</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>85</id>
+		<title>Ks-Login</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-login_thumb.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/85.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=85</downloadlink>
+		<compatibility>2008.x</compatibility>
+		<size>225.10KB</size>
+		<hits>11511</hits>
+		<downloads>3636</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1225567975</timeadded>
+		<lastmod>1256599231</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>86</id>
+		<title>Olympus-Red</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_olympus-red_thumb.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/86.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=86</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>138.43KB</size>
+		<hits>9098</hits>
+		<downloads>3224</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1225567537</timeadded>
+		<lastmod>1256599197</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>65</id>
+		<title>Ks-WorldWide Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-worldwide_thumb.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/65.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=65</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>154.47KB</size>
+		<hits>8261</hits>
+		<downloads>2874</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1225066447</timeadded>
+		<lastmod>1256599131</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>62</id>
+		<title>Ks-Eros</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-eros.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/62.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=62</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>283.66KB</size>
+		<hits>8885</hits>
+		<downloads>2896</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1226096310</timeadded>
+		<lastmod>1256595692</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>151</id>
+		<title>Ks-IService</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/85_ks-iservice-screenshot.png</image>
+		<version>1.0</version>
+		<license>GNU/gpl</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/151.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=151</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>395.13KB</size>
+		<hits>9316</hits>
+		<downloads>4031</downloads>
+		<author>Kostas Stathopoulos</author>
+		<timeadded>1232376800</timeadded>
+		<lastmod>1256591510</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>166</id>
+		<title>IOS Gallery</title>
+		<category>Image galleries</category>
+		<extension>com_gallery</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_ios_gallery_100.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/166.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=166</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x+</compatibility>
+		<size>250.69KB</size>
+		<hits>19966</hits>
+		<downloads>6455</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1237976949</timeadded>
+		<lastmod>1255967673</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>210</id>
+		<title>eBlog calendar</title>
+		<category>Calendars</category>
+		<extension>mod_eblog_calendar</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_calendar.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/210.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=210</downloadlink>
+		<compatibility>Elxis 2009.1+</compatibility>
+		<size>9.52KB</size>
+		<hits>8049</hits>
+		<downloads>2493</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1255075707</timeadded>
+		<lastmod>1255075973</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>1</id>
+		<title>eBlog Archive</title>
+		<category>Blog</category>
+		<extension>mod_eblog_archive</extension>
+		<image></image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/1.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=1</downloadlink>
+		<compatibility>Elxis 2008.1+, PHP 5.x</compatibility>
+		<size>2.73KB</size>
+		<hits>17569</hits>
+		<downloads>3819</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1219880460</timeadded>
+		<lastmod>1254982338</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>199</id>
+		<title>Isabell Elxis Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/89_izzy.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/199.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.x, 2009.0</compatibility>
+		<size>0KB</size>
+		<hits>7593</hits>
+		<downloads>0</downloads>
+		<author>Davor Popović</author>
+		<timeadded>1250694324</timeadded>
+		<lastmod>1254925314</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>203</id>
+		<title>eBlog search bot</title>
+		<category>Blog</category>
+		<extension>eblog.searchbot</extension>
+		<image></image>
+		<version>2009.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/203.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=203</downloadlink>
+		<compatibility>Elxis 2008.0+</compatibility>
+		<size>2.10KB</size>
+		<hits>15926</hits>
+		<downloads>2466</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1252743317</timeadded>
+		<lastmod>1252743568</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>178</id>
+		<title>EI green template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_elxisitalia-green.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/178.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=178</downloadlink>
+		<compatibility>2008.0+</compatibility>
+		<size>102.52KB</size>
+		<hits>8779</hits>
+		<downloads>2753</downloads>
+		<author>Speck</author>
+		<timeadded>1242512170</timeadded>
+		<lastmod>1252164094</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>181</id>
+		<title>EI Grey</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/181.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=181</downloadlink>
+		<compatibility>2008.0 +</compatibility>
+		<size>1.30MB</size>
+		<hits>9257</hits>
+		<downloads>3816</downloads>
+		<author>Speck</author>
+		<timeadded>1243442724</timeadded>
+		<lastmod>1252164077</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>200</id>
+		<title>IOS Downloads Most Downloaded</title>
+		<category>Download systems</category>
+		<extension>mod_most_downloaded</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/95_70_1229633354_ios_downloads.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/200.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=200</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, IOS Downloads 1.x</compatibility>
+		<size>2.83KB</size>
+		<hits>8587</hits>
+		<downloads>3104</downloads>
+		<author>Speck</author>
+		<timeadded>1250976989</timeadded>
+		<lastmod>1252164000</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>197</id>
+		<title>Elxis hosting templates</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_host.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/197.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.0; 2008,1; 2009.0</compatibility>
+		<size>0KB</size>
+		<hits>8831</hits>
+		<downloads>0</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1249984964</timeadded>
+		<lastmod>1250193418</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>196</id>
+		<title>Elxis templates Elmob</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_plavi.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/196.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.0; 2008,1; 2009.0</compatibility>
+		<size>0KB</size>
+		<hits>7918</hits>
+		<downloads>0</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1249984856</timeadded>
+		<lastmod>1249999127</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>195</id>
+		<title>Elxis templates ElHotel</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_zeleni.png</image>
+		<version></version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/195.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.0; 2008,1; 2009.0</compatibility>
+		<size>0KB</size>
+		<hits>7830</hits>
+		<downloads>0</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1249984741</timeadded>
+		<lastmod>1249999109</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>194</id>
+		<title>The Shop Elxis templates</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_sivi.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/194.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.0; 2008,1;2009.0</compatibility>
+		<size>0KB</size>
+		<hits>7557</hits>
+		<downloads>0</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1249984603</timeadded>
+		<lastmod>1249999084</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>193</id>
+		<title>News Elxis templates</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_beli.png</image>
+		<version>1.0</version>
+		<license>Commercial</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/193.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008.0; 2008,1;2009.0</compatibility>
+		<size>0KB</size>
+		<hits>7682</hits>
+		<downloads>0</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1249984319</timeadded>
+		<lastmod>1249999070</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>189</id>
+		<title>Elxis wiki latest</title>
+		<category>Remote content</category>
+		<extension>mod_elxiswiki</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_mod_elxiswiki_latest.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/remote-content/189.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=189</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>7.69KB</size>
+		<hits>11728</hits>
+		<downloads>2877</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1245065030</timeadded>
+		<lastmod>1245065752</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>180</id>
+		<title>Listings I have seen</title>
+		<category>Download systems</category>
+		<extension>mod_iosdl_haveseen</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_listings_have_seen.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/180.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=180</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x, IOS Downloads 1.x</compatibility>
+		<size>31.22KB</size>
+		<hits>8533</hits>
+		<downloads>3363</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1243329519</timeadded>
+		<lastmod>1243330582</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>11</id>
+		<title>IOS Downloads Latest downloads</title>
+		<category>Download systems</category>
+		<extension>mod_latest_downloads</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_1229633354_ios_downloads.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/11.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=11</downloadlink>
+		<compatibility>Elxis 2008.x/2009.x, IOS Downloads</compatibility>
+		<size>2.55KB</size>
+		<hits>9732</hits>
+		<downloads>4007</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1228740057</timeadded>
+		<lastmod>1242033565</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>23</id>
+		<title>IOS Downloads Top Authors</title>
+		<category>Download systems</category>
+		<extension>mod_top_downauthors</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_1229633329_ios_downloads.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/23.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=23</downloadlink>
+		<compatibility>Elxis 2008.x, IOS Downloads</compatibility>
+		<size>2.87KB</size>
+		<hits>8992</hits>
+		<downloads>3775</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1228808376</timeadded>
+		<lastmod>1242033379</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>36</id>
+		<title>IOS Downloads Search</title>
+		<category>Download systems</category>
+		<extension>mod_search_downloads</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_1229633301_ios_downloads.png</image>
+		<version>1.1</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/download-systems/36.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=36</downloadlink>
+		<compatibility>Elxis 2008.x/2009.x, IOS Downloads, PHP5.x</compatibility>
+		<size>2.52KB</size>
+		<hits>8744</hits>
+		<downloads>4008</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1229111859</timeadded>
+		<lastmod>1242033169</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>174</id>
+		<title>Article Factory Manager</title>
+		<category>Blog</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/93_1240914190_article_elxis.jpg</image>
+		<version>1.0</version>
+		<license>Other</license>
+		<url>http://www.elxis-downloads.com/downloads/blog/174.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2008</compatibility>
+		<size>0KB</size>
+		<hits>16650</hits>
+		<downloads>0</downloads>
+		<author>SKEPSIS Consult SRL</author>
+		<timeadded>1240914008</timeadded>
+		<lastmod>1241455380</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>173</id>
+		<title>mosImage Factory</title>
+		<category>Miscellaneous</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/93_mosimage_elxis.jpg</image>
+		<version>1.0</version>
+		<license>Other</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/173.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008</compatibility>
+		<size>0KB</size>
+		<hits>7639</hits>
+		<downloads>0</downloads>
+		<author>SKEPSIS Consult SRL</author>
+		<timeadded>1240832555</timeadded>
+		<lastmod>1240883520</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>171</id>
+		<title>ECB Exchange Rates Factory</title>
+		<category>E-commerce</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/93_ecb_elxis.jpg</image>
+		<version>1.0</version>
+		<license>Other</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/171.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008</compatibility>
+		<size>0KB</size>
+		<hits>9122</hits>
+		<downloads>0</downloads>
+		<author>SKEPSIS Consult SRL</author>
+		<timeadded>1240559498</timeadded>
+		<lastmod>1240832869</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>172</id>
+		<title>Factory Fuel Calculator</title>
+		<category>Statistics</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/93_fuel_elxis.jpg</image>
+		<version>1.0</version>
+		<license>Other</license>
+		<url>http://www.elxis-downloads.com/downloads/statistics/172.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>2008</compatibility>
+		<size>0KB</size>
+		<hits>7386</hits>
+		<downloads>0</downloads>
+		<author>SKEPSIS Consult SRL</author>
+		<timeadded>1240560105</timeadded>
+		<lastmod>1240574607</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>169</id>
+		<title>Blue Planet</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_blueplanet.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/169.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=169</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>39.83KB</size>
+		<hits>8958</hits>
+		<downloads>4028</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1240042295</timeadded>
+		<lastmod>1240257521</lastmod>
+	</package>
+	<package>
+		<type>back-end template</type>
+		<id>170</id>
+		<title>Blue Star</title>
+		<category>Back-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_bluestar.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/back-end-templates/170.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=170</downloadlink>
+		<compatibility>Elxis 2008.x, 2009.x</compatibility>
+		<size>151.34KB</size>
+		<hits>15109</hits>
+		<downloads>6165</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1240256551</timeadded>
+		<lastmod>1240257458</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>125</id>
+		<title>Template LoadModule</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_tpl_loadmodule.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/125.html</url>
+		<downloadlink></downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>0KB</size>
+		<hits>9147</hits>
+		<downloads>0</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1200789100</timeadded>
+		<lastmod>1240043283</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>83</id>
+		<title>Template Rubric 1.0</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_rubric_template.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/83.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=83</downloadlink>
+		<compatibility>2008.x</compatibility>
+		<size>107.04KB</size>
+		<hits>11887</hits>
+		<downloads>2684</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1202585196</timeadded>
+		<lastmod>1240043271</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>82</id>
+		<title>Orange Flavour</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_orangeflavour.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/82.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=82</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>103.82KB</size>
+		<hits>9693</hits>
+		<downloads>2567</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1206864421</timeadded>
+		<lastmod>1240043256</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>74</id>
+		<title>BizNest template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_biznest_template.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/74.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=74</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>83.39KB</size>
+		<hits>9616</hits>
+		<downloads>2592</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1211042583</timeadded>
+		<lastmod>1240043223</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>73</id>
+		<title>Cytherea for 2008</title>
+		<category>Front-end templates</category>
+		<extension>cytherea</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/65_cythereathumb.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/73.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=73</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>86.25KB</size>
+		<hits>11769</hits>
+		<downloads>2561</downloads>
+		<author>Farhad Sakhaei</author>
+		<timeadded>1211065362</timeadded>
+		<lastmod>1240043210</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>72</id>
+		<title>Gaia for 2008</title>
+		<category>Front-end templates</category>
+		<extension>gaia</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/65_gaiathumb.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/72.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=72</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>84.92KB</size>
+		<hits>8260</hits>
+		<downloads>2074</downloads>
+		<author>Farhad Sakhaei</author>
+		<timeadded>1211154580</timeadded>
+		<lastmod>1240043196</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>70</id>
+		<title>CNN Inspiration template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_cnn-i.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/70.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=70</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>60.89KB</size>
+		<hits>11070</hits>
+		<downloads>3130</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1213918404</timeadded>
+		<lastmod>1240043171</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>59</id>
+		<title>Hunting and Fishing Elxis Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/89_elxistemplatehuntandfishing.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/59.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=59</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>201.45KB</size>
+		<hits>8337</hits>
+		<downloads>2620</downloads>
+		<author>Davor Popović</author>
+		<timeadded>1227694157</timeadded>
+		<lastmod>1240043148</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>58</id>
+		<title>Season Greetings Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_season_greetings.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/58.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=58</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>131.46KB</size>
+		<hits>9087</hits>
+		<downloads>2792</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1227826389</timeadded>
+		<lastmod>1240043122</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>140</id>
+		<title>OI Java Black template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/90_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/140.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=140</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>133.19KB</size>
+		<hits>9339</hits>
+		<downloads>3361</downloads>
+		<author>Muhammad Hari Suharto</author>
+		<timeadded>1230610018</timeadded>
+		<lastmod>1240043105</lastmod>
+	</package>
+	<package>
+		<type>front-end language</type>
+		<id>168</id>
+		<title>Dutch for Elxis 2008.1 front-end</title>
+		<category>Front-end languages</category>
+		<extension></extension>
+		<image></image>
+		<version>2008.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-languages/168.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=168</downloadlink>
+		<compatibility>Elxis 2008.0, 2008.1</compatibility>
+		<size>13.12KB</size>
+		<hits>7702</hits>
+		<downloads>2713</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1239039839</timeadded>
+		<lastmod>1239039985</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>165</id>
+		<title>Latest comments</title>
+		<category>User commentary</category>
+		<extension>mod_latest_comments</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/user-commentary/165.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=165</downloadlink>
+		<compatibility>Elxis 2008.1, 2009.0+</compatibility>
+		<size>3.58KB</size>
+		<hits>9745</hits>
+		<downloads>3568</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1236681170</timeadded>
+		<lastmod>1236682399</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>138</id>
+		<title>Tree menu</title>
+		<category>Menus</category>
+		<extension>mod_dtreemenu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_tree-menu.jpg</image>
+		<version>1.7</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/138.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=138</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>28.58KB</size>
+		<hits>9402</hits>
+		<downloads>3671</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1230155574</timeadded>
+		<lastmod>1236252197</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>161</id>
+		<title>eShopper</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_untitled-1.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/161.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=161</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>106.79KB</size>
+		<hits>9772</hits>
+		<downloads>3423</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1234920236</timeadded>
+		<lastmod>1234957587</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>160</id>
+		<title>Western Tanager</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/87_1233662404_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>Gnu/Gpl</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/160.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=160</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>197.03KB</size>
+		<hits>8857</hits>
+		<downloads>2805</downloads>
+		<author>Yiannis Kottaras</author>
+		<timeadded>1233662310</timeadded>
+		<lastmod>1233943742</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>143</id>
+		<title>Exchange rates</title>
+		<category>E-commerce</category>
+		<extension>mod_exchange_rates</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_exchange_rates.jpg</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/143.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=143</downloadlink>
+		<compatibility>Elxis 2008.x, PHP 5.x</compatibility>
+		<size>24.89KB</size>
+		<hits>11116</hits>
+		<downloads>3649</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1231264031</timeadded>
+		<lastmod>1232125927</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>123</id>
+		<title>Stage6 DIVX bot</title>
+		<category>Multimedia</category>
+		<extension>stage6</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_stage6.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/123.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=123</downloadlink>
+		<compatibility>Elxis 2006.x</compatibility>
+		<size>1.47KB</size>
+		<hits>9033</hits>
+		<downloads>2878</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1201361281</timeadded>
+		<lastmod>1230896437</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>124</id>
+		<title>MySpace Video bot</title>
+		<category>Multimedia</category>
+		<extension>myspace</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/67_myspace.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/124.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=124</downloadlink>
+		<compatibility>Elxis 2006.x</compatibility>
+		<size>1.44KB</size>
+		<hits>8263</hits>
+		<downloads>2911</downloads>
+		<author>Nick Sirigos</author>
+		<timeadded>1200845238</timeadded>
+		<lastmod>1230896387</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>141</id>
+		<title>BlueBell HC</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_template_thumbnail.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/141.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=141</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>121.30KB</size>
+		<hits>9520</hits>
+		<downloads>3877</downloads>
+		<author>osw.gr</author>
+		<timeadded>1230715379</timeadded>
+		<lastmod>1230893674</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>68</id>
+		<title>BlueBell</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/84_tpl_bluebell_preview.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/68.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=68</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>88.93KB</size>
+		<hits>10040</hits>
+		<downloads>3464</downloads>
+		<author>osw.gr</author>
+		<timeadded>1219945846</timeadded>
+		<lastmod>1230893640</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>67</id>
+		<title>Bloggy template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_tpl_bloggy.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/67.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=67</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>268.40KB</size>
+		<hits>9128</hits>
+		<downloads>2632</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1220491193</timeadded>
+		<lastmod>1230721407</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>29</id>
+		<title>PayPal Donation 1.2</title>
+		<category>E-commerce</category>
+		<extension>mod_paypal_donation</extension>
+		<image></image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/29.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=29</downloadlink>
+		<compatibility></compatibility>
+		<size>20.80KB</size>
+		<hits>10927</hits>
+		<downloads>3695</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1216053242</timeadded>
+		<lastmod>1230656097</lastmod>
+	</package>
+	<package>
+		<type>front-end language</type>
+		<id>135</id>
+		<title>English for Elxis 2008.1 back-end</title>
+		<category>Back-end languages</category>
+		<extension></extension>
+		<image></image>
+		<version>2008.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/back-end-languages/135.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=135</downloadlink>
+		<compatibility>Elxis 2008.0, 2008.1</compatibility>
+		<size>64.28KB</size>
+		<hits>8387</hits>
+		<downloads>3125</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1229688415</timeadded>
+		<lastmod>1229688548</lastmod>
+	</package>
+	<package>
+		<type>front-end language</type>
+		<id>134</id>
+		<title>English for Elxis 2008.1 front-end</title>
+		<category>Front-end languages</category>
+		<extension></extension>
+		<image></image>
+		<version>2008.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-languages/134.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=134</downloadlink>
+		<compatibility>Elxis 2008.0, 2008.1</compatibility>
+		<size>12.88KB</size>
+		<hits>9060</hits>
+		<downloads>3218</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1229687619</timeadded>
+		<lastmod>1229688055</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>24</id>
+		<title>IOS Downloads Menu</title>
+		<category>Menus</category>
+		<extension>mod_downloads_menu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_1229633423_ios_downloads.png</image>
+		<version>1.0</version>
+		<license>Creative Commons 3.0</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/24.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=24</downloadlink>
+		<compatibility>Elxis 2008.x, IOS Downloads</compatibility>
+		<size>4.19KB</size>
+		<hits>8717</hits>
+		<downloads>3930</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1228902415</timeadded>
+		<lastmod>1229633423</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>57</id>
+		<title>Business Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/89_business.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/57.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=57</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>41.41KB</size>
+		<hits>8146</hits>
+		<downloads>3399</downloads>
+		<author>Davor Popović</author>
+		<timeadded>1228229574</timeadded>
+		<lastmod>1228229574</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>42</id>
+		<title>Justin TV - Streaming bot</title>
+		<category>Multimedia</category>
+		<extension>justintv</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_justintv.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/42.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=42</downloadlink>
+		<compatibility></compatibility>
+		<size>1.35KB</size>
+		<hits>16502</hits>
+		<downloads>3597</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1227911272</timeadded>
+		<lastmod>1227911272</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>25</id>
+		<title>Yahoo! PΜ</title>
+		<category>Communication</category>
+		<extension>mod_yahoopm</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/65_yahoopm.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/25.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=25</downloadlink>
+		<compatibility>Elxis 2008.1+</compatibility>
+		<size>3.35KB</size>
+		<hits>8054</hits>
+		<downloads>3362</downloads>
+		<author>Farhad Sakhaei</author>
+		<timeadded>1226947750</timeadded>
+		<lastmod>1226947750</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>22</id>
+		<title>Today Calendar</title>
+		<category>Calendars</category>
+		<extension>mod_todaycalendar</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/65_today-cal.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/calendars/22.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=22</downloadlink>
+		<compatibility></compatibility>
+		<size>242.45KB</size>
+		<hits>9905</hits>
+		<downloads>4045</downloads>
+		<author>Farhad Sakhaei</author>
+		<timeadded>1226939039</timeadded>
+		<lastmod>1226909825</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>61</id>
+		<title>Elxis Heavy</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/88_elxis_heavy.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/61.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=61</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>26.44KB</size>
+		<hits>7170</hits>
+		<downloads>2394</downloads>
+		<author>Siniša Nikolić</author>
+		<timeadded>1226666073</timeadded>
+		<lastmod>1226654981</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>9</id>
+		<title>Rolling Images menu</title>
+		<category>Menus</category>
+		<extension>mod_rollingmenu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_mod_rolling_images.jpg</image>
+		<version>1.1</version>
+		<license>Freeware</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/9.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=9</downloadlink>
+		<compatibility>Elxis 2006.x, 2008.x</compatibility>
+		<size>238.96KB</size>
+		<hits>14517</hits>
+		<downloads>4792</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1225262591</timeadded>
+		<lastmod>1225262764</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>43</id>
+		<title>Mogulus</title>
+		<category>Multimedia</category>
+		<extension>mogulus</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_mogulus_logo.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/multimedia/43.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=43</downloadlink>
+		<compatibility></compatibility>
+		<size>1.34KB</size>
+		<hits>9907</hits>
+		<downloads>3334</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1221541326</timeadded>
+		<lastmod>1221543998</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>27</id>
+		<title>Advanced e-mail</title>
+		<category>Communication</category>
+		<extension>advemail</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/27.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=27</downloadlink>
+		<compatibility></compatibility>
+		<size>2.45KB</size>
+		<hits>9409</hits>
+		<downloads>3611</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1219889542</timeadded>
+		<lastmod>1219889793</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>35</id>
+		<title>Icon Preview for Administration</title>
+		<category>Miscellaneous</category>
+		<extension></extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/miscellaneous/35.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=35</downloadlink>
+		<compatibility></compatibility>
+		<size>1.88KB</size>
+		<hits>7376</hits>
+		<downloads>2748</downloads>
+		<author>Vianney Zahner</author>
+		<timeadded>1217350849</timeadded>
+		<lastmod>1217320152</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>28</id>
+		<title>CB Armenia exchange rates</title>
+		<category>E-commerce</category>
+		<extension>mod_cbarmenia_rates</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/e-commerce/28.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=28</downloadlink>
+		<compatibility></compatibility>
+		<size>6.29KB</size>
+		<hits>11681</hits>
+		<downloads>3076</downloads>
+		<author>Arsen Khachatryan</author>
+		<timeadded>1216299095</timeadded>
+		<lastmod>1216423621</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>54</id>
+		<title>Simple Javascript Menu</title>
+		<category>Menus</category>
+		<extension>mod_simple_jmenu</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/54.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=54</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>13.89KB</size>
+		<hits>13072</hits>
+		<downloads>3543</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1214854112</timeadded>
+		<lastmod>1214814663</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>48</id>
+		<title>Estate Agent Improved</title>
+		<category>Real Estate and Reservations</category>
+		<extension>com_estateagent</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/81_com_eaimproved.jpg</image>
+		<version>1.3.5</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/real-estate-reservations/48.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=48</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>337.16KB</size>
+		<hits>16112</hits>
+		<downloads>7286</downloads>
+		<author>Giannis Orfanoudakis</author>
+		<timeadded>1214438346</timeadded>
+		<lastmod>1214518879</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>55</id>
+		<title>IOS DV Menu</title>
+		<category>Menus</category>
+		<extension>mod_iosdvmenu</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/55.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=55</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>11.00KB</size>
+		<hits>11038</hits>
+		<downloads>3894</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1214114182</timeadded>
+		<lastmod>1214115154</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>69</id>
+		<title>Fragment template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_tpl_fragment.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/69.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=69</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>31.97KB</size>
+		<hits>9376</hits>
+		<downloads>2822</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1214096672</timeadded>
+		<lastmod>1214111739</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>71</id>
+		<title>Intrenet solution template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_kebic_elxis_internet_solution.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/71.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=71</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>66.36KB</size>
+		<hits>10992</hits>
+		<downloads>2984</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1211634096</timeadded>
+		<lastmod>1211671712</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>51</id>
+		<title>Webalizer</title>
+		<category>Statistics</category>
+		<extension>com_webalizer</extension>
+		<image></image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/statistics/51.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=51</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>18.22KB</size>
+		<hits>12518</hits>
+		<downloads>4290</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1210836287</timeadded>
+		<lastmod>1211095216</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>53</id>
+		<title>Component Marketplace</title>
+		<category>Ad management</category>
+		<extension>com_marketplace</extension>
+		<image></image>
+		<version>1.0 BETA</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/ad-management/53.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=53</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>216.87KB</size>
+		<hits>12067</hits>
+		<downloads>5099</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1200657816</timeadded>
+		<lastmod>1211089258</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>75</id>
+		<title>Holiday Elxis template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_kebic_elxis_holiday.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/75.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=75</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>91.54KB</size>
+		<hits>9918</hits>
+		<downloads>2504</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1210786868</timeadded>
+		<lastmod>1210744898</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>76</id>
+		<title>Elxis hotel template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_kebic_elxis_hotel.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/76.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=76</downloadlink>
+		<compatibility>2008.x</compatibility>
+		<size>180.27KB</size>
+		<hits>11473</hits>
+		<downloads>2518</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1210624590</timeadded>
+		<lastmod>1210665671</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>77</id>
+		<title>Restaurant template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/78_kebic_restaurant.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/77.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=77</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>208.38KB</size>
+		<hits>11425</hits>
+		<downloads>2823</downloads>
+		<author>Dejan Viduka</author>
+		<timeadded>1210623566</timeadded>
+		<lastmod>1210665651</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>78</id>
+		<title>Blue in Green Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_1229251079_tpl_blueingreen.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/78.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=78</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>41.12KB</size>
+		<hits>10389</hits>
+		<downloads>3051</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1208896830</timeadded>
+		<lastmod>1208907909</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>79</id>
+		<title>RedBlack Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_tpl_redblack_frontend.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/79.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=79</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>61.58KB</size>
+		<hits>9614</hits>
+		<downloads>3177</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1208646958</timeadded>
+		<lastmod>1208652089</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>80</id>
+		<title>Simple Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_tpl_simple.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/80.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=80</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>30.86KB</size>
+		<hits>9857</hits>
+		<downloads>3465</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1208460735</timeadded>
+		<lastmod>1208418431</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>31</id>
+		<title>StarGallery 1.7.3</title>
+		<category>Image galleries</category>
+		<extension>com_stargallery</extension>
+		<image></image>
+		<version>1.7.3</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/31.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=31</downloadlink>
+		<compatibility></compatibility>
+		<size>173.06KB</size>
+		<hits>11118</hits>
+		<downloads>5576</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1207981688</timeadded>
+		<lastmod>1207981853</lastmod>
+	</package>
+	<package>
+		<type>component</type>
+		<id>32</id>
+		<title>Expose Gallery</title>
+		<category>Image galleries</category>
+		<extension>com_expose</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_com_expose.gif</image>
+		<version>0.9</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/image-galleries/32.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=32</downloadlink>
+		<compatibility></compatibility>
+		<size>1.47MB</size>
+		<hits>13249</hits>
+		<downloads>6788</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1207333558</timeadded>
+		<lastmod>1207298669</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>87</id>
+		<title>PAOK World</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_paokworld.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/87.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=87</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>151.25KB</size>
+		<hits>11937</hits>
+		<downloads>3177</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1206900621</timeadded>
+		<lastmod>1206954387</lastmod>
+	</package>
+	<package>
+		<type>front-end template</type>
+		<id>81</id>
+		<title>Open Mind Template</title>
+		<category>Front-end templates</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/62_tpl_openmind.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/front-end-templates/81.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=81</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>114.18KB</size>
+		<hits>13437</hits>
+		<downloads>4385</downloads>
+		<author>Elxis Team</author>
+		<timeadded>1206955868</timeadded>
+		<lastmod>1206940079</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>56</id>
+		<title>Module FishEye Menu</title>
+		<category>Menus</category>
+		<extension>mod_fisheye_menu</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/71_logo.png</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/menus/56.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=56</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>67.01KB</size>
+		<hits>10889</hits>
+		<downloads>4421</downloads>
+		<author>Ivan Trebješanin</author>
+		<timeadded>1201417627</timeadded>
+		<lastmod>1205456847</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>49</id>
+		<title>MultiSearch</title>
+		<category>Search engines</category>
+		<extension>mod_multisearch</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_mod_multisearch_logo.jpg</image>
+		<version>1.2</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/search-engines/49.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=49</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>25.08KB</size>
+		<hits>9624</hits>
+		<downloads>4158</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1202112718</timeadded>
+		<lastmod>1204415052</lastmod>
+	</package>
+	<package>
+		<type>login screen</type>
+		<id>88</id>
+		<title>RedAlert 1.0</title>
+		<category>Login screens</category>
+		<extension></extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/68_redalert_preview.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/login-screens/88.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=88</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>231.74KB</size>
+		<hits>9717</hits>
+		<downloads>3201</downloads>
+		<author>Spiros Panagiotakopoulos</author>
+		<timeadded>1202264697</timeadded>
+		<lastmod>1202264697</lastmod>
+	</package>
+	<package>
+		<type>module</type>
+		<id>26</id>
+		<title>Shouter</title>
+		<category>Communication</category>
+		<extension>mod_shouter</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_mod_shouter.jpg</image>
+		<version>1.1</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/communication/26.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=26</downloadlink>
+		<compatibility>Elxis 2008.x</compatibility>
+		<size>16.95KB</size>
+		<hits>10049</hits>
+		<downloads>4590</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1201854707</timeadded>
+		<lastmod>1201855319</lastmod>
+	</package>
+	<package>
+		<type>bot</type>
+		<id>46</id>
+		<title>AJAX Vote</title>
+		<category>Polls</category>
+		<extension>bot_ajaxvote</extension>
+		<image>http://www.elxis-downloads.com/components/com_downloads/thumbnails/70_bot_ajaxvote_logo.jpg</image>
+		<version>1.0</version>
+		<license>GNU/GPL</license>
+		<url>http://www.elxis-downloads.com/downloads/polls/46.html</url>
+		<downloadlink>http://www.elxis-downloads.com/downloads/download.html?id=46</downloadlink>
+		<compatibility></compatibility>
+		<size>22.01KB</size>
+		<hits>12862</hits>
+		<downloads>4609</downloads>
+		<author>Ioannis Sannos</author>
+		<timeadded>1201035251</timeadded>
+		<lastmod>1200994567</lastmod>
+	</package>
+</elxisdc>

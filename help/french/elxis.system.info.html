@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Information du Système</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 elxis.org" />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Information du Système</h1>
+<p>L'information est affichée sous forme d'onglets comprenant trois sections principales.</p>
+<p><strong>Onglet système</strong>: C'est un aperçu général du serveur et des versions des composants actuellement installés sur votre site Elxis. 
+Vous trouverez ici la version/build de votre PHP, la version de votre base de données MySQL ainsi que la version de Elxis et les paramètres importants qui ont été réglés par votre système 
+et qui pourraient interférer avec votre installation actuelle.
+Le fichier de Configuration affiche le contenu de votre fichier configuration.php. 
+Ce fichier est généré lorsque vous installez Elxis sur votre serveur, et il est modifé quand vous appliquez des changements dans la section configuration générale de l'administration de Elxis. 
+Ce fichier définit plusieurs variables globales utilisées lors de l'exécution de Elxis. 
+Vous ne pouvez pas éditer ce fichier ici mais cela vous permet de vérifier les paramètres actuels pour résoudre des problèmes ou pour copier l'information dans une demande de support</p>
+<p><strong>Onglet PHP Info</strong>: PHP est le langage de script côté serveur sur lequel repose Elxis. 
+Ce langage est installé et exécuté sur le serveur et par conséquent tous les paramètres sont réglés sur ce serveur. 
+Tout ce que vous avez toujours voulu savoir sur l'installation PHP de votre serveur est affiché ici. 
+La possibilité que vous avez de changer cette information dépend de si le serveur vous appartient ou si celui qui l'héberge est ouvert à collaborer avec vous sur les changements nécessaires. 
+L'onglet PHP vous permettra de voir tous les paramètres et variables qui définissent votre installation de PHP. 
+C'est une bonne habitude de s'assurer de connaître quels sont les pré-requis nécessaires pour tous les composants 'Tiers' que vous prévoyez d'utiliser avec Elxis. 
+Vous pouvez ensuite vérifier la présence de ces pré-requis ici.</p>
+<p><strong>Onglet Permissions</strong>: Affiche une liste des éléments, répertoires critiques de Elxis  cela vous permet de voir ce qui est modifiable ou pas .<br />
+<strong style="color:#D00">IMPORTANTE NOTE DE SECURITE</strong>: Dans des conditions normales d'urilisation, seuls les répertoires /tmpr et /cache doivent être accessible en écriture (Modifiable). 
+<strong style="color:#D00">TOUS LES AUTRES</strong> répertoires doivent être à <strong style="color:#D00">NON-MODIFIABLE</strong>. Vous devez créer un autre répertoire modifiable à utiliser uniquement 
+quand vous souhaitez transférer des données. Immédiatement après vous devez le mettre à non-modifiable.<br/>
+Si vous avez <strong style="color:#D00">ACTIVE LE FTP</strong>, il est possible de transférer des données même lorsque les répertoires ne sont pas modifiables.</p>
+<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>

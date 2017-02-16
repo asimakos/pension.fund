@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+<title>Gestion des Accès - Création des Groupes</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+<meta name="copyright" content="(c) 2006-2008 GO UP Inc." />
+<meta name="license" content="http://www.gnu.org/copyleft/gpl.html gnu/gpl" />
+</head>
+<body>
+<div class="container">
+<div class="helpdiv">
+<h1>Gestion des Accès - Création des Groupes</h1>
+<p>Partez de cet écran, pour pouvoir afficher, modifier ou définir les groupes utilisateurs. 
+<br />
+Cet écran est utilisé pour voir tous les utilisateurs de la partie public, de la partie administration et les groupes des 'utilisateurs finaux dans Elxis. L'écran est divisé en deux zones. La partie gauche du tableau et dédié aux groupes utilisateurs définis. Le côté droit montre la Hiérarchie des Groupes definie</p>
+<p><strong>Note Importante</strong>: Veuillez utiliser cet écran avec prudence. Une mauvaise utilisation peut endommager la configuration de votre site web.</p>
+<p>&nbsp;</p>
+<h3 class="toolbar">Icônes de la barre d'outils</h3>
+<p><strong>Nouveau</strong>: Ajoute un nouvel utilisateur au groupe.</p>
+<p><strong>Modifier Groupe</strong>: Modifier les utilisateurs d'un groupe.</p>
+<p><strong>Supprimer</strong>: Supprime l'utilisateur d'un groupe.</p>
+<p><strong>Modifier les Permissions</strong>:Permet de modifier les permissions pour un  utilisateur donné.</p>
+<p><strong>Aide</strong>: Cet écran de fichier d'aide.</p>
+<p>&nbsp;</p>
+<h3 class="table">Colonnes</h3>
+<p><strong>Nom</strong>: Nom du groupe d'utilisateur.</p>
+<p><strong>Groupe des Utilisateurs</strong>: Le nombre d'utilisateurs qui appartient à ce groupe.</p>
+<p><strong>Accès à l'administration</strong>: Une icône verte dénote que les membres de ce groupe, ont accès à la partie de l'administration.</p>
+<p><strong>Hiérarchie des groupes</strong>: Affiche la hiérarchie entre les groupes.</p>
+<p>&nbsp;</p>
+<h1>Niveaux de la restriction des accès</h1> 
+<p>Les utilisateurs enregistrés sur Elxis appartiennent à plusieurs groupes. Ces groupes sont divisés en deux catégories principales: public et serveur. Les utilisateurs qui appartiennent aux groupes publics ont seulement accès à la partie "Public" du site. Les utilisateurs qui appartiennent aux groupes serveurs ont accès aux deux: Public et Serveur.</p>
+<p>Elxis est livré avec plusieurs groupes prédéfinis. Il donne aussi liberté aux administrateurs pour su'ils puissent définir leurs propres groupes d'utilisateurs.</p>
+<p>Le groupe, est la direction à utiliser sur Elxis pour mettre les privilèges et les droits d'accès aux utilisateurs. Basé sur eux, les utilisateurs, peuvent afficher, et accèder à leurs informations. Pour les utilisateurs enregistrés ils peuvent modifier /ajouter /supprimer un contenu de la partie public ou de l'interface du serveur.</p>
+<p>&nbsp;</p>
+<h3>Groupe Coté Public</h3>
+<p><strong>Enregistré - </strong>Ce groupe permet aux utilisateurs de se <strong>connecter</strong> au site comme utilisateur identifié.</p>
+<p><strong>Auteur -</strong> Ce groupe permet aux utilisateurs de <strong>proposer</strong> du contenu, en général au travers du menu utilisateur.</p>
+<p><strong>Rédacteur - </strong>Ce groupe permet aux utilisateurs de <strong>proposer et modifier du contenu</strong>, en général à partir du menu utilisateur.</p>
+<p><strong>Editeur -</strong> Ce groupe permet aux utilisateur de proposer, modifier et éditer du contenu à partir du menu utilisateur.</p>
+<p>&nbsp;</p>
+<h3>Groupe d'Administration et de sections</h3>
+<h4>Manager</h4>
+<p>Ce groupe permet d'accéder à la création de contenu et autres informations système.</p>
+<p>Accès aux menus Administration:</p>
+<ul>
+<li><strong>Aide</strong> (général), inclus les Infos Système.</li>
+<li><strong>Site</strong>: Gestion des Medias, Aperçu.</li>
+<li><strong>Menu</strong>: Modifier les menus existants, inclus la création des éléments de Menu. Toutes les fonctions en relation.</li>
+<li><strong>Contenus</strong>: Gestion des Contenus, Gestion des Articles Statiques, Gestion des Sections, Gestion des Catégories, Gestion des Archives et de la page d'accueil. Toutes les fonctions en relation.</li>
+</ul>
+<h4>Administrateur</h4>
+<p>Ce groupe permet d'accéder aux principales fonctions d'administration.</p>
+<p>Toutes les fonction du <strong>Manager</strong>, plus:</p>
+<ul>
+<li><strong>Site</strong>:Contrôle des Statistiques, de la Corbeille, Gestion des Utilisateurs (peut créer/modifier/supprimer tous les sortes d'utilisateur excépté le Super Administrateur)</li>
+<li><strong>Menu</strong>: Gestion des Menus</li>
+<li><strong>Modules, Components, Bots</strong>: Installer/Désinstaller, Créer, Modifier. Excepté le composant email de Masse.</li>
+</ul>
+<h4>Super Administrateur</h4>
+<p>Ce groupe permet d'accéder à toutes les fonctions d'administration.</p>
+<p>Toutes les fonctions du Manager et de l'Administrateur, plus:</p>
+<ul>
+<li><strong>Site</strong>: Configuration du site, Gestion des Langues, Gestion des Templates, Gestion des Utilisateurs (peut créer/modifier tous les utilisateurs, peut supprimer tous les utilisateurs et groupes excépté lui-même. <strong>Note:</strong> Le Super Administrateur peut-être supprimer par la base de données (déconseillé).</li>
+<li><strong>Composants</strong>:Email de Masse.</li>
+<li><strong>Messages</strong>: Boîte de Réception, Configuration.</li>
+<li><strong>Systèmes</strong>: Vider les Caches (si les Caches sont activés dans la Configuration), Vérification des articles et vérification globale.</li>
+</ul>
+</div>
+</div>
+ </body>
+</html>
